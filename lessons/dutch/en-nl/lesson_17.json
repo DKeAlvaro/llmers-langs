@@ -1,0 +1,315 @@
+{
+  "id": "L17",
+  "title": "Talking About Your Work or Studies",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your job or studies. This is a very common topic when meeting new people."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E01",
+      "data": {
+        "phrase": "Wat doe jij?",
+        "meaning": "What do you do?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V01",
+      "data": {
+        "De programmeur": "The programmer"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V02",
+      "data": {
+        "De student": "The student"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V03",
+      "data": {
+        "De geschiedenis": "History"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E02",
+      "data": {
+        "phrase": "Ik ben...",
+        "meaning": "I am..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E03",
+      "data": {
+        "phrase": "Ik studeer...",
+        "meaning": "I study..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'Ik ben...' for your profession (e.g., 'Ik ben programmeur') and 'Ik studeer...' for your field of study (e.g., 'Ik studeer geschiedenis')."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E04",
+      "data": {
+        "phrase": "Ik werk bij...",
+        "meaning": "I work at..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E05",
+      "data": {
+        "phrase": "Ik studeer aan...",
+        "meaning": "I study at..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V04",
+      "data": {
+        "De universiteit": "The university"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E06",
+      "data": {
+        "phrase": "Ik vind het leuk",
+        "meaning": "I like it"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L17_P01",
+      "data": {
+        "word": "geschiedenis",
+        "phonetic": "/ɣəˈsxi.də.nɪs/",
+        "tip": "The 'g' sound is soft, made in the back of your throat. The 'sch' sounds like 's' followed by that soft 'g'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S01",
+      "title": "Stating Your Profession",
+      "setting": "You are at a party. Someone named Joost starts a conversation with you.",
+      "conversation_flow": [
+        {
+          "title": "Introduce yourself and ask what you do",
+          "chatbot_message": "Hallo! Ik ben Joost. Wat doe jij?"
+        },
+        {
+          "title": "State your profession or what you study",
+          "chatbot_message": "Interessant! En waar doe je dat?",
+          "extract_info": {
+            "user_profession": "Extract the user's profession or field of study"
+          }
+        },
+        {
+          "title": "Mention your company or university",
+          "chatbot_message": "Oké. En vind je het leuk?"
+        },
+        {
+          "title": "Say if you like your work or study",
+          "chatbot_message": "Fijn om te horen."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's add some more detail. You can talk about your specific tasks and your working hours."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V05",
+      "data": {
+        "De e-mail": "The email"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V06",
+      "data": {
+        "Het boek": "The book"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E07",
+      "data": {
+        "phrase": "Ik schrijf e-mails",
+        "meaning": "I write emails"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E08",
+      "data": {
+        "phrase": "Ik lees boeken",
+        "meaning": "I read books"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V07",
+      "data": {
+        "Fulltime": "Full-time"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V08",
+      "data": {
+        "Parttime": "Part-time"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E09",
+      "data": {
+        "phrase": "Ik werk fulltime",
+        "meaning": "I work full-time"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V09",
+      "data": {
+        "Het jaar": "The year"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E10",
+      "data": {
+        "phrase": "Ik doe dit al...",
+        "meaning": "I've been doing this for..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can complete the phrase 'Ik doe dit al...' with a time period, for example: 'Ik doe dit al twee jaar' (I've been doing this for two years)."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S02",
+      "title": "Describing Your Responsibilities",
+      "setting": "The conversation continues. Joost asks for more details about your work or study.",
+      "conversation_flow": [
+        {
+          "title": "Ask about your tasks",
+          "chatbot_message": "Wat is een taak die je doet?"
+        },
+        {
+          "title": "Describe one of your main tasks",
+          "chatbot_message": "Oké. En werk je fulltime of parttime?"
+        },
+        {
+          "title": "State your working or study hours",
+          "chatbot_message": "Duidelijk. En hoe lang doe je dit al?"
+        },
+        {
+          "title": "State how long you have been doing this",
+          "chatbot_message": "Oké, interessant."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent work. A good conversation is a two-way street. Now, let's learn how to ask Joost about his job."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E11",
+      "data": {
+        "phrase": "En jij?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V10",
+      "data": {
+        "De collega": "The colleague"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V11",
+      "data": {
+        "De collega's": "The colleagues"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V12",
+      "data": {
+        "Leuk": "Nice / Fun"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask a yes/no question, the verb comes first. For example, 'Jij hebt' (You have) becomes 'Heb jij...?' (Do you have...?)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E12",
+      "data": {
+        "phrase": "Heb je leuke collega's?",
+        "meaning": "Do you have nice colleagues?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L17_P02",
+      "data": {
+        "word": "collega's",
+        "phonetic": "/kɔˈleː.ɣaːs/",
+        "tip": "The stress is on the second syllable: col-LE-ga's. The 'g' is soft, like in 'geschiedenis'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E13",
+      "data": {
+        "phrase": "Dat klinkt goed",
+        "meaning": "That sounds good"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E14",
+      "data": {
+        "phrase": "Wat leuk!",
+        "meaning": "How nice!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S03",
+      "title": "Asking About Their Work",
+      "setting": "You've talked about your work. Now it's your turn to ask Joost about his.",
+      "conversation_flow": [
+        {
+          "title": "Ask what Joost does for work",
+          "chatbot_message": "Ik ben leraar. Ik werk op een school."
+        },
+        {
+          "title": "Ask if he has nice colleagues",
+          "chatbot_message": "Ja, ik heb leuke collega's."
+        },
+        {
+          "title": "Make a positive comment about his job",
+          "chatbot_message": "Dank je!"
+        }
+      ]
+    }
+  ]
+}

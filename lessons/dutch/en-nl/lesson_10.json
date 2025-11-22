@@ -1,0 +1,314 @@
+{
+  "id": "L10",
+  "title": "Talking About Hobbies and Interests",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your hobbies and ask someone about theirs. Let's start with the basics."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V01",
+      "data": {
+        "De vrije tijd": "The free time"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E01",
+      "data": {
+        "phrase": "Wat doe jij in je vrije tijd?",
+        "meaning": "What do you do in your free time?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say what you like, you can use the phrase 'Ik vind ... leuk', which means 'I like...'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E02",
+      "data": {
+        "phrase": "Ik vind ... leuk",
+        "meaning": "I like..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L10_P01",
+      "data": {
+        "word": "leuk",
+        "phonetic": "/lœk/",
+        "tip": "The 'eu' sound is unique to Dutch. It's similar to the 'oy' in 'boy' but with rounded lips."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V02",
+      "data": {
+        "Zwemmen": "Swimming"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V03",
+      "data": {
+        "Hardlopen": "Running"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V04",
+      "data": {
+        "Lezen": "Reading"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V05",
+      "data": {
+        "Gitaar spelen": "To play guitar"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can also say how often you do something."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V06",
+      "data": {
+        "Twee keer per week": "Twice a week"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V07",
+      "data": {
+        "Soms": "Sometimes"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S01",
+      "title": "Sharing Your Hobbies",
+      "setting": "You are at a social event and meet Eva. She starts a conversation with you.",
+      "conversation_flow": [
+        {
+          "title": "Listen to the opening question",
+          "chatbot_message": "Hallo! Wat doe jij in je vrije tijd?"
+        },
+        {
+          "title": "Mention a sport you enjoy",
+          "chatbot_message": "Oh, leuk! Doe je nog iets anders?",
+          "extract_info": {
+            "hobby_1": "Extract the first hobby mentioned by the user"
+          }
+        },
+        {
+          "title": "Mention another activity",
+          "chatbot_message": "Interessant. Hoe vaak doe je dat?",
+          "extract_info": {
+            "hobby_2": "Extract the second hobby mentioned by the user"
+          }
+        },
+        {
+          "title": "Say how often you do one of your hobbies",
+          "chatbot_message": "Oké, duidelijk."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's learn how to give more details, like explaining *why* you like a hobby."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V08",
+      "data": {
+        "Waarom": "Why"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say 'because', use the word 'omdat'. In a simple sentence like this, the structure is 'omdat het ... is'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E03",
+      "data": {
+        "phrase": "omdat het ... is",
+        "meaning": "because it is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V09",
+      "data": {
+        "Ontspannend": "Relaxing"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V10",
+      "data": {
+        "Gezond": "Healthy"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say you *don't* like something, add the word 'niet' after the verb. For example: 'Ik vind ... niet leuk'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E04",
+      "data": {
+        "phrase": "Ik vind ... niet leuk",
+        "meaning": "I don't like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V11",
+      "data": {
+        "Koken": "Cooking"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To talk about your plans, you can use the verb 'gaan' (to go). 'Ik ga' means 'I am going to'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E05",
+      "data": {
+        "phrase": "Ik ga...",
+        "meaning": "I am going to..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V12",
+      "data": {
+        "Dit weekend": "This weekend"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S02",
+      "title": "Giving More Detail",
+      "setting": "Eva is curious and wants to know more about your hobbies.",
+      "conversation_flow": [
+        {
+          "title": "Listen to the question",
+          "chatbot_message": "Waarom vind je {hobby_2} leuk?"
+        },
+        {
+          "title": "Explain why you like your hobby",
+          "chatbot_message": "Dat snap ik. Is er ook iets wat je niet leuk vindt?"
+        },
+        {
+          "title": "Mention something you don't like to do",
+          "chatbot_message": "Oké! En wat ga je dit weekend doen?"
+        },
+        {
+          "title": "Say what you are going to do this weekend",
+          "chatbot_message": "Wat leuk!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Good job! Now, it's your turn to ask Eva about her hobbies."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E06",
+      "data": {
+        "phrase": "En jij?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E07",
+      "data": {
+        "phrase": "Wat vind jij leuk?",
+        "meaning": "What do you like?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V13",
+      "data": {
+        "Wandelen": "Walking"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask a follow-up question, you can use question words like 'Waar?'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V14",
+      "data": {
+        "Waar": "Where"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E08",
+      "data": {
+        "phrase": "Waar doe je dat?",
+        "meaning": "Where do you do that?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V15",
+      "data": {
+        "Het park": "The park"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Finally, let's learn how to react positively to someone's answer."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E09",
+      "data": {
+        "phrase": "Dat is interessant",
+        "meaning": "That is interesting"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E10",
+      "data": {
+        "phrase": "Dank je",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S03",
+      "title": "Asking About Their Hobbies",
+      "setting": "You've shared your plans. Now, show interest in Eva's hobbies to keep the conversation going.",
+      "conversation_flow": [
+        {
+          "title": "Ask what she likes to do",
+          "chatbot_message": "Ik vind wandelen leuk."
+        },
+        {
+          "title": "Ask a follow-up question",
+          "chatbot_message": "In het park."
+        },
+        {
+          "title": "Express that you find their hobby interesting",
+          "chatbot_message": "Dank je! Leuk om je te ontmoeten."
+        }
+      ]
+    }
+  ]
+}

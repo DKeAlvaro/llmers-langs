@@ -1,0 +1,300 @@
+{
+  "id": "L24",
+  "title": "Leaving a Voicemail Message",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to leave a clear and effective voicemail message in Spanish, or 'un mensaje de voz'. This is a very useful skill!"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V01",
+      "data": {
+        "El mensaje de voz": "The voicemail message"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E01",
+      "data": {
+        "phrase": "Hola",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E02",
+      "data": {
+        "phrase": "Por favor, deje su mensaje",
+        "meaning": "Please, leave your message"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E03",
+      "data": {
+        "phrase": "Soy...",
+        "meaning": "I am..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E04",
+      "data": {
+        "phrase": "Mi dirección es...",
+        "meaning": "My address is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V02",
+      "data": {
+        "La calle": "The street"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V03",
+      "data": {
+        "El número": "The number"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E05",
+      "data": {
+        "phrase": "Mi apellido se deletrea...",
+        "meaning": "My last name is spelled..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L24_P01",
+      "data": {
+        "word": "deletrea",
+        "phonetic": "de-le-tre-a",
+        "tip": "In Spanish, every vowel is pronounced clearly. Practice saying each syllable distinctly: de-le-tre-a."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L24_S01",
+      "title": "Starting the Voicemail",
+      "setting": "You are calling your housing agency, but you get their voicemail. You need to introduce yourself.",
+      "conversation_flow": [
+        {
+          "title": "Greet and state your name",
+          "chatbot_message": "Hola. Por favor, deje su mensaje. *BEEP*",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "State your address"
+        },
+        {
+          "title": "Spell your last name"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now you need to explain the reason for your call. Let's learn how to describe a problem."
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E06",
+      "data": {
+        "phrase": "Llamo porque...",
+        "meaning": "I'm calling because..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V04",
+      "data": {
+        "La calefacción": "The heating"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E07",
+      "data": {
+        "phrase": "no funciona",
+        "meaning": "it doesn't work"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V05",
+      "data": {
+        "Desde": "Since"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V06",
+      "data": {
+        "Esta mañana": "This morning"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E08",
+      "data": {
+        "phrase": "Hace mucho frío",
+        "meaning": "It is very cold"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V07",
+      "data": {
+        "En la casa": "In the house"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L24_S02",
+      "title": "Stating the Problem",
+      "setting": "You continue your voicemail message by explaining what the problem is.",
+      "conversation_flow": [
+        {
+          "title": "State the reason for your call"
+        },
+        {
+          "title": "Say when the problem started"
+        },
+        {
+          "title": "Explain the consequence"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent. To finish your message, you need to ask them to call you back and provide your number."
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E09",
+      "data": {
+        "phrase": "Pueden llamarme",
+        "meaning": "Can you (plural/formal) call me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E10",
+      "data": {
+        "phrase": "Mi número de teléfono es...",
+        "meaning": "My phone number is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V08",
+      "data": {
+        "Cero": "Zero"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V09",
+      "data": {
+        "Uno": "One"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V10",
+      "data": {
+        "Dos": "Two"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V11",
+      "data": {
+        "Tres": "Three"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V12",
+      "data": {
+        "Cuatro": "Four"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V13",
+      "data": {
+        "Cinco": "Five"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V14",
+      "data": {
+        "Seis": "Six"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V15",
+      "data": {
+        "Siete": "Seven"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V16",
+      "data": {
+        "Ocho": "Eight"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V17",
+      "data": {
+        "Nueve": "Nine"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E11",
+      "data": {
+        "phrase": "Gracias",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E12",
+      "data": {
+        "phrase": "Adiós",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L24_S03",
+      "title": "Finishing the Message",
+      "setting": "You're wrapping up the voicemail with your contact information and a closing.",
+      "conversation_flow": [
+        {
+          "title": "Ask for a call back"
+        },
+        {
+          "title": "State your phone number"
+        },
+        {
+          "title": "Thank them and say goodbye"
+        },
+        {
+          "chatbot_message": "*CLICK*"
+        }
+      ]
+    }
+  ]
+}

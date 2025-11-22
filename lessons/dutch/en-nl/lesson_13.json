@@ -1,0 +1,294 @@
+{
+  "id": "L13",
+  "title": "Inviting a Friend to Do Something",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to invite a friend to do something, like getting a coffee."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V01",
+      "data": {
+        "druk": "busy"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V02",
+      "data": {
+        "de koffie": "the coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V03",
+      "data": {
+        "de dag": "the day"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V04",
+      "data": {
+        "een keer": "sometime / once"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask a question in Dutch, the verb often comes first. For example, 'jij hebt' (you have) becomes 'heb jij...?' (do you have...?)"
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E01",
+      "data": {
+        "phrase": "Heb je het druk?",
+        "meaning": "Are you busy?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P01",
+      "data": {
+        "word": "druk",
+        "phonetic": "/drʏk/",
+        "tip": "The 'u' sound is short and sharp, similar to the 'u' in the English word 'put'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E02",
+      "data": {
+        "phrase": "Zullen we...?",
+        "meaning": "Shall we...?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'Zullen we...?' to make a friendly suggestion to do something together."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E03",
+      "data": {
+        "phrase": "Zullen we een keer koffie drinken?",
+        "meaning": "Shall we get coffee sometime?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E04",
+      "data": {
+        "phrase": "Welke dag kan jij?",
+        "meaning": "Which day works for you?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S01",
+      "title": "Making an Invitation",
+      "setting": "You see your friend Alex and want to invite them for a coffee.",
+      "conversation_flow": [
+        {
+          "title": "Ask if Alex is busy",
+          "chatbot_message": "Hoi! Alles goed?"
+        },
+        {
+          "title": "Suggest getting coffee sometime",
+          "chatbot_message": "Nee, ik heb het niet druk. Hoezo?"
+        },
+        {
+          "title": "Ask which day works for them",
+          "chatbot_message": "Ja, leuk idee!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's find a time and place that works."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V05",
+      "data": {
+        "woensdag": "Wednesday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V06",
+      "data": {
+        "donderdag": "Thursday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V07",
+      "data": {
+        "drie": "three"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V08",
+      "data": {
+        "vier": "four"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P02",
+      "data": {
+        "word": "woensdag",
+        "phonetic": "/ˈʋunzdɑx/",
+        "tip": "The 'oe' sounds like the 'oo' in 'food'. The 'g' at the end is a soft, throaty sound."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say a time, use 'om ... uur', which means 'at ... o'clock'. For example, 'om drie uur'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E05",
+      "data": {
+        "phrase": "om vier uur",
+        "meaning": "at four o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E06",
+      "data": {
+        "phrase": "Ja, dat is goed",
+        "meaning": "Yes, that is good"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V09",
+      "data": {
+        "het café": "the café"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V10",
+      "data": {
+        "het centrum": "the city center"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E07",
+      "data": {
+        "phrase": "in het centrum",
+        "meaning": "in the city center"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S02",
+      "title": "Setting a Time and Place",
+      "setting": "You're continuing the conversation with Alex to decide on the details.",
+      "conversation_flow": [
+        {
+          "title": "Propose a day and time",
+          "chatbot_message": "Ik kan op woensdag of donderdag. Wat is goed voor jou?",
+          "extract_info": {
+            "day": "Extract the day of the week from the user's message"
+          }
+        },
+        {
+          "title": "Agree to the new time",
+          "chatbot_message": "{day} om drie uur kan ik niet. Kan je om vier uur?",
+          "extract_info": {
+            "final_day": "Set the final day based on the previous turn's day",
+            "final_time": "Set the final time to 'vier uur'"
+          }
+        },
+        {
+          "title": "Suggest a location",
+          "chatbot_message": "Perfect! En waar?",
+          "extract_info": {
+            "place": "Extract the location from the user's message"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Almost done! Let's confirm the plan and say goodbye."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V11",
+      "data": {
+        "dus": "so"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V12",
+      "data": {
+        "afgesproken": "agreed / it's a deal"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V13",
+      "data": {
+        "klopt": "correct / right"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "The expression 'Ik heb er zin in' is a very common way to say you're excited about something that is going to happen."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E08",
+      "data": {
+        "phrase": "Ik heb er zin in",
+        "meaning": "I'm looking forward to it"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P03",
+      "data": {
+        "word": "zin",
+        "phonetic": "/zɪn/",
+        "tip": "The 'i' is short, like in the English word 'sin'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E09",
+      "data": {
+        "phrase": "Tot dan!",
+        "meaning": "See you then!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S03",
+      "title": "Confirming the Plan",
+      "setting": "You are finalizing the coffee plans with Alex.",
+      "conversation_flow": [
+        {
+          "title": "Summarize the plan",
+          "chatbot_message": "Goed idee! Dus, afgesproken."
+        },
+        {
+          "title": "Say you're looking forward to it",
+          "chatbot_message": "Ja, klopt!"
+        },
+        {
+          "title": "Say 'See you then!'",
+          "chatbot_message": "Ik ook!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "id": "L13",
+  "title": "Inviting a Friend to Do Something",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to invite an Italian friend to get a coffee. We'll go step-by-step, starting with how to ask if they are free."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E01",
+      "data": {
+        "phrase": "Ciao Giulia",
+        "meaning": "Hi Giulia"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E02",
+      "data": {
+        "phrase": "Sei libero/a?",
+        "meaning": "Are you free?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Remember to match the adjective to the person you're talking to. Use *libero* for a male friend and *libera* for a female friend."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V01",
+      "data": {
+        "Adesso": "Now"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E03",
+      "data": {
+        "phrase": "Vorresti prendere un caffè?",
+        "meaning": "Would you like to get a coffee?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V02",
+      "data": {
+        "Insieme": "Together"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V03",
+      "data": {
+        "Una buona idea": "A good idea"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E04",
+      "data": {
+        "phrase": "Che giorno va bene per te?",
+        "meaning": "What day is good for you?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P01",
+      "data": {
+        "word": "giorno",
+        "phonetic": "[ˈdʒor.no]",
+        "tip": "The 'gi' sound is like the 'j' in 'jeep'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S01",
+      "title": "Making an Invitation",
+      "setting": "You want to invite your friend, Giulia, to get coffee.",
+      "conversation_flow": [
+        {
+          "title": "Ask Giulia if she is busy at the moment",
+          "chatbot_message": "Ciao! Come va?"
+        },
+        {
+          "title": "Suggest going for coffee together",
+          "chatbot_message": "Non adesso, sono libera. Perché?",
+          "extract_info": {
+            "friend_name": "Extract the friend's name from the initial greeting"
+          }
+        },
+        {
+          "title": "Ask which day would be good for her",
+          "chatbot_message": "Sì, è una buona idea! Certo."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's propose a specific day and time. In Italian, you use 'alle' for time, like 'alle tre' (at three)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E05",
+      "data": {
+        "phrase": "Che ne dici di...?",
+        "meaning": "What do you say about...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V04",
+      "data": {
+        "Mercoledì": "Wednesday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V05",
+      "data": {
+        "Alle tre": "At three o'clock"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P02",
+      "data": {
+        "word": "mercoledì",
+        "phonetic": "[mer.ko.leˈdi]",
+        "tip": "The stress is on the final syllable: mer-co-le-DÌ."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V06",
+      "data": {
+        "Perfetto": "Perfect"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V07",
+      "data": {
+        "Dove?": "Where?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V08",
+      "data": {
+        "Un bar": "A café"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In Italy, 'un bar' is a café where people get coffee, pastries, and snacks. It's not usually a place for just alcoholic drinks."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V09",
+      "data": {
+        "In centro": "In the city center"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S02",
+      "title": "Setting a Time and Place",
+      "setting": "Giulia is free to meet. Now you need to agree on a time and place.",
+      "conversation_flow": [
+        {
+          "title": "Propose meeting on Wednesday at 3 o'clock",
+          "chatbot_message": "Uhm... vediamo..."
+        },
+        {
+          "title": "React positively to her confirmation",
+          "chatbot_message": "Mercoledì alle tre è perfetto per me. Dove?"
+        },
+        {
+          "title": "Suggest a café in the city center",
+          "chatbot_message": "OK!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! You've made a plan. Now, let's learn how to confirm the details and say goodbye."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E06",
+      "data": {
+        "phrase": "Allora...",
+        "meaning": "So... / Then..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P03",
+      "data": {
+        "word": "allora",
+        "phonetic": "[alˈloː.ra]",
+        "tip": "Pronounce the double 'l' by holding the 'l' sound for a moment longer than usual."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E07",
+      "data": {
+        "phrase": "Ci vediamo mercoledì",
+        "meaning": "See you Wednesday"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E08",
+      "data": {
+        "phrase": "Non vedo l'ora",
+        "meaning": "I'm looking forward to it"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E09",
+      "data": {
+        "phrase": "A dopo",
+        "meaning": "See you then / See you later"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S03",
+      "title": "Confirming the Plan",
+      "setting": "You've agreed on the main details. Now, confirm everything with Giulia and end the conversation.",
+      "conversation_flow": [
+        {
+          "title": "Summarize the plan: Wednesday at three at a café in the center",
+          "chatbot_message": "Perfetto!"
+        },
+        {
+          "title": "Say that you are looking forward to it",
+          "chatbot_message": "Esatto! Anch'io."
+        },
+        {
+          "title": "Say 'See you then!'",
+          "chatbot_message": "A mercoledì!"
+        }
+      ]
+    }
+  ]
+}

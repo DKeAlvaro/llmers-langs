@@ -1,0 +1,305 @@
+{
+  "id": "L14",
+  "title": "Describing Your Home",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to describe where you live. A colleague will ask you about your home."
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E01",
+      "data": {
+        "phrase": "Yo vivo",
+        "meaning": "I live"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V01",
+      "data": {
+        "En": "In"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V02",
+      "data": {
+        "Un barrio": "A neighborhood"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V03",
+      "data": {
+        "Una ciudad": "A city"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L14_P01",
+      "data": {
+        "word": "ciudad",
+        "phonetic": "thee-oo-DAHD",
+        "tip": "The 'c' is pronounced like 'th' in 'thing' in most of Spain. The 'd' at the end is very soft."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In Spanish, nouns have a gender. 'Un' is for masculine words like 'barrio', and 'una' is for feminine words like 'ciudad'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V04",
+      "data": {
+        "Un apartamento": "An apartment"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V05",
+      "data": {
+        "Una casa": "A house"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V06",
+      "data": {
+        "Solo / Sola": "Alone"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'solo' if you identify as male and 'sola' if you identify as female. For example, 'Vivo solo'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V07",
+      "data": {
+        "Con": "With"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V08",
+      "data": {
+        "Mi pareja": "My partner"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V09",
+      "data": {
+        "Compañeros de piso": "Roommates"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S01",
+      "title": "Sharing Basic Information",
+      "setting": "Your colleague, Maria, starts a conversation about your new home.",
+      "conversation_flow": [
+        {
+          "title": "Say where you live",
+          "chatbot_message": "¡Hola! Oye, ¿dónde vives?",
+          "extract_info": {
+            "user_location": "Extract the user's location (city or neighborhood)"
+          }
+        },
+        {
+          "title": "State if you live in a house or an apartment",
+          "chatbot_message": "¡Ah, {user_location}! ¿Y vives en un apartamento o en una casa?"
+        },
+        {
+          "title": "Mention who you live with",
+          "chatbot_message": "Entendido. ¿Vives solo o con alguien?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's learn how to describe the space inside your home."
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E02",
+      "data": {
+        "phrase": "Tiene",
+        "meaning": "It has"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V10",
+      "data": {
+        "Dos habitaciones": "Two rooms"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V11",
+      "data": {
+        "Tres habitaciones": "Three rooms"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can say 'Mi casa tiene tres habitaciones' for 'My house has three rooms'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E03",
+      "data": {
+        "phrase": "Me gusta",
+        "meaning": "I like"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V12",
+      "data": {
+        "El salón": "The living room"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V13",
+      "data": {
+        "La cocina": "The kitchen"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L14_P02",
+      "data": {
+        "word": "cocina",
+        "phonetic": "ko-THEE-na",
+        "tip": "Similar to 'ciudad', the 'c' here is pronounced like 'th' in Spain."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E04",
+      "data": {
+        "phrase": "Tengo",
+        "meaning": "I have"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V14",
+      "data": {
+        "Un jardín": "A garden"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V15",
+      "data": {
+        "Un balcón": "A balcony"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S02",
+      "title": "Describing the Space",
+      "setting": "Maria is curious to know more about the size and features of your home.",
+      "conversation_flow": [
+        {
+          "title": "State the number of rooms",
+          "chatbot_message": "Interesante. ¿Cuántas habitaciones tiene?"
+        },
+        {
+          "title": "Mention a room you like",
+          "chatbot_message": "Vale. ¿Y qué habitación te gusta más?"
+        },
+        {
+          "title": "Say if you have a garden or balcony",
+          "chatbot_message": "¡El salón es genial! ¿Y tienes un jardín o un balcón?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent work! Finally, let's learn to share your opinion and ask Maria about her home."
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E05",
+      "data": {
+        "phrase": "Estoy contento / contenta",
+        "meaning": "I am happy"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E06",
+      "data": {
+        "phrase": "Es...",
+        "meaning": "It is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V16",
+      "data": {
+        "Muy": "Very"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V17",
+      "data": {
+        "Luminoso / Luminosa": "Bright"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V18",
+      "data": {
+        "Tranquilo / Tranquila": "Quiet"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Adjectives in Spanish match the noun's gender. 'Un apartamento es luminoso', but 'una casa es luminosa'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E07",
+      "data": {
+        "phrase": "¿Y tú?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E08",
+      "data": {
+        "phrase": "¿Dónde vives?",
+        "meaning": "Where do you live?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S03",
+      "title": "Giving Your Opinion",
+      "setting": "You're wrapping up the conversation with Maria.",
+      "conversation_flow": [
+        {
+          "title": "Say you are happy with your home",
+          "chatbot_message": "¡Qué bien! Entonces, ¿estás contento con tu nuevo hogar?"
+        },
+        {
+          "title": "Mention a positive aspect",
+          "chatbot_message": "¡Me alegro! ¿Y por qué te gusta?"
+        },
+        {
+          "title": "Ask about their home",
+          "chatbot_message": "Eso es muy importante. Bueno, ¡gracias por contarme!"
+        }
+      ]
+    }
+  ]
+}

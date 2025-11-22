@@ -1,0 +1,256 @@
+{
+  "id": "L10",
+  "title": "Talking About Hobbies and Interests",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Let's talk about hobbies! You'll learn how to say what you like to do in your free time, or 'tempo libero'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V01",
+      "data": {
+        "Il tempo libero": "Free time"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E01",
+      "data": {
+        "phrase": "Cosa ti piace fare?",
+        "meaning": "What do you like to do?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E02",
+      "data": {
+        "phrase": "Mi piace",
+        "meaning": "I like"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "After 'Mi piace', you can add a verb to say what you like to do. For example, 'Mi piace leggere' (I like to read)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V02",
+      "data": {
+        "Nuotare": "To swim"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V03",
+      "data": {
+        "Correre": "To run"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V04",
+      "data": {
+        "Leggere": "To read"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V05",
+      "data": {
+        "Suonare la chitarra": "To play the guitar"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L10_P01",
+      "data": {
+        "word": "piace",
+        "phonetic": "[pjaː.tʃe]",
+        "tip": "The 'ci' combo in Italian is pronounced like 'ch' in 'cheese'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E03",
+      "data": {
+        "phrase": "Due volte a settimana",
+        "meaning": "Twice a week"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S01",
+      "title": "Sharing Your Hobbies",
+      "setting": "You're at a social gathering and someone asks about your hobbies.",
+      "conversation_flow": [
+        {
+          "title": "Mention a sport you enjoy",
+          "chatbot_message": "Ciao! Mi chiamo Sofia. Cosa ti piace fare nel tempo libero?",
+          "extract_info": {
+            "hobby_1": "Extract the sport or activity the user mentions"
+          }
+        },
+        {
+          "title": "Mention another activity you enjoy",
+          "chatbot_message": "Bello! Anche a me piace {hobby_1}. Ti piace fare altro?"
+        },
+        {
+          "title": "Say how often you do an activity",
+          "chatbot_message": "Capisco. E con che frequenza?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's add more detail. You'll learn to say *why* you like something and what you *don't* like."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E04",
+      "data": {
+        "phrase": "Perché è...",
+        "meaning": "Because it is..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L10_P02",
+      "data": {
+        "word": "perché",
+        "phonetic": "[perˈke]",
+        "tip": "The accent on the 'é' is important. It tells you to stress that final syllable."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V06",
+      "data": {
+        "Rilassante": "Relaxing"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V07",
+      "data": {
+        "Divertente": "Fun"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E05",
+      "data": {
+        "phrase": "Non mi piace",
+        "meaning": "I don't like"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V08",
+      "data": {
+        "Cucinare": "To cook"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E06",
+      "data": {
+        "phrase": "Vado a",
+        "meaning": "I am going to"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V09",
+      "data": {
+        "Questo weekend": "This weekend"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S02",
+      "title": "Adding More Detail",
+      "setting": "The conversation continues. Explain more about your interests.",
+      "conversation_flow": [
+        {
+          "title": "Explain why you like your hobby",
+          "chatbot_message": "Bene. E perché ti piace {hobby_1}?"
+        },
+        {
+          "title": "Mention something you don't like",
+          "chatbot_message": "Capisco. C'è qualcosa che non ti piace fare?"
+        },
+        {
+          "title": "State your weekend plans",
+          "chatbot_message": "Ah ok. E cosa fai questo weekend?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! The final step in a good conversation is to show interest in the other person."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E07",
+      "data": {
+        "phrase": "E a te?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'E a te?' to easily ask the same question back to someone. It's short for 'E a te cosa piace fare?'"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V10",
+      "data": {
+        "Dipingere": "To paint"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E08",
+      "data": {
+        "phrase": "Dove lo fai?",
+        "meaning": "Where do you do it?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V11",
+      "data": {
+        "A casa": "At home"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E09",
+      "data": {
+        "phrase": "Che interessante!",
+        "meaning": "How interesting!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S03",
+      "title": "Showing Interest",
+      "setting": "Now, turn the conversation around and ask Sofia about her hobbies.",
+      "conversation_flow": [
+        {
+          "title": "Ask what she likes to do",
+          "chatbot_message": "Sembra bello!"
+        },
+        {
+          "title": "Ask where she does her hobby",
+          "chatbot_message": "A me piace dipingere."
+        },
+        {
+          "title": "Express that you find her hobby interesting",
+          "chatbot_message": "A casa. È molto rilassante."
+        }
+      ]
+    }
+  ]
+}

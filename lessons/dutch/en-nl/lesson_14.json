@@ -1,0 +1,329 @@
+{
+  "id": "L14",
+  "title": "Describing Your Home",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to talk about your home with a colleague. Let's start with the basics."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V01",
+      "data": {
+        "Waar": "Where"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V02",
+      "data": {
+        "Jij": "You"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L14_P01",
+      "data": {
+        "word": "Waar",
+        "phonetic": "/ʋaːr/",
+        "tip": "The Dutch 'w' is softer than in English, almost like a 'v'. The 'aa' is a long 'ah' sound."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E01",
+      "data": {
+        "phrase": "Ik woon",
+        "meaning": "I live"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say where you live, you can use 'Ik woon in...' followed by the name of your city."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V03",
+      "data": {
+        "Het huis": "The house"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V04",
+      "data": {
+        "Het appartement": "The apartment"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V05",
+      "data": {
+        "Of": "Or"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V06",
+      "data": {
+        "Alleen": "Alone"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V07",
+      "data": {
+        "Met": "With"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V08",
+      "data": {
+        "Mijn partner": "My partner"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V09",
+      "data": {
+        "Huisgenoten": "Roommates"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S01",
+      "title": "Sharing Basic Information",
+      "setting": "You're on a coffee break with your new colleague, Bram. He starts a conversation about where you live.",
+      "conversation_flow": [
+        {
+          "title": "Say where you live",
+          "chatbot_message": "Hoi! Waar woon jij?",
+          "extract_info": {
+            "user_city": "Extract the city the user lives in"
+          }
+        },
+        {
+          "title": "State your type of home",
+          "chatbot_message": "Ah, {user_city}! Woon jij in een huis of in een appartement?"
+        },
+        {
+          "title": "Say who you live with",
+          "chatbot_message": "Oké. Woon jij alleen?"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E02",
+      "data": {
+        "phrase": "Ik heb",
+        "meaning": "I have"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V10",
+      "data": {
+        "Hoeveel": "How many"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E03",
+      "data": {
+        "phrase": "Heb jij...?",
+        "meaning": "Do you have...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V11",
+      "data": {
+        "De kamers": "The rooms"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V12",
+      "data": {
+        "Drie": "Three"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V13",
+      "data": {
+        "De woonkamer": "The living room"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V14",
+      "data": {
+        "Leuk": "Nice / Fun"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E04",
+      "data": {
+        "phrase": "Ik vind ... leuk",
+        "meaning": "I like ..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E05",
+      "data": {
+        "phrase": "En jij?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V15",
+      "data": {
+        "De tuin": "The garden"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V16",
+      "data": {
+        "Het balkon": "The balcony"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V17",
+      "data": {
+        "Ook": "Also / Too"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S02",
+      "title": "Describing the Space",
+      "setting": "The conversation with Bram continues. He's curious about the details of your home.",
+      "conversation_flow": [
+        {
+          "title": "State the number of rooms",
+          "chatbot_message": "Leuk. Hoeveel kamers heb jij?"
+        },
+        {
+          "title": "Mention a room you like",
+          "chatbot_message": "Oké. Ik vind de woonkamer leuk. En jij?"
+        },
+        {
+          "title": "Say if you have a garden or balcony",
+          "chatbot_message": "Leuk! Heb jij ook een tuin of een balkon?"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E06",
+      "data": {
+        "phrase": "Ik ben",
+        "meaning": "I am"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E07",
+      "data": {
+        "phrase": "Ben jij...?",
+        "meaning": "Are you...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V18",
+      "data": {
+        "Ja": "Yes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V19",
+      "data": {
+        "Blij": "Happy"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V20",
+      "data": {
+        "Je": "Your"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say you are happy with something, use the structure 'Ik ben blij met...'. For example: 'Ik ben blij met mijn huis'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E08",
+      "data": {
+        "phrase": "Het is...",
+        "meaning": "It is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V21",
+      "data": {
+        "Heel": "Very"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V22",
+      "data": {
+        "Licht": "Light / Bright"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V23",
+      "data": {
+        "Gezellig": "Cozy"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L14_P02",
+      "data": {
+        "word": "gezellig",
+        "phonetic": "/ɣəˈzɛləx/",
+        "tip": "The Dutch 'g' is a soft, scraping sound from the back of your throat, like the 'ch' in the Scottish word 'loch'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S03",
+      "title": "Giving Your Opinion",
+      "setting": "You're finishing your conversation with Bram. It's time to share your opinion and ask him about his home.",
+      "conversation_flow": [
+        {
+          "title": "Say you are happy with your home",
+          "chatbot_message": "Leuk, een balkon! Ben jij blij met je huis?"
+        },
+        {
+          "title": "Mention a positive quality",
+          "chatbot_message": "Fijn. Is het ook gezellig?"
+        },
+        {
+          "title": "Ask about their living situation",
+          "chatbot_message": "Leuk!",
+          "is_concluding": true
+        },
+        {
+          "title": "Listen to Bram's response",
+          "chatbot_message": "Ik woon in een huis. Heel gezellig!"
+        }
+      ]
+    }
+  ]
+}

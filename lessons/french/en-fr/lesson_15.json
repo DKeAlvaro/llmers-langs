@@ -1,0 +1,345 @@
+{
+  "id": "L15F",
+  "title": "At the Doctor's Office",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk to a doctor in French. We'll start with checking in for your appointment."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15F_V01",
+      "data": {
+        "word": "Le médecin",
+        "meaning": "The doctor"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15F_V02",
+      "data": {
+        "word": "Le rendez-vous",
+        "meaning": "The appointment"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E01",
+      "data": {
+        "phrase": "Bonjour",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E02",
+      "data": {
+        "phrase": "J'ai",
+        "meaning": "I have"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L15F_P01",
+      "data": {
+        "word": "rendez-vous",
+        "phonetic": "/ʁɑ̃.de.vu/",
+        "tip": "The 'en' is a nasal sound, and the final 's' is silent."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E03",
+      "data": {
+        "phrase": "J'ai un rendez-vous",
+        "meaning": "I have an appointment"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say something hurts, use the expression 'J'ai mal à...' followed by a body part."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15F_V03",
+      "data": {
+        "word": "La tête",
+        "meaning": "The head"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E04",
+      "data": {
+        "phrase": "J'ai mal à la tête",
+        "meaning": "I have a headache"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E05",
+      "data": {
+        "phrase": "Depuis",
+        "meaning": "For / Since"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15F_V04",
+      "data": {
+        "word": "Un jour",
+        "meaning": "A day"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15F_V05",
+      "data": {
+        "word": "Trois",
+        "meaning": "Three"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E06",
+      "data": {
+        "phrase": "Depuis trois jours",
+        "meaning": "For three days"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15F_S01",
+      "title": "Checking In",
+      "setting": "You've arrived at the doctor's office. You first speak to the receptionist, and then the doctor.",
+      "conversation_flow": [
+        {
+          "title": "Greet the receptionist",
+          "chatbot_message": "Bonjour."
+        },
+        {
+          "title": "State you have an appointment",
+          "chatbot_message": "D'accord. Le médecin est prêt."
+        },
+        {
+          "title": "State your main symptom",
+          "chatbot_message": "Bonjour. Quel est le problème ?"
+        },
+        {
+          "title": "Say how long you've had the problem",
+          "chatbot_message": "D'accord. Depuis quand ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's learn how to add more details about your symptoms."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15F_V06",
+      "data": {
+        "word": "Aussi",
+        "meaning": "Also / Too"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15F_V07",
+      "data": {
+        "word": "La fièvre",
+        "meaning": "The fever"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E07",
+      "data": {
+        "phrase": "J'ai aussi de la fièvre",
+        "meaning": "I also have a fever"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E08",
+      "data": {
+        "phrase": "Oui",
+        "meaning": "Yes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E09",
+      "data": {
+        "phrase": "Non",
+        "meaning": "No"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When 'à' is followed by 'le', they combine to become 'au'. For example, 'J'ai mal au ventre'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15F_V08",
+      "data": {
+        "word": "Le ventre",
+        "meaning": "The stomach"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L15F_P02",
+      "data": {
+        "word": "ventre",
+        "phonetic": "/vɑ̃tʁ/",
+        "tip": "The 'en' is a nasal sound, similar to the one in 'rendez-vous'."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To talk about something you did in the past, you can say 'J'ai' + the past form of a verb. For 'prendre' (to take), the past form is 'pris'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E10",
+      "data": {
+        "phrase": "J'ai pris",
+        "meaning": "I took / I have taken"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15F_V09",
+      "data": {
+        "word": "Le paracétamol",
+        "meaning": "Paracetamol"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15F_S02",
+      "title": "Answering Questions",
+      "setting": "The doctor continues to ask you questions about how you are feeling.",
+      "conversation_flow": [
+        {
+          "title": "Describe another symptom",
+          "chatbot_message": "D'accord. Avez-vous un autre symptôme ?"
+        },
+        {
+          "title": "Answer the doctor's question",
+          "chatbot_message": "Hmm. Avez-vous mal au ventre ?"
+        },
+        {
+          "title": "Say what you have taken",
+          "chatbot_message": "D'accord. Et vous avez pris un médicament ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Sometimes you might not understand the doctor. Let's learn how to ask them to repeat themselves."
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E11",
+      "data": {
+        "phrase": "S'il vous plaît",
+        "meaning": "Please (formal)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15F_V10",
+      "data": {
+        "word": "Répéter",
+        "meaning": "To repeat"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15F_V11",
+      "data": {
+        "word": "Lentement",
+        "meaning": "Slowly"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E12",
+      "data": {
+        "phrase": "Pouvez-vous répéter, s'il vous plaît ?",
+        "meaning": "Can you repeat, please?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E13",
+      "data": {
+        "phrase": "J'ai besoin de",
+        "meaning": "I need"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15F_V12",
+      "data": {
+        "word": "Une ordonnance",
+        "meaning": "A prescription"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L15F_P03",
+      "data": {
+        "word": "ordonnance",
+        "phonetic": "/ɔʁ.dɔ.nɑ̃s/",
+        "tip": "This word has two nasal sounds: 'on' and 'an'."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can ask a question in spoken French by saying a statement with a rising intonation at the end, like 'J'ai besoin d'une ordonnance?'"
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E14",
+      "data": {
+        "phrase": "Merci beaucoup",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15F_E15",
+      "data": {
+        "phrase": "Au revoir",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15F_S03",
+      "title": "Understanding the Advice",
+      "setting": "The examination is over. The doctor gives you their advice.",
+      "conversation_flow": [
+        {
+          "title": "Ask the doctor to repeat",
+          "chatbot_message": "Alors, vous devez vous reposer et boire beaucoup d'eau."
+        },
+        {
+          "title": "Ask if you need a prescription",
+          "chatbot_message": "Oui. Vous... devez... vous... reposer."
+        },
+        {
+          "title": "Thank the doctor",
+          "chatbot_message": "Non, pas besoin d'ordonnance. Le paracétamol est suffisant."
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "De rien. Au revoir."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "id": "L13",
+  "title": "Inviting a Friend to Do Something",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to invite a friend to do something. In French, you use the informal 'tu' with friends."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E01",
+      "data": {
+        "phrase": "Salut",
+        "meaning": "Hi"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P01",
+      "data": {
+        "word": "Salut",
+        "phonetic": "/sa.ly/",
+        "tip": "The final 't' is silent."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E02",
+      "data": {
+        "phrase": "Ça va ?",
+        "meaning": "How are you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V01",
+      "data": {
+        "occupé": "busy (masculine)"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Adjectives often change depending on gender. Use 'occupé' for a male friend and 'occupée' for a female friend. The pronunciation is the same."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V02",
+      "data": {
+        "maintenant": "now"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E03",
+      "data": {
+        "phrase": "Tu es occupé ?",
+        "meaning": "Are you busy?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V03",
+      "data": {
+        "pourquoi": "why"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E04",
+      "data": {
+        "phrase": "Ça te dit de... ?",
+        "meaning": "Do you want to... / How about... ?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "'Ça te dit de...' is a very common and friendly way to make a suggestion. It is followed by a verb, for example 'Ça te dit de manger ?' (Do you want to eat?)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V04",
+      "data": {
+        "un café": "a coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V05",
+      "data": {
+        "ensemble": "together"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E05",
+      "data": {
+        "phrase": "prendre un café",
+        "meaning": "to have a coffee"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E06",
+      "data": {
+        "phrase": "Bonne idée",
+        "meaning": "Good idea"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V06",
+      "data": {
+        "un jour": "a day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E07",
+      "data": {
+        "phrase": "Quel jour ?",
+        "meaning": "Which day?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S01",
+      "title": "Making an Invitation",
+      "setting": "You see your friend Alex and want to invite him for a coffee.",
+      "conversation_flow": [
+        {
+          "title": "Ask your friend Alex if he is busy now",
+          "chatbot_message": "Salut ! Ça va ?",
+          "extract_info": {
+            "friend_name": "Extract the friend's name from the user's message"
+          }
+        },
+        {
+          "title": "Suggest going for a coffee together",
+          "chatbot_message": "Non, pas vraiment. Pourquoi ?"
+        },
+        {
+          "title": "Ask which day would be good for him",
+          "chatbot_message": "Oui, bonne idée ! Avec plaisir."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's figure out a day and time. We'll learn the days of the week."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V07",
+      "data": {
+        "mercredi": "Wednesday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V08",
+      "data": {
+        "jeudi": "Thursday"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P02",
+      "data": {
+        "word": "mercredi",
+        "phonetic": "/mɛʁ.kʁə.di/",
+        "tip": "The 'r' sounds are in the back of your throat, like a light gargle."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To talk about time, you use 'à' followed by the number and 'heures'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V09",
+      "data": {
+        "trois": "three"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V10",
+      "data": {
+        "heures": "o'clock / hours"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P03",
+      "data": {
+        "word": "heures",
+        "phonetic": "/œʁ/",
+        "tip": "The 'h' is silent. The 'eu' sounds like the 'u' in 'fur'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E08",
+      "data": {
+        "phrase": "mercredi à trois heures",
+        "meaning": "Wednesday at three o'clock"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V11",
+      "data": {
+        "parfait": "perfect"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E09",
+      "data": {
+        "phrase": "C'est parfait pour moi",
+        "meaning": "That's perfect for me"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To suggest a place, you can use 'dans', which means 'in'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V12",
+      "data": {
+        "le centre-ville": "the city center"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V13",
+      "data": {
+        "Super": "Great"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S02",
+      "title": "Setting a Time and Place",
+      "setting": "You and Alex are trying to find a good time and place to meet.",
+      "conversation_flow": [
+        {
+          "title": "Suggest Wednesday at 3 o'clock",
+          "chatbot_message": "Je suis libre mercredi après-midi. Et toi ?"
+        },
+        {
+          "title": "Suggest meeting at a café in the city center",
+          "chatbot_message": "Trois heures, c'est parfait pour moi !"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Now, let's confirm the plan and say goodbye."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V14",
+      "data": {
+        "Donc": "So"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Start your summary with 'Donc...' to mean 'So...'. For example: 'Donc, le café...'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E10",
+      "data": {
+        "phrase": "D'accord",
+        "meaning": "Okay / Agreed"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E11",
+      "data": {
+        "phrase": "J'ai hâte",
+        "meaning": "I'm looking forward to it / I can't wait"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P04",
+      "data": {
+        "word": "hâte",
+        "phonetic": "/ɑt/",
+        "tip": "The 'h' is silent and the 'â' makes a long 'ah' sound."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E12",
+      "data": {
+        "phrase": "Moi aussi",
+        "meaning": "Me too"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say goodbye for a planned meeting, use 'À' followed by the day or time. For example, 'À demain !' (See you tomorrow!) or 'À mercredi !' (See you Wednesday!)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E13",
+      "data": {
+        "phrase": "À mercredi",
+        "meaning": "See you on Wednesday"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E14",
+      "data": {
+        "phrase": "À bientôt",
+        "meaning": "See you soon"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S03",
+      "title": "Confirming the Plan",
+      "setting": "You are finalizing the details with Alex.",
+      "conversation_flow": [
+        {
+          "title": "Summarize the plan: So, Wednesday at 3 o'clock at the café",
+          "chatbot_message": "Super ! D'accord pour un café dans le centre-ville."
+        },
+        {
+          "title": "Say that you are looking forward to it",
+          "chatbot_message": "C'est ça !"
+        },
+        {
+          "title": "Say 'See you Wednesday!'",
+          "chatbot_message": "Moi aussi !"
+        }
+      ]
+    }
+  ]
+}

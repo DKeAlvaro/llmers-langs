@@ -1,0 +1,300 @@
+{
+  "id": "L05",
+  "title": "Talking About Your Family",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your family. A great way to connect with French speakers!"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V01",
+      "data": {
+        "phrase": "la famille",
+        "meaning": "the family"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V02",
+      "data": {
+        "phrase": "une photo",
+        "meaning": "a photo"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V03",
+      "data": {
+        "phrase": "mes parents",
+        "meaning": "my parents"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V04",
+      "data": {
+        "phrase": "mon frère",
+        "meaning": "my brother"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V05",
+      "data": {
+        "phrase": "ma sœur",
+        "meaning": "my sister"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E01",
+      "data": {
+        "phrase": "Oui",
+        "meaning": "Yes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E02",
+      "data": {
+        "phrase": "C'est...",
+        "meaning": "This is... / That is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E03",
+      "data": {
+        "phrase": "Ce sont...",
+        "meaning": "These are... / Those are..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E04",
+      "data": {
+        "phrase": "Il s'appelle...",
+        "meaning": "His name is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E05",
+      "data": {
+        "phrase": "Elle s'appelle...",
+        "meaning": "Her name is..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L05_P01",
+      "data": {
+        "word": "famille",
+        "phonetic": "/fa.mij/",
+        "tip": "The letters 'ille' at the end of a word in French often sound like the 'y' in 'yes'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S01",
+      "title": "Identifying Your Family",
+      "setting": "Your colleague, Chloé, points to a photo on your desk.",
+      "conversation_flow": [
+        {
+          "title": "Confirm it's your family",
+          "chatbot_message": "Oh, belle photo ! C'est ta famille ?"
+        },
+        {
+          "title": "Identify the people",
+          "chatbot_message": "Super ! Qui est-ce ?"
+        },
+        {
+          "title": "State their name(s)",
+          "chatbot_message": "Et comment il s'appelle ?",
+          "extract_info": {
+            "family_member_name": "Extract the name of the family member"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "In French, you use the verb 'avoir' (to have) to say how old you are. For example, 'J'ai 30 ans' literally means 'I have 30 years'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E06",
+      "data": {
+        "phrase": "J'ai...",
+        "meaning": "I have..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E07",
+      "data": {
+        "phrase": "Je n'ai pas de frère",
+        "meaning": "I don't have a brother"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E08",
+      "data": {
+        "phrase": "Il a ... ans",
+        "meaning": "He is ... years old"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E09",
+      "data": {
+        "phrase": "Ils habitent...",
+        "meaning": "They live..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V06",
+      "data": {
+        "phrase": "un an / ans",
+        "meaning": "a year / years (for age)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V07",
+      "data": {
+        "phrase": "la France",
+        "meaning": "France"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V08",
+      "data": {
+        "phrase": "le Canada",
+        "meaning": "Canada"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L05_P02",
+      "data": {
+        "word": "ans",
+        "phonetic": "/ɑ̃/",
+        "tip": "This is a nasal sound, common in French. The 's' at the end is silent."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S02",
+      "title": "Giving More Details",
+      "setting": "Chloé is curious and asks more about your family.",
+      "conversation_flow": [
+        {
+          "title": "Answer about siblings",
+          "chatbot_message": "Joli nom, {family_member_name}. Et tu as des frères ou des sœurs ?"
+        },
+        {
+          "title": "State your brother's/sister's age",
+          "chatbot_message": "D'accord. Et quel âge il a ?"
+        },
+        {
+          "title": "Say where your family lives",
+          "chatbot_message": "Intéressant. Et ta famille habite en France ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "To ask a simple yes/no question, you can just say a statement with a rising intonation at the end. For example, 'Tu as des enfants ?'"
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E10",
+      "data": {
+        "phrase": "Et toi ?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E11",
+      "data": {
+        "phrase": "Tu es marié(e) ?",
+        "meaning": "Are you married?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E12",
+      "data": {
+        "phrase": "Tu as des enfants ?",
+        "meaning": "Do you have children?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E13",
+      "data": {
+        "phrase": "Oh, c'est chouette !",
+        "meaning": "Oh, how nice!"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V09",
+      "data": {
+        "phrase": "un enfant",
+        "meaning": "a child"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V10",
+      "data": {
+        "phrase": "une fille",
+        "meaning": "a daughter"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V11",
+      "data": {
+        "phrase": "un fils",
+        "meaning": "a son"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L05_P03",
+      "data": {
+        "word": "enfants",
+        "phonetic": "/ɑ̃.fɑ̃/",
+        "tip": "Both 'en' and 'an' make the same nasal sound here. The final 'ts' is silent."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S03",
+      "title": "Asking About Their Family",
+      "setting": "Now it's your turn. You ask Chloé about her family.",
+      "conversation_flow": [
+        {
+          "title": "Ask if she is married",
+          "chatbot_message": "Ah, le Canada ! C'est super. Ma famille habite ici, à Paris."
+        },
+        {
+          "title": "Ask if she has children",
+          "chatbot_message": "Oui, je suis mariée. Mon mari s'appelle Léo."
+        },
+        {
+          "title": "React positively",
+          "chatbot_message": "Oui, j'ai une fille."
+        }
+      ]
+    }
+  ]
+}

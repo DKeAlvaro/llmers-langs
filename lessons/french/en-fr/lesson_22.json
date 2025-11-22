@@ -1,0 +1,301 @@
+{
+  "id": "L22F",
+  "title": "Ordering Food for Delivery by Phone",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to order food over the phone in French. We'll focus on the key phrases to place your order, provide your details, and ask for the price."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22F_E01",
+      "data": {
+        "phrase": "Bonsoir",
+        "meaning": "Good evening"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22F_E02",
+      "data": {
+        "phrase": "Je voudrais...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22F_E03",
+      "data": {
+        "phrase": "...passer une commande",
+        "meaning": "...to place an order"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V01",
+      "data": {
+        "pour la livraison": "for delivery"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22F_P01",
+      "data": {
+        "word": "voudrais",
+        "phonetic": "[vu.dʁɛ]",
+        "tip": "The 's' at the end is silent. It sounds like 'voo-dray'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V02",
+      "data": {
+        "une pizza salami": "a salami pizza"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V03",
+      "data": {
+        "une boisson": "a drink"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V04",
+      "data": {
+        "un coca": "a coke"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V05",
+      "data": {
+        "aussi": "also / too"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22F_S01",
+      "title": "Placing your order",
+      "setting": "You are calling a pizzeria to order food for delivery.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Pizzeria Chez Luigi, bonsoir."
+        },
+        {
+          "title": "Greet and say you want to order for delivery",
+          "chatbot_message": "Bien sûr. Qu'est-ce que vous voulez commander ?"
+        },
+        {
+          "title": "Order one salami pizza",
+          "chatbot_message": "Une pizza salami. Très bien. Vous voulez une boisson aussi ?"
+        },
+        {
+          "title": "Order a coke",
+          "chatbot_message": "D'accord. Une pizza salami et un coca."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "When giving an address in France, you usually say the number first, then the street name. For example: '10, rue de la Paix'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22F_E04",
+      "data": {
+        "phrase": "Mon nom est...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V06",
+      "data": {
+        "l'adresse": "the address"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22F_E05",
+      "data": {
+        "phrase": "Mon adresse est...",
+        "meaning": "My address is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22F_E06",
+      "data": {
+        "phrase": "Mon numéro de téléphone est...",
+        "meaning": "My phone number is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V07",
+      "data": {
+        "zéro": "zero"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V08",
+      "data": {
+        "un": "one"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V09",
+      "data": {
+        "deux": "two"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V10",
+      "data": {
+        "trois": "three"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V11",
+      "data": {
+        "quatre": "four"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V12",
+      "data": {
+        "cinq": "five"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22F_S02",
+      "title": "Providing your details",
+      "setting": "The employee now needs your personal details for the delivery.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Parfait. Pour la livraison, quel est votre nom ?"
+        },
+        {
+          "title": "State your name",
+          "chatbot_message": "Merci, {user_name}. Et quelle est votre adresse ?",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Give your address",
+          "chatbot_message": "Noté. Et pour finir, votre numéro de téléphone ?"
+        },
+        {
+          "title": "Give your phone number",
+          "chatbot_message": "Merci. C'est tout noté."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Time to ask the final questions! Knowing how to ask for the price and delivery time is very useful."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22F_E07",
+      "data": {
+        "phrase": "Ça fait combien ?",
+        "meaning": "How much is that?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22F_P02",
+      "data": {
+        "word": "combien",
+        "phonetic": "[kɔ̃.bjɛ̃]",
+        "tip": "This has a nasal sound, like 'com-byan'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V13",
+      "data": {
+        "euros": "euros"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22F_E08",
+      "data": {
+        "phrase": "La livraison, c'est dans combien de temps ?",
+        "meaning": "How long until the delivery?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V14",
+      "data": {
+        "environ": "approximately"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22F_V15",
+      "data": {
+        "minutes": "minutes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22F_E09",
+      "data": {
+        "phrase": "Merci",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22F_E10",
+      "data": {
+        "phrase": "Bonne soirée",
+        "meaning": "Have a good evening"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22F_E11",
+      "data": {
+        "phrase": "Au revoir",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22F_S03",
+      "title": "Finalizing the order",
+      "setting": "You just need to confirm the price and delivery time before hanging up.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Votre commande est confirmée. Vous avez des questions ?"
+        },
+        {
+          "title": "Ask how much the total is",
+          "chatbot_message": "Ça fait 15 euros."
+        },
+        {
+          "title": "Ask about the delivery time",
+          "chatbot_message": "Environ 30 minutes."
+        },
+        {
+          "title": "Thank the employee and end the call",
+          "chatbot_message": "Merci à vous. Bonne soirée !"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "id": "L21",
+  "title": "At the Pharmacy",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to pick up a prescription at a German pharmacy, 'die Apotheke'. Remember to use the formal 'Sie' when speaking to the pharmacist."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V01",
+      "data": {
+        "Die Apotheke": "The pharmacy"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L21_P01",
+      "data": {
+        "word": "Apotheke",
+        "phonetic": "/apoˈteːkə/",
+        "tip": "The 'th' in German is pronounced like a hard 't', not like in the English word 'the'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E01",
+      "data": {
+        "phrase": "Guten Tag",
+        "meaning": "Good day"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V02",
+      "data": {
+        "Das Rezept": "The prescription"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E02",
+      "data": {
+        "phrase": "Ich möchte ein Rezept abholen",
+        "meaning": "I would like to pick up a prescription"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In the phrase 'Ich möchte ein Rezept abholen', the second verb 'abholen' (to pick up) is pushed to the end of the sentence. This is a common pattern in German."
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E03",
+      "data": {
+        "phrase": "Wie ist Ihr Name?",
+        "meaning": "What is your name? (formal)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E04",
+      "data": {
+        "phrase": "Mein Name ist...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E05",
+      "data": {
+        "phrase": "Hier, bitte",
+        "meaning": "Here you are"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E06",
+      "data": {
+        "phrase": "Vielen Dank",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E07",
+      "data": {
+        "phrase": "Einen Moment, bitte",
+        "meaning": "One moment, please"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S01",
+      "title": "Stating Your Needs",
+      "setting": "You enter a pharmacy to pick up a prescription.",
+      "conversation_flow": [
+        {
+          "title": "Greet the pharmacist",
+          "chatbot_message": "Guten Tag!"
+        },
+        {
+          "title": "Say you want to pick up a prescription",
+          "chatbot_message": "Gerne. Wie ist Ihr Name?"
+        },
+        {
+          "title": "State your name",
+          "chatbot_message": "Danke, {user_name}. Haben Sie das Rezept hier?",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Hand over the prescription",
+          "chatbot_message": "Vielen Dank. Einen Moment, bitte."
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E08",
+      "data": {
+        "phrase": "Hier ist...",
+        "meaning": "Here is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V03",
+      "data": {
+        "Ihr": "Your (formal)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V04",
+      "data": {
+        "Das Medikament": "The medicine"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E09",
+      "data": {
+        "phrase": "Wie oft?",
+        "meaning": "How often?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E10",
+      "data": {
+        "phrase": "Soll ich...?",
+        "meaning": "Should I...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V05",
+      "data": {
+        "Nehmen": "To take"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask a question like 'Should I take...?', you start with the verb 'Soll ich...?' and put the other verb, 'nehmen', at the very end."
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E11",
+      "data": {
+        "phrase": "Sie sollen...",
+        "meaning": "You should... (formal)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V06",
+      "data": {
+        "Dreimal pro Tag": "Three times per day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E12",
+      "data": {
+        "phrase": "Vor dem Essen",
+        "meaning": "Before the meal"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E13",
+      "data": {
+        "phrase": "Nach dem Essen",
+        "meaning": "After the meal"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V07",
+      "data": {
+        "Oder": "Or"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E14",
+      "data": {
+        "phrase": "Brauche ich...?",
+        "meaning": "Do I need...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V08",
+      "data": {
+        "Die Schmerzmittel": "The painkillers"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V09",
+      "data": {
+        "Nein": "No"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V10",
+      "data": {
+        "Keine": "No / not any"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'keine' to negate a noun. For example, 'Ich brauche keine Schmerzmittel' means 'I do not need any painkillers'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E15",
+      "data": {
+        "phrase": "Sonst noch etwas?",
+        "meaning": "Anything else?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S02",
+      "title": "Asking for Instructions",
+      "setting": "The pharmacist returns with your medicine and you have some questions.",
+      "conversation_flow": [
+        {
+          "title": "Ask how often to take the medicine",
+          "chatbot_message": "Hier ist Ihr Medikament."
+        },
+        {
+          "title": "Ask if it's before or after meals",
+          "chatbot_message": "Sie sollen das Medikament dreimal pro Tag nehmen."
+        },
+        {
+          "title": "Ask if you also need painkillers",
+          "chatbot_message": "Nach dem Essen, bitte."
+        },
+        {
+          "title": "React to the final question",
+          "chatbot_message": "Nein, Sie brauchen keine Schmerzmittel. Sonst noch etwas?"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E16",
+      "data": {
+        "phrase": "Nein, danke. Das ist alles.",
+        "meaning": "No, thanks. That is all."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V11",
+      "data": {
+        "Die Versicherung": "The insurance"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V12",
+      "data": {
+        "Bezahlen": "To pay"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E17",
+      "data": {
+        "phrase": "Bezahlt die Versicherung das?",
+        "meaning": "Does the insurance pay for that?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask a yes/no question like this, simply put the conjugated verb ('bezahlt') at the beginning of the sentence."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V13",
+      "data": {
+        "Fast alles": "Almost everything"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V14",
+      "data": {
+        "Nur": "Only"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V15",
+      "data": {
+        "Der Euro": "The Euro"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E18",
+      "data": {
+        "phrase": "Ich bezahle mit Karte",
+        "meaning": "I'll pay by card"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E19",
+      "data": {
+        "phrase": "In Ordnung",
+        "meaning": "Alright / Okay"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E20",
+      "data": {
+        "phrase": "Auf Wiedersehen",
+        "meaning": "Goodbye (formal)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E21",
+      "data": {
+        "phrase": "Schönen Tag noch",
+        "meaning": "Have a nice day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E22",
+      "data": {
+        "phrase": "Ihnen auch",
+        "meaning": "You too (formal)"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S03",
+      "title": "Payment and Closing",
+      "setting": "You're ready to pay for your medicine and finish the conversation.",
+      "conversation_flow": [
+        {
+          "title": "Say that's all and ask about insurance",
+          "chatbot_message": "Sonst noch etwas?"
+        },
+        {
+          "title": "Say how you will pay",
+          "chatbot_message": "Die Versicherung bezahlt fast alles. Sie bezahlen nur 5 Euro."
+        },
+        {
+          "title": "Thank the pharmacist and say goodbye",
+          "chatbot_message": "In Ordnung."
+        },
+        {
+          "title": "Finish the conversation",
+          "chatbot_message": "Vielen Dank. Ihnen auch einen schönen Tag. Auf Wiedersehen!"
+        }
+      ]
+    }
+  ]
+}

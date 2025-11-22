@@ -1,0 +1,284 @@
+{
+  "id": "L17",
+  "title": "Talking About Your Work or Studies",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to talk about your job or studies. A common question at a party is 'Che lavoro fai?' (What do you do for work?). Let's learn how to answer."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E01",
+      "data": {
+        "phrase": "Che lavoro fai?",
+        "meaning": "What do you do for work?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E02",
+      "data": {
+        "phrase": "Faccio il...",
+        "meaning": "I am a... (for a masculine profession)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E03",
+      "data": {
+        "phrase": "Faccio la...",
+        "meaning": "I am a... (for a feminine profession)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V01",
+      "data": {
+        "Il programmatore": "The programmer"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V02",
+      "data": {
+        "La dottoressa": "The doctor (female)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E04",
+      "data": {
+        "phrase": "Studio...",
+        "meaning": "I study..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V03",
+      "data": {
+        "Storia": "History"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E05",
+      "data": {
+        "phrase": "Lavoro per...",
+        "meaning": "I work for..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V04",
+      "data": {
+        "Un'azienda": "A company"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E06",
+      "data": {
+        "phrase": "Ti piace?",
+        "meaning": "Do you like it?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E07",
+      "data": {
+        "phrase": "Mi piace molto",
+        "meaning": "I like it a lot"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S01",
+      "title": "Stating Your Profession",
+      "setting": "You're at a party and meet Giulia. She asks what you do.",
+      "conversation_flow": [
+        {
+          "title": "Answer Giulia's question",
+          "chatbot_message": "Ciao! Piacere di conoscerti. Che lavoro fai?"
+        },
+        {
+          "title": "Mention your company or university",
+          "chatbot_message": "Interessante! E dove lavori o studi?"
+        },
+        {
+          "title": "Say if you like your job or studies",
+          "chatbot_message": "Ah, capisco. E ti piace?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's add more detail, like your specific tasks and how long you've been working or studying."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E08",
+      "data": {
+        "phrase": "Cosa fai esattamente?",
+        "meaning": "What do you do exactly?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E09",
+      "data": {
+        "phrase": "Scrivo email",
+        "meaning": "I write emails"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E10",
+      "data": {
+        "phrase": "Leggo libri",
+        "meaning": "I read books"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V05",
+      "data": {
+        "A tempo pieno": "Full-time"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V06",
+      "data": {
+        "Part-time": "Part-time"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E11",
+      "data": {
+        "phrase": "Da quanto tempo?",
+        "meaning": "For how long?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V07",
+      "data": {
+        "Da": "For / Since (referring to time)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V08",
+      "data": {
+        "Due anni": "Two years"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S02",
+      "title": "Describing Your Responsibilities",
+      "setting": "The conversation with Giulia continues. She's curious for more details.",
+      "conversation_flow": [
+        {
+          "title": "Describe a main task you do",
+          "chatbot_message": "Bene! E cosa fai esattamente?"
+        },
+        {
+          "title": "State if it's full-time or part-time",
+          "chatbot_message": "Capisco. È a tempo pieno?"
+        },
+        {
+          "title": "Say how long you have been doing it",
+          "chatbot_message": "Ok. E da quanto tempo lo fai?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent work. Now it's your turn to ask Giulia about her job. Let's learn how."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E12",
+      "data": {
+        "phrase": "E tu?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V09",
+      "data": {
+        "L'insegnante": "The teacher"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V10",
+      "data": {
+        "La scuola": "The school"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E13",
+      "data": {
+        "phrase": "Hai dei colleghi simpatici?",
+        "meaning": "Do you have nice colleagues?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V11",
+      "data": {
+        "I colleghi": "The colleagues"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L17_P01",
+      "data": {
+        "word": "colleghi",
+        "phonetic": "/kolˈlɛ.ɡi/",
+        "tip": "The 'gh' sound in Italian is a hard 'g', like in the English word 'go'. It's never silent."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E14",
+      "data": {
+        "phrase": "Sembra interessante",
+        "meaning": "That sounds interesting"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E15",
+      "data": {
+        "phrase": "Che bello!",
+        "meaning": "How nice!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S03",
+      "title": "Asking About Their Job",
+      "setting": "Now it's your turn to guide the conversation with Giulia.",
+      "conversation_flow": [
+        {
+          "title": "Ask what she does for work",
+          "chatbot_message": "Wow, capisco."
+        },
+        {
+          "title": "Ask if she has nice colleagues",
+          "chatbot_message": "Io faccio l'insegnante. Lavoro in una scuola."
+        },
+        {
+          "title": "Make a positive comment about her job",
+          "chatbot_message": "Sì, i miei colleghi sono molto simpatici. Mi piace il mio lavoro."
+        }
+      ]
+    }
+  ]
+}

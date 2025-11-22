@@ -1,0 +1,221 @@
+{
+  "id": "L4",
+  "title": "Asking for Simple Directions",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to ask a stranger for directions. We'll start with how to politely get someone's attention."
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E01",
+      "data": {
+        "phrase": "Excusez-moi",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E02",
+      "data": {
+        "phrase": "S'il vous plaît",
+        "meaning": "Please"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Using 's'il vous plaît' makes your questions much more polite."
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E03",
+      "data": {
+        "phrase": "Parlez-vous anglais ?",
+        "meaning": "Do you speak English?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V01",
+      "data": {
+        "La gare": "The train station"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E04",
+      "data": {
+        "phrase": "Où est... ?",
+        "meaning": "Where is...?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L4_P01",
+      "data": {
+        "word": "gare",
+        "phonetic": "/ɡaʁ/",
+        "tip": "The 'r' sound is made in the back of your throat, similar to a light gargle."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L4_S01",
+      "title": "Asking for Help",
+      "setting": "You are in the city center and see someone who might be able to help you. You decide to approach them.",
+      "conversation_flow": [
+        {
+          "title": "Politely get their attention",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Ask if they speak English",
+          "chatbot_message": "Bonjour. Oui ?"
+        },
+        {
+          "title": "Ask for the location of the train station",
+          "chatbot_message": "Un peu. On peut parler en français."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn the basic words you'll need to understand the directions you receive."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V02",
+      "data": {
+        "À droite": "To the right"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V03",
+      "data": {
+        "À gauche": "To the left"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V04",
+      "data": {
+        "Tout droit": "Straight ahead"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E05",
+      "data": {
+        "phrase": "D'accord",
+        "meaning": "Okay / Alright"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E06",
+      "data": {
+        "phrase": "C'est loin ?",
+        "meaning": "Is it far?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V05",
+      "data": {
+        "Près": "Near"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V06",
+      "data": {
+        "La rue": "The street"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L4_S02",
+      "title": "Understanding the Directions",
+      "setting": "The person is now giving you directions to the train station.",
+      "conversation_flow": [
+        {
+          "title": "Acknowledge the first direction",
+          "chatbot_message": "La gare... c'est tout droit, et puis à gauche."
+        },
+        {
+          "title": "Ask if it's far from here",
+          "chatbot_message": "D'accord."
+        },
+        {
+          "title": "Confirm the name of the street",
+          "chatbot_message": "Non, c'est près. C'est la rue de la Paix."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Repeating directions back is a smart way to make sure you understood correctly. Let's learn how to do that and wrap up the conversation."
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E07",
+      "data": {
+        "phrase": "Donc...",
+        "meaning": "So..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E08",
+      "data": {
+        "phrase": "Merci beaucoup",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E09",
+      "data": {
+        "phrase": "De rien",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E10",
+      "data": {
+        "phrase": "Bonne journée",
+        "meaning": "Have a nice day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E11",
+      "data": {
+        "phrase": "Au revoir",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L4_S03",
+      "title": "Finishing the Conversation",
+      "setting": "You've understood the directions and now it's time to thank the person and leave.",
+      "conversation_flow": [
+        {
+          "title": "Repeat the directions to confirm",
+          "chatbot_message": "Oui, c'est ça. La gare est à gauche."
+        },
+        {
+          "title": "Thank the person for their help",
+          "chatbot_message": "Exactement !"
+        },
+        {
+          "title": "Say goodbye and wish them a nice day",
+          "chatbot_message": "De rien."
+        }
+      ]
+    }
+  ]
+}

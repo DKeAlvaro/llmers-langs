@@ -1,0 +1,304 @@
+{
+  "id": "L18",
+  "title": "Planning a Weekend Trip",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to plan a trip with a friend. Let's start with how to ask about their plans."
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E01",
+      "data": {
+        "phrase": "Hoi",
+        "meaning": "Hi"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E02",
+      "data": {
+        "phrase": "Hoe gaat het?",
+        "meaning": "How are you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V01",
+      "data": {
+        "Het weekend": "The weekend"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P01",
+      "data": {
+        "word": "weekend",
+        "phonetic": "[ˈʋikɛnt]",
+        "tip": "The Dutch 'w' is softer than in English, almost like a 'v' sound."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V02",
+      "data": {
+        "De plannen": "The plans"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E03",
+      "data": {
+        "phrase": "Heb je plannen voor het weekend?",
+        "meaning": "Do you have plans for the weekend?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To suggest an activity, you can start with 'We gaan...' which means 'We are going...'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V03",
+      "data": {
+        "Naar": "To"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V04",
+      "data": {
+        "De stad": "The city"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can also use 'We kunnen...' which means 'We can...' to suggest possibilities."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V05",
+      "data": {
+        "Het museum": "The museum"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V06",
+      "data": {
+        "Bezoeken": "To visit"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E04",
+      "data": {
+        "phrase": "We kunnen een museum bezoeken",
+        "meaning": "We can visit a museum"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S01",
+      "title": "Proposing an Idea",
+      "setting": "You are talking to your friend, Alex, about the upcoming weekend.",
+      "conversation_flow": [
+        {
+          "title": "Greet Alex and ask how they are",
+          "chatbot_message": "Hoi!"
+        },
+        {
+          "title": "Ask if they have plans for the weekend",
+          "chatbot_message": "Goed! En met jou? "
+        },
+        {
+          "title": "Suggest going to a city",
+          "chatbot_message": "Ik heb geen plannen. Heb je een idee?",
+          "extract_info": {
+            "city_name": "Extract the name of the city the user suggests"
+          }
+        },
+        {
+          "title": "Suggest an activity to do there",
+          "chatbot_message": "{city_name}! Leuk! Wat kunnen we daar doen?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's discuss the details. To ask 'how', you use the word 'hoe'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V07",
+      "data": {
+        "Met": "With / By"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V08",
+      "data": {
+        "De trein": "The train"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E05",
+      "data": {
+        "phrase": "Gaan we met de trein?",
+        "meaning": "Shall we go by train?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When suggesting a specific time in Dutch, you use the word 'om' for 'at'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V09",
+      "data": {
+        "Zaterdag": "Saturday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V10",
+      "data": {
+        "De ochtend": "The morning"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P02",
+      "data": {
+        "word": "ochtend",
+        "phonetic": "[ˈɔxtənt]",
+        "tip": "The 'ch' sound is a soft, throaty sound, like the 'ch' in the Scottish word 'loch'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E06",
+      "data": {
+        "phrase": "Om tien uur",
+        "meaning": "At ten o'clock"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask for someone's opinion on a plan, you can say 'Wat vind je van het plan?'"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V11",
+      "data": {
+        "Het plan": "The plan"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E07",
+      "data": {
+        "phrase": "Wat vind je van het plan?",
+        "meaning": "What do you think of the plan?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S02",
+      "title": "Discussing Logistics",
+      "setting": "You've suggested a city and an activity. Now it's time to figure out the details.",
+      "conversation_flow": [
+        {
+          "title": "Suggest a mode of transport",
+          "chatbot_message": "Een museum bezoeken is een goed idee. Hoe gaan we naar {city_name}?"
+        },
+        {
+          "title": "Suggest a time to meet",
+          "chatbot_message": "Ja, met de trein is goed. Wanneer gaan we?"
+        },
+        {
+          "title": "Ask for their opinion on the plan",
+          "chatbot_message": "Zaterdag om tien uur is perfect voor mij."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Almost done! Let's learn how to confirm the plan and express excitement. You can use 'Dus...' to mean 'So...' when summarizing."
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E08",
+      "data": {
+        "phrase": "Oké, dus zaterdag naar {city_name}",
+        "meaning": "Okay, so Saturday to {city_name}"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V12",
+      "data": {
+        "Het station": "The station"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P03",
+      "data": {
+        "word": "station",
+        "phonetic": "[staːˈʃɔn]",
+        "tip": "The end of the word, '-tion', is pronounced like '-tsjon'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E09",
+      "data": {
+        "phrase": "Op het station",
+        "meaning": "At the station"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "A common and enthusiastic way to say you're looking forward to something is 'Ik heb er zin in!'"
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E10",
+      "data": {
+        "phrase": "Ik heb er zin in!",
+        "meaning": "I'm looking forward to it!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E11",
+      "data": {
+        "phrase": "Tot dan!",
+        "meaning": "See you then!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S03",
+      "title": "Finalizing the Plan",
+      "setting": "You've agreed on the basic logistics. Now, confirm everything and close the conversation.",
+      "conversation_flow": [
+        {
+          "title": "Confirm the plan to go to the city",
+          "chatbot_message": "Ik vind het een heel goed plan!"
+        },
+        {
+          "title": "Suggest a meeting place",
+          "chatbot_message": "Ja, super! Waar spreken we af?"
+        },
+        {
+          "title": "Express your excitement",
+          "chatbot_message": "Perfect. Zaterdag om tien uur op het station."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "L14",
+  "title": "Describing Your Home",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Let's learn how to describe where you live. You'll talk to a colleague about your home."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V01",
+      "data": {
+        "Une maison": "A house"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V02",
+      "data": {
+        "Un appartement": "An apartment"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E01",
+      "data": {
+        "phrase": "J'habite",
+        "meaning": "I live"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L14_P01",
+      "data": {
+        "word": "J'habite",
+        "phonetic": "zha-beet",
+        "tip": "The 'h' at the beginning of 'habite' is silent. The 'j' links with the 'a' to make a 'zha' sound."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E02",
+      "data": {
+        "phrase": "J'habite à...",
+        "meaning": "I live in... (used for cities)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E03",
+      "data": {
+        "phrase": "J'habite dans...",
+        "meaning": "I live in... (used for a house, apartment, or neighborhood)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V03",
+      "data": {
+        "Avec": "With"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V04",
+      "data": {
+        "Seul / Seule": "Alone"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V05",
+      "data": {
+        "Des colocataires": "Roommates"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S01",
+      "title": "Sharing Basic Information",
+      "setting": "Your colleague, Sophie, starts a conversation to get to know you better.",
+      "conversation_flow": [
+        {
+          "title": "Say in which city or neighborhood you live",
+          "chatbot_message": "Salut ! Moi, j'habite à Paris. Et toi, tu habites où ?",
+          "extract_info": {
+            "user_location": "Extract the user's city or neighborhood from their message"
+          }
+        },
+        {
+          "title": "State whether you live in a house or an apartment",
+          "chatbot_message": "Ah, {user_location} ! C'est sympa. Tu habites dans une maison ou dans un appartement ?"
+        },
+        {
+          "title": "Mention who you live with",
+          "chatbot_message": "D'accord. Et tu habites seul ou avec des colocataires ?"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E04",
+      "data": {
+        "phrase": "Il y a",
+        "meaning": "There is / There are"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "'Il y a' is a key phrase for describing things. Use it to say what exists in a place."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V06",
+      "data": {
+        "Une pièce": "A room"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V07",
+      "data": {
+        "Trois": "Three"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V08",
+      "data": {
+        "Quatre": "Four"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E05",
+      "data": {
+        "phrase": "J'aime",
+        "meaning": "I like"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V09",
+      "data": {
+        "Le salon": "The living room"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V10",
+      "data": {
+        "La cuisine": "The kitchen"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E06",
+      "data": {
+        "phrase": "J'ai",
+        "meaning": "I have"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V11",
+      "data": {
+        "Un jardin": "A garden"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V12",
+      "data": {
+        "Un balcon": "A balcony"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S02",
+      "title": "Describing the Space",
+      "setting": "Sophie is curious and asks for more details about your home.",
+      "conversation_flow": [
+        {
+          "title": "Say how many rooms your home has",
+          "chatbot_message": "Intéressant ! Et il y a combien de pièces ?"
+        },
+        {
+          "title": "Mention a room you like",
+          "chatbot_message": "D'accord. Et il y a une pièce que tu aimes bien, comme la cuisine ou le salon ?"
+        },
+        {
+          "title": "State if you have a garden or a balcony",
+          "chatbot_message": "C'est super. Et tu as un jardin ou un balcon ?"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E07",
+      "data": {
+        "phrase": "Je suis content / contente",
+        "meaning": "I am happy"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In French, many adjectives change based on gender. Add an '-e' to 'content' if you are female."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V13",
+      "data": {
+        "Très": "Very"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E08",
+      "data": {
+        "phrase": "Il est...",
+        "meaning": "It is... (for masculine nouns)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E09",
+      "data": {
+        "phrase": "Elle est...",
+        "meaning": "It is... (for feminine nouns)"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Remember, 'un appartement' is masculine, so you use 'il est'. 'Une maison' is feminine, so you use 'elle est'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V14",
+      "data": {
+        "Lumineux / Lumineuse": "Bright"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V15",
+      "data": {
+        "Calme": "Calm / Quiet"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E10",
+      "data": {
+        "phrase": "Parce que...",
+        "meaning": "Because..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E11",
+      "data": {
+        "phrase": "Et toi ?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S03",
+      "title": "Expressing Your Opinion",
+      "setting": "To finish the conversation, Sophie asks how you feel about your place.",
+      "conversation_flow": [
+        {
+          "title": "Say you are happy with your home",
+          "chatbot_message": "Génial ! Alors, tu es content avec ta maison / ton appartement ?"
+        },
+        {
+          "title": "Mention one positive thing",
+          "chatbot_message": "Super ! Et pourquoi ?"
+        },
+        {
+          "title": "Ask about her living situation",
+          "chatbot_message": "Ah oui, ça c'est important !"
+        }
+      ]
+    }
+  ]
+}

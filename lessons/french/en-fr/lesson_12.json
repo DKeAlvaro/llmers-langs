@@ -1,0 +1,275 @@
+{
+  "id": "L12F",
+  "title": "Talking About the Weather",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Let's learn how to start a small conversation about 'le temps' (the weather), a classic topic for small talk in France."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12F_V01",
+      "data": {
+        "Le temps": "The weather"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12F_V02",
+      "data": {
+        "La pluie": "The rain"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In French, we use the impersonal pronoun 'il' to talk about the weather, like in 'Il pleut'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L12F_E01",
+      "data": {
+        "phrase": "Il pleut",
+        "meaning": "It's raining"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12F_E02",
+      "data": {
+        "phrase": "Quel temps !",
+        "meaning": "What weather!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L12F_P01",
+      "data": {
+        "word": "temps",
+        "phonetic": "/tɑ̃/",
+        "tip": "The 'p' and 's' at the end are silent."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12F_E03",
+      "data": {
+        "phrase": "Oui",
+        "meaning": "Yes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12F_V03",
+      "data": {
+        "Hier": "Yesterday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12F_V04",
+      "data": {
+        "Le soleil": "The sun"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12F_E04",
+      "data": {
+        "phrase": "Hier, il y avait du soleil",
+        "meaning": "Yesterday, it was sunny"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L12F_S01",
+      "title": "Starting a Conversation",
+      "setting": "You are at a bus stop next to a friendly-looking stranger. It suddenly starts to rain.",
+      "conversation_flow": [
+        {
+          "title": "Make a comment about the weather",
+          "chatbot_message": "Oh là là..."
+        },
+        {
+          "title": "Agree",
+          "chatbot_message": "Oui. Il pleut."
+        },
+        {
+          "title": "Say it was sunny yesterday",
+          "chatbot_message": "Et hier ?"
+        },
+        {
+          "title": "End of part 1",
+          "chatbot_message": "Oui, hier, il y avait du soleil."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "When speaking to a stranger in French, it's polite to use the formal 'vous' form."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12F_V05",
+      "data": {
+        "Demain": "Tomorrow"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12F_V06",
+      "data": {
+        "La météo": "The weather forecast"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12F_E05",
+      "data": {
+        "phrase": "Vous connaissez la météo pour demain ?",
+        "meaning": "Do you know the weather forecast for tomorrow?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12F_E06",
+      "data": {
+        "phrase": "J'espère que...",
+        "meaning": "I hope that..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12F_E07",
+      "data": {
+        "phrase": "...le soleil brille",
+        "meaning": "...the sun shines"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To make a sentence negative, place 'ne... pas' around the verb. For example, 'Je n'aime pas' means 'I don't like'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12F_V07",
+      "data": {
+        "Le vent": "The wind"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12F_E08",
+      "data": {
+        "phrase": "Je n'aime pas le vent",
+        "meaning": "I don't like the wind"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L12F_S02",
+      "title": "Discussing the Forecast",
+      "setting": "You continue your conversation with the stranger at the bus stop.",
+      "conversation_flow": [
+        {
+          "title": "Ask if they know the forecast",
+          "chatbot_message": "J'espère que le temps est bon demain."
+        },
+        {
+          "title": "Say you hope the sun shines",
+          "chatbot_message": "Non, je ne connais pas la météo."
+        },
+        {
+          "title": "Say you don't like the wind",
+          "chatbot_message": "Moi aussi. Je n'aime pas la pluie."
+        },
+        {
+          "title": "End of part 2",
+          "chatbot_message": "Oui. Le vent, ce n'est pas bon."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12F_V08",
+      "data": {
+        "Le vélo": "The bicycle / cycling"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12F_E09",
+      "data": {
+        "phrase": "Ce n'est pas bon pour le vélo",
+        "meaning": "It is not good for cycling"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "'Voilà' is a handy word that means 'there it is' or 'here it is'. Use it to point things out."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12F_V09",
+      "data": {
+        "Le bus": "The bus"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12F_E10",
+      "data": {
+        "phrase": "Ah, voilà le bus",
+        "meaning": "Ah, there's the bus"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L12F_P02",
+      "data": {
+        "word": "voyage",
+        "phonetic": "/vwa.jaʒ/",
+        "tip": "The 'oy' sounds like 'wa' in 'water'. The 'g' is soft, like the 's' in 'pleasure'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12F_E11",
+      "data": {
+        "phrase": "Bon voyage",
+        "meaning": "Have a good trip"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12F_E12",
+      "data": {
+        "phrase": "Au revoir",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L12F_S03",
+      "title": "Ending the Conversation",
+      "setting": "As you finish your chat, you see the bus approaching.",
+      "conversation_flow": [
+        {
+          "title": "Say this weather isn't good for cycling",
+          "chatbot_message": "Vous avez des plans ?"
+        },
+        {
+          "title": "Point out that the bus is arriving",
+          "chatbot_message": "Ah, dommage."
+        },
+        {
+          "title": "Wish them a good trip",
+          "chatbot_message": "Oui ! Voilà le bus. Au revoir !"
+        },
+        {
+          "title": "End of lesson",
+          "chatbot_message": "Merci !"
+        }
+      ]
+    }
+  ]
+}

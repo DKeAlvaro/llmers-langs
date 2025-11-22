@@ -1,0 +1,299 @@
+{
+  "id": "L07",
+  "title": "Making a Simple Appointment by Phone",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to call a hairdresser ('de kapper') to make an appointment ('een afspraak')."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V01",
+      "data": {
+        "de kapper": "the hairdresser"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V02",
+      "data": {
+        "een afspraak": "an appointment"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E01",
+      "data": {
+        "phrase": "Goedemiddag",
+        "meaning": "Good afternoon"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E02",
+      "data": {
+        "phrase": "Ik ben...",
+        "meaning": "I am..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E03",
+      "data": {
+        "phrase": "Ik wil graag...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V03",
+      "data": {
+        "maken": "to make"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V04",
+      "data": {
+        "komen": "to come"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say 'I would like to make an appointment', you combine phrases: 'Ik wil graag een afspraak maken'."
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L07_P01",
+      "data": {
+        "word": "afspraak",
+        "phonetic": "[AF-spraak]",
+        "tip": "The 'aa' sound is long, like in the English word 'father'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V05",
+      "data": {
+        "Wanneer?": "When?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L07_S01",
+      "title": "Stating Your Purpose",
+      "setting": "You are calling the hairdresser to make an appointment.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Goedemiddag, met de kapper."
+        },
+        {
+          "title": "Greet and state your name",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "chatbot_message": "Hallo {user_name}."
+        },
+        {
+          "title": "Say you want to make an appointment"
+        },
+        {
+          "chatbot_message": "Oké. Wanneer wil je komen?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Now, let's answer the question 'Wanneer?'. You can suggest a day and a part of the day."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V06",
+      "data": {
+        "Vrijdag": "Friday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V07",
+      "data": {
+        "de middag": "the afternoon"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E04",
+      "data": {
+        "phrase": "Vrijdagmiddag",
+        "meaning": "Friday afternoon"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L07_P02",
+      "data": {
+        "word": "Vrijdagmiddag",
+        "phonetic": "[VRIJ-dag-mid-dag]",
+        "tip": "This is a compound word. Put the stress on the first part: VRIJ-dag."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "The hairdresser will suggest a specific time. 'Uur' means 'o'clock'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V08",
+      "data": {
+        "om": "at (for time)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V09",
+      "data": {
+        "drie uur": "three o'clock"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V10",
+      "data": {
+        "vijf uur": "five o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E05",
+      "data": {
+        "phrase": "Kan dat?",
+        "meaning": "Is that possible?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "What if the time doesn't work? Here's how to say no politely."
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E06",
+      "data": {
+        "phrase": "Dat kan niet",
+        "meaning": "That is not possible"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V11",
+      "data": {
+        "een andere tijd": "another time"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E07",
+      "data": {
+        "phrase": "Kan een andere tijd?",
+        "meaning": "Is another time possible?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L07_S02",
+      "title": "Negotiating a Time",
+      "setting": "You continue the phone call to find a suitable time.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Wanneer wil je komen?"
+        },
+        {
+          "title": "Suggest Friday afternoon"
+        },
+        {
+          "chatbot_message": "Vrijdagmiddag om drie uur. Kan dat?"
+        },
+        {
+          "title": "Decline and ask for another time"
+        },
+        {
+          "chatbot_message": "Oké. Vrijdag om vijf uur. Kan dat?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Almost there! Let's confirm the appointment and end the call."
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E08",
+      "data": {
+        "phrase": "Ja, dat is goed",
+        "meaning": "Yes, that is good"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To confirm, it's good practice to repeat the day and time. You can start with 'Dus...' which means 'So...'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E09",
+      "data": {
+        "phrase": "Dus...",
+        "meaning": "So..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Remember, the final proposed appointment is on 'Vrijdag om vijf uur'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E10",
+      "data": {
+        "phrase": "Dank je wel",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E11",
+      "data": {
+        "phrase": "Tot ziens",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L07_S03",
+      "title": "Confirming the Appointment",
+      "setting": "You are about to finalize the appointment details.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Vrijdag om vijf uur. Kan dat?"
+        },
+        {
+          "title": "Agree to the time"
+        },
+        {
+          "chatbot_message": "Oké."
+        },
+        {
+          "title": "Repeat the day and time to confirm"
+        },
+        {
+          "chatbot_message": "Ja, dat klopt. Tot vrijdag!"
+        },
+        {
+          "title": "Thank the hairdresser and say goodbye"
+        },
+        {
+          "chatbot_message": "Tot ziens."
+        }
+      ]
+    }
+  ]
+}

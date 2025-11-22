@@ -1,0 +1,273 @@
+{
+  "id": "L14",
+  "title": "Describing Your Home",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to describe your home in German. A colleague will ask you a few questions."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V01",
+      "data": {
+        "Die Wohnung": "The apartment"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V02",
+      "data": {
+        "Das Haus": "The house"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V03",
+      "data": {
+        "Die Stadt": "The city"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E01",
+      "data": {
+        "phrase": "ich wohne",
+        "meaning": "I live"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L14_P01",
+      "data": {
+        "word": "wohne",
+        "phonetic": "/ˈvoːnə/",
+        "tip": "The 'w' in German is pronounced like the 'v' in the English word 'victory'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E02",
+      "data": {
+        "phrase": "Ich wohne in...",
+        "meaning": "I live in..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V04",
+      "data": {
+        "allein": "alone"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V05",
+      "data": {
+        "mit": "with"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V06",
+      "data": {
+        "mein Partner": "my partner"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S01",
+      "title": "Sharing Basic Information",
+      "setting": "Your colleague, Anna, starts a conversation about where you live.",
+      "conversation_flow": [
+        {
+          "title": "Greet Anna",
+          "chatbot_message": "Hallo!"
+        },
+        {
+          "title": "Say in which city you live",
+          "chatbot_message": "Sag mal, wo wohnst du?",
+          "extract_info": {
+            "user_city": "Extract the city name from the user's message"
+          }
+        },
+        {
+          "title": "State whether you live in an apartment or a house",
+          "chatbot_message": "Ah, {user_city}! Wohnst du in einer Wohnung oder in einem Haus?"
+        },
+        {
+          "title": "Mention if you live alone or with others",
+          "chatbot_message": "Verstehe. Wohnst du allein oder mit jemandem zusammen?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to give more details, like the number of rooms."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V07",
+      "data": {
+        "Das Zimmer": "The room"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V08",
+      "data": {
+        "drei": "three"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E03",
+      "data": {
+        "phrase": "ich habe",
+        "meaning": "I have"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E04",
+      "data": {
+        "phrase": "meine Wohnung hat",
+        "meaning": "my apartment has"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V09",
+      "data": {
+        "das Wohnzimmer": "the living room"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E05",
+      "data": {
+        "phrase": "ich mag",
+        "meaning": "I like"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V10",
+      "data": {
+        "der Balkon": "the balcony"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V11",
+      "data": {
+        "der Garten": "the garden"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "For masculine nouns like 'der Balkon' and 'der Garten', use 'einen' after 'ich habe'. For example: 'Ich habe einen Balkon'."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S02",
+      "title": "Describing the Space",
+      "setting": "Anna is curious and asks for more details about your home.",
+      "conversation_flow": [
+        {
+          "title": "Say how many rooms your home has",
+          "chatbot_message": "Interessant. Wie viele Zimmer hat dein Zuhause?"
+        },
+        {
+          "title": "Mention one room you particularly like",
+          "chatbot_message": "Okay. Welches Zimmer magst du besonders?"
+        },
+        {
+          "title": "State if you have a garden or a balcony",
+          "chatbot_message": "Das Wohnzimmer ist meistens gemütlich. Hast du auch einen Garten oder einen Balkon?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Well done! Finally, let's learn how to express your opinion about your home."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V12",
+      "data": {
+        "glücklich": "happy"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V13",
+      "data": {
+        "zufrieden": "satisfied / content"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E06",
+      "data": {
+        "phrase": "ich bin",
+        "meaning": "I am"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L14_P02",
+      "data": {
+        "word": "glücklich",
+        "phonetic": "/ˈɡlʏklɪç/",
+        "tip": "The 'ch' sound at the end is soft, made at the front of your mouth. It's similar to the 'h' in 'huge'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V14",
+      "data": {
+        "hell": "light / bright"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Nouns have genders. 'Die Wohnung' is feminine. You can refer to it with 'sie', which means 'she' or 'it'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E07",
+      "data": {
+        "phrase": "sie ist",
+        "meaning": "it is (for a feminine noun)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E08",
+      "data": {
+        "phrase": "Und du?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S03",
+      "title": "Expressing Your Opinion",
+      "setting": "You've described your home. Now, tell Anna how you feel about it and ask about her situation.",
+      "conversation_flow": [
+        {
+          "title": "Say that you are happy with your home",
+          "chatbot_message": "Das ist schön. Bist du zufrieden mit deiner Wohnung?"
+        },
+        {
+          "title": "Mention one positive thing",
+          "chatbot_message": "Das freut mich! Was ist besonders gut?"
+        },
+        {
+          "title": "Ask Anna about her living situation",
+          "chatbot_message": "Helligkeit ist super. Danke für die Info!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "L20S",
+  "title": "Talking About a Past Holiday (Simple Past)",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about a past holiday. We'll use a tense called the 'pretérito indefinido' for completed past actions."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20S_E01",
+      "data": {
+        "phrase": "¡Hola! ¿Qué tal tus vacaciones?",
+        "meaning": "Hi! How was your holiday?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20S_E02",
+      "data": {
+        "phrase": "Fui a...",
+        "meaning": "I went to..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20S_P01",
+      "data": {
+        "word": "Fui",
+        "phonetic": "fwee",
+        "tip": "It's a very short and quick sound. The 'f' is soft."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20S_V01",
+      "data": {
+        "España": "Spain"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20S_V02",
+      "data": {
+        "con": "with"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20S_V03",
+      "data": {
+        "mi familia": "my family"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20S_V04",
+      "data": {
+        "mis amigos": "my friends"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20S_E03",
+      "data": {
+        "phrase": "Estuve allí durante una semana",
+        "meaning": "I was there for one week"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20S_S01",
+      "title": "Stating Where You Went",
+      "setting": "Your colleague, Maria, sees you at the office after your holiday.",
+      "conversation_flow": [
+        {
+          "title": "Say where you went",
+          "chatbot_message": "¡Hola! ¿Qué tal tus vacaciones?",
+          "extract_info": {
+            "country": "Extract the country name the user mentions"
+          }
+        },
+        {
+          "title": "Mention who you went with",
+          "chatbot_message": "¡Qué bien, {country}! ¿Con quién fuiste?"
+        },
+        {
+          "title": "State how long you were there",
+          "chatbot_message": "Suena genial. ¿Cuánto tiempo estuviste allí?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's add some details. To talk about the weather in the past, a common phrase is 'Hizo...'"
+    },
+    {
+      "type": "expression",
+      "item_id": "L20S_E04",
+      "data": {
+        "phrase": "Hizo buen tiempo",
+        "meaning": "The weather was good"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20S_E05",
+      "data": {
+        "phrase": "Hizo sol",
+        "meaning": "It was sunny"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask 'What did you (plural) do?', your friend might ask: '¿Qué hicisteis?'. Let's learn how to answer that."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20S_E06",
+      "data": {
+        "phrase": "Nadamos",
+        "meaning": "We swam"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20S_E07",
+      "data": {
+        "phrase": "Leímos mucho",
+        "meaning": "We read a lot"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "And what about the food? You can use 'La comida fue...' which means 'The food was...'"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20S_V05",
+      "data": {
+        "la comida": "the food"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20S_V06",
+      "data": {
+        "deliciosa": "delicious"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20S_V07",
+      "data": {
+        "no muy buena": "not very good"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20S_S02",
+      "title": "Describing the Holiday",
+      "setting": "Maria wants to know more details about your trip.",
+      "conversation_flow": [
+        {
+          "title": "Say what the weather was like",
+          "chatbot_message": "¡Una semana! ¿Y qué tal el tiempo?"
+        },
+        {
+          "title": "Mention one or two activities",
+          "chatbot_message": "¡Perfecto! ¿Qué hicisteis?"
+        },
+        {
+          "title": "Describe the food",
+          "chatbot_message": "Suena muy relajante. ¿Y la comida? ¿Fue buena?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "To give your final opinion, you can say 'Fueron unas vacaciones...' (It was a... holiday). We use 'fueron' and a plural adjective because 'vacaciones' is plural."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20S_V08",
+      "data": {
+        "fantásticas": "fantastic"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20S_V09",
+      "data": {
+        "relajantes": "relaxing"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20S_E08",
+      "data": {
+        "phrase": "Me gustaría volver",
+        "meaning": "I would like to go back"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Finally, it's polite to ask your colleague about their plans. You can use this simple question."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20S_E09",
+      "data": {
+        "phrase": "¿Y tú? ¿Tienes planes?",
+        "meaning": "And you? Do you have plans?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20S_S03",
+      "title": "Giving an Overall Opinion",
+      "setting": "You are finishing your conversation with Maria.",
+      "conversation_flow": [
+        {
+          "title": "Give your overall opinion",
+          "chatbot_message": "¡Me alegro! Entonces, en general, ¿qué tal?"
+        },
+        {
+          "title": "Say you would like to go back",
+          "chatbot_message": "¡Qué bueno! ¿Te gustaría volver?"
+        },
+        {
+          "title": "Ask about their holiday plans",
+          "chatbot_message": "Ojalá puedas"
+        }
+      ]
+    }
+  ]
+}

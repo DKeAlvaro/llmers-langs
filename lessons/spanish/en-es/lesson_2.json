@@ -1,0 +1,217 @@
+{
+  "id": "L2",
+  "title": "Ordering at a Café",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to order a drink and a snack at a Spanish café. Let's start by getting the waiter's attention."
+    },
+    {
+      "type": "expression",
+      "item_id": "L2_E01",
+      "data": {
+        "phrase": "Perdón",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L2_P01",
+      "data": {
+        "word": "Perdón",
+        "phonetic": "[peɾˈðon]",
+        "tip": "The 'r' in 'Perdón' is a soft tap of the tongue against the roof of your mouth, similar to the 'tt' in the English word 'butter'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L2_E02",
+      "data": {
+        "phrase": "Quisiera...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L2_V01",
+      "data": {
+        "Un café": "A coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L2_V02",
+      "data": {
+        "Un té": "A tea"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L2_E03",
+      "data": {
+        "phrase": "¿Tiene...?",
+        "meaning": "Do you have...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L2_V03",
+      "data": {
+        "Tarta de manzana": "Apple pie"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L2_S01",
+      "title": "Getting the waiter's attention",
+      "setting": "You're at a café. It's time to get the waiter's attention and place your first order.",
+      "conversation_flow": [
+        {
+          "title": "Get the waiter's attention"
+        },
+        {
+          "title": "Order a drink",
+          "chatbot_message": "Hola. Dígame."
+        },
+        {
+          "title": "Ask if they have apple pie",
+          "chatbot_message": "Un café. Muy bien. ¿Algo más?"
+        },
+        {
+          "title": "Acknowledge the waiter",
+          "chatbot_message": "Sí, tenemos tarta de manzana."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! In Spanish, nouns have a gender. 'Un' is used for masculine words like 'café', and 'una' for feminine words like 'tarta'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L2_V04",
+      "data": {
+        "Una tarta": "A pie / a cake"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L2_E04",
+      "data": {
+        "phrase": "Por favor",
+        "meaning": "Please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L2_E05",
+      "data": {
+        "phrase": "Eso es todo",
+        "meaning": "That is all"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L2_V05",
+      "data": {
+        "Gracias": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L2_E06",
+      "data": {
+        "phrase": "¿Dónde está el baño?",
+        "meaning": "Where is the bathroom?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L2_S02",
+      "title": "Ordering a snack",
+      "setting": "The waiter has confirmed they have the pie you want. Now, order it and ask for the bathroom.",
+      "conversation_flow": [
+        {
+          "title": "Order the apple pie"
+        },
+        {
+          "title": "Confirm that is all you want",
+          "chatbot_message": "Perfecto. Un café y una tarta de manzana. Ahora mismo. ... Aquí tiene."
+        },
+        {
+          "title": "Ask for the location of the bathroom",
+          "chatbot_message": "De acuerdo."
+        },
+        {
+          "title": "Thank the waiter",
+          "chatbot_message": "El baño está al fondo a la derecha."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "You're doing great! To get the bill in Spain, you usually have to ask for it. The waiter won't bring it automatically."
+    },
+    {
+      "type": "expression",
+      "item_id": "L2_E07",
+      "data": {
+        "phrase": "La cuenta, por favor",
+        "meaning": "The bill, please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L2_E08",
+      "data": {
+        "phrase": "¿Cuánto es?",
+        "meaning": "How much is it?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L2_E09",
+      "data": {
+        "phrase": "¿Puedo pagar con tarjeta?",
+        "meaning": "Can I pay with a card?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L2_V06",
+      "data": {
+        "Sí": "Yes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L2_V07",
+      "data": {
+        "Adiós": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L2_S03",
+      "title": "Paying the bill",
+      "setting": "You've finished your coffee and pie. Now it's time to pay and leave.",
+      "conversation_flow": [
+        {
+          "title": "Ask for the bill"
+        },
+        {
+          "title": "Ask how much it is",
+          "chatbot_message": "Sí, claro. Aquí tiene."
+        },
+        {
+          "title": "Ask if you can pay by card",
+          "chatbot_message": "Son cinco euros."
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Sí, por supuesto."
+        }
+      ]
+    }
+  ]
+}

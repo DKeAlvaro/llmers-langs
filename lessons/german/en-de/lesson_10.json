@@ -1,0 +1,308 @@
+{
+  "id": "L10",
+  "title": "Talking About Hobbies and Interests",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your hobbies and ask others about theirs. Let's start with the basics!"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V01",
+      "data": {
+        "Die Freizeit": "The free time"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V02",
+      "data": {
+        "Das Hobby": "The hobby"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E01",
+      "data": {
+        "phrase": "Was sind deine Hobbys?",
+        "meaning": "What are your hobbies?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say you like doing an activity, add the word 'gern' after the verb. For example, 'Ich schwimme gern' means 'I like to swim'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V03",
+      "data": {
+        "schwimmen": "to swim"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E02",
+      "data": {
+        "phrase": "Ich schwimme gern",
+        "meaning": "I like to swim"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V04",
+      "data": {
+        "lesen": "to read"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E03",
+      "data": {
+        "phrase": "Ich lese gern",
+        "meaning": "I like to read"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V05",
+      "data": {
+        "Gitarre spielen": "to play guitar"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L10_P01",
+      "data": {
+        "word": "spielen",
+        "phonetic": "[ˈʃpiːlən]",
+        "tip": "The 'sp' at the beginning of a word in German is pronounced like 'shp', as in 'shoe'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E04",
+      "data": {
+        "phrase": "Ich spiele gern Gitarre",
+        "meaning": "I like to play guitar"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E05",
+      "data": {
+        "phrase": "Und was noch?",
+        "meaning": "And what else?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E06",
+      "data": {
+        "phrase": "Wie oft?",
+        "meaning": "How often?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V06",
+      "data": {
+        "zweimal pro Woche": "twice a week"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S01",
+      "title": "Sharing Your Hobbies",
+      "setting": "You are at a party and meet someone new named Alex. Alex starts a conversation with you.",
+      "conversation_flow": [
+        {
+          "title": "Mention a sport you enjoy",
+          "chatbot_message": "Hallo! Was sind deine Hobbys?",
+          "extract_info": {
+            "hobby_1": "Extract the user's first hobby from their message"
+          }
+        },
+        {
+          "title": "Mention a creative or relaxing activity",
+          "chatbot_message": "Super! Und was noch?"
+        },
+        {
+          "title": "Say how often you do your hobby",
+          "chatbot_message": "Cool! Wie oft machst du das?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to give reasons and talk about things you don't like."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E07",
+      "data": {
+        "phrase": "Warum?",
+        "meaning": "Why?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To explain 'why', you can use the word 'weil' (because). Important: In a 'weil' sentence, the verb goes to the very end!"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V07",
+      "data": {
+        "entspannend": "relaxing"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E08",
+      "data": {
+        "phrase": "weil es entspannend ist",
+        "meaning": "because it is relaxing"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say you don't like something, you can use 'Ich mag ... nicht'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V08",
+      "data": {
+        "Fußball": "Soccer"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E09",
+      "data": {
+        "phrase": "Ich mag Fußball nicht",
+        "meaning": "I don't like soccer"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V09",
+      "data": {
+        "das Wochenende": "the weekend"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E10",
+      "data": {
+        "phrase": "am Wochenende",
+        "meaning": "on the weekend"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V10",
+      "data": {
+        "gehen": "to go"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E11",
+      "data": {
+        "phrase": "Ich gehe schwimmen",
+        "meaning": "I'm going swimming"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S02",
+      "title": "Giving More Detail",
+      "setting": "The conversation with Alex continues. Alex is curious about your hobbies.",
+      "conversation_flow": [
+        {
+          "title": "Explain why you like your hobby",
+          "chatbot_message": "Das ist oft! Warum magst du {hobby_1}?"
+        },
+        {
+          "title": "Mention something you don't like to do",
+          "chatbot_message": "Das verstehe ich. Gibt es ein Hobby, das du nicht magst?"
+        },
+        {
+          "title": "Say what you are going to do this weekend",
+          "chatbot_message": "Okay! Und was machst du am Wochenende?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Now it's your turn to ask the questions. A simple 'Und du?' (And you?) is a great way to keep the conversation going."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E12",
+      "data": {
+        "phrase": "Und du?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E13",
+      "data": {
+        "phrase": "Was machst du gern?",
+        "meaning": "What do you like to do?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E14",
+      "data": {
+        "phrase": "Wo?",
+        "meaning": "Where?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L10_P02",
+      "data": {
+        "word": "ich",
+        "phonetic": "[ɪç]",
+        "tip": "The 'ch' sound in 'ich' is soft and made in the front of your mouth. It's similar to the 'h' sound in the English word 'huge'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V11",
+      "data": {
+        "im Park": "in the park"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E15",
+      "data": {
+        "phrase": "Das ist interessant",
+        "meaning": "That is interesting"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S03",
+      "title": "Asking About Their Hobbies",
+      "setting": "You've shared your plans. Now, show interest in Alex's hobbies.",
+      "conversation_flow": [
+        {
+          "title": "Ask what they like to do",
+          "chatbot_message": "Das klingt gut!"
+        },
+        {
+          "title": "Ask a follow-up question",
+          "chatbot_message": "Ich spiele gern Tennis."
+        },
+        {
+          "title": "Express that you find their hobby interesting",
+          "chatbot_message": "Ich spiele im Park."
+        }
+      ]
+    }
+  ]
+}

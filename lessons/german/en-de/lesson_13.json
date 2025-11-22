@@ -1,0 +1,243 @@
+{
+  "id": "L13",
+  "title": "Inviting a Friend to Do Something",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to invite a friend to do something, like go for a coffee."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V01",
+      "data": {
+        "die Zeit": "The time"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E01",
+      "data": {
+        "phrase": "Hast du Zeit?",
+        "meaning": "Do you have time?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask a yes/no question in German, you often start with the verb. 'Du hast' (You have) becomes 'Hast du?' (Do you have?)."
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P01",
+      "data": {
+        "word": "Zeit",
+        "phonetic": "tsaɪt",
+        "tip": "The German 'z' sounds like 'ts' in the English word 'cats'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V02",
+      "data": {
+        "der Kaffee": "The coffee"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E02",
+      "data": {
+        "phrase": "Wollen wir ...?",
+        "meaning": "Shall we ...?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E03",
+      "data": {
+        "phrase": "...einen Kaffee trinken?",
+        "meaning": "...drink a coffee?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E04",
+      "data": {
+        "phrase": "Ja, gerne",
+        "meaning": "Yes, gladly"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E05",
+      "data": {
+        "phrase": "Wann passt es dir?",
+        "meaning": "When does it suit you?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S01",
+      "title": "Making an Invitation",
+      "setting": "You want to invite your friend, Anna, to get a coffee.",
+      "conversation_flow": [
+        {
+          "title": "Ask Anna if she has time",
+          "chatbot_message": "Hallo! Sag mal..."
+        },
+        {
+          "title": "Suggest getting coffee",
+          "chatbot_message": "Nein, ich habe Zeit. Warum?"
+        },
+        {
+          "title": "Ask when would be a good time",
+          "chatbot_message": "Einen Kaffee? Ja, gerne!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V03",
+      "data": {
+        "der Mittwoch": "Wednesday"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P02",
+      "data": {
+        "word": "Mittwoch",
+        "phonetic": "ˈmɪtvɔx",
+        "tip": "The 'ch' at the end is a soft sound from the back of your throat, like in the Scottish word 'loch'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V04",
+      "data": {
+        "die Uhr": "o'clock / the clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E06",
+      "data": {
+        "phrase": "um drei Uhr",
+        "meaning": "at three o'clock"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say 'at a certain time' in German, always use the preposition 'um'. For example, 'um drei Uhr'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E07",
+      "data": {
+        "phrase": "Das passt gut",
+        "meaning": "That works well"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V05",
+      "data": {
+        "das Stadtzentrum": "The city center"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E08",
+      "data": {
+        "phrase": "im Stadtzentrum",
+        "meaning": "in the city center"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "The preposition 'in' and the article 'dem' often combine to form 'im'. So, 'in dem Stadtzentrum' becomes 'im Stadtzentrum'."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S02",
+      "title": "Setting a Time and Place",
+      "setting": "You've agreed to meet. Now you need to set a time and place.",
+      "conversation_flow": [
+        {
+          "title": "Suggest a time for Wednesday",
+          "chatbot_message": "Mittwoch ist gut für mich."
+        },
+        {
+          "title": "React positively",
+          "chatbot_message": "Mittwoch um drei Uhr? Ja, das passt gut."
+        },
+        {
+          "title": "Suggest a place to meet",
+          "chatbot_message": "Super! Wo?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V06",
+      "data": {
+        "also": "so / then"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'also' at the beginning of a sentence to summarize what has been decided."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E09",
+      "data": {
+        "phrase": "Ich freue mich",
+        "meaning": "I'm looking forward to it"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P03",
+      "data": {
+        "word": "freue",
+        "phonetic": "ˈfʁɔʏə",
+        "tip": "The 'eu' vowel combination in German sounds like 'oy' in the English word 'boy'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E10",
+      "data": {
+        "phrase": "Bis dann",
+        "meaning": "See you then"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E11",
+      "data": {
+        "phrase": "Tschüss",
+        "meaning": "Bye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S03",
+      "title": "Confirming the Plan",
+      "setting": "You've set a time and place. Now, confirm the details and say goodbye.",
+      "conversation_flow": [
+        {
+          "title": "Summarize the plan",
+          "chatbot_message": "Ein Café im Stadtzentrum? Perfekt!"
+        },
+        {
+          "title": "Say you're looking forward to it",
+          "chatbot_message": "Genau! Also, Mittwoch um drei Uhr im Café."
+        },
+        {
+          "title": "Say 'See you then!'",
+          "chatbot_message": "Ich freue mich auch!"
+        }
+      ]
+    }
+  ]
+}

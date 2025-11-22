@@ -1,0 +1,309 @@
+{
+  "id": "L20",
+  "title": "Talking About a Past Holiday",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about a past holiday using the 'passé composé', the most common past tense in spoken French."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V01",
+      "data": {
+        "Les vacances": "The holiday / vacation"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E01",
+      "data": {
+        "phrase": "Salut",
+        "meaning": "Hi"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E02",
+      "data": {
+        "phrase": "Bien rentré(e) de vacances ?",
+        "meaning": "Back from holiday?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To talk about a completed action in the past, you'll often use the 'passé composé'. It's usually formed with the verb 'avoir' (to have) + a past participle. For example, 'J'ai mangé' (I ate)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E03",
+      "data": {
+        "phrase": "J'ai été...",
+        "meaning": "I was... / I have been..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V02",
+      "data": {
+        "En Espagne": "In Spain"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V03",
+      "data": {
+        "En Italie": "In Italy"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "For feminine countries like 'la France', 'l'Espagne', or 'l'Italie', use the preposition 'en' to mean 'in' or 'to'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E04",
+      "data": {
+        "phrase": "Avec ma famille",
+        "meaning": "With my family"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E05",
+      "data": {
+        "phrase": "Avec des amis",
+        "meaning": "With some friends"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E06",
+      "data": {
+        "phrase": "Pendant une semaine",
+        "meaning": "For a week"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E07",
+      "data": {
+        "phrase": "Pendant dix jours",
+        "meaning": "For ten days"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20_P01",
+      "data": {
+        "word": "vacances",
+        "phonetic": "[va-kahnss]",
+        "tip": "The 'an' sound is nasal, similar to the 'on' in 'song' but produced in your nose."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20_S01",
+      "title": "Stating Where You Went",
+      "setting": "You're back at work and your colleague, Alex, asks about your holiday.",
+      "conversation_flow": [
+        {
+          "title": "Greet your colleague and say where you went",
+          "chatbot_message": "Salut ! Bien rentré(e) de vacances ?",
+          "extract_info": {
+            "holiday_location": "Extract the country or city the user went to"
+          }
+        },
+        {
+          "title": "Say who you went with",
+          "chatbot_message": "Ah, super ! {holiday_location}. Avec ta famille ?"
+        },
+        {
+          "title": "State how long you were there",
+          "chatbot_message": "Sympa ! Et c'était pour une semaine ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's learn how to add more details about your trip."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E08",
+      "data": {
+        "phrase": "Il a fait beau",
+        "meaning": "The weather was nice"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E09",
+      "data": {
+        "phrase": "Il a fait chaud",
+        "meaning": "It was hot"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In spoken French, it's very common to use 'on' to mean 'nous' (we). The verb is then conjugated like 'il' or 'elle'. For example: 'On a mangé'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E10",
+      "data": {
+        "phrase": "On a nagé",
+        "meaning": "We swam"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E11",
+      "data": {
+        "phrase": "On a lu",
+        "meaning": "We read"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V04",
+      "data": {
+        "Beaucoup": "A lot"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V05",
+      "data": {
+        "La nourriture": "The food"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E12",
+      "data": {
+        "phrase": "a été délicieuse",
+        "meaning": "was delicious"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E13",
+      "data": {
+        "phrase": "n'a pas été très bon",
+        "meaning": "was not very good"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20_P02",
+      "data": {
+        "word": "nourriture",
+        "phonetic": "[noo-ree-tyoor]",
+        "tip": "The French 'u' sound is made by forming your lips to say 'oo' but trying to say 'ee'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20_S02",
+      "title": "Describing the Holiday",
+      "setting": "Alex wants to know more about your trip.",
+      "conversation_flow": [
+        {
+          "title": "Say what the weather was like",
+          "chatbot_message": "Super. Et le temps ? Il a fait beau ?"
+        },
+        {
+          "title": "Mention an activity you did",
+          "chatbot_message": "Parfait ! Et vous avez fait des choses sympas ?"
+        },
+        {
+          "title": "Describe the food",
+          "chatbot_message": "Ça a l'air bien. Et la nourriture, c'était bon ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Let's learn how to give your overall opinion and finish the conversation."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E14",
+      "data": {
+        "phrase": "C'était des vacances...",
+        "meaning": "It was a ... holiday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V06",
+      "data": {
+        "Fantastiques": "Fantastic"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V07",
+      "data": {
+        "Relaxantes": "Relaxing"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E15",
+      "data": {
+        "phrase": "J'aimerais y retourner",
+        "meaning": "I would like to go back there"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "The little word 'y' in 'J'aimerais y retourner' means 'there'. It replaces the place you were just talking about, like 'en Espagne'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E16",
+      "data": {
+        "phrase": "Et toi ?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E17",
+      "data": {
+        "phrase": "Tu as des projets de vacances ?",
+        "meaning": "Do you have any holiday plans?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20_P03",
+      "data": {
+        "word": "projets",
+        "phonetic": "[pro-jay]",
+        "tip": "The 't' at the end of 'projets' is silent."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20_S03",
+      "title": "Giving Your Overall Opinion",
+      "setting": "You're wrapping up the conversation with Alex.",
+      "conversation_flow": [
+        {
+          "title": "Give your overall opinion of the holiday",
+          "chatbot_message": "Ah, c'est le plus important ! Alors, c'était de bonnes vacances ?"
+        },
+        {
+          "title": "Say you would like to go back",
+          "chatbot_message": "Ça fait plaisir à entendre. Tu aimerais y retourner ?"
+        },
+        {
+          "title": "Ask if they have any holiday plans",
+          "chatbot_message": "Je comprends. Moi, je ne sais pas où aller cet été."
+        }
+      ]
+    }
+  ]
+}

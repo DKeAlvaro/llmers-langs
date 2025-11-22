@@ -1,0 +1,216 @@
+{
+  "id": "L22",
+  "title": "Ordering Food for Delivery by Phone",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to order food for delivery over the phone. Let's start with the basics to place your order."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E01",
+      "data": {
+        "phrase": "Buenas noches",
+        "meaning": "Good evening"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E02",
+      "data": {
+        "phrase": "Quisiera hacer un pedido",
+        "meaning": "I would like to place an order"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V01",
+      "data": {
+        "a domicilio": "for delivery"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22_P01",
+      "data": {
+        "word": "Quisiera",
+        "phonetic": "/ki.ˈsje.ɾa/",
+        "tip": "The 'qui' sounds like 'kee' in English. The 's' is soft, like in 'see'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V02",
+      "data": {
+        "una pizza": "a pizza"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V03",
+      "data": {
+        "de salami": "of salami / salami"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V04",
+      "data": {
+        "también": "also"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V05",
+      "data": {
+        "una Coca-Cola": "a Coca-Cola"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22_S01",
+      "title": "Placing Your Order",
+      "setting": "You are calling a pizzeria to order a pizza and a drink for dinner.",
+      "conversation_flow": [
+        {
+          "title": "Greet the pizzeria and state your purpose",
+          "chatbot_message": "Pizzería Roma, buenas noches."
+        },
+        {
+          "title": "Order a pizza",
+          "chatbot_message": "Claro. ¿Qué desea para comer?"
+        },
+        {
+          "title": "Order a drink",
+          "chatbot_message": "Una pizza de salami. Anotado. ¿Algo para beber?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! The pizzeria has your order. Now, you need to provide your personal details for the delivery."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E03",
+      "data": {
+        "phrase": "Me llamo...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E04",
+      "data": {
+        "phrase": "Mi dirección es...",
+        "meaning": "My address is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V06",
+      "data": {
+        "la calle": "the street"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V07",
+      "data": {
+        "el número": "the number"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V08",
+      "data": {
+        "la ciudad": "the city"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E05",
+      "data": {
+        "phrase": "Mi número de teléfono es...",
+        "meaning": "My phone number is..."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22_S02",
+      "title": "Providing Your Details",
+      "setting": "The conversation continues. The pizzeria needs your name and address to deliver the food.",
+      "conversation_flow": [
+        {
+          "title": "State your name",
+          "chatbot_message": "Perfecto. Una pizza y una Coca-Cola. ¿A qué nombre, por favor?",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Give your address",
+          "chatbot_message": "Gracias, {user_name}. ¿Y cuál es su dirección?"
+        },
+        {
+          "title": "Provide your phone number",
+          "chatbot_message": "Entendido. Y por último, necesito un número de teléfono."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent work. They have all your details. Let's finish the call by asking for the price and delivery time."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E06",
+      "data": {
+        "phrase": "¿Cuánto es en total?",
+        "meaning": "How much is it in total?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E07",
+      "data": {
+        "phrase": "¿Cuánto tiempo tarda?",
+        "meaning": "How long does it take?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V09",
+      "data": {
+        "Gracias": "Thank you"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V10",
+      "data": {
+        "Adiós": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22_S03",
+      "title": "Finalizing the Order",
+      "setting": "Before hanging up, you want to confirm the price and how long you need to wait.",
+      "conversation_flow": [
+        {
+          "title": "Ask for the total price",
+          "chatbot_message": "Gracias. Su pedido está casi listo. ¿Alguna otra pregunta?"
+        },
+        {
+          "title": "Ask about the delivery time",
+          "chatbot_message": "El total es 15 euros."
+        },
+        {
+          "title": "Thank the person and end the call",
+          "chatbot_message": "Tarda unos 30 minutos. Su pedido está en camino."
+        }
+      ]
+    }
+  ]
+}

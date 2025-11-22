@@ -1,0 +1,273 @@
+{
+  "id": "L02",
+  "title": "Ordering at a Café",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to order a drink and a snack at a Dutch café ('het café')."
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E01",
+      "data": {
+        "phrase": "Pardon",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In the Netherlands, it's common to say 'Pardon' to politely get a waiter's attention."
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E02",
+      "data": {
+        "phrase": "Hallo",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E03",
+      "data": {
+        "phrase": "Ik wil graag...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V01",
+      "data": {
+        "Een koffie": "A coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V02",
+      "data": {
+        "Een thee": "A tea"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L02_P01",
+      "data": {
+        "word": "graag",
+        "phonetic": "[ɣraːx]",
+        "tip": "The Dutch 'g' is a soft sound made in the back of your throat. It's not as harsh as the German 'ch'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E04",
+      "data": {
+        "phrase": "Heeft u...?",
+        "meaning": "Do you have...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V03",
+      "data": {
+        "De appeltaart": "The apple pie"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S01",
+      "title": "Getting Service and Drinks",
+      "setting": "You're at a café table and want to get the waiter's attention to order.",
+      "conversation_flow": [
+        {
+          "title": "Get the waiter's attention",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Order a drink",
+          "chatbot_message": "Hallo! Ja?",
+          "extract_info": {
+            "user_drink": "Extract the drink the user orders (e.g., een koffie, een thee)"
+          }
+        },
+        {
+          "title": "Ask if they have apple pie",
+          "chatbot_message": "Oké, {user_drink}."
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E05",
+      "data": {
+        "phrase": "Wilt u...?",
+        "meaning": "Would you like...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V04",
+      "data": {
+        "Een stuk": "A piece"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E06",
+      "data": {
+        "phrase": "Ja, graag",
+        "meaning": "Yes, please"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When the waiter asks if you want anything else ('Anders nog iets?'), you can say 'Dat is alles' to confirm your order is complete."
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E07",
+      "data": {
+        "phrase": "Anders nog iets?",
+        "meaning": "Anything else?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E08",
+      "data": {
+        "phrase": "Dat is alles",
+        "meaning": "That is all"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E09",
+      "data": {
+        "phrase": "Waar is...?",
+        "meaning": "Where is...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V05",
+      "data": {
+        "Het toilet": "The toilet"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V06",
+      "data": {
+        "Daar": "There"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S02",
+      "title": "Placing the Food Order",
+      "setting": "The waiter has confirmed they have apple pie. Now, complete your order.",
+      "conversation_flow": [
+        {
+          "title": "Order a piece of apple pie",
+          "chatbot_message": "Ja, wij hebben appeltaart. Wilt u een stuk?"
+        },
+        {
+          "title": "Confirm that is all you want",
+          "chatbot_message": "Oké. Anders nog iets?"
+        },
+        {
+          "title": "Ask where the toilet is",
+          "chatbot_message": "Prima!"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E10",
+      "data": {
+        "phrase": "Mag ik betalen?",
+        "meaning": "May I pay?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When you're ready to leave, you can get the waiter's attention again and say 'Mag ik betalen?' to ask for the bill."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V07",
+      "data": {
+        "De rekening": "The bill"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V08",
+      "data": {
+        "Alstublieft": "Please / Here you are"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L02_P02",
+      "data": {
+        "word": "rekening",
+        "phonetic": "['reːkənɪŋ]",
+        "tip": "The stress is on the first syllable: 'RE-ke-ning'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E11",
+      "data": {
+        "phrase": "Wat kost het?",
+        "meaning": "What does it cost?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V09",
+      "data": {
+        "Acht": "Eight"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V10",
+      "data": {
+        "Euro": "Euro"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E12",
+      "data": {
+        "phrase": "Kan ik pinnen?",
+        "meaning": "Can I pay by debit card?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "'Pinnen' is a very common verb in the Netherlands for paying with a debit card. It's an essential word!"
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S03",
+      "title": "Paying the Bill",
+      "setting": "You've finished your snack and are ready to leave. It's time to pay.",
+      "conversation_flow": [
+        {
+          "title": "Signal you want to pay",
+          "chatbot_message": "Het toilet is daar."
+        },
+        {
+          "title": "Ask for the total amount",
+          "chatbot_message": "Ja. Alstublieft, de rekening."
+        },
+        {
+          "title": "Ask to pay by card",
+          "chatbot_message": "Het is acht euro."
+        }
+      ]
+    }
+  ]
+}

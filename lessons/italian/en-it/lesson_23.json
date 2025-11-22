@@ -1,0 +1,308 @@
+{
+  "id": "L23",
+  "title": "Expressing Your Opinion about a Movie",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to share your opinion about a movie with a friend. We'll start with general impressions."
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E01",
+      "data": {
+        "phrase": "Allora...",
+        "meaning": "So..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V01",
+      "data": {
+        "Il film": "The movie"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E02",
+      "data": {
+        "phrase": "Il film era...",
+        "meaning": "The movie was..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V02",
+      "data": {
+        "fantastico": "fantastic"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V03",
+      "data": {
+        "noioso": "boring"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V04",
+      "data": {
+        "divertente": "funny"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V05",
+      "data": {
+        "Gli attori": "The actors"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L23_P01",
+      "data": {
+        "word": "gli",
+        "phonetic": "[ʎi]",
+        "tip": "This sound is similar to the 'lli' in the English word 'million'. Your tongue should be flat against the roof of your mouth."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E03",
+      "data": {
+        "phrase": "Gli attori erano...",
+        "meaning": "The actors were..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V06",
+      "data": {
+        "bravi": "good / skilled"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E04",
+      "data": {
+        "phrase": "E tu?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E05",
+      "data": {
+        "phrase": "Cosa ne pensi?",
+        "meaning": "What do you think of it?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S01",
+      "title": "First Impressions",
+      "setting": "You are with your friend Luca right after watching a movie.",
+      "conversation_flow": [
+        {
+          "title": "State your overall opinion about the movie",
+          "chatbot_message": "Allora..."
+        },
+        {
+          "title": "Mention what you thought of the actors",
+          "chatbot_message": "Ah sì? E gli attori?"
+        },
+        {
+          "title": "Ask your friend for their general opinion",
+          "chatbot_message": "Capisco.",
+          "extract_info": {}
+        },
+        {
+          "title": "Listen to Luca's opinion",
+          "chatbot_message": "Per me, il film era noioso."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to discuss specific parts of the movie and agree or disagree with your friend."
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E06",
+      "data": {
+        "phrase": "Mi è piaciuto...",
+        "meaning": "I liked..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E07",
+      "data": {
+        "phrase": "Non mi è piaciuto...",
+        "meaning": "I didn't like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V07",
+      "data": {
+        "la storia": "the story"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V08",
+      "data": {
+        "il finale": "the ending"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V09",
+      "data": {
+        "credibile": "believable"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E08",
+      "data": {
+        "phrase": "La storia era credibile",
+        "meaning": "The story was believable"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E09",
+      "data": {
+        "phrase": "Sono d'accordo",
+        "meaning": "I agree"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E10",
+      "data": {
+        "phrase": "Non sono d'accordo",
+        "meaning": "I don't agree"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V10",
+      "data": {
+        "perché": "because"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S02",
+      "title": "Discussing the Details",
+      "setting": "The conversation continues. Luca just said the movie was boring.",
+      "conversation_flow": [
+        {
+          "title": "Disagree with your friend",
+          "chatbot_message": "Per me, la storia non era credibile."
+        },
+        {
+          "title": "Explain why you disagree by mentioning a part you liked",
+          "chatbot_message": "No? Perché?"
+        },
+        {
+          "title": "Listen to Luca's response",
+          "chatbot_message": "Ah, capisco. Il finale era interessante."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Finally, let's learn how to recommend the movie and suggest what to do next."
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E11",
+      "data": {
+        "phrase": "Lo consiglio",
+        "meaning": "I recommend it"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E12",
+      "data": {
+        "phrase": "Non lo consiglio",
+        "meaning": "I don't recommend it"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E13",
+      "data": {
+        "phrase": "La prossima volta",
+        "meaning": "Next time"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E14",
+      "data": {
+        "phrase": "possiamo vedere...",
+        "meaning": "we can see..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V11",
+      "data": {
+        "una commedia": "a comedy"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V12",
+      "data": {
+        "un film d'azione": "an action movie"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E15",
+      "data": {
+        "phrase": "Prendiamo qualcosa da bere?",
+        "meaning": "Shall we get something to drink?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E16",
+      "data": {
+        "phrase": "Che ne dici?",
+        "meaning": "What do you say?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S03",
+      "title": "Making Plans",
+      "setting": "You are wrapping up the discussion with Luca.",
+      "conversation_flow": [
+        {
+          "title": "Say whether you would recommend the movie",
+          "chatbot_message": "Allora, in generale, lo consigli?"
+        },
+        {
+          "title": "Suggest a different type of movie for next time",
+          "chatbot_message": "Ok. La prossima volta, un film diverso?"
+        },
+        {
+          "title": "Propose getting a drink to discuss it further",
+          "chatbot_message": "Una commedia? Ottima idea!"
+        },
+        {
+          "title": "Listen to Luca's enthusiastic agreement",
+          "chatbot_message": "Sì, perfetto! Andiamo."
+        }
+      ]
+    }
+  ]
+}

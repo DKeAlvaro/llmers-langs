@@ -1,0 +1,241 @@
+{
+  "id": "L19",
+  "title": "A casa di un amico",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to be a guest at an Italian friend's home. We'll start with arriving and greetings."
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E01",
+      "data": {
+        "phrase": "Ciao",
+        "meaning": "Hello / Hi / Bye"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V01",
+      "data": {
+        "Una bottiglia di vino": "A bottle of wine"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V02",
+      "data": {
+        "I fiori": "The flowers"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E02",
+      "data": {
+        "phrase": "Questo è per te",
+        "meaning": "This is for you"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L19_P01",
+      "data": {
+        "word": "bottiglia",
+        "phonetic": "/botˈtiʎʎa/",
+        "tip": "The 'gli' sound is similar to the 'lli' in the English word 'million'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V03",
+      "data": {
+        "La casa": "The house"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E03",
+      "data": {
+        "phrase": "Che bella casa!",
+        "meaning": "What a nice house!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L19_P02",
+      "data": {
+        "word": "Che",
+        "phonetic": "/ke/",
+        "tip": "In Italian, 'che' is always a hard 'k' sound, never 'ch' like in 'chair'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19_S01",
+      "title": "Arriving at Giulia's home",
+      "setting": "You've just arrived at your friend Giulia's home. The door opens.",
+      "conversation_flow": [
+        {
+          "title": "Greet Giulia",
+          "chatbot_message": "Ciao! Entra, entra!"
+        },
+        {
+          "title": "Give your gift",
+          "chatbot_message": "Che piacere vederti!",
+          "user_options": [
+            "Questo è per te. Una bottiglia di vino.",
+            "Questo è per te. I fiori."
+          ]
+        },
+        {
+          "title": "Compliment her home",
+          "chatbot_message": "Oh, grazie! Non dovevi. Prego, fai come se fossi a casa tua."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's learn how to handle small talk and accept a drink."
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E04",
+      "data": {
+        "phrase": "Sì, grazie",
+        "meaning": "Yes, please"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V04",
+      "data": {
+        "Un po' d'acqua": "A bit of water"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V05",
+      "data": {
+        "Un caffè": "A coffee"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E05",
+      "data": {
+        "phrase": "Io prendo...",
+        "meaning": "I'll have... / I'll take..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E06",
+      "data": {
+        "phrase": "Com'è andata la settimana?",
+        "meaning": "How was the week?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V06",
+      "data": {
+        "La cucina": "The kitchen"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E07",
+      "data": {
+        "phrase": "Posso aiutare?",
+        "meaning": "Can I help?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19_S02",
+      "title": "Having a drink",
+      "setting": "You are now inside. Giulia offers you something to drink.",
+      "conversation_flow": [
+        {
+          "title": "Accept a drink and state your preference",
+          "chatbot_message": "Vuoi qualcosa da bere? Un caffè, un po' d'acqua?",
+          "user_options": [
+            "Sì, grazie. Prendo un po' d'acqua.",
+            "Sì, grazie. Prendo un caffè."
+          ]
+        },
+        {
+          "title": "Ask about her week",
+          "chatbot_message": "Certo! Ecco a te. Siediti."
+        },
+        {
+          "title": "Offer to help in the kitchen",
+          "chatbot_message": "È andata bene, molto lavoro. Ma ora un po' di relax!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! The evening is coming to an end. Let's learn how to say goodbye."
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E08",
+      "data": {
+        "phrase": "È tardi",
+        "meaning": "It's late"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V07",
+      "data": {
+        "La serata": "The evening"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E09",
+      "data": {
+        "phrase": "Grazie per la bella serata",
+        "meaning": "Thanks for the lovely evening"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E10",
+      "data": {
+        "phrase": "Adesso vado",
+        "meaning": "I'm going now"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E11",
+      "data": {
+        "phrase": "A presto",
+        "meaning": "See you soon"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19_S03",
+      "title": "Time to leave",
+      "setting": "You've had a nice chat, but now it's time to go home.",
+      "conversation_flow": [
+        {
+          "title": "State that it's getting late",
+          "chatbot_message": "No, grazie, è tutto pronto. Rilassati!"
+        },
+        {
+          "title": "Thank Giulia for the evening",
+          "chatbot_message": "Sì, il tempo vola!"
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Grazie a te per la visita! Mi ha fatto molto piacere."
+        }
+      ]
+    }
+  ]
+}

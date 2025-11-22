@@ -1,0 +1,273 @@
+{
+  "id": "L23",
+  "title": "Expressing Your Opinion about a Movie",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to share your opinion about a movie you just watched with a friend."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V01",
+      "data": {
+        "De film": "The movie"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E01",
+      "data": {
+        "phrase": "Ik vond...",
+        "meaning": "I thought..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V02",
+      "data": {
+        "fantastisch": "fantastic"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V03",
+      "data": {
+        "saai": "boring"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V04",
+      "data": {
+        "grappig": "funny"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L23_P01",
+      "data": {
+        "word": "grappig",
+        "phonetic": "/ˈɣrɑ.pəx/",
+        "tip": "The Dutch 'g' is a sound made in the back of your throat, similar to the 'ch' in the Scottish word 'loch'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V05",
+      "data": {
+        "De acteurs": "The actors"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V06",
+      "data": {
+        "goed": "good"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V07",
+      "data": {
+        "slecht": "bad"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E02",
+      "data": {
+        "phrase": "Wat vond jij van de film?",
+        "meaning": "What did you think of the movie?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S01",
+      "title": "First Impressions",
+      "setting": "The movie has just finished. You and your friend Alex are the first to speak.",
+      "conversation_flow": [
+        {
+          "title": "State your overall opinion about the movie",
+          "chatbot_message": "Oké, dat was de film. Wat vond jij ervan?"
+        },
+        {
+          "title": "Give your opinion on the actors",
+          "chatbot_message": "Ja? En wat vond je van de acteurs?"
+        },
+        {
+          "title": "Ask for your friend's opinion",
+          "chatbot_message": "Ik vond de acteurs ook goed."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's talk about more specific parts of the movie. You'll learn how to agree and disagree."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V08",
+      "data": {
+        "interessant": "interesting"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V09",
+      "data": {
+        "Het begin": "The beginning"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V10",
+      "data": {
+        "Het einde": "The end"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E03",
+      "data": {
+        "phrase": "Ik vond ... leuk",
+        "meaning": "I liked..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V11",
+      "data": {
+        "niet": "not"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To make a sentence negative, you often place 'niet' after the verb. For example: 'Ik vond het einde niet leuk'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V12",
+      "data": {
+        "Het verhaal": "The story"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V13",
+      "data": {
+        "geloofwaardig": "believable"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E04",
+      "data": {
+        "phrase": "Ik ben het met je eens",
+        "meaning": "I agree with you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E05",
+      "data": {
+        "phrase": "Ik ben het niet met je eens",
+        "meaning": "I don't agree with you"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S02",
+      "title": "Discussing Details",
+      "setting": "You continue the discussion, focusing on specific elements of the movie.",
+      "conversation_flow": [
+        {
+          "title": "Mention a specific part of the movie you liked or disliked",
+          "chatbot_message": "Ik vond de film interessant, maar ik vond het einde niet zo goed."
+        },
+        {
+          "title": "Say if you found the story believable or not",
+          "chatbot_message": "Oké. Ik vond het verhaal ook niet heel geloofwaardig."
+        },
+        {
+          "title": "Agree or disagree with your friend's point",
+          "chatbot_message": "Maar de muziek was fantastisch."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Well done! Let's wrap up the conversation. You'll learn how to make a recommendation and suggest a future plan."
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E06",
+      "data": {
+        "phrase": "Ik zou de film aanraden",
+        "meaning": "I would recommend the movie"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E07",
+      "data": {
+        "phrase": "Ik zou de film niet aanraden",
+        "meaning": "I would not recommend the movie"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L23_P02",
+      "data": {
+        "word": "aanraden",
+        "phonetic": "/ˈaːn.raː.də(n)/",
+        "tip": "The stress is on the first syllable: 'AAN-raden'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V14",
+      "data": {
+        "De volgende keer": "The next time"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E08",
+      "data": {
+        "phrase": "Zullen we ...?",
+        "meaning": "Shall we ...?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'Zullen we...?' to make a suggestion. For example, 'Zullen we gaan?' (Shall we go?). The verb goes to the end of the phrase."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V15",
+      "data": {
+        "iets drinken": "to drink something"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S03",
+      "title": "Recommending and Planning",
+      "setting": "You're ready to leave the cinema and decide what to do next.",
+      "conversation_flow": [
+        {
+          "title": "Say whether you would recommend the movie to others",
+          "chatbot_message": "Dus, zou jij de film aanraden?"
+        },
+        {
+          "title": "Suggest another movie to see next time",
+          "chatbot_message": "Oké. Wat zullen we de volgende keer zien?"
+        },
+        {
+          "title": "Propose getting a drink to talk more",
+          "chatbot_message": "Goed idee!"
+        }
+      ]
+    }
+  ]
+}

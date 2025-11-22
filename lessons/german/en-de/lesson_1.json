@@ -1,0 +1,267 @@
+{
+  "id": "L1",
+  "title": "Erster Tag in der Sprachschule",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Willkommen zu deiner ersten Deutschstunde! Let's learn how to introduce yourself to a new classmate."
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E01",
+      "data": {
+        "phrase": "Hallo",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E02",
+      "data": {
+        "phrase": "Ich heiße...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L1_P01",
+      "data": {
+        "word": "heiße",
+        "phonetic": "/ˈhaɪsə/",
+        "tip": "The 'ß' character is called an 'Eszett'. It's pronounced like a sharp 's' sound."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E03",
+      "data": {
+        "phrase": "Wie heißt du?",
+        "meaning": "What is your name?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In German, 'du' is the informal 'you', used for friends, family, and classmates. 'Sie' is the formal 'you', for strangers or in professional settings."
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E04",
+      "data": {
+        "phrase": "Freut mich",
+        "meaning": "Nice to meet you"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L1_S1",
+      "title": "Sich vorstellen",
+      "setting": "You are sitting in the classroom. A classmate next to you, Alex, initiates a conversation.",
+      "conversation_flow": [
+        {
+          "title": "Initial greeting",
+          "chatbot_message": "Hallo! Ich heiße Alex. Wie heißt du?"
+        },
+        {
+          "title": "State your name",
+          "chatbot_message": "Freut mich, {user_name}!",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Say it's nice to meet them"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E05",
+      "data": {
+        "phrase": "Woher kommst du?",
+        "meaning": "Where do you come from?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E06",
+      "data": {
+        "phrase": "ich komme",
+        "meaning": "I come"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E07",
+      "data": {
+        "phrase": "du kommst",
+        "meaning": "you come"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E08",
+      "data": {
+        "phrase": "Ich komme aus...",
+        "meaning": "I come from..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E09",
+      "data": {
+        "phrase": "Und du?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V01",
+      "data": {
+        "die Stadt": "The city"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E10",
+      "data": {
+        "phrase": "Ich wohne in...",
+        "meaning": "I live in..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L1_P02",
+      "data": {
+        "word": "wohne",
+        "phonetic": "/ˈvoːnə/",
+        "tip": "The 'h' after a vowel like 'o' is often silent and makes the vowel sound longer."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E11",
+      "data": {
+        "phrase": "Wo wohnst du?",
+        "meaning": "Where do you live?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L1_S2",
+      "title": "Herkunft und Wohnort",
+      "setting": "The conversation continues. You now want to ask Alex where they are from.",
+      "conversation_flow": [
+        {
+          "title": "Ask where they are from"
+        },
+        {
+          "title": "State your country of origin",
+          "chatbot_message": "Ich komme aus Deutschland. Und du?"
+        },
+        {
+          "title": "Mention the city you live in",
+          "chatbot_message": "Ich wohne in Berlin. Wo wohnst du?",
+          "extract_info": {
+            "user_city": "Extract the city name from the user's message"
+          }
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V02",
+      "data": {
+        "der Lehrer": "The teacher (male)"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "All German nouns have a gender: masculine ('der'), feminine ('die'), or neuter ('das'). It's best to learn the article with the noun!"
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E12",
+      "data": {
+        "phrase": "Oh, der Lehrer kommt",
+        "meaning": "Oh, the teacher is coming"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E13",
+      "data": {
+        "phrase": "Ja",
+        "meaning": "Yes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E14",
+      "data": {
+        "phrase": "Viel Erfolg!",
+        "meaning": "Good luck!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L1_P03",
+      "data": {
+        "word": "Viel",
+        "phonetic": "/fiːl/",
+        "tip": "The letter 'v' in German is usually pronounced like an 'f' in English."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E15",
+      "data": {
+        "phrase": "Danke",
+        "meaning": "Thanks"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E16",
+      "data": {
+        "phrase": "Dir auch!",
+        "meaning": "You too!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E17",
+      "data": {
+        "phrase": "Bis später!",
+        "meaning": "See you later!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E18",
+      "data": {
+        "phrase": "Tschüss!",
+        "meaning": "Bye!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L1_S3",
+      "title": "Das Gespräch beenden",
+      "setting": "You notice the teacher is about to start the lesson. It's time to wrap up the chat.",
+      "conversation_flow": [
+        {
+          "title": "Acknowledge the teacher is starting",
+          "chatbot_message": "Ah, {user_city}."
+        },
+        {
+          "title": "Wish them good luck with the course",
+          "chatbot_message": "Oh, ja."
+        },
+        {
+          "title": "Say goodbye for now",
+          "chatbot_message": "Danke! Dir auch. Bis später!"
+        }
+      ]
+    }
+  ]
+}

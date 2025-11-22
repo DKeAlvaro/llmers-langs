@@ -1,0 +1,352 @@
+{
+  "id": "L05",
+  "title": "Talking About Your Family",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your family. This is a great way to get to know people better!"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V01",
+      "data": {
+        "La foto": "The photo"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V02",
+      "data": {
+        "La familia": "The family"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V03",
+      "data": {
+        "Mi": "My (for one thing)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V04",
+      "data": {
+        "Mis": "My (for more than one thing)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E01",
+      "data": {
+        "phrase": "Sí",
+        "meaning": "Yes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E02",
+      "data": {
+        "phrase": "Es...",
+        "meaning": "He/She/It is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E03",
+      "data": {
+        "phrase": "Son...",
+        "meaning": "They are..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'es' for one person ('es mi hermano') and 'son' for more than one person ('son mis padres')."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V05",
+      "data": {
+        "Los padres": "The parents"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V06",
+      "data": {
+        "El hermano": "The brother"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V07",
+      "data": {
+        "La esposa": "The wife"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E04",
+      "data": {
+        "phrase": "Se llama...",
+        "meaning": "His/Her name is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E05",
+      "data": {
+        "phrase": "Se llaman...",
+        "meaning": "Their names are..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L05_P01",
+      "data": {
+        "word": "familia",
+        "phonetic": "/faˈmi.lja/",
+        "tip": "The stress is on the second syllable: fa-MI-lia."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L05_P02",
+      "data": {
+        "word": "llama",
+        "phonetic": "/ˈʝa.ma/",
+        "tip": "The 'll' sound is like the 'y' in 'yes'. It sounds like 'yama'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S01",
+      "title": "Identifying Your Family",
+      "setting": "Your colleague, Ana, points to a photo on your desk.",
+      "conversation_flow": [
+        {
+          "title": "Confirm it's your family",
+          "chatbot_message": "¡Hola! Qué bonita foto. ¿Es tu familia?"
+        },
+        {
+          "title": "State who the people are",
+          "chatbot_message": "¡Qué bien! ¿Quiénes son?",
+          "extract_info": {
+            "family_members": "Extract the family members mentioned, e.g., 'parents', 'brother'"
+          }
+        },
+        {
+          "title": "Mention their names",
+          "chatbot_message": "Muy bien. ¿Y cómo se llaman?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V08",
+      "data": {
+        "Los hermanos": "Siblings"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V09",
+      "data": {
+        "Un": "A / An (masculine)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V10",
+      "data": {
+        "Una": "A / An (feminine)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V11",
+      "data": {
+        "No": "No"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E06",
+      "data": {
+        "phrase": "Tengo...",
+        "meaning": "I have..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E07",
+      "data": {
+        "phrase": "No tengo...",
+        "meaning": "I don't have..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To make a sentence negative in Spanish, just put 'no' before the verb. For example, 'Tengo un hermano' becomes 'No tengo un hermano'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V12",
+      "data": {
+        "Los años": "The years"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E08",
+      "data": {
+        "phrase": "(Él/Ella) tiene...",
+        "meaning": "He/She has..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In Spanish, you use the verb 'tener' (to have) to talk about age. For example, 'Él tiene 30 años' literally means 'He has 30 years'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V13",
+      "data": {
+        "En": "In"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E09",
+      "data": {
+        "phrase": "(Él/Ella) vive...",
+        "meaning": "He/She lives..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E10",
+      "data": {
+        "phrase": "(Ellos) viven...",
+        "meaning": "They live..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L05_P03",
+      "data": {
+        "word": "hermanos",
+        "phonetic": "/eɾˈma.nos/",
+        "tip": "The 'h' in Spanish is always silent. Say 'er-MA-nos'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S02",
+      "title": "Giving More Details",
+      "setting": "Ana is curious and asks for more details about your family.",
+      "conversation_flow": [
+        {
+          "title": "Answer if you have siblings",
+          "chatbot_message": "Entendido. ¿Tienes hermanos?"
+        },
+        {
+          "title": "Say how old your sibling is",
+          "chatbot_message": "Interesante. ¿Cuántos años tiene tu {family_members}?"
+        },
+        {
+          "title": "Mention where your family lives",
+          "chatbot_message": "Ya veo. ¿Y tu familia vive en España?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V14",
+      "data": {
+        "Y tú": "And you"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V15",
+      "data": {
+        "Casado": "Married (masculine)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V16",
+      "data": {
+        "Casada": "Married (feminine)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V17",
+      "data": {
+        "Los hijos": "The children / sons"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Adjectives in Spanish often change to match gender. Use 'casado' if you are a man, and 'casada' if you are a woman."
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E11",
+      "data": {
+        "phrase": "¿Estás...?",
+        "meaning": "Are you...?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E12",
+      "data": {
+        "phrase": "¿Tienes...?",
+        "meaning": "Do you have...?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask a question, you can often just change your intonation. A statement like 'Tienes hijos' (You have children) becomes a question '¿Tienes hijos?' by raising your voice at the end."
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E13",
+      "data": {
+        "phrase": "¡Qué bien!",
+        "meaning": "How nice!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L05_P04",
+      "data": {
+        "word": "hijos",
+        "phonetic": "/ˈi.xos/",
+        "tip": "Remember the silent 'h'. The 'j' sounds like the 'h' in 'hello'. Say 'EE-khos'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S03",
+      "title": "Asking About Their Family",
+      "setting": "Now it's your turn to ask Ana about her family.",
+      "conversation_flow": [
+        {
+          "title": "Ask if she is married",
+          "chatbot_message": "Muy interesante. Gracias."
+        },
+        {
+          "title": "Ask if she has children",
+          "chatbot_message": "Sí, estoy casada."
+        },
+        {
+          "title": "Comment positively",
+          "chatbot_message": "Sí, tengo un hijo. Se llama Mateo."
+        }
+      ]
+    }
+  ]
+}

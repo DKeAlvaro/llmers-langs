@@ -1,0 +1,370 @@
+{
+  "id": "L9",
+  "title": "Buying Clothes",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to buy clothes in a Dutch clothing store, or 'de kledingwinkel'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V01",
+      "data": {
+        "de kledingwinkel": "the clothing store"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E01",
+      "data": {
+        "phrase": "Pardon",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L9_P01",
+      "data": {
+        "word": "Pardon",
+        "phonetic": "[pɑrˈdɔn]",
+        "tip": "The stress is on the second syllable: par-DON."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "A shop assistant will often ask 'Kan ik u helpen?'. This means 'Can I help you?'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E02",
+      "data": {
+        "phrase": "Ik zoek...",
+        "meaning": "I am looking for..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V02",
+      "data": {
+        "de trui": "the sweater"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V03",
+      "data": {
+        "blauw": "blue"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When an adjective like 'blauw' comes before a noun ('de trui'), you often add an '-e'. It becomes 'de blauwe trui'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V04",
+      "data": {
+        "de maat": "the size"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E03",
+      "data": {
+        "phrase": "Ik heb maat...",
+        "meaning": "I have size..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V05",
+      "data": {
+        "uw": "your (formal)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E04",
+      "data": {
+        "phrase": "Alstublieft",
+        "meaning": "Here you go / Please"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L9_S01",
+      "title": "Asking for Assistance",
+      "setting": "You are in a clothing store and need help finding an item.",
+      "conversation_flow": [
+        {
+          "title": "Get the assistant's attention",
+          "chatbot_message": null
+        },
+        {
+          "title": "Say you are looking for a blue sweater",
+          "chatbot_message": "Hallo! Kan ik u helpen?"
+        },
+        {
+          "title": "State your size",
+          "chatbot_message": "Een blauwe trui. Goede keuze. Wat is uw maat?",
+          "extract_info": {
+            "user_size": "Extract the user's size (e.g., S, M, L)"
+          }
+        },
+        {
+          "title": "Acknowledge receiving the item",
+          "chatbot_message": "Maat {user_size}. Ik heb hier een blauwe trui in uw maat. Alstublieft."
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E05",
+      "data": {
+        "phrase": "Waar zijn...?",
+        "meaning": "Where are...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V06",
+      "data": {
+        "de paskamers": "the fitting rooms"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L9_P02",
+      "data": {
+        "word": "paskamers",
+        "phonetic": "[ˈpɑsˌkaːmərs]",
+        "tip": "The stress is on the first part: PAS-ka-mers."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V07",
+      "data": {
+        "daar": "there"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "After trying something on, the assistant might ask: 'En, past het?'. This means 'And, does it fit?'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E06",
+      "data": {
+        "phrase": "De trui is...",
+        "meaning": "The sweater is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V08",
+      "data": {
+        "te groot": "too big"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V09",
+      "data": {
+        "te klein": "too small"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "The word 'te' means 'too' when used before an adjective, like 'te groot' (too big) or 'te klein' (too small)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E07",
+      "data": {
+        "phrase": "Geen probleem",
+        "meaning": "No problem"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E08",
+      "data": {
+        "phrase": "Heeft u...?",
+        "meaning": "Do you have...?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "'Heeft u' is the formal way to ask 'Do you have?'. It comes from the verb 'hebben'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V10",
+      "data": {
+        "een maat kleiner": "a size smaller"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V11",
+      "data": {
+        "een maat groter": "a size bigger"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E09",
+      "data": {
+        "phrase": "Een moment",
+        "meaning": "One moment"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L9_S02",
+      "title": "Trying It On",
+      "setting": "The assistant has given you a sweater. Now you need to find the fitting room and check the size.",
+      "conversation_flow": [
+        {
+          "title": "Ask where the fitting rooms are",
+          "chatbot_message": null
+        },
+        {
+          "title": "Say the sweater is too big",
+          "chatbot_message": "De paskamers zijn daar."
+        },
+        {
+          "title": "Ask if they have a size smaller",
+          "chatbot_message": "En, past het?",
+          "extract_info": {}
+        },
+        {
+          "title": "Acknowledge the new size",
+          "chatbot_message": "Oh, jammer. Geen probleem. Een moment... Hier is een maat kleiner. Alstublieft."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "After trying on a new size, the assistant will likely ask 'En, past deze?', meaning 'And, does this one fit?'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E10",
+      "data": {
+        "phrase": "Deze is perfect",
+        "meaning": "This one is perfect"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E11",
+      "data": {
+        "phrase": "Ik neem hem",
+        "meaning": "I'll take it"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'hem' to refer to 'de' words like 'de trui'. For 'het' words like 'het T-shirt', you would say 'Ik neem het'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V12",
+      "data": {
+        "blij": "happy / glad"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To form a simple question, you can switch the subject and the verb. For example, 'Ik kan' (I can) becomes 'Kan ik?' (Can I?)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E12",
+      "data": {
+        "phrase": "Waar kan ik betalen?",
+        "meaning": "Where can I pay?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V13",
+      "data": {
+        "de kassa": "the counter / checkout"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L9_P03",
+      "data": {
+        "word": "kassa",
+        "phonetic": "[ˈkɑsaː]",
+        "tip": "Stress is on the first syllable: KAS-sa."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E13",
+      "data": {
+        "phrase": "Dat is dan...",
+        "meaning": "That will be..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E14",
+      "data": {
+        "phrase": "Kan ik ... ruilen?",
+        "meaning": "Can I ... return/exchange?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V14",
+      "data": {
+        "ruilen": "to return / to exchange"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E15",
+      "data": {
+        "phrase": "Jazeker",
+        "meaning": "Yes, of course"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V15",
+      "data": {
+        "de bon": "the receipt"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L9_S03",
+      "title": "Making the Purchase",
+      "setting": "You've found the right size and are now ready to pay.",
+      "conversation_flow": [
+        {
+          "title": "Say this one is perfect and you'll take it",
+          "chatbot_message": "En, past deze?"
+        },
+        {
+          "title": "Ask where you can pay",
+          "chatbot_message": "Heel goed! Blij dat het past."
+        },
+        {
+          "title": "Ask if you can return the sweater",
+          "chatbot_message": "U kunt bij de kassa daar betalen."
+        },
+        {
+          "title": "End the conversation",
+          "chatbot_message": "Dat is dan 25 euro, alstublieft. ... Jazeker. Dat kan met de bon."
+        }
+      ]
+    }
+  ]
+}

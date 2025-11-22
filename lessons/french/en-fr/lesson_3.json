@@ -1,0 +1,258 @@
+{
+  "id": "L3F",
+  "title": "At the Supermarket",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome to the supermarket! In this lesson, you'll learn how to ask for help and find what you need. Let's start by getting an employee's attention."
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E01",
+      "data": {
+        "phrase": "Excusez-moi",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E02",
+      "data": {
+        "phrase": "Où est... ?",
+        "meaning": "Where is... ?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In French, nouns have a gender. 'Le' is used for masculine nouns, like 'le pain' (the bread)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3F_V01",
+      "data": {
+        "le lait": "the milk"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3F_V02",
+      "data": {
+        "le pain": "the bread"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E03",
+      "data": {
+        "phrase": "Et... ?",
+        "meaning": "And... ?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L3F_P01",
+      "data": {
+        "word": "lait",
+        "phonetic": "[lɛ]",
+        "tip": "The 'ai' sounds like the 'e' in 'bet'. The final 't' is silent."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L3F_S01",
+      "title": "Asking for Help",
+      "setting": "You're in a supermarket and need to find milk and bread. You see an employee stocking shelves.",
+      "conversation_flow": [
+        {
+          "title": "Get the employee's attention",
+          "chatbot_message": null
+        },
+        {
+          "title": "Ask where the milk is",
+          "chatbot_message": "Bonjour. Oui ?"
+        },
+        {
+          "title": "Ask where the bread is",
+          "chatbot_message": "Le lait est là-bas."
+        },
+        {
+          "title": "Acknowledge their help",
+          "chatbot_message": "Le pain est à côté."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's learn how to ask for specific quantities and see if something is on sale."
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E04",
+      "data": {
+        "phrase": "Je voudrais...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E05",
+      "data": {
+        "phrase": "s'il vous plaît",
+        "meaning": "please"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3F_V03",
+      "data": {
+        "cinq cents grammes de": "five hundred grams of"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3F_V04",
+      "data": {
+        "les raisins": "the grapes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3F_V05",
+      "data": {
+        "le fromage": "the cheese"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E06",
+      "data": {
+        "phrase": "...est en promotion ?",
+        "meaning": "...is on sale?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E07",
+      "data": {
+        "phrase": "Merci",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L3F_P02",
+      "data": {
+        "word": "fromage",
+        "phonetic": "[fʁɔmaʒ]",
+        "tip": "The 'age' ending sounds like 'ahj', similar to the 'age' in 'massage'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L3F_S02",
+      "title": "Buying Fruit",
+      "setting": "The employee is still with you. You want to buy some grapes and ask about cheese.",
+      "conversation_flow": [
+        {
+          "title": "Ask for 500 grams of grapes",
+          "chatbot_message": "Autre chose ?"
+        },
+        {
+          "title": "Ask if the cheese is on sale",
+          "chatbot_message": "Voilà. Et avec ça ?"
+        },
+        {
+          "title": "Thank the employee",
+          "chatbot_message": "Oui, le fromage est en promotion."
+        },
+        {
+          "title": "Respond to the employee",
+          "chatbot_message": "De rien."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent work! You have your items. Now it's time to go to the checkout. Let's learn the final phrases you'll need."
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E08",
+      "data": {
+        "phrase": "Bonjour",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E09",
+      "data": {
+        "phrase": "Je peux avoir... ?",
+        "meaning": "Can I have... ?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3F_V06",
+      "data": {
+        "un sac": "a bag"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E10",
+      "data": {
+        "phrase": "Ça fait... euros",
+        "meaning": "That's... euros"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E11",
+      "data": {
+        "phrase": "Par carte",
+        "meaning": "By card"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E12",
+      "data": {
+        "phrase": "Au revoir",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3F_E13",
+      "data": {
+        "phrase": "Bonne journée",
+        "meaning": "Have a good day"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L3F_S03",
+      "title": "At the Checkout",
+      "setting": "You are at the checkout ('la caisse'). The cashier greets you.",
+      "conversation_flow": [
+        {
+          "title": "Greet the cashier",
+          "chatbot_message": "Bonjour."
+        },
+        {
+          "title": "Ask for a bag",
+          "chatbot_message": "Ce sera tout ?"
+        },
+        {
+          "title": "Respond to the total and pay",
+          "chatbot_message": "Bien sûr. Ça fait 15 euros."
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Merci. Au revoir et bonne journée !"
+        }
+      ]
+    }
+  ]
+}

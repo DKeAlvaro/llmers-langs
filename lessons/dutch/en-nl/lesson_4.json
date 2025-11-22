@@ -1,0 +1,232 @@
+{
+  "id": "L4",
+  "title": "Asking for Simple Directions",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to ask a stranger for directions. Politeness is key! We'll use the formal 'u' for 'you'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E01",
+      "data": {
+        "phrase": "Pardon",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V01",
+      "data": {
+        "Spreken": "To speak"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E02",
+      "data": {
+        "phrase": "Spreekt u Engels?",
+        "meaning": "Do you speak English?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L4_P01",
+      "data": {
+        "word": "spreekt",
+        "phonetic": "[spreːkt]",
+        "tip": "The 'ee' sound is long, like in the English word 'speak'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V02",
+      "data": {
+        "Het station": "The train station"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E03",
+      "data": {
+        "phrase": "Waar is...?",
+        "meaning": "Where is...?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L4_P02",
+      "data": {
+        "word": "station",
+        "phonetic": "[staːˈʃɔn]",
+        "tip": "This sounds very similar to the English 'station', but with a 'sh' sound at the end: sta-shon."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L4_S01",
+      "title": "Getting Someone's Attention",
+      "setting": "You're in the city center and need to find the train station. You decide to ask a friendly-looking person for help.",
+      "conversation_flow": [
+        {
+          "title": "Politely get the person's attention",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Ask if they speak English",
+          "chatbot_message": "Ja?"
+        },
+        {
+          "title": "Ask where the train station is",
+          "chatbot_message": "Ja, een beetje."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now, let's learn the essential words for understanding the directions you receive."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V03",
+      "data": {
+        "Links": "Left"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V04",
+      "data": {
+        "Rechts": "Right"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L4_P03",
+      "data": {
+        "word": "rechts",
+        "phonetic": "[rɛxts]",
+        "tip": "The 'ch' sound is a soft, scratchy sound from the back of your throat. It's a typical Dutch sound."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V05",
+      "data": {
+        "Ver": "Far"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V06",
+      "data": {
+        "Niet": "Not"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E04",
+      "data": {
+        "phrase": "Is het ver?",
+        "meaning": "Is it far?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V07",
+      "data": {
+        "De straat": "The street"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L4_S02",
+      "title": "Understanding the Directions",
+      "setting": "The person has understood your question and is now starting to give you directions.",
+      "conversation_flow": [
+        {
+          "title": "Acknowledge the first direction",
+          "chatbot_message": "Ah, het station. Dat is makkelijk. Het is hier naar links."
+        },
+        {
+          "title": "Ask if it is far",
+          "chatbot_message": "Oké."
+        },
+        {
+          "title": "Confirm the name of the street",
+          "chatbot_message": "Nee, het is niet ver. Het is in de Hoofdstraat."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "To make sure you understood, it's a good idea to repeat the directions back. Let's learn how."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V08",
+      "data": {
+        "Rechtdoor": "Straight ahead"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4_V09",
+      "data": {
+        "En dan": "And then"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E05",
+      "data": {
+        "phrase": "Dus...",
+        "meaning": "So..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E06",
+      "data": {
+        "phrase": "Dank u wel",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E07",
+      "data": {
+        "phrase": "Graag gedaan",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4_E08",
+      "data": {
+        "phrase": "Fijne dag nog",
+        "meaning": "Have a nice day"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L4_S03",
+      "title": "Finishing the Conversation",
+      "setting": "You think you know the way. Now, confirm the directions and end the conversation politely.",
+      "conversation_flow": [
+        {
+          "title": "Repeat the directions to confirm",
+          "chatbot_message": "Ja, de Hoofdstraat. Ga links, en dan rechtdoor."
+        },
+        {
+          "title": "Thank the person for their help",
+          "chatbot_message": "Ja, dat klopt."
+        },
+        {
+          "title": "Wish them a nice day",
+          "chatbot_message": "Graag gedaan."
+        }
+      ]
+    }
+  ]
+}

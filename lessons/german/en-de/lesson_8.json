@@ -1,0 +1,333 @@
+{
+  "id": "L8",
+  "title": "Discussing Your Daily Routine",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your daily routine, or 'Tagesablauf', in German. We'll cover everything from morning to evening."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V01",
+      "data": {
+        "der Tagesablauf": "the daily routine"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V02",
+      "data": {
+        "aufstehen": "to get up"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L8_P01",
+      "data": {
+        "word": "aufstehen",
+        "phonetic": "[ˈaʊ̯fˌʃteːən]",
+        "tip": "This is a separable verb. The stress is on 'auf', and in a simple sentence, this part moves to the end. For example: 'Ich stehe auf'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E01",
+      "data": {
+        "phrase": "Ich stehe auf",
+        "meaning": "I get up"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V03",
+      "data": {
+        "um": "at (for telling time)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V04",
+      "data": {
+        "sechs": "six"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V05",
+      "data": {
+        "sieben": "seven"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V06",
+      "data": {
+        "Uhr": "o'clock"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V07",
+      "data": {
+        "das Frühstück": "the breakfast"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E02",
+      "data": {
+        "phrase": "zum Frühstück",
+        "meaning": "for breakfast"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V08",
+      "data": {
+        "der Kaffee": "the coffee"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E03",
+      "data": {
+        "phrase": "Ich trinke Kaffee",
+        "meaning": "I drink coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V09",
+      "data": {
+        "fahren": "to go, to travel"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say you travel 'by' something, use 'mit dem' for masculine (der) and neuter (das) nouns. For example, 'mit dem Bus' or 'mit dem Fahrrad'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V10",
+      "data": {
+        "der Bus": "the bus"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V11",
+      "data": {
+        "das Fahrrad": "the bicycle"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V12",
+      "data": {
+        "zur Arbeit": "to work"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8_S01",
+      "title": "Discussing your morning",
+      "setting": "Your German friend, Alex, starts a conversation about your daily routines. Begin by talking about your morning.",
+      "conversation_flow": [
+        {
+          "title": "Say what time you get up",
+          "chatbot_message": "Hallo! Ich stehe um sechs Uhr auf. Und du?"
+        },
+        {
+          "title": "Mention what you have for breakfast",
+          "chatbot_message": "Super. Ich trinke Kaffee zum Frühstück. Und du?"
+        },
+        {
+          "title": "Explain how you go to work",
+          "chatbot_message": "Super! Ich fahre mit dem Fahrrad zur Arbeit. Und du?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's talk about the workday. We'll learn more separable verbs."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V13",
+      "data": {
+        "anfangen": "to start, to begin"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Remember `aufstehen`? The verb `anfangen` is also separable. The `an-` part moves to the end of the sentence. For example: `Ich fange an`."
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E04",
+      "data": {
+        "phrase": "Ich fange an",
+        "meaning": "I start"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V14",
+      "data": {
+        "neun": "nine"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E05",
+      "data": {
+        "phrase": "zu Mittag essen",
+        "meaning": "to eat lunch"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V15",
+      "data": {
+        "ein Uhr": "one o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E06",
+      "data": {
+        "phrase": "Ich esse um ein Uhr zu Mittag",
+        "meaning": "I eat lunch at one o'clock"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V16",
+      "data": {
+        "fertig sein": "to be finished"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E07",
+      "data": {
+        "phrase": "Ich bin fertig",
+        "meaning": "I am finished"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V17",
+      "data": {
+        "fünf": "five"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8_S02",
+      "title": "Talking about your workday",
+      "setting": "The conversation with Alex continues. Now, describe your typical workday schedule.",
+      "conversation_flow": [
+        {
+          "title": "State what time you start working",
+          "chatbot_message": "Toll! Und die Arbeit? Ich fange um neun Uhr an. Und du?"
+        },
+        {
+          "title": "Say what time you have lunch",
+          "chatbot_message": "Gut. Ich esse um ein Uhr zu Mittag. Und du?"
+        },
+        {
+          "title": "Mention what time you finish work",
+          "chatbot_message": "Prima. Ich bin um fünf Uhr fertig. Und du?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent work! Let's finish the day by talking about your evening activities."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V18",
+      "data": {
+        "nach der Arbeit": "after work"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V19",
+      "data": {
+        "kochen": "to cook"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Word order: If you start a sentence with a time or phrase like 'Nach der Arbeit', the verb comes second, before the subject 'ich'. For example: 'Nach der Arbeit koche ich'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V20",
+      "data": {
+        "Sport machen": "to do sports"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V21",
+      "data": {
+        "fernsehen": "to watch TV"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E08",
+      "data": {
+        "phrase": "Ich sehe fern",
+        "meaning": "I watch TV"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V22",
+      "data": {
+        "zu Abend essen": "to eat dinner"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E09",
+      "data": {
+        "phrase": "Ich esse um sieben Uhr zu Abend",
+        "meaning": "I eat dinner at seven o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E10",
+      "data": {
+        "phrase": "Und du?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8_S03",
+      "title": "Describing your evening",
+      "setting": "You're wrapping up your conversation with Alex. Tell him about your evening and ask about his.",
+      "conversation_flow": [
+        {
+          "title": "Describe what you do after work",
+          "chatbot_message": "Wow! Nach der Arbeit koche ich. Und du?"
+        },
+        {
+          "title": "Say what time you have dinner",
+          "chatbot_message": "Schön! Ich esse um sieben Uhr zu Abend. Und du?"
+        },
+        {
+          "title": "Ask about their routine in return",
+          "chatbot_message": "Prima. Das ist mein Tag."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "id": "L21",
+  "title": "At the Pharmacy",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to handle a common situation: visiting a pharmacy, or 'farmacia', in Italy to pick up a prescription."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V01",
+      "data": {
+        "La farmacia": "The pharmacy"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E01",
+      "data": {
+        "phrase": "Buongiorno",
+        "meaning": "Good morning / Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E02",
+      "data": {
+        "phrase": "Sono qui per...",
+        "meaning": "I am here for/to..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V02",
+      "data": {
+        "La ricetta": "The prescription"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L21_P01",
+      "data": {
+        "word": "Ricetta",
+        "phonetic": "ree-CHET-tah",
+        "tip": "The 'cc' in Italian is pronounced like 'tch' in 'catch'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V03",
+      "data": {
+        "La tessera sanitaria": "The health card"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In Italy, it's polite to use the formal 'you' (Lei) with strangers, like a pharmacist. We'll practice the verb 'avere' (to have) for both 'I' (io) and 'you' (Lei)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V04",
+      "data": {
+        "Io ho": "I have"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V05",
+      "data": {
+        "Lei ha...?": "Do you have...?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E03",
+      "data": {
+        "phrase": "Ecco",
+        "meaning": "Here it is / Here you are"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S01",
+      "title": "Stating Your Needs",
+      "setting": "You've entered the pharmacy. It's time to tell the pharmacist why you're here.",
+      "conversation_flow": [
+        {
+          "title": "Greet the pharmacist",
+          "chatbot_message": "Buongiorno. Mi dica."
+        },
+        {
+          "title": "Say you are here for a prescription for your name",
+          "chatbot_message": "Certo. Per quale nome?",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Hand over your ID or prescription",
+          "chatbot_message": "Va bene, {user_name}. Ha la ricetta o la tessera sanitaria?",
+          "expected_user_response": "Ecco."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to ask for instructions about your medicine. We'll use the verbs 'dovere' (must / to have to) and 'prendere' (to take)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V06",
+      "data": {
+        "Il medicinale": "The medicine"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V07",
+      "data": {
+        "Io devo": "I must / I have to"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V08",
+      "data": {
+        "Lei deve": "You must / You have to (formal)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V09",
+      "data": {
+        "Prendere": "To take"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E04",
+      "data": {
+        "phrase": "Quante volte al giorno?",
+        "meaning": "How many times a day?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V10",
+      "data": {
+        "Prima": "Before"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V11",
+      "data": {
+        "Dopo": "After"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V12",
+      "data": {
+        "I pasti": "The meals"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E05",
+      "data": {
+        "phrase": "Ho bisogno di...",
+        "meaning": "I need..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V13",
+      "data": {
+        "L'antidolorifico": "The painkiller"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S02",
+      "title": "Asking for Instructions",
+      "setting": "The pharmacist finds your medicine. Now you need to ask for instructions on how to take it.",
+      "conversation_flow": [
+        {
+          "title": "Ask how many times a day to take the medicine",
+          "chatbot_message": "Grazie. Ecco il suo medicinale."
+        },
+        {
+          "title": "Ask if it should be taken before or after meals",
+          "chatbot_message": "Deve prenderlo due volte al giorno."
+        },
+        {
+          "title": "Ask if you need painkillers too",
+          "chatbot_message": "Dopo i pasti.",
+          "expected_user_response": "Ho bisogno anche di antidolorifici?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! You've got all the information. Time to pay and say your goodbyes. Let's learn the phrases you'll need."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V14",
+      "data": {
+        "L'assicurazione": "The insurance"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V15",
+      "data": {
+        "Il costo": "The cost"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E06",
+      "data": {
+        "phrase": "Quanto costa?",
+        "meaning": "How much does it cost?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V16",
+      "data": {
+        "Io posso": "I can"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V17",
+      "data": {
+        "Pagare": "To pay"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V18",
+      "data": {
+        "La carta": "The card"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E07",
+      "data": {
+        "phrase": "Grazie",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E08",
+      "data": {
+        "phrase": "Arrivederci",
+        "meaning": "Goodbye (formal)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E09",
+      "data": {
+        "phrase": "Buona giornata",
+        "meaning": "Have a good day"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S03",
+      "title": "Payment and Closing",
+      "setting": "You have your medicine and instructions. All that's left is to pay and leave.",
+      "conversation_flow": [
+        {
+          "title": "Ask if insurance covers the cost",
+          "chatbot_message": "No, non ha bisogno. Altro?"
+        },
+        {
+          "title": "Offer to pay by card",
+          "chatbot_message": "Sì, l'assicurazione copre una parte. Il costo è 5 euro."
+        },
+        {
+          "title": "Thank the pharmacist and wish them a good day",
+          "chatbot_message": "Certo.",
+          "expected_user_response": "Grazie, arrivederci. Buona giornata."
+        }
+      ]
+    }
+  ]
+}

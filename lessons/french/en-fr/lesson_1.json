@@ -1,0 +1,290 @@
+{
+  "id": "L1",
+  "title": "First Day at Language School",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome to your first French lesson! Let's learn how to introduce yourself to a new classmate before the lesson starts."
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E01",
+      "data": {
+        "phrase": "Bonjour",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E02",
+      "data": {
+        "phrase": "Je m'appelle...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L1_P01",
+      "data": {
+        "word": "Je m'appelle",
+        "phonetic": "zuh mah-pell",
+        "tip": "The 'e' at the end of 'appelle' is silent, and the 's' in 'm'appelle' sounds like a 'z' sound."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E03",
+      "data": {
+        "phrase": "Et toi?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In French, 'toi' is the informal way to say 'you'. You use it with friends, family, and people your age, like a classmate."
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E04",
+      "data": {
+        "phrase": "Enchanté",
+        "meaning": "Nice to meet you (if you are male)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E05",
+      "data": {
+        "phrase": "Enchantée",
+        "meaning": "Nice to meet you (if you are female)"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Choose 'Enchanté' if you identify as male and 'Enchantée' if you identify as female. The pronunciation is the same!"
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L1_S01",
+      "title": "Initial Introductions",
+      "setting": "You are in the classroom. A classmate sitting next to you starts a conversation.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Bonjour."
+        },
+        {
+          "title": "Greet back and state your name",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "chatbot_message": "Bonjour {user_name}."
+        },
+        {
+          "title": "Ask for their name"
+        },
+        {
+          "chatbot_message": "Je m'appelle Léo."
+        },
+        {
+          "title": "Say it's nice to meet them"
+        },
+        {
+          "chatbot_message": "Enchanté."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V01",
+      "data": {
+        "Où": "Where"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E06",
+      "data": {
+        "phrase": "Tu viens d'où?",
+        "meaning": "Where are you from?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E07",
+      "data": {
+        "phrase": "Je viens de...",
+        "meaning": "I come from..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V02",
+      "data": {
+        "Belgique": "Belgium"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V03",
+      "data": {
+        "Allemagne": "Germany"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'd'' instead of 'de' if the country name starts with a vowel, like in 'Je viens d'Allemagne'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E08",
+      "data": {
+        "phrase": "J'habite à...",
+        "meaning": "I live in..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L1_P02",
+      "data": {
+        "word": "J'habite",
+        "phonetic": "zha-beet",
+        "tip": "The 'h' in 'habiter' is silent, so 'je' becomes 'j'' and links smoothly with 'habite'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V04",
+      "data": {
+        "Le professeur": "The teacher"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V05",
+      "data": {
+        "arrive": "arrives"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L1_S02",
+      "title": "Exchanging Origins",
+      "setting": "The conversation continues. Now, find out more about each other.",
+      "conversation_flow": [
+        {
+          "title": "Ask Léo where he is from"
+        },
+        {
+          "chatbot_message": "Je viens de France. Et toi?"
+        },
+        {
+          "title": "State your country of origin"
+        },
+        {
+          "chatbot_message": "Super! Tu habites où?"
+        },
+        {
+          "title": "Mention the city you live in",
+          "extract_info": {
+            "user_city": "Extract the user's city from their message"
+          }
+        },
+        {
+          "chatbot_message": "Ah {user_city}! Très bien. Oh, le professeur arrive."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V06",
+      "data": {
+        "Le cours": "The class"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V07",
+      "data": {
+        "commence": "starts"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E09",
+      "data": {
+        "phrase": "Le cours commence",
+        "meaning": "The class is starting"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E10",
+      "data": {
+        "phrase": "Bonne chance",
+        "meaning": "Good luck"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V08",
+      "data": {
+        "avec": "with"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E11",
+      "data": {
+        "phrase": "Merci",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E12",
+      "data": {
+        "phrase": "Toi aussi",
+        "meaning": "You too"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E13",
+      "data": {
+        "phrase": "À plus tard",
+        "meaning": "See you later"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L1_S03",
+      "title": "Wrapping up the First Chat",
+      "setting": "The teacher has arrived and is about to start the class. It's time to end the conversation.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Oh, le professeur arrive."
+        },
+        {
+          "title": "Acknowledge that the class is starting"
+        },
+        {
+          "chatbot_message": "Oui. Bonne chance avec le cours!"
+        },
+        {
+          "title": "Thank them and wish them luck too"
+        },
+        {
+          "chatbot_message": "Merci!"
+        },
+        {
+          "title": "Say goodbye for now"
+        },
+        {
+          "chatbot_message": "À plus tard, {user_name}!"
+        }
+      ]
+    }
+  ]
+}

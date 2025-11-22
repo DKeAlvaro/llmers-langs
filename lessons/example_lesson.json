@@ -1,0 +1,36 @@
+{
+  "id": "L0N",
+  "title": "At the supermarket",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome to your first {TARGET_LANG} lesson! We'll focus on everything you need to know for a successful trip to a {TARGET_LANG} supermarket, 'de supermarkt'."
+    },
+    { "type": "vocabulary", "item_id": "L0N_V01", "data": { "De supermarkt": "The supermarket" } },
+    { "type": "expression", "item_id": "L0N_E01", "data": { "phrase": "Hallo.", "meaning": "Hello." } },
+    { "type": "expression", "item_id": "L0N_E02", "data": { "phrase": "Ik heet...", "meaning": "My name is..." } },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L0N_S01",
+      "title": "Meeting Someone New",
+      "setting": "You are in the supermarket and meet someone new. You want to introduce yourself.",
+      "conversation_flow":[
+        {
+          "title":"Greet Alex",
+          "chatbot_message":"Hallo!"
+        },
+        {
+          "title":"State your name",
+          "chatbot_message":"Ik heet Alex. Wat is jouw naam?",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title":"Say it's nice to meet them",
+          "chatbot_message":"Leuk je te ontmoeten, {user_name}!"
+        }
+      ]
+    }
+  ]
+}

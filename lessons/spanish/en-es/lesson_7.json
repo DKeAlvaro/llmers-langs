@@ -1,0 +1,206 @@
+{
+  "id": "L07",
+  "title": "Making a Simple Appointment by Phone",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to call a business and make a simple appointment. We'll practice calling a hairdresser, 'la peluquería'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V01",
+      "data": {
+        "La peluquería": "The hairdresser's salon"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V02",
+      "data": {
+        "Una cita": "An appointment"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E01",
+      "data": {
+        "phrase": "Buenos días",
+        "meaning": "Good morning"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E02",
+      "data": {
+        "phrase": "Me llamo...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E03",
+      "data": {
+        "phrase": "Quisiera hacer una cita",
+        "meaning": "I would like to make an appointment"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L07_P01",
+      "data": {
+        "word": "cita",
+        "phonetic": "/ˈθita/ or /ˈsita/",
+        "tip": "In Spain, the 'ci' sounds like 'th' in 'think'. In Latin America, it sounds like 's' in 'see'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L07_S01",
+      "title": "Calling the Hairdresser",
+      "setting": "You are calling the hairdresser, 'Peluquería Estilo', to make an appointment.",
+      "conversation_flow": [
+        {
+          "title": "Greet the receptionist and state your name",
+          "chatbot_message": "Peluquería Estilo. Buenos días.",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "State that you want to make an appointment",
+          "chatbot_message": "Buenos días, {user_name}. ¿En qué puedo ayudarle?"
+        },
+        {
+          "title": "Respond to the question about when you'd like to come",
+          "chatbot_message": "Claro. ¿Para un corte de pelo? ¿Cuándo le gustaría venir?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to talk about days and times. To say 'on Friday' in Spanish, you say 'el viernes'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V03",
+      "data": {
+        "El viernes": "Friday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V04",
+      "data": {
+        "La tarde": "The afternoon"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E04",
+      "data": {
+        "phrase": "Por la tarde",
+        "meaning": "In the afternoon"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E05",
+      "data": {
+        "phrase": "No puedo",
+        "meaning": "I can't"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E06",
+      "data": {
+        "phrase": "¿Es posible a otra hora?",
+        "meaning": "Is it possible at another time?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L07_P02",
+      "data": {
+        "word": "viernes",
+        "phonetic": "/ˈbjeɾnes/",
+        "tip": "The 'v' in Spanish is often pronounced like a soft 'b', somewhere between the English 'b' and 'v' sounds."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L07_S02",
+      "title": "Finding a Day and Time",
+      "setting": "The receptionist is trying to find a time that works for you. You need to state your preferences.",
+      "conversation_flow": [
+        {
+          "title": "State your preference for a day (Friday)",
+          "chatbot_message": "Veamos... ¿qué día prefiere?"
+        },
+        {
+          "title": "State your preference for a time of day (the afternoon)",
+          "chatbot_message": "El viernes... ¿por la mañana o por la tarde?"
+        },
+        {
+          "title": "Decline the proposed time and ask for another option",
+          "chatbot_message": "Tengo una hora libre a las tres. ¿Está bien?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! You're almost there. Now you just need to agree, confirm the details, and end the call politely."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V05",
+      "data": {
+        "Las cinco": "Five o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E07",
+      "data": {
+        "phrase": "Sí, perfecto",
+        "meaning": "Yes, perfect"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E08",
+      "data": {
+        "phrase": "Gracias",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E09",
+      "data": {
+        "phrase": "Adiós",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L07_S03",
+      "title": "Confirming the Appointment",
+      "setting": "You are finalizing the details of your appointment and ending the call.",
+      "conversation_flow": [
+        {
+          "title": "Agree to the new time",
+          "chatbot_message": "Sí, a las cinco es posible. ¿Le va bien?"
+        },
+        {
+          "title": "Confirm the day and time",
+          "chatbot_message": "Muy bien. Su cita es el viernes a las cinco."
+        },
+        {
+          "title": "Thank the receptionist and end the call",
+          "chatbot_message": "Perfecto. ¡Nos vemos el viernes, {user_name}!"
+        }
+      ]
+    }
+  ]
+}

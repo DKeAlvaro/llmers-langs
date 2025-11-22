@@ -1,0 +1,273 @@
+{
+  "id": "L19",
+  "title": "Visiting a Dutch Friend's Home",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to handle a visit to a Dutch friend's house. It's common in the Netherlands to bring a small gift!"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V01",
+      "data": {
+        "De bloemen": "The flowers"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V02",
+      "data": {
+        "De wijn": "The wine"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V03",
+      "data": {
+        "Het huis": "The house"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E01",
+      "data": {
+        "phrase": "Hoi",
+        "meaning": "Hi"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E02",
+      "data": {
+        "phrase": "Dit is voor jou",
+        "meaning": "This is for you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E03",
+      "data": {
+        "phrase": "Dank je wel",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E04",
+      "data": {
+        "phrase": "Wat een mooi huis!",
+        "meaning": "What a nice house!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L19_P01",
+      "data": {
+        "word": "huis",
+        "phonetic": "[ɦœys]",
+        "tip": "The Dutch 'ui' sound is tricky. It's a bit like gliding from the 'u' in 'burn' to the 'ee' in 'see'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19_S01",
+      "title": "Arriving at a Friend's House",
+      "setting": "You are at the front door of your friend Lars's house. He opens the door.",
+      "conversation_flow": [
+        {
+          "title": "Greet your friend",
+          "chatbot_message": "Hoi! Welkom!"
+        },
+        {
+          "title": "Give your gift",
+          "chatbot_message": "Oh, wat leuk! Dank je wel."
+        },
+        {
+          "title": "Compliment their home",
+          "chatbot_message": "Dank je. Kom binnen!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now you're inside. Your friend will probably offer you something to drink. The standard options are `koffie` (coffee) or `thee` (tea)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V04",
+      "data": {
+        "De koffie": "The coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V05",
+      "data": {
+        "De thee": "The tea"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V06",
+      "data": {
+        "De keuken": "The kitchen"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E05",
+      "data": {
+        "phrase": "Ja, graag",
+        "meaning": "Yes, please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E06",
+      "data": {
+        "phrase": "Een kopje...",
+        "meaning": "A cup of..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E07",
+      "data": {
+        "phrase": "Alsjeblieft",
+        "meaning": "Please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E08",
+      "data": {
+        "phrase": "Hoe was je week?",
+        "meaning": "How was your week?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E09",
+      "data": {
+        "phrase": "Kan ik helpen?",
+        "meaning": "Can I help?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L19_P02",
+      "data": {
+        "word": "keuken",
+        "phonetic": "[ˈkøː.kə(n)]",
+        "tip": "The 'eu' sound is also typically Dutch. It's like the 'oo' in the English word 'book', but with more rounded lips."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19_S02",
+      "title": "Making Small Talk",
+      "setting": "You are now in the living room. Lars asks if you want a drink.",
+      "conversation_flow": [
+        {
+          "title": "Accept a drink and state your preference",
+          "chatbot_message": "Ga zitten. Wat wil je drinken? Ik heb koffie en thee."
+        },
+        {
+          "title": "Ask how their week was",
+          "chatbot_message": "Oké, een kopje thee. Ik ga naar de keuken. Mijn week was goed, dank je."
+        },
+        {
+          "title": "Offer to help",
+          "chatbot_message": "Nee, dank je. Blijf lekker zitten."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "The word `gezellig` is very important in Dutch culture. It means cozy, fun, or a pleasant atmosphere. Saying `Het was gezellig` is a great way to compliment your host."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V07",
+      "data": {
+        "De avond": "The evening"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V08",
+      "data": {
+        "Laat": "Late"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E10",
+      "data": {
+        "phrase": "Het is al laat",
+        "meaning": "It is already late"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E11",
+      "data": {
+        "phrase": "Ik moet gaan",
+        "meaning": "I have to go"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E12",
+      "data": {
+        "phrase": "Dank je wel voor de leuke avond",
+        "meaning": "Thank you for the nice evening"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E13",
+      "data": {
+        "phrase": "Graag gedaan",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E14",
+      "data": {
+        "phrase": "Doei",
+        "meaning": "Bye (informal)"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L19_P03",
+      "data": {
+        "word": "gezellig",
+        "phonetic": "[ɣəˈzɛləx]",
+        "tip": "The 'g' sound in Dutch is made in the back of your throat. It's a soft, scraping sound, not like the 'g' in 'go'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19_S03",
+      "title": "Saying Goodbye",
+      "setting": "You've had a nice evening, but now it's time to leave.",
+      "conversation_flow": [
+        {
+          "title": "Say that it's getting late",
+          "chatbot_message": "Oh, oké. Jammer."
+        },
+        {
+          "title": "Thank your friend for the evening",
+          "chatbot_message": "Graag gedaan. Ik vond het ook gezellig."
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Doei! Tot de volgende keer!"
+        }
+      ]
+    }
+  ]
+}

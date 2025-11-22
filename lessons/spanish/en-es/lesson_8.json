@@ -1,0 +1,312 @@
+{
+  "id": "L8S",
+  "title": "Discussing Your Daily Routine",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Let's learn how to talk about your 'rutina diaria' (daily routine). We will start with the morning."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8S_V01",
+      "data": {
+        "La rutina": "The routine"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E01",
+      "data": {
+        "phrase": "Normalmente",
+        "meaning": "Usually"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E02",
+      "data": {
+        "phrase": "Yo me despierto",
+        "meaning": "I wake up"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E03",
+      "data": {
+        "phrase": "A las...",
+        "meaning": "At... (for time, e.g., 'at seven')"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8S_V02",
+      "data": {
+        "Siete": "Seven"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L8S_P01",
+      "data": {
+        "word": "Ocho",
+        "phonetic": "[ˈo.tʃo]",
+        "tip": "The 'ch' sound in Spanish is just like the 'ch' in the English word 'cheese'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8S_V03",
+      "data": {
+        "Ocho": "Eight"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E04",
+      "data": {
+        "phrase": "Yo desayuno",
+        "meaning": "I have breakfast"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8S_V04",
+      "data": {
+        "Café": "Coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8S_V05",
+      "data": {
+        "Tostadas": "Toast"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E05",
+      "data": {
+        "phrase": "Yo voy",
+        "meaning": "I go"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E06",
+      "data": {
+        "phrase": "Al trabajo",
+        "meaning": "To work"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8S_V06",
+      "data": {
+        "En bicicleta": "By bike"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8S_V07",
+      "data": {
+        "En tren": "By train"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8S_S01",
+      "title": "Your Morning",
+      "setting": "Your friend, Sofía, asks about your morning routine.",
+      "conversation_flow": [
+        {
+          "title": "State what time you wake up",
+          "chatbot_message": "¡Hola! Hablemos de la rutina. Normalmente, ¿a qué hora te despiertas?"
+        },
+        {
+          "title": "Say what you have for breakfast",
+          "chatbot_message": "Interesante. ¿Y qué desayunas?"
+        },
+        {
+          "title": "Explain how you go to work",
+          "chatbot_message": "¡Qué rico! Y después, ¿cómo vas al trabajo?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's talk about your work or study day. We'll learn verbs like 'empezar' (to start) and 'terminar' (to finish)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E07",
+      "data": {
+        "phrase": "Yo empiezo",
+        "meaning": "I start"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E08",
+      "data": {
+        "phrase": "A trabajar",
+        "meaning": "To work"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8S_V08",
+      "data": {
+        "Nueve": "Nine"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E09",
+      "data": {
+        "phrase": "Yo almuerzo",
+        "meaning": "I have lunch"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say 'one o'clock', you use 'a la una'. For all other hours, you use 'a las...', for example, 'a las dos'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8S_V09",
+      "data": {
+        "A la una": "At one o'clock"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8S_V10",
+      "data": {
+        "A las dos": "At two o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E10",
+      "data": {
+        "phrase": "Yo termino",
+        "meaning": "I finish"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8S_V11",
+      "data": {
+        "Cinco": "Five"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8S_S02",
+      "title": "Your Afternoon",
+      "setting": "Sofía continues the conversation, asking about your afternoon.",
+      "conversation_flow": [
+        {
+          "title": "State what time you start work",
+          "chatbot_message": "¡En bicicleta! Muy bien. ¿Y a qué hora empiezas a trabajar?"
+        },
+        {
+          "title": "Say when you have lunch",
+          "chatbot_message": "Entendido. ¿Y cuándo almuerzas?"
+        },
+        {
+          "title": "Mention when you finish work",
+          "chatbot_message": "Bien. ¿A qué hora terminas de trabajar?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Last part! Let's talk about your evening and learn how to ask questions back to keep the conversation going."
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E11",
+      "data": {
+        "phrase": "Después del trabajo",
+        "meaning": "After work"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E12",
+      "data": {
+        "phrase": "Yo cocino",
+        "meaning": "I cook"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E13",
+      "data": {
+        "phrase": "Yo hago deporte",
+        "meaning": "I do sports"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L8S_P02",
+      "data": {
+        "word": "Veo",
+        "phonetic": "[ˈbe.o]",
+        "tip": "The 'v' in Spanish often sounds like a soft 'b'. Try to say 'beo'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E14",
+      "data": {
+        "phrase": "Yo veo la tele",
+        "meaning": "I watch TV"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E15",
+      "data": {
+        "phrase": "Yo ceno",
+        "meaning": "I have dinner"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8S_V12",
+      "data": {
+        "Las ocho": "Eight o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8S_E16",
+      "data": {
+        "phrase": "¿Y tú?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8S_S03",
+      "title": "Your Evening",
+      "setting": "You're now ready to describe your evening and ask Sofía about her routine.",
+      "conversation_flow": [
+        {
+          "title": "Describe an after-work activity",
+          "chatbot_message": "¡Perfecto! ¿Qué haces normalmente después del trabajo?"
+        },
+        {
+          "title": "Say what time you have dinner",
+          "chatbot_message": "¡Qué bien! A mí también me gusta cocinar. ¿A qué hora cenas?"
+        },
+        {
+          "title": "Ask about her routine",
+          "chatbot_message": "A las ocho. Mi rutina es muy similar."
+        }
+      ]
+    }
+  ]
+}

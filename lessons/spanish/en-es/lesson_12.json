@@ -1,0 +1,248 @@
+{
+  "id": "L12",
+  "title": "Talking About the Weather",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to make small talk about the weather in Spanish, a very common conversation topic!"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V01",
+      "data": {
+        "El tiempo": "The weather"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E01",
+      "data": {
+        "phrase": "Qué mal tiempo",
+        "meaning": "What bad weather"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E02",
+      "data": {
+        "phrase": "Llueve",
+        "meaning": "It's raining"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L12_P01",
+      "data": {
+        "word": "Llueve",
+        "phonetic": "/ˈʝwe.βe/",
+        "tip": "The 'll' in Spanish is often pronounced like the 'y' in the English word 'yes'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E03",
+      "data": {
+        "phrase": "Sí, verdad",
+        "meaning": "Yes, right / Yes, true"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V02",
+      "data": {
+        "Ayer": "Yesterday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V03",
+      "data": {
+        "Sol": "Sun"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E04",
+      "data": {
+        "phrase": "Hacía sol",
+        "meaning": "It was sunny"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L12_S01",
+      "title": "Opening the Conversation",
+      "setting": "You're at a bus stop next to a stranger. It suddenly starts to rain. You decide to say something.",
+      "conversation_flow": [
+        {
+          "title": "Comment on the bad weather",
+          "chatbot_message": "..."
+        },
+        {
+          "title": "Agree with their response",
+          "chatbot_message": "Sí, qué mal tiempo."
+        },
+        {
+          "title": "Mention that it was sunny yesterday",
+          "chatbot_message": "Sí, verdad."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's talk about the future. You'll learn how to ask about the weather forecast."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V04",
+      "data": {
+        "Mañana": "Tomorrow"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V05",
+      "data": {
+        "La previsión": "The forecast"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E05",
+      "data": {
+        "phrase": "¿Sabes la previsión?",
+        "meaning": "Do you know the forecast?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E06",
+      "data": {
+        "phrase": "Ojalá",
+        "meaning": "Hopefully / I hope"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E07",
+      "data": {
+        "phrase": "Ojalá brille el sol",
+        "meaning": "Hopefully the sun shines"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V06",
+      "data": {
+        "El viento": "The wind"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E08",
+      "data": {
+        "phrase": "No me gusta el viento",
+        "meaning": "I don't like the wind"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L12_S02",
+      "title": "Discussing the Forecast",
+      "setting": "The conversation continues at the bus stop.",
+      "conversation_flow": [
+        {
+          "title": "Ask about the forecast for tomorrow",
+          "chatbot_message": "Sí, un día perfecto. ¿Y mañana?"
+        },
+        {
+          "title": "Express hope for sunshine",
+          "chatbot_message": "Creo que no. Más lluvia."
+        },
+        {
+          "title": "State that you don't like the wind",
+          "chatbot_message": "Sí, ojalá. No me gusta la lluvia, pero el viento es peor."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Let's finish the conversation. You'll learn to connect the weather to your plans and say goodbye."
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E09",
+      "data": {
+        "phrase": "No es bueno para...",
+        "meaning": "It's not good for..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V07",
+      "data": {
+        "Ir en bicicleta": "To go cycling"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V08",
+      "data": {
+        "El autobús": "The bus"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L12_P02",
+      "data": {
+        "word": "Autobús",
+        "phonetic": "/au̯.t̪oˈβus/",
+        "tip": "In Spanish, the accent mark shows you where to put the stress: auto-BÚS."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E10",
+      "data": {
+        "phrase": "Mira, el autobús",
+        "meaning": "Look, the bus"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E11",
+      "data": {
+        "phrase": "Buen viaje",
+        "meaning": "Have a good trip"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E12",
+      "data": {
+        "phrase": "Adiós",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L12_S03",
+      "title": "Connecting to Plans & Saying Goodbye",
+      "setting": "You're wrapping up your chat as the bus approaches.",
+      "conversation_flow": [
+        {
+          "title": "Say the weather is not good for cycling",
+          "chatbot_message": "Es verdad. Es muy malo para ir en bicicleta."
+        },
+        {
+          "title": "Point out that the bus is here",
+          "chatbot_message": "Exacto. Ah, mira..."
+        },
+        {
+          "title": "Wish them a good trip and say goodbye",
+          "chatbot_message": "Sí. Bueno, ¡adiós!"
+        }
+      ]
+    }
+  ]
+}

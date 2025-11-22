@@ -1,0 +1,263 @@
+{
+  "id": "L15",
+  "title": "At the Doctor's Office",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you will learn how to talk to a doctor about your symptoms. First, let's learn how to check in for your appointment."
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E01",
+      "data": {
+        "phrase": "Buenos días",
+        "meaning": "Good morning"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V01",
+      "data": {
+        "una cita": "an appointment"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E02",
+      "data": {
+        "phrase": "Tengo una cita",
+        "meaning": "I have an appointment"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say that you have a symptom, you can use the verb `Tener` (to have). The 'I' form is `tengo`."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V02",
+      "data": {
+        "dolor de cabeza": "headache"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E03",
+      "data": {
+        "phrase": "Tengo dolor de cabeza",
+        "meaning": "I have a headache"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V03",
+      "data": {
+        "tres días": "three days"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E04",
+      "data": {
+        "phrase": "Desde hace tres días",
+        "meaning": "For three days"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L15_P01",
+      "data": {
+        "word": "cita",
+        "phonetic": "see-tah",
+        "tip": "In many Spanish-speaking regions, the 'c' before 'i' or 'e' sounds like an 's'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15_S01",
+      "title": "Checking In",
+      "setting": "You arrive at the doctor's office. First, you speak to the receptionist, then to the doctor.",
+      "conversation_flow": [
+        {
+          "title": "Greet the receptionist and state your purpose",
+          "chatbot_message": "Buenos días."
+        },
+        {
+          "title": "Explain your main symptom",
+          "chatbot_message": "Hola, soy el doctor. ¿Qué pasa?"
+        },
+        {
+          "title": "Say how long you have had this problem",
+          "chatbot_message": "Entiendo. ¿Desde cuándo?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to describe more symptoms and answer the doctor's questions."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V04",
+      "data": {
+        "también": "also"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V05",
+      "data": {
+        "fiebre": "fever"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E05",
+      "data": {
+        "phrase": "También tengo fiebre",
+        "meaning": "I also have a fever"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say a part of your body hurts, use `Me duele` followed by the body part, like `Me duele la cabeza`."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V06",
+      "data": {
+        "la garganta": "the throat"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E06",
+      "data": {
+        "phrase": "Me duele la garganta",
+        "meaning": "My throat hurts"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E07",
+      "data": {
+        "phrase": "He tomado",
+        "meaning": "I have taken"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V07",
+      "data": {
+        "paracetamol": "paracetamol"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L15_P02",
+      "data": {
+        "word": "garganta",
+        "phonetic": "gar-gan-ta",
+        "tip": "The 'g' sound here is hard, like in the English word 'go'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15_S02",
+      "title": "Answering Questions",
+      "setting": "The doctor continues to ask you questions about your symptoms.",
+      "conversation_flow": [
+        {
+          "title": "Describe another symptom",
+          "chatbot_message": "¿Algo más?"
+        },
+        {
+          "title": "Answer where it hurts",
+          "chatbot_message": "Entendido. ¿Le duele la garganta?"
+        },
+        {
+          "title": "Say what you have already taken",
+          "chatbot_message": "De acuerdo. ¿Ha tomado algo?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent. Finally, let's learn how to understand the doctor's advice and conclude the appointment."
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E08",
+      "data": {
+        "phrase": "¿Puede repetir, por favor?",
+        "meaning": "Can you repeat, please?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V08",
+      "data": {
+        "más despacio": "more slowly"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V09",
+      "data": {
+        "necesito": "I need"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V10",
+      "data": {
+        "una receta": "a prescription"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E09",
+      "data": {
+        "phrase": "¿Necesito una receta?",
+        "meaning": "Do I need a prescription?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E10",
+      "data": {
+        "phrase": "Muchas gracias",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L15_P03",
+      "data": {
+        "word": "receta",
+        "phonetic": "reh-seh-ta",
+        "tip": "The 'r' at the beginning of a word is often rolled slightly in Spanish."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15_S03",
+      "title": "Understanding Advice",
+      "setting": "The doctor gives you some advice. You need to understand it and ask for a prescription before leaving.",
+      "conversation_flow": [
+        {
+          "title": "Ask the doctor to repeat slowly",
+          "chatbot_message": "Bueno, necesita descansar y beber mucha agua."
+        },
+        {
+          "title": "Ask if you need a prescription",
+          "chatbot_message": "Claro. Usted... necesita... descansar."
+        },
+        {
+          "title": "Thank the doctor",
+          "chatbot_message": "No, no necesita una receta."
+        }
+      ]
+    }
+  ]
+}

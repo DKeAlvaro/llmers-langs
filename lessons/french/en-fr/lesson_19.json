@@ -1,0 +1,230 @@
+{
+  "id": "L19F",
+  "title": "Visiting a Friend's Home",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to be a polite guest when visiting a French friend's home for the first time."
+    },
+    {
+      "type": "expression",
+      "item_id": "L19F_E01",
+      "data": {
+        "phrase": "Salut",
+        "meaning": "Hi"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19F_V01",
+      "data": {
+        "Une bouteille de vin": "A bottle of wine"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19F_V02",
+      "data": {
+        "Des fleurs": "Flowers"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19F_E02",
+      "data": {
+        "phrase": "C'est pour toi",
+        "meaning": "This is for you"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L19F_P01",
+      "data": {
+        "word": "toi",
+        "phonetic": "/twa/",
+        "tip": "The 'oi' sound in French sounds like 'wa' in the English word 'water'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19F_E03",
+      "data": {
+        "phrase": "Quelle belle maison !",
+        "meaning": "What a nice house!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19F_S01",
+      "title": "Arriving at Your Friend's Home",
+      "setting": "You've just arrived at your friend Alex's home. The door opens.",
+      "conversation_flow": [
+        {
+          "title": "Greet your friend",
+          "chatbot_message": "Salut ! Entre, je t'en prie."
+        },
+        {
+          "title": "Give your gift",
+          "chatbot_message": "Merci beaucoup d'être venu(e)."
+        },
+        {
+          "title": "Compliment their home",
+          "chatbot_message": "Oh, merci, c'est très gentil ! Ça me fait plaisir."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to have some small talk. When offered something, 'Je veux bien...' is a polite way to accept."
+    },
+    {
+      "type": "expression",
+      "item_id": "L19F_E04",
+      "data": {
+        "phrase": "Oui, je veux bien...",
+        "meaning": "Yes, I'd like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19F_V03",
+      "data": {
+        "Un café": "A coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19F_V04",
+      "data": {
+        "De l'eau": "Water"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L19F_P02",
+      "data": {
+        "word": "eau",
+        "phonetic": "/o/",
+        "tip": "This sounds just like the name of the letter 'o' in English."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19F_E05",
+      "data": {
+        "phrase": "Comment s'est passée ta semaine ?",
+        "meaning": "How was your week?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Remember to use 'tu' and 'ta' when speaking with friends. It's the informal way to say 'you' and 'your'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L19F_E06",
+      "data": {
+        "phrase": "Est-ce que je peux aider ?",
+        "meaning": "Can I help?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19F_V05",
+      "data": {
+        "La cuisine": "The kitchen"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19F_S02",
+      "title": "Having a Drink",
+      "setting": "You are now in the living room with Alex.",
+      "conversation_flow": [
+        {
+          "title": "Accept a drink and state your preference",
+          "chatbot_message": "Merci ! Assieds-toi. Tu veux boire quelque chose ? Un café, de l'eau ?"
+        },
+        {
+          "title": "Ask about their week",
+          "chatbot_message": "D'accord. Je prépare ça."
+        },
+        {
+          "title": "Offer to help in the kitchen",
+          "chatbot_message": "Ma semaine était bonne, merci."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Finally, let's learn how to politely end the evening and say goodbye."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19F_V06",
+      "data": {
+        "Tard": "Late"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19F_E07",
+      "data": {
+        "phrase": "Il est tard",
+        "meaning": "It is late"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19F_E08",
+      "data": {
+        "phrase": "Je dois partir",
+        "meaning": "I have to go"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19F_E09",
+      "data": {
+        "phrase": "Merci pour la soirée",
+        "meaning": "Thanks for the evening"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19F_E10",
+      "data": {
+        "phrase": "Au revoir",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19F_E11",
+      "data": {
+        "phrase": "À bientôt",
+        "meaning": "See you soon"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19F_S03",
+      "title": "Time to Leave",
+      "setting": "You've finished your drink and had a nice chat. It's time to head home.",
+      "conversation_flow": [
+        {
+          "title": "State that it's getting late",
+          "chatbot_message": "Non, non, reste assis. C'est bon."
+        },
+        {
+          "title": "Thank your friend for the evening",
+          "chatbot_message": "Oh, déjà ? D'accord."
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "De rien. C'était sympa de te voir."
+        }
+      ]
+    }
+  ]
+}

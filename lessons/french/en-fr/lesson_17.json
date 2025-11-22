@@ -1,0 +1,276 @@
+{
+  "id": "L17",
+  "title": "Talking About Your Work or Studies",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Let's learn how to talk about your job or studies. Imagine you're at a party and someone asks what you do."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E01",
+      "data": {
+        "phrase": "Qu'est-ce que tu fais dans la vie ?",
+        "meaning": "What do you do for a living?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E02",
+      "data": {
+        "phrase": "Je suis...",
+        "meaning": "I am..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V01",
+      "data": {
+        "le programmeur": "the programmer",
+        "l'étudiant": "the (male) student"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To state your profession, use `Je suis` + your job. Unlike in English, you don't need 'a' or 'an'. For example: `Je suis programmeur`."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E03",
+      "data": {
+        "phrase": "J'étudie...",
+        "meaning": "I study..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V02",
+      "data": {
+        "l'histoire": "history",
+        "l'économie": "economics"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E04",
+      "data": {
+        "phrase": "Je travaille pour...",
+        "meaning": "I work for..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V03",
+      "data": {
+        "une entreprise": "a company",
+        "l'université": "the university"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E05",
+      "data": {
+        "phrase": "J'aime mon travail",
+        "meaning": "I like my job"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E06",
+      "data": {
+        "phrase": "J'aime mes études",
+        "meaning": "I like my studies"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L17_P01",
+      "data": {
+        "word": "travail",
+        "phonetic": "/tʁa.vaj/",
+        "tip": "The final 'ail' combination sounds like the English word 'eye'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S01",
+      "title": "Stating Your Profession",
+      "setting": "You are at a party and meet Chloé. She asks you what you do.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Salut ! Qu'est-ce que tu fais dans la vie ?",
+          "title": "State your job or what you study",
+          "extract_info": {
+            "user_profession": "Extract the user's profession or field of study"
+          }
+        },
+        {
+          "chatbot_message": "Intéressant ! Tu travailles pour une entreprise ou tu es à l'université ?",
+          "title": "Mention your company or university"
+        },
+        {
+          "chatbot_message": "D'accord. Et tu aimes ton travail ?",
+          "title": "Say that you like your job or studies"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's add some more details, like what you do and for how long you've been doing it."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E07",
+      "data": {
+        "phrase": "J'écris des e-mails",
+        "meaning": "I write e-mails"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E08",
+      "data": {
+        "phrase": "Je lis des livres",
+        "meaning": "I read books"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V04",
+      "data": {
+        "à plein temps": "full-time",
+        "à mi-temps": "part-time"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can use `Je travaille` with `à plein temps` or `à mi-temps` to describe your work hours."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E09",
+      "data": {
+        "phrase": "depuis",
+        "meaning": "for / since"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V05",
+      "data": {
+        "un an": "one year",
+        "deux ans": "two years"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L17_P02",
+      "data": {
+        "word": "plein",
+        "phonetic": "/plɛ̃/",
+        "tip": "This is a nasal vowel sound. It's similar to the 'an' in the English word 'bank', but made with your lips more spread."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S02",
+      "title": "Describing Your Work",
+      "setting": "The conversation with Chloé continues. She wants to know more.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Super ! Et qu'est-ce que tu fais exactement ?",
+          "title": "Describe one main task you do"
+        },
+        {
+          "chatbot_message": "D'accord. Tu travailles à plein temps ?",
+          "title": "State if you work full-time or part-time"
+        },
+        {
+          "chatbot_message": "Et tu travailles là depuis longtemps ?",
+          "title": "Say how long you have been there"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Now it's your turn to ask the questions. Use `Et toi ?` to easily return a question."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E10",
+      "data": {
+        "phrase": "Et toi ?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V06",
+      "data": {
+        "les collègues": "colleagues",
+        "photographe": "photographer"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V07",
+      "data": {
+        "sympa": "nice",
+        "très": "very"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E11",
+      "data": {
+        "phrase": "Tu as des collègues sympas ?",
+        "meaning": "Do you have nice colleagues?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E12",
+      "data": {
+        "phrase": "C'est intéressant",
+        "meaning": "That's interesting"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E13",
+      "data": {
+        "phrase": "C'est super",
+        "meaning": "That's great"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L17_P03",
+      "data": {
+        "word": "collègues",
+        "phonetic": "/kɔ.lɛɡ/",
+        "tip": "The 'è' has an open sound, like the 'e' in the English word 'bed'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S03",
+      "title": "Asking About Their Work",
+      "setting": "You've talked about yourself. Now, find out about Chloé's job.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Ah, d'accord.",
+          "title": "Ask what she does for work"
+        },
+        {
+          "chatbot_message": "{user_profession}, c'est intéressant ! Moi, je suis photographe.",
+          "title": "Ask if she has nice colleagues"
+        },
+        {
+          "chatbot_message": "Oui, mes collègues sont très sympas.",
+          "title": "Make a positive comment about her job"
+        }
+      ]
+    }
+  ]
+}

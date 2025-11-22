@@ -1,0 +1,298 @@
+{
+  "id": "L18",
+  "title": "Planning a Weekend Trip",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Let's learn how to make plans with a friend for the weekend in German. We'll plan a fun trip together!"
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E01",
+      "data": {
+        "phrase": "Hallo",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V01",
+      "data": {
+        "das Wochenende": "the weekend"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V02",
+      "data": {
+        "der Plan": "the plan"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E02",
+      "data": {
+        "phrase": "Hast du Pläne?",
+        "meaning": "Do you have plans?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask a yes/no question in German, you often start with the verb. For example, 'Du hast Pläne' (You have plans) becomes 'Hast du Pläne?' (Do you have plans?)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V03",
+      "data": {
+        "der Ausflug": "the day trip"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E03",
+      "data": {
+        "phrase": "Wir können...",
+        "meaning": "We can..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V04",
+      "data": {
+        "nach": "to (for cities)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V05",
+      "data": {
+        "das Museum": "the museum"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V06",
+      "data": {
+        "besuchen": "to visit"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P01",
+      "data": {
+        "word": "Wochenende",
+        "phonetic": "VOKH-en-en-duh",
+        "tip": "The 'w' in German sounds like the English 'v'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S01",
+      "title": "Proposing an Idea",
+      "setting": "You are talking to your friend, Anna, to make plans for the weekend.",
+      "conversation_flow": [
+        {
+          "title": "Greet your friend",
+          "chatbot_message": "Hallo, hier ist Anna!"
+        },
+        {
+          "title": "Ask about weekend plans",
+          "chatbot_message": "Hallo! Nein, ich habe noch keine Pläne. Warum fragst du?"
+        },
+        {
+          "title": "Suggest a day trip to a city",
+          "chatbot_message": "Ein Ausflug? Das ist eine super Idee! Wohin?",
+          "extract_info": {
+            "city_name": "Extract the name of the city from the user's message"
+          }
+        },
+        {
+          "title": "Suggest an activity for the trip",
+          "chatbot_message": "Super! Nach {city_name}! Was können wir dort machen?",
+          "extract_info": {
+            "activity_name": "Extract the activity from the user's message, e.g., visit a museum"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now that you have an idea for the trip, let's discuss the logistics."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V07",
+      "data": {
+        "der Zug": "the train"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V08",
+      "data": {
+        "mit": "with / by"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E04",
+      "data": {
+        "phrase": "Fahren wir mit dem Zug?",
+        "meaning": "Shall we go by train?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say 'by train', you say 'mit dem Zug'. 'Dem' is used here because 'der Zug' is a masculine noun."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V09",
+      "data": {
+        "der Samstag": "Saturday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V10",
+      "data": {
+        "Uhr": "o'clock"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V11",
+      "data": {
+        "um": "at (for time)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E05",
+      "data": {
+        "phrase": "Treffen wir uns um 9 Uhr?",
+        "meaning": "Shall we meet at 9 o'clock?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E06",
+      "data": {
+        "phrase": "Was denkst du?",
+        "meaning": "What do you think?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P02",
+      "data": {
+        "word": "Zug",
+        "phonetic": "Tsook",
+        "tip": "The German 'z' sounds like 'ts' in English."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S02",
+      "title": "Discussing Logistics",
+      "setting": "You continue planning the trip to {city_name} with Anna.",
+      "conversation_flow": [
+        {
+          "title": "Ask how to travel",
+          "chatbot_message": "{activity_name}? Das klingt gut! Wie kommen wir nach {city_name}?"
+        },
+        {
+          "title": "Suggest a time to meet on Saturday",
+          "chatbot_message": "Ja, mit dem Zug ist perfekt. Wann wollen wir uns treffen?",
+          "extract_info": {
+            "meeting_time": "Extract the time and day from the user's message"
+          }
+        },
+        {
+          "title": "Ask for her opinion on the plan",
+          "chatbot_message": "Okay, {meeting_time} ist gut für mich."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! The plan is almost complete. Let's confirm the final details."
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E07",
+      "data": {
+        "phrase": "Perfekt",
+        "meaning": "Perfect"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E08",
+      "data": {
+        "phrase": "Also...",
+        "meaning": "So... / Well..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V12",
+      "data": {
+        "der Bahnhof": "the train station"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E09",
+      "data": {
+        "phrase": "am Bahnhof",
+        "meaning": "at the train station"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "The word 'am' is very useful! It means 'on' for days of the week ('am Samstag') and 'at' for locations ('am Bahnhof')."
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E10",
+      "data": {
+        "phrase": "Ich freue mich",
+        "meaning": "I'm excited / I'm looking forward to it"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P03",
+      "data": {
+        "word": "Bahnhof",
+        "phonetic": "BAAN-hohf",
+        "tip": "The 'h' is soft after the long 'a' sound."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S03",
+      "title": "Finalizing the Plan",
+      "setting": "You are finalizing the weekend plans with Anna.",
+      "conversation_flow": [
+        {
+          "title": "Agree and confirm the plan",
+          "chatbot_message": "Ich finde den Plan super!"
+        },
+        {
+          "title": "Confirm the time and suggest a meeting place",
+          "chatbot_message": "Ja, genau! Also, wir fahren nach {city_name} und {activity_name}. Wo treffen wir uns?"
+        },
+        {
+          "title": "Express your excitement",
+          "chatbot_message": "Perfekt! {meeting_time} am Bahnhof. Ich freue mich schon!"
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Ich auch! Bis Samstag!"
+        }
+      ]
+    }
+  ]
+}

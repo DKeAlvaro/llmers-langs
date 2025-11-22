@@ -1,0 +1,234 @@
+{
+  "id": "L02_FR_A1",
+  "title": "Ordering at a Café",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome to the café! In France, it's polite to always start with 'Bonjour' and use 's'il vous plaît' (please) when asking for something."
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E01",
+      "data": {
+        "phrase": "Bonjour",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E02",
+      "data": {
+        "phrase": "S'il vous plaît",
+        "meaning": "Please"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L02_P01",
+      "data": {
+        "word": "S'il vous plaît",
+        "phonetic": "/sil vu plɛ/",
+        "tip": "The 's' in 'vous' is silent. It sounds like 'see-voo-play'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E03",
+      "data": {
+        "phrase": "Je voudrais...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V01",
+      "data": {
+        "un café": "a coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V02",
+      "data": {
+        "un thé": "a tea"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E04",
+      "data": {
+        "phrase": "Vous avez...?",
+        "meaning": "Do you have...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V03",
+      "data": {
+        "un croissant": "a croissant"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S01",
+      "title": "Getting attention and ordering a drink",
+      "setting": "You are sitting at a table in a French café. The waiter is nearby.",
+      "conversation_flow": [
+        {
+          "title": "Get the waiter's attention",
+          "chatbot_message": "..."
+        },
+        {
+          "title": "Order a coffee",
+          "chatbot_message": "Bonjour ! Oui ?"
+        },
+        {
+          "title": "Ask if they have croissants",
+          "chatbot_message": "Un café. Très bien. Et avec ça ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! When the waiter confirms they have what you want, you can say 'Alors, je vais prendre...' which means 'In that case, I will take...'"
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E05",
+      "data": {
+        "phrase": "Je vais prendre...",
+        "meaning": "I will take..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E06",
+      "data": {
+        "phrase": "C'est tout",
+        "meaning": "That's all"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V04",
+      "data": {
+        "Merci": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E07",
+      "data": {
+        "phrase": "Où sont...?",
+        "meaning": "Where are...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V05",
+      "data": {
+        "les toilettes": "the toilets"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L02_P02",
+      "data": {
+        "word": "toilettes",
+        "phonetic": "/twa.lɛt/",
+        "tip": "The 'oi' sound in French is pronounced like 'wa' in the English word 'water'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S02",
+      "title": "Ordering food and asking for directions",
+      "setting": "The waiter has just confirmed they have croissants. Now you can complete your order.",
+      "conversation_flow": [
+        {
+          "title": "Order a croissant",
+          "chatbot_message": "Oui, bien sûr."
+        },
+        {
+          "title": "Confirm that's all",
+          "chatbot_message": "D'accord. Un café et un croissant. Autre chose ?"
+        },
+        {
+          "title": "Ask where the toilets are",
+          "chatbot_message": "Parfait. Je vous apporte ça."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "In France, you usually have to ask for the bill by saying 'L'addition, s'il vous plaît'. It is often not brought to your table automatically."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V06",
+      "data": {
+        "L'addition": "The bill"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E08",
+      "data": {
+        "phrase": "L'addition, s'il vous plaît",
+        "meaning": "The bill, please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E09",
+      "data": {
+        "phrase": "Ça fait combien ?",
+        "meaning": "How much is it?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E10",
+      "data": {
+        "phrase": "Je peux payer...?",
+        "meaning": "Can I pay...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V07",
+      "data": {
+        "par carte": "by card"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L02_P03",
+      "data": {
+        "word": "addition",
+        "phonetic": "/a.di.sjɔ̃/",
+        "tip": "The '-tion' at the end of French words is a nasal sound, similar to 'syon'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S03",
+      "title": "Paying the bill",
+      "setting": "You've finished your coffee and croissant. It's time to pay and leave.",
+      "conversation_flow": [
+        {
+          "title": "Ask for the bill",
+          "chatbot_message": "..."
+        },
+        {
+          "title": "Ask for the total",
+          "chatbot_message": "Oui, tout de suite. ... Voilà."
+        },
+        {
+          "title": "Ask to pay by card",
+          "chatbot_message": "Ça fait 4 euros 50."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": "L05",
+  "title": "Talking About Your Family",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your family. A colleague at work sees a photo on your desk and starts a conversation."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V01",
+      "data": {
+        "de foto": "the photo"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V02",
+      "data": {
+        "de familie": "the family"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V03",
+      "data": {
+        "mijn": "my"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E01",
+      "data": {
+        "phrase": "Ja",
+        "meaning": "Yes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E02",
+      "data": {
+        "phrase": "Dat is...",
+        "meaning": "That is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E03",
+      "data": {
+        "phrase": "Dat zijn...",
+        "meaning": "Those are..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'dat is' for one person ('dat is mijn zus') and 'dat zijn' for more than one person ('dat zijn mijn ouders')."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V04",
+      "data": {
+        "de ouders": "the parents"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V05",
+      "data": {
+        "de broer": "the brother"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V06",
+      "data": {
+        "de zus": "the sister"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E04",
+      "data": {
+        "phrase": "Hij heet...",
+        "meaning": "His name is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E05",
+      "data": {
+        "phrase": "Zij heet...",
+        "meaning": "Her name is..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L05_P01",
+      "data": {
+        "word": "familie",
+        "phonetic": "[faːˈmiːli]",
+        "tip": "The stress is on the second syllable: fa-MI-lie."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S01",
+      "title": "A Colleague Sees Your Photo",
+      "setting": "You are at your desk at work. Your colleague, Alex, points to a photo on your desk.",
+      "conversation_flow": [
+        {
+          "title": "Confirm it's your family",
+          "chatbot_message": "Oh, wat een leuke foto! Is dat je familie?"
+        },
+        {
+          "title": "State who the people are",
+          "chatbot_message": "Wie zijn dat?"
+        },
+        {
+          "title": "State your brother's name",
+          "chatbot_message": "Leuk! En hoe heet je broer?",
+          "extract_info": {
+            "brother_name": "Extract the name of the brother"
+          }
+        },
+        {
+          "title": "End the first part of the conversation",
+          "chatbot_message": "Mooie naam, {brother_name}!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to give a few more details."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V07",
+      "data": {
+        "de broers": "the brothers"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V08",
+      "data": {
+        "de zussen": "the sisters"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E06",
+      "data": {
+        "phrase": "Ik heb",
+        "meaning": "I have"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E07",
+      "data": {
+        "phrase": "Nee",
+        "meaning": "No"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V09",
+      "data": {
+        "oud": "old"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V10",
+      "data": {
+        "het jaar": "the year"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V11",
+      "data": {
+        "vijfentwintig": "twenty-five"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E08",
+      "data": {
+        "phrase": "Hij is ... jaar oud",
+        "meaning": "He is ... years old"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E09",
+      "data": {
+        "phrase": "Zij wonen in...",
+        "meaning": "They live in..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V12",
+      "data": {
+        "Nederland": "the Netherlands"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S02",
+      "title": "Giving More Details",
+      "setting": "Alex continues to ask about your family.",
+      "conversation_flow": [
+        {
+          "title": "Answer if you have sisters",
+          "chatbot_message": "Heb je ook zussen?"
+        },
+        {
+          "title": "State your brother's age",
+          "chatbot_message": "Oké. En hoe oud is je broer?"
+        },
+        {
+          "title": "Say where your family lives",
+          "chatbot_message": "Wonen zij in Nederland?"
+        },
+        {
+          "title": "End the second part of the conversation",
+          "chatbot_message": "Ah, oké."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Good job. Now it's your turn to ask Alex about their family. Use 'En jij?' to ask the same question back."
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E10",
+      "data": {
+        "phrase": "En jij?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V13",
+      "data": {
+        "getrouwd": "married"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E11",
+      "data": {
+        "phrase": "Ik ben",
+        "meaning": "I am"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E12",
+      "data": {
+        "phrase": "Ben je...?",
+        "meaning": "Are you...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V14",
+      "data": {
+        "de kinderen": "the children"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E13",
+      "data": {
+        "phrase": "Heb je kinderen?",
+        "meaning": "Do you have children?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E14",
+      "data": {
+        "phrase": "Wat leuk!",
+        "meaning": "How nice!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L05_P02",
+      "data": {
+        "word": "getrouwd",
+        "phonetic": "[ɣəˈtrɑut]",
+        "tip": "The 'g' sound is a soft, throaty sound, typical in Dutch."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S03",
+      "title": "Asking About Their Family",
+      "setting": "You decide to ask Alex about his family.",
+      "conversation_flow": [
+        {
+          "title": "Ask if they are married",
+          "chatbot_message": "Mijn familie woont wel in Nederland."
+        },
+        {
+          "title": "Ask if they have children",
+          "chatbot_message": "Ja, ik ben getrouwd."
+        },
+        {
+          "title": "React positively",
+          "chatbot_message": "Ja, ik heb twee kinderen."
+        },
+        {
+          "title": "End the conversation",
+          "chatbot_message": "Dank je wel!"
+        }
+      ]
+    }
+  ]
+}

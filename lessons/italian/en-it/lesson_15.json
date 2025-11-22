@@ -1,0 +1,302 @@
+{
+  "id": "L15",
+  "title": "At the Doctor's Office",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn the essential phrases for visiting a doctor (`il dottore`) in Italy."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V01",
+      "data": {
+        "Il dottore": "The doctor"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E01",
+      "data": {
+        "phrase": "Buongiorno",
+        "meaning": "Good morning / Good day"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V02",
+      "data": {
+        "Un appuntamento": "An appointment"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V03",
+      "data": {
+        "Ho": "I have"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Ho comes from the verb 'avere' (to have). It's the form for 'io' (I). The 'h' is silent!"
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E02",
+      "data": {
+        "phrase": "Ho un appuntamento",
+        "meaning": "I have an appointment"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V04",
+      "data": {
+        "Il problema": "The problem"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V05",
+      "data": {
+        "Mal di testa": "Headache"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E03",
+      "data": {
+        "phrase": "Ho mal di testa",
+        "meaning": "I have a headache"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V06",
+      "data": {
+        "Da": "For / Since"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V07",
+      "data": {
+        "Tre giorni": "Three days"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L15_P01",
+      "data": {
+        "word": "giorni",
+        "phonetic": "jòr-ni",
+        "tip": "The 'gi' sound in Italian is like the 'j' in 'job'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15_S01",
+      "title": "Checking In",
+      "setting": "You've arrived at the clinic. First, you'll speak to the receptionist, then to the doctor.",
+      "conversation_flow": [
+        {
+          "title": "Greet the receptionist and state you have an appointment",
+          "chatbot_message": "Buongiorno. Mi dica."
+        },
+        {
+          "title": "Explain your main symptom to the doctor",
+          "chatbot_message": "Va bene. Si accomodi, prego. ... Buongiorno. Qual è il problema?"
+        },
+        {
+          "title": "Say how long you have had this problem",
+          "chatbot_message": "Capisco. Da quanto tempo?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now the doctor will ask for more details. Let's learn how to add more information."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V08",
+      "data": {
+        "Anche": "Also"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V09",
+      "data": {
+        "La febbre": "The fever"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E04",
+      "data": {
+        "phrase": "Ho anche la febbre",
+        "meaning": "I also have a fever"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In Italian, it's common to say 'ho LA febbre' (I have THE fever), using the article 'la'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V10",
+      "data": {
+        "Dove": "Where"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V11",
+      "data": {
+        "Qui": "Here"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E05",
+      "data": {
+        "phrase": "Mi fa male qui",
+        "meaning": "It hurts here"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V12",
+      "data": {
+        "Ho preso": "I have taken"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "'Ho preso' is a common way to talk about a past action. It's formed with 'ho' (I have) + 'preso' (taken)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V13",
+      "data": {
+        "Il paracetamolo": "The paracetamol"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15_S02",
+      "title": "Describing Symptoms",
+      "setting": "The conversation with the doctor continues. He is asking more questions about your condition.",
+      "conversation_flow": [
+        {
+          "title": "Describe another symptom",
+          "chatbot_message": "Ok, grazie. C'è altro?"
+        },
+        {
+          "title": "Answer where it hurts",
+          "chatbot_message": "Capisco. Dove le fa male?"
+        },
+        {
+          "title": "Tell the doctor what you have already taken",
+          "chatbot_message": "Ok. Ha preso qualcosa?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent. The doctor will now give you advice. If you don't understand, it's okay to ask them to repeat!"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V14",
+      "data": {
+        "Può": "You can (formal)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V15",
+      "data": {
+        "Ripetere": "To repeat"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V16",
+      "data": {
+        "Lentamente": "Slowly"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E06",
+      "data": {
+        "phrase": "Può ripetere, per favore?",
+        "meaning": "Can you repeat, please?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To be more specific, you can add 'più' to say 'more slowly': 'Può ripetere più lentamente?'"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V17",
+      "data": {
+        "Ho bisogno di": "I need"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V18",
+      "data": {
+        "Una ricetta": "A prescription"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L15_P02",
+      "data": {
+        "word": "ricetta",
+        "phonetic": "ri-chét-ta",
+        "tip": "The 'ce' in 'ricetta' sounds like the 'che' in 'check'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E07",
+      "data": {
+        "phrase": "Ho bisogno di una ricetta?",
+        "meaning": "Do I need a prescription?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E08",
+      "data": {
+        "phrase": "Grazie mille",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15_S03",
+      "title": "Understanding Advice",
+      "setting": "The doctor has finished the examination and is giving you advice.",
+      "conversation_flow": [
+        {
+          "title": "Ask the doctor to repeat their advice slowly",
+          "chatbot_message": "Bene. Deve bere molta acqua e stare a riposo per due giorni."
+        },
+        {
+          "title": "Ask if you need a prescription",
+          "chatbot_message": "Certo. Deve... bere... molta... acqua. E... stare... a... riposo."
+        },
+        {
+          "title": "Thank the doctor for their time",
+          "chatbot_message": "No, non serve. Solo il paracetamolo va bene."
+        }
+      ]
+    }
+  ]
+}

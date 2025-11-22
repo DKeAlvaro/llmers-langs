@@ -1,0 +1,309 @@
+{
+  "id": "L05",
+  "title": "Talking About Your Family",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your family. Imagine a colleague sees a photo on your desk and asks about it."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V01",
+      "data": {
+        "die Familie": "the family"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E01",
+      "data": {
+        "phrase": "Ja",
+        "meaning": "Yes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E02",
+      "data": {
+        "phrase": "Das ist meine Familie",
+        "meaning": "That is my family"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In German, nouns have a gender. This affects the words around them, like 'mein' (my) for masculine/neuter nouns and 'meine' for feminine/plural nouns."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V02",
+      "data": {
+        "mein Bruder": "my brother"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V03",
+      "data": {
+        "meine Schwester": "my sister"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V04",
+      "data": {
+        "meine Eltern": "my parents"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V05",
+      "data": {
+        "mein Partner": "my partner (male)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E03",
+      "data": {
+        "phrase": "Das ist...",
+        "meaning": "This is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E04",
+      "data": {
+        "phrase": "Das sind...",
+        "meaning": "These are..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'Das ist' for one person (e.g., 'mein Bruder') and 'Das sind' for more than one person (e.g., 'meine Eltern')."
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E05",
+      "data": {
+        "phrase": "Er heißt...",
+        "meaning": "His name is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E06",
+      "data": {
+        "phrase": "Sie heißt...",
+        "meaning": "Her name is..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L05_P01",
+      "data": {
+        "word": "Schwester",
+        "phonetic": "[ˈʃvɛstɐ]",
+        "tip": "The 'sch' sound is like the 'sh' in 'shoe'. The 'w' is pronounced like an English 'v'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S01",
+      "title": "Identifying Your Family",
+      "setting": "Your colleague, Lena, points to a family photo on your desk.",
+      "conversation_flow": [
+        {
+          "title": "Confirm it's your family",
+          "chatbot_message": "Oh, ein Foto! Ist das deine Familie?"
+        },
+        {
+          "title": "Say who the people are",
+          "chatbot_message": "Schön! Wer ist das?",
+          "extract_info": {
+            "family_member": "Extract one family member mentioned, like 'Bruder' or 'Schwester'"
+          }
+        },
+        {
+          "title": "Mention their names",
+          "chatbot_message": "Und wie heißen sie?"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E07",
+      "data": {
+        "phrase": "Ich habe...",
+        "meaning": "I have..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V06",
+      "data": {
+        "die Geschwister": "the siblings"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E08",
+      "data": {
+        "phrase": "Ich habe keine Geschwister",
+        "meaning": "I have no siblings"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E09",
+      "data": {
+        "phrase": "Er ist ... Jahre alt",
+        "meaning": "He is ... years old"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E10",
+      "data": {
+        "phrase": "Sie ist ... Jahre alt",
+        "meaning": "She is ... years old"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V07",
+      "data": {
+        "fünfundzwanzig": "twenty-five"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L05_P02",
+      "data": {
+        "word": "Jahre",
+        "phonetic": "[ˈjaːʁə]",
+        "tip": "The 'J' in German sounds like the 'Y' in 'yes'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E11",
+      "data": {
+        "phrase": "Sie wohnen in...",
+        "meaning": "They live in..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V08",
+      "data": {
+        "Deutschland": "Germany"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V09",
+      "data": {
+        "Österreich": "Austria"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S02",
+      "title": "Giving More Details",
+      "setting": "Lena is curious and asks for more information.",
+      "conversation_flow": [
+        {
+          "title": "Answer if you have other siblings",
+          "chatbot_message": "Interessant. Hast du noch andere Geschwister?"
+        },
+        {
+          "title": "Say how old your sibling is",
+          "chatbot_message": "Okay. Und wie alt ist dein {family_member}?"
+        },
+        {
+          "title": "Say where your family lives",
+          "chatbot_message": "Verstehe. Und wohnen sie in Deutschland?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "To ask a yes/no question in German, you usually put the verb first. For example, 'Du bist...' (You are...) becomes 'Bist du...?' (Are you...?)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E12",
+      "data": {
+        "phrase": "Und du?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V10",
+      "data": {
+        "verheiratet": "married"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E13",
+      "data": {
+        "phrase": "Bist du verheiratet?",
+        "meaning": "Are you married?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V11",
+      "data": {
+        "die Kinder": "the children"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E14",
+      "data": {
+        "phrase": "Hast du Kinder?",
+        "meaning": "Do you have children?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E15",
+      "data": {
+        "phrase": "Oh, wie schön!",
+        "meaning": "Oh, how nice!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L05_P03",
+      "data": {
+        "word": "verheiratet",
+        "phonetic": "[fɛɐ̯ˈhaɪ̯ʁaːtət]",
+        "tip": "The 'v' is pronounced like an 'f'. The 'ei' sounds like the 'i' in 'ice'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S03",
+      "title": "Asking About Their Family",
+      "setting": "Now it's your turn to ask Lena about her family.",
+      "conversation_flow": [
+        {
+          "title": "Ask if she is married",
+          "chatbot_message": "Das ist sehr interessant. "
+        },
+        {
+          "title": "Ask if she has children",
+          "chatbot_message": "Ja, ich bin verheiratet."
+        },
+        {
+          "title": "Comment positively",
+          "chatbot_message": "Ja, ich habe zwei Kinder."
+        }
+      ]
+    }
+  ]
+}

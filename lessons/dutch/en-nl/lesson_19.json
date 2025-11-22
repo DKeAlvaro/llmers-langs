@@ -1,0 +1,248 @@
+{
+  "id": "L19",
+  "title": "Visiting a Dutch Friend's Home",
+  "content": [
+    {
+      "type": "tip",
+      "text": "When you visit a friend's house in the Netherlands, it's a nice gesture to bring a small gift, like wine or flowers."
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E01",
+      "data": {
+        "phrase": "Hoi",
+        "meaning": "Hi"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E02",
+      "data": {
+        "phrase": "Welkom",
+        "meaning": "Welcome"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V01",
+      "data": {
+        "Een fles wijn": "A bottle of wine"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V02",
+      "data": {
+        "Bloemen": "Flowers"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E03",
+      "data": {
+        "phrase": "Dit is voor jou",
+        "meaning": "This is for you"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V03",
+      "data": {
+        "Het huis": "The house"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L19_P01",
+      "data": {
+        "word": "huis",
+        "phonetic": "/ɦœys/",
+        "tip": "The 'ui' sound is tricky. It's like saying 'ow' in 'how', but with your lips rounded as if you're saying 'oo'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E04",
+      "data": {
+        "phrase": "Wat een leuk huis!",
+        "meaning": "What a nice house!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19_S01",
+      "title": "Arriving at Your Friend's Home",
+      "setting": "You've just arrived at your friend's front door and they open it.",
+      "conversation_flow": [
+        {
+          "title": "Greet your friend",
+          "chatbot_message": "Hoi! Welkom!"
+        },
+        {
+          "title": "Give them your gift",
+          "chatbot_message": "Dank je wel! Wat lief. Kom binnen."
+        },
+        {
+          "title": "Compliment their home",
+          "chatbot_message": "Dank je!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "'Graag' means 'gladly' or 'with pleasure'. Use 'Ja, graag' to politely accept an offer."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V04",
+      "data": {
+        "Koffie": "Coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V05",
+      "data": {
+        "Thee": "Tea"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E05",
+      "data": {
+        "phrase": "Ja, graag",
+        "meaning": "Yes, please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E06",
+      "data": {
+        "phrase": "Hoe was je week?",
+        "meaning": "How was your week?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L19_P02",
+      "data": {
+        "word": "week",
+        "phonetic": "/ʋeːk/",
+        "tip": "The 'ee' sound is a long vowel, similar to the 'a' in 'make' or 'cake'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V06",
+      "data": {
+        "De keuken": "The kitchen"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E07",
+      "data": {
+        "phrase": "Kan ik helpen?",
+        "meaning": "Can I help?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19_S02",
+      "title": "Small Talk Over a Drink",
+      "setting": "You are now inside the house and your friend offers you something to drink.",
+      "conversation_flow": [
+        {
+          "title": "Accept the offer and choose a drink",
+          "chatbot_message": "Wil je iets drinken? Koffie? Thee?"
+        },
+        {
+          "title": "Ask how their week was",
+          "chatbot_message": "Goed. Mijn week was goed, dank je."
+        },
+        {
+          "title": "Offer to help",
+          "chatbot_message": "Nee, dank je. Ga zitten."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "'Gezellig' is a very important Dutch word. It describes a cozy, nice, or fun atmosphere. You can use it for an evening, a place, or a person."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V07",
+      "data": {
+        "Laat": "Late"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E08",
+      "data": {
+        "phrase": "Het is al laat",
+        "meaning": "It is already late"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_V08",
+      "data": {
+        "De avond": "The evening"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E09",
+      "data": {
+        "phrase": "Dank je wel voor de gezellige avond",
+        "meaning": "Thank you for the lovely evening"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E10",
+      "data": {
+        "phrase": "Graag gedaan",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E11",
+      "data": {
+        "phrase": "Doei",
+        "meaning": "Bye"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_E12",
+      "data": {
+        "phrase": "Tot ziens",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19_S03",
+      "title": "Saying Goodbye",
+      "setting": "The evening is coming to an end and it's time for you to leave.",
+      "conversation_flow": [
+        {
+          "title": "State that it's getting late",
+          "chatbot_message": "Hier is je koffie."
+        },
+        {
+          "title": "Thank them for the evening",
+          "chatbot_message": "Graag gedaan. Ik vond het ook gezellig."
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Doei! Tot ziens."
+        }
+      ]
+    }
+  ]
+}

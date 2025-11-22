@@ -1,0 +1,241 @@
+{
+  "id": "L10",
+  "title": "Talking About Hobbies and Interests",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Let's learn how to talk about your hobbies, or 'pasatiempos', in Spanish. This lesson will prepare you for a conversation at a social gathering."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E01",
+      "data": {
+        "phrase": "Me gusta",
+        "meaning": "I like"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "After 'Me gusta', the verb stays in its original form (the infinitive). For example, 'Me gusta nadar'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V01",
+      "data": {
+        "Nadar": "To swim"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V02",
+      "data": {
+        "Correr": "To run"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E02",
+      "data": {
+        "phrase": "También me gusta",
+        "meaning": "I also like"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V03",
+      "data": {
+        "Leer": "To read"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V04",
+      "data": {
+        "Tocar la guitarra": "To play the guitar"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V05",
+      "data": {
+        "Dos veces por semana": "Twice a week"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S01",
+      "title": "Sharing Your Hobbies",
+      "setting": "You're at a party and start a conversation with Ana.",
+      "conversation_flow": [
+        {
+          "title": "Mention a sport you enjoy",
+          "chatbot_message": "Hola, ¿qué te gusta hacer en tu tiempo libre?"
+        },
+        {
+          "title": "Mention a creative or relaxing activity",
+          "chatbot_message": "¡Qué bien! ¿Y algo más?"
+        },
+        {
+          "title": "Say how often you do one of these activities",
+          "chatbot_message": "Interesante. ¿Con qué frecuencia lo haces?"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E03",
+      "data": {
+        "phrase": "Porque es",
+        "meaning": "Because it is"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V06",
+      "data": {
+        "Relajante": "Relaxing"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V07",
+      "data": {
+        "Divertido": "Fun"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L10_P01",
+      "data": {
+        "word": "Relajante",
+        "phonetic": "re-la-JAN-te",
+        "tip": "The Spanish 'j' is a throaty sound, similar to the 'h' in 'hello'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E04",
+      "data": {
+        "phrase": "No me gusta",
+        "meaning": "I don't like"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V08",
+      "data": {
+        "Cocinar": "To cook"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To talk about your plans for the near future, you can use 'voy a' + verb. This is the equivalent of 'I'm going to'..."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E05",
+      "data": {
+        "phrase": "Voy a",
+        "meaning": "I'm going to"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V09",
+      "data": {
+        "Este fin de semana": "This weekend"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S02",
+      "title": "Adding More Detail",
+      "setting": "The conversation with Ana continues.",
+      "conversation_flow": [
+        {
+          "title": "Explain why you like your hobby",
+          "chatbot_message": "A mí también me gusta leer. Me gusta porque es relajante. ¿Y a ti? ¿Por qué te gusta?"
+        },
+        {
+          "title": "Mention something you don't like to do",
+          "chatbot_message": "Buena razón. ¿Hay algo que no te gusta hacer?"
+        },
+        {
+          "title": "Say what you are going to do this weekend",
+          "chatbot_message": "Ya veo. ¿Qué vas a hacer este fin de semana?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "To ask a question back to the other person, you can simply use the phrase '¿Y a ti?'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E06",
+      "data": {
+        "phrase": "¿Y a ti?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V10",
+      "data": {
+        "Pintar": "To paint"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V11",
+      "data": {
+        "¿Dónde?": "Where?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L10_P02",
+      "data": {
+        "word": "¿Dónde?",
+        "phonetic": "DON-de",
+        "tip": "The accent mark tells you to put stress on the first syllable: DON-de."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E07",
+      "data": {
+        "phrase": "¿Dónde lo haces?",
+        "meaning": "Where do you do it?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E08",
+      "data": {
+        "phrase": "¡Qué interesante!",
+        "meaning": "How interesting!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S03",
+      "title": "Asking About Their Hobbies",
+      "setting": "Now it's your turn to ask Ana some questions.",
+      "conversation_flow": [
+        {
+          "title": "Ask what they like to do",
+          "chatbot_message": "¡Suena genial! Bueno..."
+        },
+        {
+          "title": "Ask a follow-up question",
+          "chatbot_message": "A mí me gusta pintar."
+        },
+        {
+          "title": "Express that you find their hobby interesting",
+          "chatbot_message": "En mi casa."
+        }
+      ]
+    }
+  ]
+}

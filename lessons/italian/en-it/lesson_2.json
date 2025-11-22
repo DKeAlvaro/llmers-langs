@@ -1,0 +1,244 @@
+{
+  "id": "L02",
+  "title": "Ordering at a Café",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome to your lesson on ordering at a café! In Italy, it's common to get the waiter's attention with a polite 'Scusi'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E01",
+      "data": {
+        "phrase": "Buongiorno",
+        "meaning": "Good morning / Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E02",
+      "data": {
+        "phrase": "Scusi",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E03",
+      "data": {
+        "phrase": "Vorrei...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Using 'Vorrei' is a very polite way to ask for something. It's the equivalent of 'I would like...' instead of 'I want'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V01",
+      "data": {
+        "un caffè": "a coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V02",
+      "data": {
+        "un tè": "a tea"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E04",
+      "data": {
+        "phrase": "Avete...?",
+        "meaning": "Do you have...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V03",
+      "data": {
+        "un cornetto": "a croissant"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L02_P01",
+      "data": {
+        "word": "caffè",
+        "phonetic": "kaff-EH",
+        "tip": "The accent on the final 'è' tells you to put the stress on that syllable. It's short and sharp."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S01",
+      "title": "Getting Service and Drinks",
+      "setting": "You're at a café table and need to get the waiter's attention to order your first items.",
+      "conversation_flow": [
+        {
+          "title": "Get the waiter's attention",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Order a coffee for yourself",
+          "chatbot_message": "Buongiorno! Prego."
+        },
+        {
+          "title": "Ask if they have a croissant",
+          "chatbot_message": "Certo. Un caffè. Desidera altro?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to complete your order. The word 'allora' is very useful to connect your thoughts, like 'so...' or 'then...'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E05",
+      "data": {
+        "phrase": "Allora...",
+        "meaning": "So... / Then..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E06",
+      "data": {
+        "phrase": "Prendo...",
+        "meaning": "I'll have... / I'll take..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When ordering, you can say 'Vorrei...' (I would like...) or 'Prendo...' (I'll have...). Both are very common."
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E07",
+      "data": {
+        "phrase": "Nient'altro, grazie",
+        "meaning": "Nothing else, thank you"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V04",
+      "data": {
+        "il bagno": "the bathroom"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E08",
+      "data": {
+        "phrase": "Dov'è...?",
+        "meaning": "Where is...?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L02_P02",
+      "data": {
+        "word": "grazie",
+        "phonetic": "GRAHT-see-eh",
+        "tip": "In Italian, the 'z' in 'grazie' often has a 'ts' sound. Make sure to pronounce all three syllables clearly."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S02",
+      "title": "Placing the Food Order",
+      "setting": "The waiter confirmed they have croissants. Now you can order one and ask for the bathroom before they leave.",
+      "conversation_flow": [
+        {
+          "title": "Order the croissant",
+          "chatbot_message": "Sì, certo. Abbiamo i cornetti."
+        },
+        {
+          "title": "Confirm that's all",
+          "chatbot_message": "Va bene. Un caffè e un cornetto. Altro?"
+        },
+        {
+          "title": "Ask where the bathroom is",
+          "chatbot_message": "Perfetto. Porto tutto subito."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! You've ordered successfully. Now, it's time to pay. You'll need to ask for 'il conto', the bill."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V05",
+      "data": {
+        "il conto": "the bill"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E09",
+      "data": {
+        "phrase": "...per favore",
+        "meaning": "...please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E10",
+      "data": {
+        "phrase": "Quant'è?",
+        "meaning": "How much is it?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L02_P03",
+      "data": {
+        "word": "Quant'è?",
+        "phonetic": "Kwant-EH?",
+        "tip": "Just like 'caffè', the apostrophe and accent on 'è' show that a word is missing ('quanto è') and that the final syllable is stressed."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E11",
+      "data": {
+        "phrase": "Posso...?",
+        "meaning": "Can I...? / May I...?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E12",
+      "data": {
+        "phrase": "pagare con la carta",
+        "meaning": "to pay with card"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S03",
+      "title": "Paying the Bill",
+      "setting": "You've finished your coffee and croissant. The waiter comes by to check on you, and you're ready to pay.",
+      "conversation_flow": [
+        {
+          "title": "Ask for the bill",
+          "chatbot_message": "Il bagno è in fondo a destra. ...Tutto bene?"
+        },
+        {
+          "title": "Ask for the total amount",
+          "chatbot_message": "Certo, subito. Ecco il conto."
+        },
+        {
+          "title": "Ask if you can pay by card",
+          "chatbot_message": "Sono cinque euro."
+        }
+      ]
+    }
+  ]
+}

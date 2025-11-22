@@ -1,0 +1,321 @@
+{
+  "id": "L04",
+  "title": "Asking for Simple Directions",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to ask for directions in an Italian city. Let's start with how to politely get someone's attention."
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E01",
+      "data": {
+        "phrase": "Mi scusi",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L04_P01",
+      "data": {
+        "word": "scusi",
+        "phonetic": "SKOO-zee",
+        "tip": "The 'scu' sound in Italian is pronounced like 'skoo' in 'school'."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "After getting their attention, it's a good idea to check if they speak English, just in case. You can use the formal 'Parla' when speaking to a stranger."
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E02",
+      "data": {
+        "phrase": "Parla inglese?",
+        "meaning": "Do you speak English?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V01",
+      "data": {
+        "Sì": "Yes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V02",
+      "data": {
+        "Un po'": "A little"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Now, let's learn the key question: 'Where is...?' In Italian, you say 'Dov'è...?'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E03",
+      "data": {
+        "phrase": "Dov'è...?",
+        "meaning": "Where is...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V03",
+      "data": {
+        "la stazione": "the station"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L04_P02",
+      "data": {
+        "word": "stazione",
+        "phonetic": "stah-tzee-OH-neh",
+        "tip": "The 'z' in 'stazione' is pronounced like 'ts' in 'cats'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L04_S01",
+      "title": "Starting the Conversation",
+      "setting": "You are on a street in Italy and need to find the train station. You decide to ask a passerby for help.",
+      "conversation_flow": [
+        {
+          "title": "Get the person's attention",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Ask if they speak English",
+          "chatbot_message": "Sì?"
+        },
+        {
+          "title": "Ask for the location of the station",
+          "chatbot_message": "Sì, un po'."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! You've asked your question. Now let's learn how to understand the answer. The person might use these words for direction."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V04",
+      "data": {
+        "a destra": "to the right"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V05",
+      "data": {
+        "a sinistra": "to the left"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E04",
+      "data": {
+        "phrase": "Ah, ho capito",
+        "meaning": "Ah, I understand"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask if something is far away, you need the verb 'essere' (to be). The form for 'it is' is 'è'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V06",
+      "data": {
+        "è": "it is"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L04_P03",
+      "data": {
+        "word": "è",
+        "phonetic": "eh",
+        "tip": "The accent on 'è' is important. It distinguishes it from 'e' (and) and tells you to pronounce it like the 'e' in 'bed'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V07",
+      "data": {
+        "lontano": "far"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E05",
+      "data": {
+        "phrase": "È lontano?",
+        "meaning": "Is it far?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V08",
+      "data": {
+        "No": "No"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V09",
+      "data": {
+        "vicino": "near"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V10",
+      "data": {
+        "Via": "Street / Road"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V11",
+      "data": {
+        "Bene": "Good / Well"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L04_S02",
+      "title": "Understanding the Directions",
+      "setting": "The person has started to give you directions. Now you need to understand them and ask for more details.",
+      "conversation_flow": [
+        {
+          "title": "Acknowledge the direction",
+          "chatbot_message": "La stazione è a destra."
+        },
+        {
+          "title": "Ask if it is far",
+          "chatbot_message": "Bene."
+        },
+        {
+          "title": "Confirm the street name",
+          "chatbot_message": "No, è vicino. È in Via Roma.",
+          "extract_info": {
+            "street_name": "Extract the street name the user confirms"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "You're almost there! Let's learn how to confirm the directions and end the conversation politely."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V12",
+      "data": {
+        "dritto": "straight ahead"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V13",
+      "data": {
+        "poi": "then"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E06",
+      "data": {
+        "phrase": "Quindi...",
+        "meaning": "So..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can use 'Quindi...' to summarize what you heard. For example: 'Quindi, dritto e poi a destra?' (So, straight and then to the right?)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V14",
+      "data": {
+        "esatto": "exactly"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E07",
+      "data": {
+        "phrase": "Grazie mille",
+        "meaning": "Thanks a lot"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V15",
+      "data": {
+        "Prego": "You're welcome"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E08",
+      "data": {
+        "phrase": "Buona giornata",
+        "meaning": "Have a nice day"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L04_P04",
+      "data": {
+        "word": "giornata",
+        "phonetic": "jor-NAH-tah",
+        "tip": "The 'gi' sound is like the 'j' in 'joy'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E09",
+      "data": {
+        "phrase": "Anche a te",
+        "meaning": "You too"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V16",
+      "data": {
+        "Ciao": "Bye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L04_S03",
+      "title": "Finishing the Conversation",
+      "setting": "You've understood the directions. Now it's time to confirm and thank the person before you go.",
+      "conversation_flow": [
+        {
+          "title": "Repeat the directions to confirm",
+          "chatbot_message": "Sì, Via Roma. Dritto e poi a destra."
+        },
+        {
+          "title": "Thank the person",
+          "chatbot_message": "Sì, esatto."
+        },
+        {
+          "title": "Wish them a nice day",
+          "chatbot_message": "Prego."
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Anche a te. Buona giornata!"
+        }
+      ]
+    }
+  ]
+}

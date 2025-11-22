@@ -1,0 +1,316 @@
+{
+  "id": "L13",
+  "title": "Inviting a Friend to Do Something",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to invite a friend to do something, like grabbing a coffee. We'll learn the phrases step-by-step."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E01",
+      "data": {
+        "phrase": "Hola",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V01",
+      "data": {
+        "ocupado": "busy (masculine)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V02",
+      "data": {
+        "ocupada": "busy (feminine)"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Adjectives in Spanish often change to match the gender of the noun they describe. Use 'ocupado' for a male friend and 'ocupada' for a female friend (like Sofía)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V03",
+      "data": {
+        "ahora": "now"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E02",
+      "data": {
+        "phrase": "¿Estás ocupada ahora?",
+        "meaning": "Are you busy now?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V04",
+      "data": {
+        "¿Por qué?": "Why?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E03",
+      "data": {
+        "phrase": "¿Quieres tomar un café?",
+        "meaning": "Do you want to get a coffee?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V05",
+      "data": {
+        "algún día": "sometime"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E04",
+      "data": {
+        "phrase": "Sí",
+        "meaning": "Yes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E05",
+      "data": {
+        "phrase": "¡Qué buena idea!",
+        "meaning": "What a good idea!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E06",
+      "data": {
+        "phrase": "¿Qué día te viene bien?",
+        "meaning": "What day works for you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V06",
+      "data": {
+        "para mí": "for me"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P01",
+      "data": {
+        "word": "quieres",
+        "phonetic": "kyé-res",
+        "tip": "The Spanish 'qu' is always followed by 'e' or 'i' and sounds like a hard 'k'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S01",
+      "title": "Making the Invitation",
+      "setting": "You're talking to your friend, Sofía, and want to invite her for coffee.",
+      "conversation_flow": [
+        {
+          "title": "Greet your friend",
+          "chatbot_message": "¡Hola!"
+        },
+        {
+          "title": "Ask if she is busy now",
+          "chatbot_message": "Hola. Ahora no estoy ocupada, ¿por qué?"
+        },
+        {
+          "title": "Suggest going for coffee sometime",
+          "chatbot_message": "¡Sí, qué buena idea!"
+        },
+        {
+          "title": "Ask which day works for her",
+          "chatbot_message": "Hmm, el miércoles o el jueves está bien para mí."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V07",
+      "data": {
+        "el miércoles": "Wednesday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V08",
+      "data": {
+        "el jueves": "Thursday"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L13_P02",
+      "data": {
+        "word": "jueves",
+        "phonetic": "khwé-bes",
+        "tip": "The Spanish 'j' sound is made at the back of the throat, like the 'h' in 'hello'."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To talk about time, use 'a las...' for most hours. For example, 'a las tres' (at three). The only exception is one o'clock, which is 'a la una'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E07",
+      "data": {
+        "phrase": "a las tres",
+        "meaning": "at three o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E08",
+      "data": {
+        "phrase": "No puedo",
+        "meaning": "I can't"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E09",
+      "data": {
+        "phrase": "¿Qué tal el jueves?",
+        "meaning": "How about on Thursday?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E10",
+      "data": {
+        "phrase": "Está bien",
+        "meaning": "That's fine / Okay"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V09",
+      "data": {
+        "¿Dónde?": "Where?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V10",
+      "data": {
+        "el café del centro": "the café in the center"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E11",
+      "data": {
+        "phrase": "me parece bien",
+        "meaning": "sounds good to me"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S02",
+      "title": "Setting a Time and Place",
+      "setting": "The conversation continues. You and Sofía are trying to find a specific time and place to meet.",
+      "conversation_flow": [
+        {
+          "title": "Propose Wednesday at 3 o'clock",
+          "chatbot_message": "Hmm, el miércoles o el jueves está bien para mí."
+        },
+        {
+          "title": "Agree to the new time",
+          "chatbot_message": "El miércoles a las tres no puedo. ¿Qué tal el jueves a las tres?"
+        },
+        {
+          "title": "Suggest a café in the city center",
+          "chatbot_message": "¡Perfecto! Jueves a las tres. ¿Dónde?"
+        },
+        {
+          "title": "Acknowledge her agreement",
+          "chatbot_message": "Vale, el café del centro me parece bien."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V11",
+      "data": {
+        "entonces": "so / then"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'Entonces' at the beginning of a sentence to summarize or confirm plans, just like you would use 'So...' in English."
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E12",
+      "data": {
+        "phrase": "¡Qué ganas!",
+        "meaning": "I'm looking forward to it! / I can't wait!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E13",
+      "data": {
+        "phrase": "Yo también",
+        "meaning": "Me too"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L13_V12",
+      "data": {
+        "allí": "there"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E14",
+      "data": {
+        "phrase": "Nos vemos",
+        "meaning": "See you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L13_E15",
+      "data": {
+        "phrase": "Hasta entonces",
+        "meaning": "See you then"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L13_S03",
+      "title": "Confirming the Plan",
+      "setting": "You're both about to end the conversation. It's time to confirm the final details.",
+      "conversation_flow": [
+        {
+          "title": "Summarize the full plan",
+          "chatbot_message": "Vale, el café del centro me parece bien."
+        },
+        {
+          "title": "Say you are looking forward to it",
+          "chatbot_message": "¡Exacto! Nos vemos el jueves a las tres allí."
+        },
+        {
+          "title": "Say 'See you then!'",
+          "chatbot_message": "¡Yo también! Qué ganas."
+        },
+        {
+          "title": "End the conversation",
+          "chatbot_message": "¡Nos vemos!"
+        }
+      ]
+    }
+  ]
+}

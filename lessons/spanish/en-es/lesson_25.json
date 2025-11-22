@@ -1,0 +1,257 @@
+{
+  "id": "L25",
+  "title": "Una fiesta de cumpleaños informal",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn what to say at a Spanish 'fiesta de cumpleaños' (birthday party)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V01",
+      "data": {
+        "La fiesta": "The party"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E01",
+      "data": {
+        "phrase": "¡Hola!",
+        "meaning": "Hello!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E02",
+      "data": {
+        "phrase": "¡Feliz cumpleaños!",
+        "meaning": "Happy birthday!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L25_P01",
+      "data": {
+        "word": "Feliz",
+        "phonetic": "/feˈliθ/",
+        "tip": "In Spain, the 'z' sounds like the 'th' in 'thin'. In most of Latin America, it sounds like an 's'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V02",
+      "data": {
+        "El regalo": "The gift"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E03",
+      "data": {
+        "phrase": "Esto es para ti",
+        "meaning": "This is for you"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V03",
+      "data": {
+        "El vaso": "The glass"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E04",
+      "data": {
+        "phrase": "¿Me pasas un vaso, por favor?",
+        "meaning": "Can you pass me a glass, please?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E05",
+      "data": {
+        "phrase": "Gracias",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S01",
+      "title": "Felicitando al anfitrión",
+      "setting": "You arrive at the party and find the host, Alex. After talking, you go to the drinks table and meet another guest, Carmen.",
+      "conversation_flow": [
+        {
+          "title": "Congratulate the host",
+          "chatbot_message": "¡Hola! ¡Gracias por venir!"
+        },
+        {
+          "title": "Give them your gift",
+          "chatbot_message": "¡Muchas gracias! Qué amable."
+        },
+        {
+          "title": "Ask the other guest to pass you a glass",
+          "chatbot_message": "¡Un regalo! Gracias. Las bebidas están en la mesa. (You walk to the drinks table and see another guest, Carmen) Carmen: Hola."
+        },
+        {
+          "title": "Thank the guest",
+          "chatbot_message": "Carmen: Claro, aquí tienes."
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E06",
+      "data": {
+        "phrase": "Me llamo...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'Me llamo...' followed by your name to introduce yourself to new people."
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E07",
+      "data": {
+        "phrase": "¿Y tú?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E08",
+      "data": {
+        "phrase": "¿De qué conoces a Alex?",
+        "meaning": "How do you know Alex?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V04",
+      "data": {
+        "El compañero de clase": "The classmate"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E09",
+      "data": {
+        "phrase": "Somos...",
+        "meaning": "We are..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E10",
+      "data": {
+        "phrase": "Somos compañeros de clase",
+        "meaning": "We are classmates"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S02",
+      "title": "Uniéndose a una conversación",
+      "setting": "You see Carmen talking to another person, David. You decide to join their conversation.",
+      "conversation_flow": [
+        {
+          "title": "Introduce yourself",
+          "chatbot_message": "Carmen: ...y por eso la fiesta es ahora.",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Ask how they know Alex",
+          "chatbot_message": "Carmen: ¡Hola, {user_name}! Yo soy Carmen, y él es David. David: ¡Hola!"
+        },
+        {
+          "title": "Explain how you know Alex",
+          "chatbot_message": "Carmen: Alex y yo somos amigos. ¿Y tú?"
+        },
+        {
+          "title": "Acknowledge their comment",
+          "chatbot_message": "David: ¡Ah, de la clase de español! Alex habla mucho de la clase."
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E11",
+      "data": {
+        "phrase": "Fue un placer",
+        "meaning": "It was a pleasure"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "'Fue un placer' is a polite way to signal the end of a conversation."
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E12",
+      "data": {
+        "phrase": "Hablamos luego",
+        "meaning": "Talk to you later"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V05",
+      "data": {
+        "La invitación": "The invitation"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E13",
+      "data": {
+        "phrase": "Gracias por la invitación",
+        "meaning": "Thanks for the invitation"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E14",
+      "data": {
+        "phrase": "Tengo que irme",
+        "meaning": "I have to go"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E15",
+      "data": {
+        "phrase": "Adiós",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S03",
+      "title": "Despedirse y marcharse",
+      "setting": "It's time to go home. You say goodbye to your new acquaintances and then find the host, Alex.",
+      "conversation_flow": [
+        {
+          "title": "Politely exit the conversation",
+          "chatbot_message": "Carmen: Sí, la música es muy buena."
+        },
+        {
+          "title": "Say you are leaving",
+          "chatbot_message": "David: ¡Hablamos luego, {user_name}! (You find Alex) Alex: ¡{user_name}! ¿Ya te vas?"
+        },
+        {
+          "title": "Thank Alex for the party",
+          "chatbot_message": "Alex: ¡Claro! Gracias a ti por venir."
+        },
+        {
+          "title": "Say goodbye to Alex",
+          "chatbot_message": "Alex: ¡Nos vemos!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "L15",
+  "title": "At the Doctor's Office",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about feeling unwell during a visit to the doctor's office, 'beim Hausarzt'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V01",
+      "data": {
+        "Der Termin": "The appointment"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E01",
+      "data": {
+        "phrase": "Guten Tag",
+        "meaning": "Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E02",
+      "data": {
+        "phrase": "Ich habe...",
+        "meaning": "I have..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V02",
+      "data": {
+        "Die Kopfschmerzen": "The headache"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V03",
+      "data": {
+        "drei": "three"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V04",
+      "data": {
+        "Die Tage": "The days"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E03",
+      "data": {
+        "phrase": "seit drei Tagen",
+        "meaning": "for three days"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L15_P01",
+      "data": {
+        "word": "Arzt",
+        "phonetic": "/aːɐ̯tst/",
+        "tip": "The 'rzt' sound is a bit tricky. It's like saying 'arts' with a 't' at the end: 'Artst'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15_S01",
+      "title": "Checking In",
+      "setting": "You arrive at the doctor's office. First, you speak to the receptionist, then to the doctor.",
+      "conversation_flow": [
+        {
+          "title": "Greet the receptionist",
+          "chatbot_message": "Guten Tag."
+        },
+        {
+          "title": "State that you have an appointment",
+          "chatbot_message": "Okay, einen Moment bitte... Der Arzt ist bereit. Guten Tag! Was fehlt Ihnen?"
+        },
+        {
+          "title": "Explain your main symptom (headache)",
+          "chatbot_message": "Verstehe. Und seit wann haben Sie die Kopfschmerzen?"
+        },
+        {
+          "title": "Say how long you have had this problem",
+          "chatbot_message": "Okay, seit drei Tagen."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to describe more symptoms and answer the doctor's questions."
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E04",
+      "data": {
+        "phrase": "Ich habe auch...",
+        "meaning": "I also have..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V05",
+      "data": {
+        "Das Fieber": "The fever"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V06",
+      "data": {
+        "Der Hals": "The throat"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E05",
+      "data": {
+        "phrase": "Mein Hals tut weh",
+        "meaning": "My throat hurts"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can use the phrase 'Mein [body part] tut weh' to say something hurts. For example, 'Mein Kopf tut weh'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V07",
+      "data": {
+        "Die Tabletten": "The tablets / pills"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E06",
+      "data": {
+        "phrase": "Ich habe Tabletten genommen",
+        "meaning": "I have taken tablets"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15_S02",
+      "title": "Answering Questions",
+      "setting": "The doctor asks for more details about your symptoms.",
+      "conversation_flow": [
+        {
+          "title": "Describe another symptom (fever)",
+          "chatbot_message": "Haben Sie noch andere Symptome?"
+        },
+        {
+          "title": "Answer where it hurts (your throat)",
+          "chatbot_message": "Okay, Fieber. Tut etwas weh?"
+        },
+        {
+          "title": "Tell the doctor what you have already taken",
+          "chatbot_message": "Haben Sie schon Tabletten genommen?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Well done. Finally, let's learn how to ask for clarification and conclude the appointment."
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E07",
+      "data": {
+        "phrase": "Können Sie das bitte langsam wiederholen?",
+        "meaning": "Can you please repeat that slowly?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V08",
+      "data": {
+        "Das Rezept": "The prescription"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E08",
+      "data": {
+        "phrase": "Brauche ich ein Rezept?",
+        "meaning": "Do I need a prescription?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E09",
+      "data": {
+        "phrase": "Vielen Dank",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E10",
+      "data": {
+        "phrase": "Auf Wiedersehen",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15_S03",
+      "title": "Understanding Advice",
+      "setting": "The doctor gives you advice. You need to understand it and end the conversation.",
+      "conversation_flow": [
+        {
+          "title": "Ask the doctor to repeat slowly",
+          "chatbot_message": "Okay. Sie sollten viel Wasser trinken und zu Hause bleiben."
+        },
+        {
+          "title": "Ask if you need a prescription",
+          "chatbot_message": "Ja. Trinken Sie viel Wasser. Bleiben Sie zu Hause."
+        },
+        {
+          "title": "Thank the doctor and say goodbye",
+          "chatbot_message": "Nein, ein Rezept ist nicht nötig. Gute Besserung!"
+        }
+      ]
+    }
+  ]
+}

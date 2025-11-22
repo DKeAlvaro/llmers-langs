@@ -1,0 +1,304 @@
+{
+  "id": "L06",
+  "title": "En el mercado",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome to the market! In this lesson, you'll learn how to buy fresh produce at 'el mercado'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V01",
+      "data": {
+        "El mercado": "The market"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E01",
+      "data": {
+        "phrase": "Hola",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E02",
+      "data": {
+        "phrase": "Buenos días",
+        "meaning": "Good morning"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L06_P01",
+      "data": {
+        "word": "Hola",
+        "phonetic": "o-la",
+        "tip": "The 'h' at the beginning of words is always silent in Spanish."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V02",
+      "data": {
+        "Los tomates": "The tomatoes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V03",
+      "data": {
+        "El kilo": "The kilo"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E03",
+      "data": {
+        "phrase": "¿Cuánto cuesta el kilo?",
+        "meaning": "How much does the kilo cost?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V04",
+      "data": {
+        "Un": "One"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V05",
+      "data": {
+        "Dos": "Two"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V06",
+      "data": {
+        "Euros": "Euros"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E04",
+      "data": {
+        "phrase": "Quiero un kilo",
+        "meaning": "I want one kilo"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E05",
+      "data": {
+        "phrase": "Por favor",
+        "meaning": "Please"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S01",
+      "title": "Approaching a Stall",
+      "setting": "You approach a fruit and vegetable stall at a bustling Spanish market.",
+      "conversation_flow": [
+        {
+          "title": "Greet the vendor",
+          "chatbot_message": "¡Hola, buenos días!"
+        },
+        {
+          "title": "Ask how much a kilo of tomatoes costs",
+          "chatbot_message": "Hola. Los tomates están muy buenos hoy."
+        },
+        {
+          "title": "Ask for one kilo of tomatoes",
+          "chatbot_message": "El kilo cuesta dos euros."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now, let's learn how to ask about an item you don't recognize."
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E06",
+      "data": {
+        "phrase": "¿Qué es eso?",
+        "meaning": "What is that?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V07",
+      "data": {
+        "El queso": "The cheese"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L06_P02",
+      "data": {
+        "word": "Queso",
+        "phonetic": "ke-so",
+        "tip": "In Spanish, the combination 'que' is pronounced 'ke'. The 'u' is silent."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E07",
+      "data": {
+        "phrase": "¿Puedo probar?",
+        "meaning": "Can I try?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E08",
+      "data": {
+        "phrase": "Está delicioso",
+        "meaning": "It is delicious"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'está' for temporary conditions, like how food tastes. Use 'es' for permanent qualities, like 'es queso' (it is cheese)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V08",
+      "data": {
+        "Un trozo": "A piece"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E09",
+      "data": {
+        "phrase": "Quiero un trozo",
+        "meaning": "I want a piece"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E10",
+      "data": {
+        "phrase": "¿Algo más?",
+        "meaning": "Anything else?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E11",
+      "data": {
+        "phrase": "Claro",
+        "meaning": "Of course"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S02",
+      "title": "Trying Something New",
+      "setting": "You've got your tomatoes, but a delicious-looking cheese catches your eye.",
+      "conversation_flow": [
+        {
+          "title": "Ask what an unfamiliar item is",
+          "chatbot_message": "Perfecto. Aquí tiene un kilo de tomates. ¿Algo más?"
+        },
+        {
+          "title": "Ask if you can try it",
+          "chatbot_message": "Eso es queso. Es un queso de España. Muy bueno."
+        },
+        {
+          "title": "Say it's delicious and you want to buy a piece",
+          "chatbot_message": "Claro. Pruebe."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! You're almost done. Let's learn how to pay and finish the conversation."
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E12",
+      "data": {
+        "phrase": "No, gracias",
+        "meaning": "No, thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E13",
+      "data": {
+        "phrase": "¿Cuánto es?",
+        "meaning": "How much is it?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V09",
+      "data": {
+        "Cinco": "Five"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E14",
+      "data": {
+        "phrase": "Aquí tiene",
+        "meaning": "Here you are"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can say 'Aquí tiene' when you hand something, like money, to another person."
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E15",
+      "data": {
+        "phrase": "Gracias",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L06_P03",
+      "data": {
+        "word": "Gracias",
+        "phonetic": "gra-si-as",
+        "tip": "In most of Spain and Latin America, the 'c' in 'gracias' sounds like an 's'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E16",
+      "data": {
+        "phrase": "Adiós",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S03",
+      "title": "Finalizing the Purchase",
+      "setting": "You have your tomatoes and cheese and are ready to pay.",
+      "conversation_flow": [
+        {
+          "title": "Say 'no more' and ask for the total",
+          "chatbot_message": "Perfecto. Un trozo de queso. ¿Algo más?"
+        },
+        {
+          "title": "Say 'Here you are' and give five euros",
+          "chatbot_message": "Son cinco euros, por favor."
+        },
+        {
+          "title": "Thank the vendor and say goodbye",
+          "chatbot_message": "Gracias."
+        }
+      ]
+    }
+  ]
+}

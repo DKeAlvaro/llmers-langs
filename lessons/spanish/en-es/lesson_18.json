@@ -1,0 +1,242 @@
+{
+  "id": "L18",
+  "title": "Planning a Weekend Trip",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to make plans for the weekend with a friend. Let's start with the basics to propose an idea."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V01",
+      "data": {
+        "el fin de semana": "the weekend"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V02",
+      "data": {
+        "los planes": "the plans"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V03",
+      "data": {
+        "la ciudad": "the city"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V04",
+      "data": {
+        "el museo": "the museum"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E01",
+      "data": {
+        "phrase": "¿Tienes planes?",
+        "meaning": "Do you have plans?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E02",
+      "data": {
+        "phrase": "¿Qué tal si vamos a...?",
+        "meaning": "How about if we go to...?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E03",
+      "data": {
+        "phrase": "Podemos visitar...",
+        "meaning": "We can visit..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P01",
+      "data": {
+        "word": "ciudad",
+        "phonetic": "[sjuˈðað]",
+        "tip": "The 'c' before an 'i' or 'e' in Spanish often sounds like 'th' in 'thin' (in Spain) or an 's' (in Latin America). The 'd' at the end is very soft."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S01",
+      "title": "Proposing an Idea",
+      "setting": "You are talking with your friend, Ana, about the upcoming weekend.",
+      "conversation_flow": [
+        {
+          "title": "Ask about weekend plans",
+          "chatbot_message": "¡Hola! ¿Qué tal? ¿Tienes planes para el fin de semana?"
+        },
+        {
+          "title": "Suggest a day trip to Seville",
+          "chatbot_message": "No, no tengo planes. ¿Por qué?",
+          "extract_info": {
+            "city_name": "Extract the name of the city the user suggests"
+          }
+        },
+        {
+          "title": "Mention visiting a museum",
+          "chatbot_message": "¡{city_name}! Suena bien. ¿Qué podemos hacer allí?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now that your friend likes the idea, it's time to discuss the logistics, like transport and time."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V05",
+      "data": {
+        "el tren": "the train"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V06",
+      "data": {
+        "el sábado": "Saturday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V07",
+      "data": {
+        "la mañana": "the morning"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E04",
+      "data": {
+        "phrase": "¿Vamos en tren?",
+        "meaning": "Shall we go by train?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E05",
+      "data": {
+        "phrase": "¿Quedamos a las nueve?",
+        "meaning": "Shall we meet at nine?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E06",
+      "data": {
+        "phrase": "por la mañana",
+        "meaning": "in the morning"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E07",
+      "data": {
+        "phrase": "¿Qué te parece?",
+        "meaning": "What do you think? (How does it seem to you?)"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S02",
+      "title": "Discussing Logistics",
+      "setting": "You and Ana are now working out the details of the trip.",
+      "conversation_flow": [
+        {
+          "title": "Suggest going by train",
+          "chatbot_message": "¡Buena idea! ¿Y cómo vamos?"
+        },
+        {
+          "title": "Suggest a meeting time for Saturday morning",
+          "chatbot_message": "Sí, el tren es una buena opción. ¿Cuándo quedamos?"
+        },
+        {
+          "title": "Ask what she thinks of the plan",
+          "chatbot_message": "El sábado a las nueve está bien para mí."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! The plan is almost complete. Let's learn how to confirm the final details and express your excitement."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V08",
+      "data": {
+        "la estación": "the station"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E08",
+      "data": {
+        "phrase": "Entonces...",
+        "meaning": "So... / Then..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E09",
+      "data": {
+        "phrase": "Perfecto",
+        "meaning": "Perfect"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E10",
+      "data": {
+        "phrase": "Nos vemos",
+        "meaning": "See you / We'll see each other"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E11",
+      "data": {
+        "phrase": "¡Qué bien!",
+        "meaning": "How great!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E12",
+      "data": {
+        "phrase": "¡Tengo muchas ganas!",
+        "meaning": "I'm really looking forward to it!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S03",
+      "title": "Finalizing the Plan",
+      "setting": "You are confirming the final details with Ana.",
+      "conversation_flow": [
+        {
+          "title": "Confirm the destination and activity",
+          "chatbot_message": "¡Me parece un plan genial! Entonces, ¿confirmamos?"
+        },
+        {
+          "title": "Confirm the meeting time and place",
+          "chatbot_message": "Perfecto. Sevilla y el museo."
+        },
+        {
+          "title": "Express excitement for the trip",
+          "chatbot_message": "Vale. Sábado a las nueve en la estación. ¡Nos vemos!"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "L25",
+  "title": "A Casual Birthday Party ('Borrel')",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome to a Dutch birthday party, or 'borrel'! First, let's learn how to congratulate the host."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V01",
+      "data": {
+        "De verjaardag": "The birthday"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E01",
+      "data": {
+        "phrase": "Gefeliciteerd met je verjaardag",
+        "meaning": "Congratulations on your birthday"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L25_P01",
+      "data": {
+        "word": "Gefeliciteerd",
+        "phonetic": "ge-fe-li-si-teerd",
+        "tip": "The 'g' in Dutch is a sound made in the back of your throat. It's a bit like clearing your throat softly."  
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V02",
+      "data": {
+        "Een cadeau": "A gift"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E02",
+      "data": {
+        "phrase": "Dit is voor jou",
+        "meaning": "This is for you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E03",
+      "data": {
+        "phrase": "Dank je wel",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Now, let's see how to ask for something politely. You'll need this to get a drink."
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E04",
+      "data": {
+        "phrase": "Pardon",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V03",
+      "data": {
+        "Een glas": "A glass"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E05",
+      "data": {
+        "phrase": "Kun je mij een glas geven?",
+        "meaning": "Can you give me a glass?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E06",
+      "data": {
+        "phrase": "Ja, natuurlijk",
+        "meaning": "Yes, of course"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S01",
+      "title": "Arrival and Greetings",
+      "setting": "You've arrived at the party for your classmate, Lisa. You see her and go to say hello. Her friend Alex is at the drinks table.",
+      "conversation_flow": [
+        {
+          "title": "Congratulate the host",
+          "chatbot_message": "Hallo! Fijn dat je er bent."
+        },
+        {
+          "title": "Give your gift",
+          "chatbot_message": "Dank je wel!"
+        },
+        {
+          "title": "Ask for a glass",
+          "chatbot_message": "Hallo."
+        },
+        {
+          "title": "Finish the interaction",
+          "chatbot_message": "Ja, natuurlijk. Alsjeblieft."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now you have a drink. Let's learn how to join a conversation and introduce yourself."
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E07",
+      "data": {
+        "phrase": "Ik ben...",
+        "meaning": "I am..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V04",
+      "data": {
+        "Kennen": "To know (a person)"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L25_P02",
+      "data": {
+        "word": "kennen",
+        "phonetic": "ken-nen",
+        "tip": "This sounds different from 'kunnen' (can). 'Kennen' has a short 'e' sound, like in the English word 'ken'." 
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V05",
+      "data": {
+        "Ik ken": "I know"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V06",
+      "data": {
+        "Jij kent": "You know"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E08",
+      "data": {
+        "phrase": "Hoe ken jij Lisa?",
+        "meaning": "How do you know Lisa?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V07",
+      "data": {
+        "De studie": "The study / school"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E09",
+      "data": {
+        "phrase": "Ik ken Lisa van de studie",
+        "meaning": "I know Lisa from my studies"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S02",
+      "title": "Joining a Conversation",
+      "setting": "You see Alex, who gave you the glass, talking with another guest, Maria. You decide to join them.",       
+      "conversation_flow": [
+        {
+          "title": "Introduce yourself",
+          "chatbot_message": "Hoi! Ik ben Alex.",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Ask how they know Lisa",
+          "chatbot_message": "Hallo {user_name}. Ik ben Maria."
+        },
+        {
+          "title": "Explain how you know Lisa",
+          "chatbot_message": "Ik ken Lisa van de studie. En jij? Hoe ken jij Lisa?"
+        },
+        {
+          "title": "Finish the conversation",
+          "chatbot_message": "Ah, leuk!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Well done! Mingling is key at a 'borrel'. Now, let's learn how to politely leave a conversation and then the party."
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E10",
+      "data": {
+        "phrase": "Het was leuk om met je te praten",
+        "meaning": "It was nice to talk to you"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V08",
+      "data": {
+        "Ik ga": "I am going"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V09",
+      "data": {
+        "De uitnodiging": "The invitation"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V10",
+      "data": {
+        "Het feestje": "The party"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E11",
+      "data": {
+        "phrase": "Bedankt voor de uitnodiging",
+        "meaning": "Thank you for the invitation"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E12",
+      "data": {
+        "phrase": "Het was een leuk feestje",
+        "meaning": "It was a nice party"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E13",
+      "data": {
+        "phrase": "Doei",
+        "meaning": "Bye (informal)"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S03",
+      "title": "Saying Goodbye",
+      "setting": "You've talked for a bit and now you want to mingle more before leaving the party. First, you exit the conversation with Alex and Maria. Then, you find Lisa to say goodbye.",
+      "conversation_flow": [
+        {
+          "title": "Politely exit the conversation",
+          "chatbot_message": "Ja, de studie is interessant."
+        },
+        {
+          "title": "Thank the host for the party",
+          "chatbot_message": "Oké! Doei!"
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Graag gedaan!"
+        },
+        {
+          "title": "End the lesson",
+          "chatbot_message": "Doei!"
+        }
+      ]
+    }
+  ]
+}

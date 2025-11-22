@@ -1,0 +1,229 @@
+{
+  "id": "L10",
+  "title": "Talking About Hobbies and Interests",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your hobbies and ask others about theirs. This is a great way to get to know people!"
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E01",
+      "data": {
+        "phrase": "J'aime...",
+        "meaning": "I like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V01",
+      "data": {
+        "La natation": "Swimming"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V02",
+      "data": {
+        "La course à pied": "Running"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V03",
+      "data": {
+        "La lecture": "Reading"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V04",
+      "data": {
+        "Jouer de la guitare": "To play the guitar"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E02",
+      "data": {
+        "phrase": "aussi",
+        "meaning": "also"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E03",
+      "data": {
+        "phrase": "Deux fois par semaine",
+        "meaning": "Twice a week"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L10_P01",
+      "data": {
+        "word": "lecture",
+        "phonetic": "[lɛk.tyʁ]",
+        "tip": "The 'u' sound in French is made with rounded lips, like you're about to whistle."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S01",
+      "title": "Sharing Your Hobbies",
+      "setting": "You're at a social event, and someone named Alex strikes up a conversation.",
+      "conversation_flow": [
+        {
+          "title": "Mention a sport you enjoy",
+          "chatbot_message": "Salut ! Moi c'est Alex. Qu'est-ce que tu aimes faire ?"
+        },
+        {
+          "title": "Mention another activity you do",
+          "chatbot_message": "Ah, super ! Et tu aimes faire autre chose ?"
+        },
+        {
+          "title": "Say how often you do one of your hobbies",
+          "chatbot_message": "Intéressant. Tu fais ça souvent ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "To say you *don't* like something, you wrap 'ne' and 'pas' around the verb. For example, 'J'aime' becomes 'Je n'aime pas'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E04",
+      "data": {
+        "phrase": "Je n'aime pas...",
+        "meaning": "I don't like..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E05",
+      "data": {
+        "phrase": "Parce que c'est...",
+        "meaning": "Because it is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V05",
+      "data": {
+        "relaxant": "relaxing"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V06",
+      "data": {
+        "amusant": "fun"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To talk about the near future, use the verb 'aller' (to go) + another verb. It's like saying 'I am going to...' in English."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E06",
+      "data": {
+        "phrase": "Je vais...",
+        "meaning": "I am going to..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E07",
+      "data": {
+        "phrase": "Ce week-end",
+        "meaning": "This weekend"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S02",
+      "title": "Giving More Detail",
+      "setting": "Alex is interested and asks for more details about your hobbies.",
+      "conversation_flow": [
+        {
+          "title": "Explain why you like your hobby",
+          "chatbot_message": "Ah d'accord. Et pourquoi tu aimes la lecture ?"
+        },
+        {
+          "title": "Mention something you don't like to do",
+          "chatbot_message": "Je comprends. Il y a une activité que tu n'aimes pas ?"
+        },
+        {
+          "title": "Say what you plan to do this weekend",
+          "chatbot_message": "D'accord. Et qu'est-ce que tu vas faire ce week-end ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "A simple way to ask the same question back to someone is to say 'Et toi ?', which means 'And you?'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E08",
+      "data": {
+        "phrase": "Et toi ?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L10_V07",
+      "data": {
+        "Où ?": "Where?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E09",
+      "data": {
+        "phrase": "Où est-ce que tu... ?",
+        "meaning": "Where do you...?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L10_E10",
+      "data": {
+        "phrase": "C'est intéressant",
+        "meaning": "That's interesting"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L10_P02",
+      "data": {
+        "word": "Où",
+        "phonetic": "[u]",
+        "tip": "This is a pure 'oo' sound, like in the English word 'shoe'. Make your lips into a small circle."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L10_S03",
+      "title": "Showing Interest in Their Hobbies",
+      "setting": "Now it's your turn to ask Alex about what they like to do.",
+      "conversation_flow": [
+        {
+          "title": "Ask what they like to do",
+          "chatbot_message": "C'est un bon programme !"
+        },
+        {
+          "title": "Ask a follow-up question about their hobby",
+          "chatbot_message": "Bonne question ! Moi, j'aime la photographie."
+        },
+        {
+          "title": "Express that you find their hobby interesting",
+          "chatbot_message": "Je fais des photos dans le parc."
+        }
+      ]
+    }
+  ]
+}

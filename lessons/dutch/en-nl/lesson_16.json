@@ -1,0 +1,294 @@
+{
+  "id": "L16",
+  "title": "Returning a Faulty Product to a Store",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to return a broken item to a store. Let's start by explaining the problem to a staff member."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E01",
+      "data": {
+        "phrase": "Pardon",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E02",
+      "data": {
+        "phrase": "Ik heb een vraag",
+        "meaning": "I have a question"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V01",
+      "data": {
+        "Het product": "The product"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E03",
+      "data": {
+        "phrase": "Ik heb ... gekocht",
+        "meaning": "I have bought ..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V02",
+      "data": {
+        "Het koffiezetapparaat": "The coffee machine"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L16_P01",
+      "data": {
+        "word": "koffiezetapparaat",
+        "phonetic": "KOF-fie-zet-ap-pa-raat",
+        "tip": "This is a long compound word. Break it down: koffie (coffee) + zet (put) + apparaat (apparatus)."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V03",
+      "data": {
+        "Hier": "Here"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V04",
+      "data": {
+        "Vorige week": "Last week"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V05",
+      "data": {
+        "Kapot": "Broken"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E04",
+      "data": {
+        "phrase": "Het is ...",
+        "meaning": "It is ..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E05",
+      "data": {
+        "phrase": "Dat is niet goed",
+        "meaning": "That is not good"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S01",
+      "title": "Explaining the problem",
+      "setting": "You are in an electronics store. You approach an employee to explain an issue with a product you bought.",
+      "conversation_flow": [
+        {
+          "title": "Get the employee's attention and state you have a question about a product.",
+          "chatbot_message": "Hallo."
+        },
+        {
+          "title": "Explain that you bought the coffee machine here last week.",
+          "chatbot_message": "Oké, een vraag over een product. Zeg het maar."
+        },
+        {
+          "title": "State that the product is broken.",
+          "chatbot_message": "Oké, vorige week. En?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now you need to show your proof of purchase and suggest a solution. In Dutch shops, this is 'het bonnetje'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E06",
+      "data": {
+        "phrase": "Heeft u...?",
+        "meaning": "Do you have...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V06",
+      "data": {
+        "Het bonnetje": "The receipt"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L16_P02",
+      "data": {
+        "word": "bonnetje",
+        "phonetic": "BON-nuh-tye",
+        "tip": "The '-tje' at the end is a diminutive, so this literally means 'little receipt'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E07",
+      "data": {
+        "phrase": "Hier is...",
+        "meaning": "Here is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E08",
+      "data": {
+        "phrase": "Dank u",
+        "meaning": "Thank you (formal)"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'dank u' when speaking to staff or people you don't know. It's more formal and polite than 'dank je'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E09",
+      "data": {
+        "phrase": "Ik wil graag...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V07",
+      "data": {
+        "Een nieuwe": "A new one"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V08",
+      "data": {
+        "Of": "Or"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E10",
+      "data": {
+        "phrase": "Mijn geld terug",
+        "meaning": "My money back"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S02",
+      "title": "Proposing a solution",
+      "setting": "You've explained the problem. Now the employee is asking for more information.",
+      "conversation_flow": [
+        {
+          "title": "Show them the receipt.",
+          "chatbot_message": "Oh, dat is niet goed. Heeft u het bonnetje?"
+        },
+        {
+          "title": "Say that you would like a new one.",
+          "chatbot_message": "Dank u."
+        },
+        {
+          "title": "As an alternative, ask for your money back.",
+          "chatbot_message": "Oké."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Let's finish the conversation. The employee will offer a solution. You just need to agree and say thanks."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E11",
+      "data": {
+        "phrase": "Alstublieft",
+        "meaning": "Here you go / Please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E12",
+      "data": {
+        "phrase": "Dat is goed",
+        "meaning": "That is good"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E13",
+      "data": {
+        "phrase": "Alles is in orde",
+        "meaning": "Everything is in order / sorted out"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V09",
+      "data": {
+        "De hulp": "The help"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E14",
+      "data": {
+        "phrase": "Dank u voor de hulp",
+        "meaning": "Thank you for the help"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V10",
+      "data": {
+        "Mooi": "Nice / Good"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E15",
+      "data": {
+        "phrase": "Graag gedaan",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "'Graag gedaan' is the most common reply to 'dank u' or 'dank je'."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S03",
+      "title": "Resolving the issue",
+      "setting": "The employee has heard your request and is now offering you a solution.",
+      "conversation_flow": [
+        {
+          "title": "Respond positively to their solution of getting a new machine.",
+          "chatbot_message": "Oké. Hier is een nieuwe. Alstublieft."
+        },
+        {
+          "title": "Confirm that everything is now sorted out.",
+          "chatbot_message": "Oké."
+        },
+        {
+          "title": "Thank them for the help.",
+          "chatbot_message": "Mooi."
+        }
+      ]
+    }
+  ]
+}

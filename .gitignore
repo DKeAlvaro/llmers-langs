@@ -1,0 +1,6 @@
+.env
+pycache/
+generate_lessons/
+lessons/prompts
+lessons/lesson_plan.json
+lessons/lesson_plan.md

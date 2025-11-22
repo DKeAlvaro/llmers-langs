@@ -1,0 +1,286 @@
+{
+  "id": "L16",
+  "title": "Returning a Faulty Product",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to return a faulty item to a store ('le magasin'). Let's start with how to approach a staff member."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E01",
+      "data": {
+        "phrase": "Bonjour",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E02",
+      "data": {
+        "phrase": "Excusez-moi",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V01",
+      "data": {
+        "Le produit": "The product"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E03",
+      "data": {
+        "phrase": "J'ai une question",
+        "meaning": "I have a question"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V02",
+      "data": {
+        "La machine à café": "The coffee machine"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E04",
+      "data": {
+        "phrase": "J'ai acheté",
+        "meaning": "I bought"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L16_P01",
+      "data": {
+        "word": "acheté",
+        "phonetic": "/aʃ.te/",
+        "tip": "The 'h' is silent and the final 'é' sounds like 'ay' in 'say'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V03",
+      "data": {
+        "Ici": "Here"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V04",
+      "data": {
+        "La semaine dernière": "Last week"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V05",
+      "data": {
+        "Cassé / Cassée": "Broken"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "French adjectives change based on gender. Use 'cassé' for masculine nouns ('le produit') and 'cassée' for feminine nouns ('la machine')."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E05",
+      "data": {
+        "phrase": "D'accord",
+        "meaning": "Okay / Alright"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S01",
+      "title": "Explaining the Problem",
+      "setting": "You are in an electronics store and need to return a broken coffee machine.",
+      "conversation_flow": [
+        {
+          "title": "Get the staff member's attention and say you have a question.",
+          "chatbot_message": "Bonjour."
+        },
+        {
+          "title": "Explain that you bought the coffee machine here last week.",
+          "chatbot_message": "Oui ?"
+        },
+        {
+          "title": "State that the coffee machine is broken.",
+          "chatbot_message": "D'accord. Le problème ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now, you need to show your proof of purchase and suggest what you'd like to do next."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V06",
+      "data": {
+        "Le ticket de caisse": "The receipt"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E06",
+      "data": {
+        "phrase": "S'il vous plaît",
+        "meaning": "Please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E07",
+      "data": {
+        "phrase": "Voici",
+        "meaning": "Here is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E08",
+      "data": {
+        "phrase": "Merci",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "`Je voudrais...` is a very useful and polite way to say 'I would like...'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E09",
+      "data": {
+        "phrase": "Je voudrais",
+        "meaning": "I would like"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V07",
+      "data": {
+        "Une nouvelle": "A new one (feminine)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V08",
+      "data": {
+        "Ou": "Or"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V09",
+      "data": {
+        "Un remboursement": "A refund"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V10",
+      "data": {
+        "Un moment": "One moment"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S02",
+      "title": "Proposing a Solution",
+      "setting": "The conversation continues. The staff member is waiting for you to suggest a solution.",
+      "conversation_flow": [
+        {
+          "title": "Show the receipt.",
+          "chatbot_message": "D'accord. Le ticket de caisse, s'il vous plaît."
+        },
+        {
+          "title": "Say you would like a new one.",
+          "chatbot_message": "Merci."
+        },
+        {
+          "title": "Alternatively, ask for a refund.",
+          "chatbot_message": "D'accord."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Let's finish the conversation. You'll need to agree to their solution and thank them."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E10",
+      "data": {
+        "phrase": "Parfait",
+        "meaning": "Perfect"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L16_P02",
+      "data": {
+        "word": "Parfait",
+        "phonetic": "/paʁ.fɛ/",
+        "tip": "The final 't' is silent."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E11",
+      "data": {
+        "phrase": "C'est bon",
+        "meaning": "That's good / That's fine"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E12",
+      "data": {
+        "phrase": "Merci beaucoup",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E13",
+      "data": {
+        "phrase": "Pour votre aide",
+        "meaning": "For your help"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E14",
+      "data": {
+        "phrase": "Bonne journée",
+        "meaning": "Have a good day"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S03",
+      "title": "Finalizing the Return",
+      "setting": "The staff member has returned and is offering you a solution.",
+      "conversation_flow": [
+        {
+          "title": "Agree to the offer of a new machine.",
+          "chatbot_message": "D'accord. Un moment... Voilà. Une nouvelle machine pour vous."
+        },
+        {
+          "title": "Confirm that everything is sorted out.",
+          "chatbot_message": "Parfait."
+        },
+        {
+          "title": "Thank the staff member for their help.",
+          "chatbot_message": "C'est bon. Bonne journée !"
+        }
+      ]
+    }
+  ]
+}

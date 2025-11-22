@@ -1,0 +1,234 @@
+{
+  "id": "L4S",
+  "title": "Asking for Simple Directions",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to ask for directions in a Spanish city. First, let's learn how to politely get someone's attention."
+    },
+    {
+      "type": "expression",
+      "item_id": "L4S_E01",
+      "data": {
+        "phrase": "Disculpe",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L4S_P01",
+      "data": {
+        "word": "Disculpe",
+        "phonetic": "dis-KUL-pe",
+        "tip": "The stress is on the second syllable, 'KUL'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4S_E02",
+      "data": {
+        "phrase": "¿Habla usted inglés?",
+        "meaning": "Do you speak English? (formal)"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Using 'usted' is a polite and formal way to address someone you don't know. It's perfect for asking strangers for help."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4S_V01",
+      "data": {
+        "Un poco": "A little"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4S_V02",
+      "data": {
+        "La estación de tren": "The train station"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4S_E03",
+      "data": {
+        "phrase": "¿Dónde está...?",
+        "meaning": "Where is...?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L4S_S01",
+      "title": "Starting the Conversation",
+      "setting": "You are in the city center and need to find the train station. You stop a passerby for help.",
+      "conversation_flow": [
+        {
+          "title": "Get the person's attention",
+          "chatbot_message": "..."
+        },
+        {
+          "title": "Ask if they speak English",
+          "chatbot_message": "Hola, dígame."
+        },
+        {
+          "title": "Ask where the train station is",
+          "chatbot_message": "Un poco. ¿En qué puedo ayudar?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn some key phrases to understand the directions you're given."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4S_V03",
+      "data": {
+        "A la izquierda": "To the left"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4S_V04",
+      "data": {
+        "A la derecha": "To the right"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4S_E04",
+      "data": {
+        "phrase": "Vale",
+        "meaning": "Okay / Alright"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L4S_P02",
+      "data": {
+        "word": "Vale",
+        "phonetic": "BA-le",
+        "tip": "In many parts of Spain, the 'v' is pronounced like a soft 'b'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4S_V05",
+      "data": {
+        "Lejos": "Far"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4S_E05",
+      "data": {
+        "phrase": "¿Está lejos?",
+        "meaning": "Is it far?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4S_V06",
+      "data": {
+        "La calle": "The street"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L4S_S02",
+      "title": "Understanding the Directions",
+      "setting": "The person has started to explain the directions to the train station.",
+      "conversation_flow": [
+        {
+          "title": "Acknowledge the first direction",
+          "chatbot_message": "La estación de tren... está a la izquierda."
+        },
+        {
+          "title": "Ask if it is far",
+          "chatbot_message": "Sí, en la Calle del Sol."
+        },
+        {
+          "title": "Confirm the street name",
+          "chatbot_message": "No, no está lejos."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "You've got the directions! Let's learn how to confirm what you heard and end the conversation politely."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4S_V07",
+      "data": {
+        "Entonces": "So / Then"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4S_V08",
+      "data": {
+        "Todo recto": "Straight ahead"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4S_V09",
+      "data": {
+        "Y": "And"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4S_E06",
+      "data": {
+        "phrase": "Muchas gracias",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4S_E07",
+      "data": {
+        "phrase": "De nada",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4S_E08",
+      "data": {
+        "phrase": "Que tenga un buen día",
+        "meaning": "Have a nice day (formal)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4S_V10",
+      "data": {
+        "Igualmente": "Likewise / You too"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L4S_S03",
+      "title": "Ending the Conversation",
+      "setting": "You understand the directions and are ready to thank the person and leave.",
+      "conversation_flow": [
+        {
+          "title": "Confirm the directions to be sure",
+          "chatbot_message": "Sí, la Calle del Sol. Todo recto y a la izquierda."
+        },
+        {
+          "title": "Thank the person for their help",
+          "chatbot_message": "¡Exacto!"
+        },
+        {
+          "title": "Wish them a nice day",
+          "chatbot_message": "De nada."
+        }
+      ]
+    }
+  ]
+}

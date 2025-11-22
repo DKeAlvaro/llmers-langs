@@ -1,0 +1,274 @@
+{
+  "id": "L20",
+  "title": "Talking About a Past Holiday (Simple Past)",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn to talk about a past holiday. We'll use the simple past tense of the verb 'zijn' (to be): 'ik was' (I was) and 'wij waren' (we were)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V01",
+      "data": {
+        "De vakantie": "The holiday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V02",
+      "data": {
+        "Spanje": "Spain"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V03",
+      "data": {
+        "Met": "With"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V04",
+      "data": {
+        "Mijn familie": "My family"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V05",
+      "data": {
+        "Daar": "There"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E01",
+      "data": {
+        "phrase": "Ik was...",
+        "meaning": "I was..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E02",
+      "data": {
+        "phrase": "Wij waren...",
+        "meaning": "We were..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V06",
+      "data": {
+        "Een week": "A week"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20_P01",
+      "data": {
+        "word": "Vakantie",
+        "phonetic": "va-kan-tsie",
+        "tip": "The stress is on the second syllable: 'va-KAN-tie'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20_S01",
+      "title": "Where you went",
+      "setting": "You see your colleague, Eva, for the first time after your holiday.",
+      "conversation_flow": [
+        {
+          "title": "Say where you went on holiday",
+          "chatbot_message": "Hoi! Hoe was je vakantie? Waar was je?"
+        },
+        {
+          "title": "Mention who you went with",
+          "chatbot_message": "Leuk! Met wie was je daar?"
+        },
+        {
+          "title": "State how long you were there",
+          "chatbot_message": "Gezellig. En hoe lang waren jullie daar?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Good job! For actions in the past, we often use 'hebben' + a past participle. For example, 'wij hebben gezwommen' (we swam)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V07",
+      "data": {
+        "Het weer": "The weather"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V08",
+      "data": {
+        "Zonnig": "Sunny"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V09",
+      "data": {
+        "Warm": "Warm"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E03",
+      "data": {
+        "phrase": "Het was...",
+        "meaning": "It was..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E04",
+      "data": {
+        "phrase": "Wij hebben gezwommen",
+        "meaning": "We swam"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E05",
+      "data": {
+        "phrase": "Wij hebben gelezen",
+        "meaning": "We read"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V10",
+      "data": {
+        "Het eten": "The food"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V11",
+      "data": {
+        "Lekker": "Delicious"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20_P02",
+      "data": {
+        "word": "Gezwommen",
+        "phonetic": "ge-zwo-men",
+        "tip": "The 'g' at the beginning is a soft, throaty sound, typical in Dutch."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20_S02",
+      "title": "Describing the holiday",
+      "setting": "Eva wants to know more details about your holiday.",
+      "conversation_flow": [
+        {
+          "title": "Describe the weather",
+          "chatbot_message": "Klinkt goed! En hoe was het weer?"
+        },
+        {
+          "title": "Mention what you did",
+          "chatbot_message": "Fijn. Wat hebben jullie gedaan?"
+        },
+        {
+          "title": "Describe the food",
+          "chatbot_message": "Dat is relaxed. En het eten, was dat lekker?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "When an adjective comes before a noun, it usually gets an '-e' at the end. For example: 'het was een fantastische vakantie'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V12",
+      "data": {
+        "Fantastisch": "Fantastic"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V13",
+      "data": {
+        "Relaxt": "Relaxed"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E06",
+      "data": {
+        "phrase": "Het was een ... vakantie",
+        "meaning": "It was a ... holiday"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E07",
+      "data": {
+        "phrase": "Ik wil graag terug",
+        "meaning": "I would like to go back"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V14",
+      "data": {
+        "Plannen": "Plans"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V15",
+      "data": {
+        "Nog": "Still / yet"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E08",
+      "data": {
+        "phrase": "Heb jij nog plannen?",
+        "meaning": "Do you have any plans?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20_P03",
+      "data": {
+        "word": "Graag",
+        "phonetic": "khraakh",
+        "tip": "The 'g' sound is made at the back of your throat. It's similar to the 'ch' in the Scottish word 'loch'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20_S03",
+      "title": "Giving your opinion",
+      "setting": "You're wrapping up the conversation about your holiday.",
+      "conversation_flow": [
+        {
+          "title": "Give your overall opinion",
+          "chatbot_message": "Super! Dus, het was een goede vakantie?"
+        },
+        {
+          "title": "Say you want to go back",
+          "chatbot_message": "Dat is fijn om te horen."
+        },
+        {
+          "title": "Ask about their plans",
+          "chatbot_message": "Dat snap ik."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "id": "L03",
+  "title": "At the Supermarket",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to ask for help in a Dutch supermarket. Let's start with how to get someone's attention politely."
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E01",
+      "data": {
+        "phrase": "Pardon",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V01",
+      "data": {
+        "De melk": "The milk"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V02",
+      "data": {
+        "Het brood": "The bread"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E02",
+      "data": {
+        "phrase": "Waar kan ik ... vinden?",
+        "meaning": "Where can I find...?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L03_P01",
+      "data": {
+        "word": "Waar",
+        "phonetic": "/vaːr/",
+        "tip": "This sounds like the English word 'var'. The Dutch 'w' is softer than in English."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L03_S01",
+      "title": "Asking for Help",
+      "setting": "You are in the supermarket and see an employee. Get their attention and ask for help.",
+      "conversation_flow": [
+        {
+          "title": "Get the employee's attention",
+          "chatbot_message": null
+        },
+        {
+          "title": "Ask where to find the milk",
+          "chatbot_message": "Hallo! Ja, zeg het maar."
+        },
+        {
+          "title": "Ask where to find the bread",
+          "chatbot_message": "De melk is in gangpad 3."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Good job! Now let's learn how to ask for specific items and quantities."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V03",
+      "data": {
+        "De druiven": "The grapes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V04",
+      "data": {
+        "De kaas": "The cheese"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E03",
+      "data": {
+        "phrase": "Ik wil graag ...",
+        "meaning": "I would like ..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E04",
+      "data": {
+        "phrase": "Is ... in de aanbieding?",
+        "meaning": "Is ... on sale?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E05",
+      "data": {
+        "phrase": "Dank je wel",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L03_P02",
+      "data": {
+        "word": "graag",
+        "phonetic": "/ɣraːx/",
+        "tip": "The 'g' sound at the beginning and end is a soft, throaty sound, typical in Dutch."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L03_S02",
+      "title": "Asking About Products",
+      "setting": "The employee just told you where the bread is. Continue the conversation.",
+      "conversation_flow": [
+        {
+          "title": "Ask for 500 grams of grapes",
+          "chatbot_message": "Het brood is bij de bakkerij. Nog iets?"
+        },
+        {
+          "title": "Ask if the cheese is on sale",
+          "chatbot_message": "Oké, 500 gram druiven. Anders nog iets?"
+        },
+        {
+          "title": "Thank the employee",
+          "chatbot_message": "Ja, de kaas is in de aanbieding."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! You have all your items. Now it's time to pay at the checkout ('de kassa')."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V05",
+      "data": {
+        "Het tasje": "The (small) bag"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E06",
+      "data": {
+        "phrase": "Goedemiddag",
+        "meaning": "Good afternoon"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E07",
+      "data": {
+        "phrase": "Mag ik een ...?",
+        "meaning": "May I have a...?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E08",
+      "data": {
+        "phrase": "Alstublieft",
+        "meaning": "Please / Here you go"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can use 'Alstublieft' when you ask for something (please) and when you give something (here you go)."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L03_S03",
+      "title": "At the Checkout",
+      "setting": "You are at the checkout with your items. The employee has finished their previous sentence with 'Fijne dag!'.",
+      "conversation_flow": [
+        {
+          "title": "Greet the cashier",
+          "chatbot_message": null
+        },
+        {
+          "title": "Ask for a bag",
+          "chatbot_message": "Goedemiddag."
+        },
+        {
+          "title": "Respond and pay",
+          "chatbot_message": "Ja, natuurlijk. Dat is dan twaalf euro, alstublieft."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "id": "L11",
+  "title": "Using Public Transport: Buying a Train Ticket",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to buy a train ticket at a Dutch train station, 'het station'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V01",
+      "data": {
+        "Het station": "The station"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E01",
+      "data": {
+        "phrase": "Goedemiddag",
+        "meaning": "Good afternoon"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E02",
+      "data": {
+        "phrase": "Ik wil graag...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V02",
+      "data": {
+        "Een kaartje": "A ticket"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V03",
+      "data": {
+        "Naar": "To"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V04",
+      "data": {
+        "Een enkele reis": "A one-way ticket"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V05",
+      "data": {
+        "Een retour": "A return ticket"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L11_P01",
+      "data": {
+        "word": "graag",
+        "phonetic": "[ɣraːx]",
+        "tip": "The Dutch 'g' is a soft, scraping sound made in the back of your throat. It's similar to the 'ch' in the Scottish word 'loch'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S01",
+      "title": "Stating Your Destination",
+      "setting": "You are at the service desk at the train station.",
+      "conversation_flow": [
+        {
+          "title": "Greet the employee",
+          "chatbot_message": "Goedemiddag!"
+        },
+        {
+          "title": "Ask for a ticket to Utrecht",
+          "chatbot_message": "Ja?"
+        },
+        {
+          "title": "Say you want a one-way ticket",
+          "chatbot_message": "Oké. Enkele reis of retour?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's learn how to ask for more details about your trip, like the departure time and platform."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V06",
+      "data": {
+        "De trein": "The train"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V07",
+      "data": {
+        "Het spoor": "The platform"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V08",
+      "data": {
+        "Rechtstreeks": "Direct"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E03",
+      "data": {
+        "phrase": "Hoe laat vertrekt de trein?",
+        "meaning": "What time does the train depart?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V09",
+      "data": {
+        "om": "at (for time)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E04",
+      "data": {
+        "phrase": "Welk spoor?",
+        "meaning": "Which platform?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E05",
+      "data": {
+        "phrase": "Is dat rechtstreeks?",
+        "meaning": "Is that direct?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V10",
+      "data": {
+        "Ja": "Yes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V11",
+      "data": {
+        "Dat is": "That is"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S02",
+      "title": "Asking for Details",
+      "setting": "You have requested your ticket and now need more information.",
+      "conversation_flow": [
+        {
+          "title": "Ask what time the train leaves",
+          "chatbot_message": "Oké, een enkele reis naar Utrecht."
+        },
+        {
+          "title": "Ask for the platform number",
+          "chatbot_message": "De trein vertrekt om 14:30."
+        },
+        {
+          "title": "Ask if it's a direct train",
+          "chatbot_message": "Spoor 5."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent work. Now for the final step: paying for the ticket and finishing the conversation."
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E06",
+      "data": {
+        "phrase": "Dat is dan...",
+        "meaning": "That will be..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V12",
+      "data": {
+        "euro": "euro"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E07",
+      "data": {
+        "phrase": "Dat is goed",
+        "meaning": "That is good"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E08",
+      "data": {
+        "phrase": "Kan ik pinnen?",
+        "meaning": "Can I pay by card?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E09",
+      "data": {
+        "phrase": "Alsjeblieft",
+        "meaning": "Here you are"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E10",
+      "data": {
+        "phrase": "Dank je wel",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E11",
+      "data": {
+        "phrase": "Tot ziens",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S03",
+      "title": "Completing the Transaction",
+      "setting": "You have all the details and are now ready to pay.",
+      "conversation_flow": [
+        {
+          "title": "Confirm the price",
+          "chatbot_message": "Ja, dat is rechtstreeks. Dat is dan 8 euro."
+        },
+        {
+          "title": "Ask to pay by card",
+          "chatbot_message": "Oké."
+        },
+        {
+          "title": "Thank the employee",
+          "chatbot_message": "Ja. Alsjeblieft, je kaartje."
+        }
+      ]
+    }
+  ]
+}

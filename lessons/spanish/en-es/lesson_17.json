@@ -1,0 +1,258 @@
+{
+  "id": "L17",
+  "title": "Talking About Your Work or Studies",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your job or studies at a party. Let's start with the basics!"
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E01",
+      "data": {
+        "phrase": "Hola",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E02",
+      "data": {
+        "phrase": "¿A qué te dedicas?",
+        "meaning": "What do you do for a living?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In Spanish, many professions have both a masculine (-o) and a feminine (-a) form. For example, 'un programador' (male) and 'una programadora' (female)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V01",
+      "data": {
+        "un programador": "a programmer (m.)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V02",
+      "data": {
+        "la historia": "history"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E03",
+      "data": {
+        "phrase": "Soy...",
+        "meaning": "I am..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E04",
+      "data": {
+        "phrase": "Estudio...",
+        "meaning": "I study..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V03",
+      "data": {
+        "una empresa": "a company"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V04",
+      "data": {
+        "la universidad": "the university"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E05",
+      "data": {
+        "phrase": "Trabajo en...",
+        "meaning": "I work at..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E06",
+      "data": {
+        "phrase": "Me gusta",
+        "meaning": "I like it"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S01",
+      "title": "Stating Your Profession",
+      "setting": "You're at a party and someone starts a conversation with you.",
+      "conversation_flow": [
+        {
+          "title": "Say what you do",
+          "chatbot_message": "Hola, ¿a qué te dedicas?",
+          "extract_info": {
+            "user_profession": "Extract the user's stated profession or field of study"
+          }
+        },
+        {
+          "title": "Mention your company or university",
+          "chatbot_message": "Interesante. ¿Y dónde trabajas o estudias?"
+        },
+        {
+          "title": "Say you like it",
+          "chatbot_message": "Ah, ¿y te gusta?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's add more detail, like what you do and for how long."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V05",
+      "data": {
+        "escribo correos": "I write emails"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V06",
+      "data": {
+        "leo libros": "I read books"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V07",
+      "data": {
+        "a tiempo completo": "full-time"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V08",
+      "data": {
+        "a tiempo parcial": "part-time"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To talk about duration, you can use 'desde hace' which means 'for' or 'since' in this context."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E07",
+      "data": {
+        "phrase": "Desde hace...",
+        "meaning": "For... (duration)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V09",
+      "data": {
+        "un año": "one year"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V10",
+      "data": {
+        "dos años": "two years"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S02",
+      "title": "Describing Your Responsibilities",
+      "setting": "The conversation continues. You're asked for more details about your work or studies.",
+      "conversation_flow": [
+        {
+          "title": "Describe one main task",
+          "chatbot_message": "Genial. Y, ¿qué haces normalmente?"
+        },
+        {
+          "title": "State your working/study hours",
+          "chatbot_message": "Entendido. ¿Es a tiempo completo?"
+        },
+        {
+          "title": "State how long you have been doing it",
+          "chatbot_message": "Bien. ¿Y trabajas ahí desde hace mucho tiempo?",
+          "extract_info": {
+            "user_duration": "Extract the duration the user has been working/studying"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Now it's your turn to ask them about their job! A simple '¿Y tú?' is a great way to return a question."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E08",
+      "data": {
+        "phrase": "¿Y tú?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V11",
+      "data": {
+        "los compañeros": "the colleagues"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L17_P01",
+      "data": {
+        "word": "compañeros",
+        "phonetic": "/kompa'ɲeɾos/",
+        "tip": "The 'ñ' sound is similar to the 'ny' in 'canyon'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E09",
+      "data": {
+        "phrase": "¿Tienes buenos compañeros?",
+        "meaning": "Do you have good colleagues?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E10",
+      "data": {
+        "phrase": "¡Qué interesante!",
+        "meaning": "How interesting!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S03",
+      "title": "Inquiring About Their Job",
+      "setting": "You've shared about yourself. Now, ask your new acquaintance about what they do.",
+      "conversation_flow": [
+        {
+          "title": "Ask what they do for work",
+          "chatbot_message": "¡Vaya, {user_duration}! Muy bien."
+        },
+        {
+          "title": "Ask if they have nice colleagues",
+          "chatbot_message": "Yo soy profesor de español. Me gusta mucho."
+        },
+        {
+          "title": "Make a positive comment about their job",
+          "chatbot_message": "Sí, tengo compañeros muy buenos."
+        }
+      ]
+    }
+  ]
+}

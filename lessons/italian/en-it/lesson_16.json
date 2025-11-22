@@ -1,0 +1,268 @@
+{
+  "id": "L16",
+  "title": "Returning a Faulty Product to a Store",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to return a faulty item to a store. We'll start with how to approach a staff member and explain the problem."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E01",
+      "data": {
+        "phrase": "Mi scusi",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E02",
+      "data": {
+        "phrase": "Io ho",
+        "meaning": "I have"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V01",
+      "data": {
+        "Una domanda": "A question"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V02",
+      "data": {
+        "Un prodotto": "A product"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L16_P01",
+      "data": {
+        "word": "Scusi",
+        "phonetic": "/'skuzi/",
+        "tip": "The 'scu' sound is like the 'scoo' in 'scoop'. It is a hard 'sk' sound."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E03",
+      "data": {
+        "phrase": "Ho comprato",
+        "meaning": "I bought"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V03",
+      "data": {
+        "La macchina del caffè": "The coffee machine"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V04",
+      "data": {
+        "La settimana scorsa": "Last week"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E04",
+      "data": {
+        "phrase": "È rotta",
+        "meaning": "It is broken"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Adjectives in Italian change their ending to match the gender of the noun. Because 'la macchina' is feminine, we use 'rotta'."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S01",
+      "title": "Explaining the Problem",
+      "setting": "You are in an electronics store with your broken coffee machine and you approach a staff member.",
+      "conversation_flow": [
+        {
+          "title": "Approach the employee and state you have a question about a product",
+          "chatbot_message": "Buongiorno. Posso aiutarla?"
+        },
+        {
+          "title": "Explain you bought the coffee machine here last week",
+          "chatbot_message": "Certo. Mi dica."
+        },
+        {
+          "title": "State that the product is broken",
+          "chatbot_message": "Capisco. Qual è il problema?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now the employee knows what the problem is. Let's learn how to propose a solution."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V05",
+      "data": {
+        "Lo scontrino": "The receipt"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E05",
+      "data": {
+        "phrase": "Ecco",
+        "meaning": "Here is / Here are"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E06",
+      "data": {
+        "phrase": "Sì",
+        "meaning": "Yes"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "`Vorrei` is the polite way to say 'I would like'. It's very useful in shops, cafes, and restaurants."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E07",
+      "data": {
+        "phrase": "Io vorrei",
+        "meaning": "I would like"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V06",
+      "data": {
+        "Nuova": "New (feminine)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E08",
+      "data": {
+        "phrase": "Oppure",
+        "meaning": "Or"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V07",
+      "data": {
+        "I soldi": "The money"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L16_P02",
+      "data": {
+        "word": "Scontrino",
+        "phonetic": "/skon'trino/",
+        "tip": "Remember the 'sco' sound, and put the stress on the 'tri' syllable: scon-TREE-no."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S02",
+      "title": "Proposing a Solution",
+      "setting": "The employee is sorry that your machine is broken and is waiting to hear how you'd like to proceed.",
+      "conversation_flow": [
+        {
+          "title": "Confirm you have the receipt and show it",
+          "chatbot_message": "Oh, mi dispiace. Ha lo scontrino?"
+        },
+        {
+          "title": "Say you would like a new one",
+          "chatbot_message": "Grazie. Cosa preferisce? Una macchina nuova?"
+        },
+        {
+          "title": "Alternatively, ask for your money back",
+          "chatbot_message": "Ok."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent. The employee understands what you want. Let's learn the final phrases to resolve the issue."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E09",
+      "data": {
+        "phrase": "Va bene",
+        "meaning": "That's fine / OK"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V08",
+      "data": {
+        "Perfetto": "Perfect"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "`Tutto a posto` is a common phrase to confirm that a situation is resolved or that everything is in order."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E10",
+      "data": {
+        "phrase": "Tutto a posto",
+        "meaning": "Everything is okay / All set"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V09",
+      "data": {
+        "L'aiuto": "The help"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E11",
+      "data": {
+        "phrase": "Grazie per l'aiuto",
+        "meaning": "Thank you for the help"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L16_P03",
+      "data": {
+        "word": "Grazie",
+        "phonetic": "/'grattsje/",
+        "tip": "The 'zie' at the end is one quick sound, like 'tsyeh'. It's not 'gra-zee-ay'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S03",
+      "title": "Resolving the Issue",
+      "setting": "The employee has checked the policy and returns with a solution for you.",
+      "conversation_flow": [
+        {
+          "title": "Respond to the employee's solution",
+          "chatbot_message": "Capisco. Vedo cosa posso fare... Ok, posso dare una macchina del caffè nuova."
+        },
+        {
+          "title": "Confirm that everything is now sorted out",
+          "chatbot_message": "Perfetto. Ecco la macchina nuova. È tutto a posto?"
+        },
+        {
+          "title": "Thank the employee for their help",
+          "chatbot_message": "Bene."
+        }
+      ]
+    }
+  ]
+}

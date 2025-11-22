@@ -1,0 +1,248 @@
+{
+  "id": "L25",
+  "title": "Una festa di compleanno",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome to a 'festa di compleanno', an Italian birthday party! We'll learn how to congratulate the host, mingle with guests, and leave politely."
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E01",
+      "data": {
+        "phrase": "Tanti auguri!",
+        "meaning": "Best wishes! / Happy birthday!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L25_P01",
+      "data": {
+        "word": "Auguri",
+        "phonetic": "/awˈɡu.ri/",
+        "tip": "The 'au' sounds like the 'ow' in the English word 'cow'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V01",
+      "data": {
+        "il regalo": "the gift"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E02",
+      "data": {
+        "phrase": "Questo è per te",
+        "meaning": "This is for you"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V02",
+      "data": {
+        "un bicchiere": "a glass"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E03",
+      "data": {
+        "phrase": "Scusa",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E04",
+      "data": {
+        "phrase": "Puoi passarmi...?",
+        "meaning": "Can you pass me...?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E05",
+      "data": {
+        "phrase": "Grazie",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S01",
+      "title": "Congratulating the Host",
+      "setting": "You've arrived at your classmate Luca's birthday party. You see him and go to congratulate him.",
+      "conversation_flow": [
+        {
+          "title": "Greet Luca and congratulate him",
+          "chatbot_message": "Ciao! Benvenuto/a alla mia festa!"
+        },
+        {
+          "title": "Give Luca the gift",
+          "chatbot_message": "Grazie mille!"
+        },
+        {
+          "title": "Ask for a glass",
+          "chatbot_message": "Oh, grazie! Non dovevi. Le bevande sono là. C'è anche Sofia, una mia amica."
+        },
+        {
+          "title": "Thank Sofia",
+          "chatbot_message": "Certo, ecco a te."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's join a conversation. A simple 'Piacere, io sono...' (Nice to meet you, I'm...) is the perfect way to introduce yourself."
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E06",
+      "data": {
+        "phrase": "Piacere",
+        "meaning": "Nice to meet you"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V03",
+      "data": {
+        "io sono": "I am"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V04",
+      "data": {
+        "lui è": "he is"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L25_P02",
+      "data": {
+        "word": "Piacere",
+        "phonetic": "/pjaˈtʃe.re/",
+        "tip": "The 'ce' sound is like 'che' in the English word 'check'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E07",
+      "data": {
+        "phrase": "Come conosci...?",
+        "meaning": "How do you know...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V05",
+      "data": {
+        "l'università": "the university"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V06",
+      "data": {
+        "il collega": "the (male) colleague"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S02",
+      "title": "Joining a Conversation",
+      "setting": "You see Sofia, the guest from the drinks table, talking to someone else. You decide to join them.",
+      "conversation_flow": [
+        {
+          "title": "Introduce yourself",
+          "chatbot_message": "...sì, la musica è molto bella!",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Ask how they know the host, Luca",
+          "chatbot_message": "Piacere, {user_name}! Io sono Sofia, e lui è Marco."
+        },
+        {
+          "title": "Explain how you know Luca",
+          "chatbot_message": "Io conosco Luca perché è un collega. E tu?"
+        },
+        {
+          "title": "Respond to Marco",
+          "chatbot_message": "Ah, l'università! Anche io conosco Luca dall'università!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent. Now it's time to leave. Let's learn a few phrases to exit a conversation and the party gracefully."
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E08",
+      "data": {
+        "phrase": "È stato un piacere",
+        "meaning": "It was a pleasure"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E09",
+      "data": {
+        "phrase": "Devo andare",
+        "meaning": "I have to go"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V07",
+      "data": {
+        "la serata": "the evening"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E10",
+      "data": {
+        "phrase": "Grazie per la bella serata",
+        "meaning": "Thanks for the lovely evening"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E11",
+      "data": {
+        "phrase": "A presto",
+        "meaning": "See you soon"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S03",
+      "title": "Leaving the Party",
+      "setting": "It's time to go. First, politely leave your current conversation, then find Luca to say goodbye.",
+      "conversation_flow": [
+        {
+          "title": "Politely exit the conversation with Sofia and Marco",
+          "chatbot_message": "Sì, è una bella festa."
+        },
+        {
+          "title": "Tell Luca you have to leave",
+          "chatbot_message": "{user_name}! Ciao! Tutto bene?"
+        },
+        {
+          "title": "Thank Luca for the party",
+          "chatbot_message": "Ah, peccato. Beh, grazie per il regalo!"
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Grazie a te per essere venuto/a. A presto!"
+        }
+      ]
+    }
+  ]
+}

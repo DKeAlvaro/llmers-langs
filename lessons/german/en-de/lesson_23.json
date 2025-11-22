@@ -1,0 +1,277 @@
+{
+  "id": "L23",
+  "title": "Expressing Your Opinion about a Movie",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to share your opinion about a movie in German. You've just left the cinema with a friend."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V01",
+      "data": {
+        "Der Film": "The movie"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V02",
+      "data": {
+        "fantastisch": "fantastic"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V03",
+      "data": {
+        "langweilig": "boring"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V04",
+      "data": {
+        "lustig": "funny"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V05",
+      "data": {
+        "Die Schauspieler": "The actors"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V06",
+      "data": {
+        "gut": "good"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V07",
+      "data": {
+        "schlecht": "bad"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E01",
+      "data": {
+        "phrase": "Ich fand",
+        "meaning": "I found / I thought"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E02",
+      "data": {
+        "phrase": "Wie fandest du den Film?",
+        "meaning": "How did you find the movie?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To give your opinion on the movie, you can say 'Ich fand den Film...' followed by an adjective like 'gut' or 'schlecht'."
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L23_P01",
+      "data": {
+        "word": "Schauspieler",
+        "phonetic": "[ˈʃaʊ̯ˌʃpiːlɐ]",
+        "tip": "The 'sch' sound is like the 'sh' in 'shoe'. The 'sp' is pronounced 'shp'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S01",
+      "title": "First Impressions",
+      "setting": "You and your friend Alex have just walked out of the cinema.",
+      "conversation_flow": [
+        {
+          "title": "State your overall opinion",
+          "chatbot_message": "Und, wie fandest du den Film?"
+        },
+        {
+          "title": "Comment on the actors",
+          "chatbot_message": "Ja? Ich fand den Film auch gut. Und die Schauspieler?"
+        },
+        {
+          "title": "Ask for your friend's opinion",
+          "chatbot_message": "Ich fand die Schauspieler fantastisch."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's talk about specific parts of the movie. We'll learn how to agree and disagree."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V08",
+      "data": {
+        "Die Geschichte": "The story"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V09",
+      "data": {
+        "Das Ende": "The end"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V10",
+      "data": {
+        "glaubwürdig": "believable"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V11",
+      "data": {
+        "nicht": "not"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E03",
+      "data": {
+        "phrase": "Mir hat ... gefallen",
+        "meaning": "I liked..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E04",
+      "data": {
+        "phrase": "Mir hat ... nicht gefallen",
+        "meaning": "I didn't like..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E05",
+      "data": {
+        "phrase": "Das finde ich auch",
+        "meaning": "I think so too"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E06",
+      "data": {
+        "phrase": "Das finde ich nicht",
+        "meaning": "I don't think so"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S02",
+      "title": "Getting into Details",
+      "setting": "You continue your discussion with Alex as you walk.",
+      "conversation_flow": [
+        {
+          "title": "Mention a part you liked or disliked",
+          "chatbot_message": "Ich fand den Film okay. Das Ende war ein bisschen langweilig."
+        },
+        {
+          "title": "State if the story was believable",
+          "chatbot_message": "Interessant. Ich fand die Geschichte nicht sehr glaubwürdig."
+        },
+        {
+          "title": "Agree or disagree with your friend",
+          "chatbot_message": "Wirklich? Ich fand die Geschichte gut."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Let's wrap up the conversation. You'll now learn how to recommend something and make a suggestion for the future."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V12",
+      "data": {
+        "empfehlen": "to recommend"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V13",
+      "data": {
+        "nächstes Mal": "next time"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V14",
+      "data": {
+        "vielleicht": "maybe"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V15",
+      "data": {
+        "etwas trinken": "to drink something"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E07",
+      "data": {
+        "phrase": "Ich würde den Film empfehlen",
+        "meaning": "I would recommend the movie"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E08",
+      "data": {
+        "phrase": "Ich würde den Film nicht empfehlen",
+        "meaning": "I would not recommend the movie"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E09",
+      "data": {
+        "phrase": "Wollen wir ...?",
+        "meaning": "Do we want to...?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L23_P02",
+      "data": {
+        "word": "empfehlen",
+        "phonetic": "[ɛmˈp͡feːlən]",
+        "tip": "The 'pf' sound is tricky. Try making a 'p' sound and immediately follow it with an 'f' sound."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S03",
+      "title": "Recommendations and Plans",
+      "setting": "You're deciding what to do next.",
+      "conversation_flow": [
+        {
+          "title": "Say if you'd recommend the movie",
+          "chatbot_message": "Also, würdest du den Film empfehlen?"
+        },
+        {
+          "title": "Suggest another movie for next time",
+          "chatbot_message": "Okay. Was wollen wir nächstes Mal sehen?"
+        },
+        {
+          "title": "Suggest getting a drink",
+          "chatbot_message": "Gute Idee! Ein lustiger Film ist gut."
+        }
+      ]
+    }
+  ]
+}

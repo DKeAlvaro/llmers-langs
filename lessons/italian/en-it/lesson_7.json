@@ -1,0 +1,274 @@
+{
+  "id": "L7",
+  "title": "Making a Simple Appointment by Phone",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to call a hairdresser, or 'parrucchiere', to make a simple appointment for a haircut."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L7_V01",
+      "data": {
+        "Il parrucchiere": "The hairdresser"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E01",
+      "data": {
+        "phrase": "Pronto?",
+        "meaning": "Hello? (on the phone)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E02",
+      "data": {
+        "phrase": "Buongiorno",
+        "meaning": "Good morning / Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E03",
+      "data": {
+        "phrase": "Sono...",
+        "meaning": "I am..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To politely say 'I want' in Italian, it's very common to use 'Vorrei', which means 'I would like'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E04",
+      "data": {
+        "phrase": "Vorrei fare un appuntamento",
+        "meaning": "I would like to make an appointment"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L7_V02",
+      "data": {
+        "per un taglio": "for a haircut"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E05",
+      "data": {
+        "phrase": "Certo",
+        "meaning": "Certainly / Of course"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L7_P01",
+      "data": {
+        "word": "Buongiorno",
+        "phonetic": "/bwonˈd͡ʒor.no/",
+        "tip": "The 'gn' in 'buongiorno' sounds like the 'ny' in the English word 'canyon'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L7_S01",
+      "title": "Stating Your Purpose",
+      "setting": "You are calling the hairdresser ('il parrucchiere') to make an appointment.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Pronto, Salone Bella."
+        },
+        {
+          "title": "Greet and state your name",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "chatbot_message": "Buongiorno, {user_name}."
+        },
+        {
+          "title": "Say you would like an appointment for a haircut"
+        },
+        {
+          "chatbot_message": "Certo. Quando vorrebbe venire?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn the vocabulary you need to negotiate a day and time for your appointment."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L7_V03",
+      "data": {
+        "Venerdì": "Friday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L7_V04",
+      "data": {
+        "La mattina": "The morning"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L7_V05",
+      "data": {
+        "Il pomeriggio": "The afternoon"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E06",
+      "data": {
+        "phrase": "Va bene",
+        "meaning": "Okay / That's fine"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To talk about a specific time, like 'at two o'clock', you use 'alle' before the number. For example, 'alle due'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L7_V06",
+      "data": {
+        "Alle due": "At two o'clock"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L7_V07",
+      "data": {
+        "Alle tre": "At three o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E07",
+      "data": {
+        "phrase": "Mi dispiace",
+        "meaning": "I'm sorry"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E08",
+      "data": {
+        "phrase": "Non posso",
+        "meaning": "I can't"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E09",
+      "data": {
+        "phrase": "È possibile...?",
+        "meaning": "Is it possible...?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L7_S02",
+      "title": "Negotiating a Time",
+      "setting": "You continue the phone call with the hairdresser, answering their question about when you can come.",
+      "conversation_flow": [
+        {
+          "title": "Suggest Friday"
+        },
+        {
+          "chatbot_message": "Venerdì... va bene. La mattina o il pomeriggio?"
+        },
+        {
+          "title": "Say you prefer the afternoon"
+        },
+        {
+          "chatbot_message": "Il pomeriggio alle due. Va bene?"
+        },
+        {
+          "title": "Decline and suggest three o'clock"
+        },
+        {
+          "chatbot_message": "Alle tre... vediamo..."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Almost there! Let's learn how to confirm the details and end the call politely."
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E10",
+      "data": {
+        "phrase": "Perfetto",
+        "meaning": "Perfect"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "It's always a good idea to repeat the agreed day and time to make sure you have it right."
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E11",
+      "data": {
+        "phrase": "Grazie",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E12",
+      "data": {
+        "phrase": "Arrivederci",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L7_P02",
+      "data": {
+        "word": "Arrivederci",
+        "phonetic": "/ar.ri.veˈder.t͡ʃi/",
+        "tip": "The 'ci' at the end sounds like the 'chee' in the English word 'cheese'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L7_S03",
+      "title": "Confirming the Appointment",
+      "setting": "You are about to finalize your appointment details with the hairdresser.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Sì, alle tre è possibile. Perfetto."
+        },
+        {
+          "title": "Agree to the time"
+        },
+        {
+          "chatbot_message": "Bene. Allora l'appuntamento è venerdì alle tre."
+        },
+        {
+          "title": "Confirm by repeating the day and time"
+        },
+        {
+          "chatbot_message": "Esatto. A venerdì!"
+        },
+        {
+          "title": "Thank the person and say goodbye"
+        },
+        {
+          "chatbot_message": "Arrivederci."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "id": "L18",
+  "title": "Planning a Weekend Trip",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Let's learn how to make plans with a friend for the weekend. We'll use the informal 'tu' form and the very common word 'on' to mean 'we'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V01",
+      "data": {
+        "le week-end": "the weekend"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E01",
+      "data": {
+        "phrase": "Tu as des plans ?",
+        "meaning": "Do you have plans?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V02",
+      "data": {
+        "une ville": "a city"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E02",
+      "data": {
+        "phrase": "On va à...",
+        "meaning": "Shall we go to..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E03",
+      "data": {
+        "phrase": "C'est une bonne idée",
+        "meaning": "That's a good idea"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V03",
+      "data": {
+        "un musée": "a museum"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E04",
+      "data": {
+        "phrase": "On peut visiter...",
+        "meaning": "We can visit..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P01",
+      "data": {
+        "word": "ville",
+        "phonetic": "[vil]",
+        "tip": "The 'ille' is pronounced like 'eel' in 'feel'."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P02",
+      "data": {
+        "word": "musée",
+        "phonetic": "[myze]",
+        "tip": "The 'u' sound is made by rounding your lips as if to say 'ooh' but trying to say 'ee'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S01",
+      "title": "Proposing an Idea",
+      "setting": "You are talking with your friend, Camille, about plans for the upcoming weekend.",
+      "conversation_flow": [
+        {
+          "title": "Ask about weekend plans",
+          "chatbot_message": "Salut !"
+        },
+        {
+          "title": "Suggest going to Lille",
+          "chatbot_message": "Non, je n'ai pas de plans. Tu as une idée ?"
+        },
+        {
+          "title": "Suggest an activity",
+          "chatbot_message": "Lille ? C'est une bonne idée ! Qu'est-ce qu'on peut faire là-bas ?"
+        },
+        {
+          "title": "React to your friend's enthusiasm",
+          "chatbot_message": "Un musée ? Super idée ! J'aime les musées."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's discuss the details, like transportation and time."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V04",
+      "data": {
+        "le train": "the train"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E05",
+      "data": {
+        "phrase": "On va en train ?",
+        "meaning": "Shall we go by train?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V05",
+      "data": {
+        "samedi": "Saturday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V06",
+      "data": {
+        "le matin": "the morning"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E06",
+      "data": {
+        "phrase": "On se retrouve à neuf heures",
+        "meaning": "We'll meet at nine o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E07",
+      "data": {
+        "phrase": "Ça te va ?",
+        "meaning": "Is that okay with you?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P03",
+      "data": {
+        "word": "train",
+        "phonetic": "[tʁɛ̃]",
+        "tip": "This is a nasal sound. Try to say 'tran' while letting air escape through your nose."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S02",
+      "title": "Discussing Logistics",
+      "setting": "You've decided on the city and activity. Now you need to figure out the logistics.",
+      "conversation_flow": [
+        {
+          "title": "Suggest a mode of transport",
+          "chatbot_message": "Alors, pour Lille..."
+        },
+        {
+          "title": "Suggest a time to meet",
+          "chatbot_message": "D'accord pour le train. On se retrouve quand ?"
+        },
+        {
+          "title": "Check if they agree with the plan",
+          "chatbot_message": "Samedi matin à neuf heures, c'est parfait pour moi."
+        },
+        {
+          "title": "Acknowledge their agreement",
+          "chatbot_message": "Oui, ça me va très bien !"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! The plan is almost ready. Let's confirm everything and show some excitement."
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E08",
+      "data": {
+        "phrase": "D'accord",
+        "meaning": "Okay / Agreed"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E09",
+      "data": {
+        "phrase": "Parfait",
+        "meaning": "Perfect"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V07",
+      "data": {
+        "la gare": "the station"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E10",
+      "data": {
+        "phrase": "Rendez-vous à la gare",
+        "meaning": "Meeting at the station"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E11",
+      "data": {
+        "phrase": "J'ai hâte !",
+        "meaning": "I can't wait!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P04",
+      "data": {
+        "word": "gare",
+        "phonetic": "[ɡaʁ]",
+        "tip": "The 'r' sound is made in the back of your throat, like a light gargle."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P05",
+      "data": {
+        "word": "hâte",
+        "phonetic": "[ɑt]",
+        "tip": "The 'h' at the beginning of 'hâte' is silent. It sounds like 'aht'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S03",
+      "title": "Finalizing the Plan",
+      "setting": "You're both happy with the plan. It's time to confirm the final details.",
+      "conversation_flow": [
+        {
+          "title": "Confirm the destination and activity",
+          "chatbot_message": "Super ! Donc, on est d'accord."
+        },
+        {
+          "title": "Confirm the meeting point",
+          "chatbot_message": "Oui, c'est ça. On se retrouve où ?"
+        },
+        {
+          "title": "Express excitement",
+          "chatbot_message": "D'accord. Samedi, neuf heures, à la gare."
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Moi aussi ! Ça va être super ! À samedi !"
+        }
+      ]
+    }
+  ]
+}

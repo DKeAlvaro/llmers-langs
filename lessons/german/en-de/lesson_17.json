@@ -1,0 +1,309 @@
+{
+  "id": "L17",
+  "title": "Talking About Your Work or Studies",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your job or studies at a party. Let's start by learning how to answer the most common question: 'What do you do for a living?'"
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E01",
+      "data": {
+        "phrase": "Was machst du beruflich?",
+        "meaning": "What do you do for work?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V01",
+      "data": {
+        "Der Programmierer": "The programmer (m.)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V02",
+      "data": {
+        "Die Geschichte": "History"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E02",
+      "data": {
+        "phrase": "Ich bin Programmierer",
+        "meaning": "I am a programmer"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E03",
+      "data": {
+        "phrase": "Ich studiere Geschichte",
+        "meaning": "I study history"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L17_P01",
+      "data": {
+        "word": "beruflich",
+        "phonetic": "[bəˈʁuːflɪç]",
+        "tip": "The 'ch' at the end is a soft sound, made in the front of your mouth, like in 'ich'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V03",
+      "data": {
+        "Die Firma": "The company"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V04",
+      "data": {
+        "Die Universität": "The university"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E04",
+      "data": {
+        "phrase": "Ich arbeite bei...",
+        "meaning": "I work at..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E05",
+      "data": {
+        "phrase": "Ich studiere an der...",
+        "meaning": "I study at the..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'bei' when talking about a company ('Firma') and 'an der' for a university ('Universität')."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E06",
+      "data": {
+        "phrase": "Ich mag meine Arbeit",
+        "meaning": "I like my job"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E07",
+      "data": {
+        "phrase": "Ich mag mein Studium",
+        "meaning": "I like my studies"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S01",
+      "title": "Stating Your Profession",
+      "setting": "You are at a party and meet Anna. She wants to know what you do.",
+      "conversation_flow": [
+        {
+          "title": "Answer Anna's question",
+          "chatbot_message": "Hallo! Sag mal, was machst du beruflich?",
+          "extract_info": {
+            "user_activity": "Extract the user's profession or field of study"
+          }
+        },
+        {
+          "title": "Mention your company or university",
+          "chatbot_message": "Ah, {user_activity}! Und wo machst du das?"
+        },
+        {
+          "title": "Say you like your job or studies",
+          "chatbot_message": "Super. Und magst du das?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's add more details, like what tasks you do and for how long you've been doing them."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V05",
+      "data": {
+        "Die E-Mails": "The emails"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V06",
+      "data": {
+        "Die Bücher": "The books"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E08",
+      "data": {
+        "phrase": "Ich schreibe E-Mails",
+        "meaning": "I write emails"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E09",
+      "data": {
+        "phrase": "Ich lese Bücher",
+        "meaning": "I read books"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V07",
+      "data": {
+        "Vollzeit": "Full-time"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V08",
+      "data": {
+        "Teilzeit": "Part-time"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V09",
+      "data": {
+        "Seit zwei Jahren": "For two years"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say how long something has been happening, use 'seit' (since/for). For example, 'seit einem Jahr' (for one year)."
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L17_P02",
+      "data": {
+        "word": "Jahren",
+        "phonetic": "[ˈjaːʁən]",
+        "tip": "The German 'J' sounds like the 'Y' in 'year'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S02",
+      "title": "Describing Your Work",
+      "setting": "The conversation with Anna continues. She asks for more details.",
+      "conversation_flow": [
+        {
+          "title": "Describe one main task",
+          "chatbot_message": "Das ist schön. Was ist eine typische Aufgabe für dich?"
+        },
+        {
+          "title": "State your working/study hours",
+          "chatbot_message": "Verstehe. Machst du das Vollzeit?"
+        },
+        {
+          "title": "Say how long you've been doing it",
+          "chatbot_message": "Und seit wann machst du das schon?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Now it's your turn to ask the questions. Let's learn how to ask Anna about her job."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E10",
+      "data": {
+        "phrase": "Und du?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E11",
+      "data": {
+        "phrase": "Was machst du?",
+        "meaning": "What do you do?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V10",
+      "data": {
+        "Die Kollegen": "The colleagues"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L17_V11",
+      "data": {
+        "Nett": "Nice"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E12",
+      "data": {
+        "phrase": "Hast du nette Kollegen?",
+        "meaning": "Do you have nice colleagues?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask a yes/no question, simply put the verb first. For example, 'Hast du...?' (Do you have...?)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E13",
+      "data": {
+        "phrase": "Das ist toll!",
+        "meaning": "That is great!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L17_E14",
+      "data": {
+        "phrase": "Das klingt interessant",
+        "meaning": "That sounds interesting"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L17_P03",
+      "data": {
+        "word": "Kollegen",
+        "phonetic": "[kɔˈleːɡn̩]",
+        "tip": "The stress is on the second syllable: Ko-LE-gen."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L17_S03",
+      "title": "Asking About Their Job",
+      "setting": "You've talked about yourself. Now, find out about Anna's work.",
+      "conversation_flow": [
+        {
+          "title": "Ask what she does",
+          "chatbot_message": "Zwei Jahre, super."
+        },
+        {
+          "title": "Ask about her colleagues",
+          "chatbot_message": "Ich bin Lehrerin."
+        },
+        {
+          "title": "Make a positive comment",
+          "chatbot_message": "Ja, meine Kollegen sind sehr nett."
+        }
+      ]
+    }
+  ]
+}

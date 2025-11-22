@@ -1,0 +1,284 @@
+{
+  "id": "L16",
+  "title": "Returning a Faulty Product to a Store",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to return a broken item to a store. This is a common situation where knowing a few key phrases can be very helpful!"
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E01",
+      "data": {
+        "phrase": "Guten Tag",
+        "meaning": "Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E02",
+      "data": {
+        "phrase": "Entschuldigung",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V01",
+      "data": {
+        "die Frage": "the question"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E03",
+      "data": {
+        "phrase": "Ich habe eine Frage",
+        "meaning": "I have a question"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V02",
+      "data": {
+        "die Kaffeemaschine": "the coffee machine"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V03",
+      "data": {
+        "letzte Woche": "last week"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V04",
+      "data": {
+        "hier": "here"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E04",
+      "data": {
+        "phrase": "Ich habe ... gekauft",
+        "meaning": "I bought..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L16_P01",
+      "data": {
+        "word": "gekauft",
+        "phonetic": "guh-KOWFT",
+        "tip": "The 'au' sound in German is like the 'ow' in the English word 'cow'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V05",
+      "data": {
+        "kaputt": "broken"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S01",
+      "title": "Explaining the Problem",
+      "setting": "You're in an electronics store with your broken coffee machine and you approach an employee.",
+      "conversation_flow": [
+        {
+          "title": "Get the employee's attention and say you have a question",
+          "chatbot_message": "Guten Tag. Kann ich Ihnen helfen?"
+        },
+        {
+          "title": "Explain what you bought here, and when",
+          "chatbot_message": "Ja, bitte?"
+        },
+        {
+          "title": "State what is wrong with the coffee machine",
+          "chatbot_message": "Eine Kaffeemaschine von letzter Woche... okay. Und?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now you need to propose a solution. Let's learn the words for that."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V06",
+      "data": {
+        "der Bon": "the receipt"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Nouns in German have a gender. `der` is the article for masculine nouns, like 'der Bon'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E05",
+      "data": {
+        "phrase": "Hier ist...",
+        "meaning": "Here is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E06",
+      "data": {
+        "phrase": "Ich möchte...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L16_P02",
+      "data": {
+        "word": "möchte",
+        "phonetic": "MURSH-tuh",
+        "tip": "The 'ö' sound doesn't exist in English. Try to say 'eh' while rounding your lips like you're saying 'oo'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V07",
+      "data": {
+        "neu": "new"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V08",
+      "data": {
+        "oder": "or"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V09",
+      "data": {
+        "das Geld": "the money"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E07",
+      "data": {
+        "phrase": "mein Geld zurück",
+        "meaning": "my money back"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S02",
+      "title": "Proposing a Solution",
+      "setting": "The employee understands the machine is broken and is waiting for your next step.",
+      "conversation_flow": [
+        {
+          "title": "Show them the receipt",
+          "chatbot_message": "Ach so, die Kaffeemaschine ist kaputt. Haben Sie den Bon?"
+        },
+        {
+          "title": "Say you would like a new one",
+          "chatbot_message": "Danke. Was möchten Sie?"
+        },
+        {
+          "title": "Suggest getting your money back as an alternative",
+          "chatbot_message": "Eine neue Kaffeemaschine, okay."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! The employee is checking what they can do. Let's learn how to wrap up the conversation."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V10",
+      "data": {
+        "Super!": "Great!"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V11",
+      "data": {
+        "gut": "good"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E08",
+      "data": {
+        "phrase": "Das ist gut",
+        "meaning": "That is good"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E09",
+      "data": {
+        "phrase": "Alles klar",
+        "meaning": "Alright / Everything's clear"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V12",
+      "data": {
+        "die Hilfe": "the help"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Remember `die Kaffeemaschine`? `die` is the article for feminine nouns, like 'die Hilfe'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E10",
+      "data": {
+        "phrase": "Vielen Dank",
+        "meaning": "Many thanks"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E11",
+      "data": {
+        "phrase": "Danke für die Hilfe",
+        "meaning": "Thanks for the help"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E12",
+      "data": {
+        "phrase": "Auf Wiedersehen",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S03",
+      "title": "Resolving the Issue",
+      "setting": "The employee comes back from the stockroom with a solution for you.",
+      "conversation_flow": [
+        {
+          "title": "Respond positively to the proposed solution",
+          "chatbot_message": "Einen Moment... So. Wir haben eine neue Kaffeemaschine für Sie. Hier bitte."
+        },
+        {
+          "title": "Confirm that everything is sorted out",
+          "chatbot_message": "Gut. Ist jetzt alles klar?"
+        },
+        {
+          "title": "Thank the employee for their help and say goodbye",
+          "chatbot_message": "Perfekt."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "L18",
+  "title": "Planning a Weekend Trip",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Let's learn how to make plans with a friend in Italian. We will start by suggesting an activity for the weekend."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V01",
+      "data": {
+        "il weekend": "the weekend"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V02",
+      "data": {
+        "i piani": "plans"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E01",
+      "data": {
+        "phrase": "Hai piani per il weekend?",
+        "meaning": "Do you have plans for the weekend?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To suggest 'Let's go to...', you can use the phrase 'Andiamo a...?'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V03",
+      "data": {
+        "una città": "a city"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E02",
+      "data": {
+        "phrase": "Andiamo a Roma",
+        "meaning": "Let's go to Rome"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V04",
+      "data": {
+        "un museo": "a museum"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E03",
+      "data": {
+        "phrase": "Possiamo visitare un museo",
+        "meaning": "We can visit a museum"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P01",
+      "data": {
+        "word": "città",
+        "phonetic": "cheet-TAH",
+        "tip": "The accent on the final 'à' means you should put the stress on that syllable."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S01",
+      "title": "Proposing a Weekend Plan",
+      "setting": "You are talking to your friend, Marco, about the upcoming weekend.",
+      "conversation_flow": [
+        {
+          "title": "Ask your friend if they have plans for the weekend",
+          "chatbot_message": "Ciao! Che bello, è quasi weekend!"
+        },
+        {
+          "title": "Suggest going to another city for a day trip",
+          "chatbot_message": "Ciao! No, non ho piani. Hai qualche idea?",
+          "extract_info": {
+            "city_name": "Extract the name of the city the user suggests"
+          }
+        },
+        {
+          "title": "Mention an activity you can do there",
+          "chatbot_message": "Andare a {city_name}? Ottima idea! E cosa possiamo fare lì?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "To talk about modes of transport, use the preposition 'con', which means 'with'. For example, 'con il treno' (by train)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V05",
+      "data": {
+        "il treno": "the train"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E04",
+      "data": {
+        "phrase": "Andiamo con il treno?",
+        "meaning": "Shall we go by train?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V06",
+      "data": {
+        "sabato": "Saturday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V07",
+      "data": {
+        "mattina": "morning"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When suggesting a meeting time, use 'Vediamoci' (Let's meet) followed by 'alle' (at) and the time."
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E05",
+      "data": {
+        "phrase": "Vediamoci alle nove",
+        "meaning": "Let's meet at nine"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E06",
+      "data": {
+        "phrase": "Che ne dici?",
+        "meaning": "What do you think? / What do you say?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S02",
+      "title": "Arranging the Details",
+      "setting": "Marco likes your idea. Now you need to sort out the logistics.",
+      "conversation_flow": [
+        {
+          "title": "Suggest going by train",
+          "chatbot_message": "Un museo è una bella idea. Allora, come andiamo a {city_name}?"
+        },
+        {
+          "title": "Suggest a time to meet on Saturday morning",
+          "chatbot_message": "Sì, il treno è comodo. Quando ci vediamo sabato?",
+          "extract_info": {
+            "meeting_time": "Extract the time the user suggests"
+          }
+        },
+        {
+          "title": "Ask what they think of the plan",
+          "chatbot_message": "Sabato mattina alle {meeting_time} va bene per me"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "A great way to agree to a plan is to say 'D'accordo', which means 'Agreed' or 'Alright'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E07",
+      "data": {
+        "phrase": "Allora, d'accordo",
+        "meaning": "Alright then, agreed"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L18_V08",
+      "data": {
+        "la stazione": "the station"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "For some common places like the station, Italians often use 'in' instead of 'a'. For example, 'in stazione'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E08",
+      "data": {
+        "phrase": "Ci vediamo in stazione",
+        "meaning": "See you at the station"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L18_E09",
+      "data": {
+        "phrase": "Non vedo l'ora!",
+        "meaning": "I can't wait!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L18_P02",
+      "data": {
+        "word": "stazione",
+        "phonetic": "sta-TSIOH-neh",
+        "tip": "The 'zio' combination sounds like 'tsioh', with a 'ts' sound like in 'pizza'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L18_S03",
+      "title": "Finalizing the Trip",
+      "setting": "You and Marco are about to finalize your weekend plans.",
+      "conversation_flow": [
+        {
+          "title": "Agree on the final destination and activity",
+          "chatbot_message": "Penso che sia un piano fantastico!"
+        },
+        {
+          "title": "Confirm the meeting time and place",
+          "chatbot_message": "Sì, perfetto. Allora ci vediamo sabato. Dove?"
+        },
+        {
+          "title": "Express excitement for the trip",
+          "chatbot_message": "Ok, in stazione alle {meeting_time}. Perfetto! A sabato!"
+        }
+      ]
+    }
+  ]
+}

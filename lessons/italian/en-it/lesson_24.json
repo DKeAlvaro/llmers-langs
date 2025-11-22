@@ -1,0 +1,299 @@
+{
+  "id": "L24",
+  "title": "Leaving a Voicemail Message",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to leave a clear and effective voicemail message in Italian, a common real-life situation."
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E01",
+      "data": {
+        "phrase": "Buongiorno",
+        "meaning": "Good morning / Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E02",
+      "data": {
+        "phrase": "Sono...",
+        "meaning": "I am..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V01",
+      "data": {
+        "L'indirizzo": "The address"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E03",
+      "data": {
+        "phrase": "Il mio indirizzo è...",
+        "meaning": "My address is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V02",
+      "data": {
+        "Via": "Street"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V03",
+      "data": {
+        "Il cognome": "The last name"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E04",
+      "data": {
+        "phrase": "Si scrive...",
+        "meaning": "It's spelled..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When spelling a name over the phone, Italians often use city names to avoid confusion, for example, 'A come Ancona', 'B come Bologna'."
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L24_P01",
+      "data": {
+        "word": "H",
+        "phonetic": "acca",
+        "tip": "This letter is silent in Italian words like 'hotel', but you need to know its name, 'acca', for spelling."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L24_S01",
+      "title": "Starting the Voicemail",
+      "setting": "You're calling your housing agency about a problem. An answering machine picks up. After the beep, start leaving your message.",
+      "conversation_flow": [
+        {
+          "title": "Greet and state your full name",
+          "chatbot_message": "(Beep)"
+        },
+        {
+          "title": "State your address"
+        },
+        {
+          "title": "Spell your last name"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E05",
+      "data": {
+        "phrase": "Chiamo perché...",
+        "meaning": "I'm calling because..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V04",
+      "data": {
+        "Il riscaldamento": "The heating"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E06",
+      "data": {
+        "phrase": "non funziona",
+        "meaning": "it doesn't work"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can use 'non funziona' to say that any machine is broken, for example, 'La televisione non funziona'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V05",
+      "data": {
+        "Da": "Since / From"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V06",
+      "data": {
+        "questa mattina": "this morning"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E07",
+      "data": {
+        "phrase": "Fa molto freddo",
+        "meaning": "It is very cold"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V07",
+      "data": {
+        "In casa": "In the house"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L24_S02",
+      "title": "Explaining the Problem",
+      "setting": "Now, continue your voicemail message by explaining what the problem is.",
+      "conversation_flow": [
+        {
+          "title": "State the reason for your call (the heating isn't working)",
+          "chatbot_message": "..."
+        },
+        {
+          "title": "Say how long the problem has existed (since this morning)"
+        },
+        {
+          "title": "Explain the consequence (it's very cold in the house)"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E08",
+      "data": {
+        "phrase": "Mi può richiamare, per favore?",
+        "meaning": "Can you call me back, please?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "'Mi può...?' is a polite way to ask someone (formal 'you') to do something for you. For example, 'Mi può aiutare?' (Can you help me?)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V08",
+      "data": {
+        "Il mio numero di telefono": "My telephone number"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E09",
+      "data": {
+        "phrase": "Il mio numero è...",
+        "meaning": "My number is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V09",
+      "data": {
+        "Zero": "0"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V10",
+      "data": {
+        "Uno": "1"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V11",
+      "data": {
+        "Due": "2"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V12",
+      "data": {
+        "Tre": "3"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V13",
+      "data": {
+        "Quattro": "4"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V14",
+      "data": {
+        "Cinque": "5"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V15",
+      "data": {
+        "Sei": "6"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V16",
+      "data": {
+        "Sette": "7"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V17",
+      "data": {
+        "Otto": "8"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V18",
+      "data": {
+        "Nove": "9"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E10",
+      "data": {
+        "phrase": "Grazie",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E11",
+      "data": {
+        "phrase": "Arrivederci",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L24_S03",
+      "title": "Finishing the Message",
+      "setting": "Finish your voicemail by asking for a call back and saying goodbye.",
+      "conversation_flow": [
+        {
+          "title": "Ask them to call you back",
+          "chatbot_message": "..."
+        },
+        {
+          "title": "State your phone number"
+        },
+        {
+          "title": "Thank them and say goodbye"
+        }
+      ]
+    }
+  ]
+}

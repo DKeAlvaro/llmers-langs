@@ -1,0 +1,290 @@
+{
+  "id": "L25",
+  "title": "A Casual Birthday Party",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome to a German birthday party, or 'Geburtstagsparty'. We'll learn how to congratulate the host, mingle with guests, and say goodbye."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V01",
+      "data": {
+        "der Geburtstag": "the birthday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V02",
+      "data": {
+        "das Geschenk": "the gift"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V03",
+      "data": {
+        "ein Glas": "a glass"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E01",
+      "data": {
+        "phrase": "Herzlichen Glückwunsch zum Geburtstag!",
+        "meaning": "Happy birthday!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E02",
+      "data": {
+        "phrase": "Das ist für dich",
+        "meaning": "This is for you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E03",
+      "data": {
+        "phrase": "Vielen Dank!",
+        "meaning": "Thank you very much!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E04",
+      "data": {
+        "phrase": "Kannst du mir bitte ein Glas geben?",
+        "meaning": "Can you please give me a glass?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L25_P01",
+      "data": {
+        "word": "Geburtstag",
+        "phonetic": "[ɡəˈbuːɐ̯tstaːk]",
+        "tip": "The 'r' before 't' is almost silent. Focus on the two distinct parts: 'Geburts' and 'tag'."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L25_P02",
+      "data": {
+        "word": "Glückwunsch",
+        "phonetic": "[ˈɡlʏkvʊnʃ]",
+        "tip": "The 'ü' sound is made by shaping your lips for 'oo' but saying 'ee'. The 'ch' is soft, like in 'Bach'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S01",
+      "title": "Arriving at the Party",
+      "setting": "You've arrived at your classmate Anna's birthday party. You see her and walk over. Then, you head to the drinks table and meet another guest, Lukas.",
+      "conversation_flow": [
+        {
+          "title": "Congratulate Anna",
+          "chatbot_message": "Hallo! Schön, dass du da bist!"
+        },
+        {
+          "title": "Give Anna the gift",
+          "chatbot_message": "Vielen Dank! Das ist sehr lieb von dir."
+        },
+        {
+          "title": "Ask the other guest for a glass",
+          "chatbot_message": "Hallo!"
+        },
+        {
+          "title": "Thank the guest",
+          "chatbot_message": "Ja, natürlich. Hier, bitte."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! When meeting new people in a casual setting like this, Germans use the informal 'du' for 'you'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E05",
+      "data": {
+        "phrase": "Ich heiße...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E06",
+      "data": {
+        "phrase": "Ich bin...",
+        "meaning": "I am..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E07",
+      "data": {
+        "phrase": "Und du?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E08",
+      "data": {
+        "phrase": "Woher kennst du Anna?",
+        "meaning": "Where do you know Anna from?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V04",
+      "data": {
+        "der Deutschkurs": "the German course"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V05",
+      "data": {
+        "die Arbeit": "the work / job"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E09",
+      "data": {
+        "phrase": "Ich kenne sie aus dem Deutschkurs",
+        "meaning": "I know her from the German course"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L25_P03",
+      "data": {
+        "word": "Deutschkurs",
+        "phonetic": "[ˈdɔʏtʃˌkʊʁs]",
+        "tip": "The 'eu' sounds like 'oy' in 'boy'. The 'sch' is a 'sh' sound."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S02",
+      "title": "Joining a Conversation",
+      "setting": "You are still at the drinks table with Lukas, the guest who gave you a glass. Time to introduce yourself.",
+      "conversation_flow": [
+        {
+          "title": "Introduce yourself",
+          "chatbot_message": "Ich bin Lukas. Und du?",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Ask Lukas how he knows Anna",
+          "chatbot_message": "Freut mich, {user_name}."
+        },
+        {
+          "title": "Explain how you know Anna",
+          "chatbot_message": "Ich kenne sie von der Uni. Und du?"
+        },
+        {
+          "title": "Respond to Lukas",
+          "chatbot_message": "Ah, interessant!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Now, let's learn how to politely exit a conversation and thank the host before you leave the party."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V06",
+      "data": {
+        "nett": "nice"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V07",
+      "data": {
+        "die Einladung": "the invitation"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E10",
+      "data": {
+        "phrase": "Es war nett, mit dir zu reden",
+        "meaning": "It was nice to talk to you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E11",
+      "data": {
+        "phrase": "Ich muss jetzt gehen",
+        "meaning": "I have to go now"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E12",
+      "data": {
+        "phrase": "Vielen Dank für die Einladung",
+        "meaning": "Thank you very much for the invitation"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E13",
+      "data": {
+        "phrase": "Die Party ist super!",
+        "meaning": "The party is great!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E14",
+      "data": {
+        "phrase": "Tschüss!",
+        "meaning": "Bye!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L25_P04",
+      "data": {
+        "word": "Tschüss",
+        "phonetic": "[tʃʏs]",
+        "tip": "The 'Tsch' sounds like the 'ch' in 'cheese'. The 'ü' is a short, sharp sound."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S03",
+      "title": "Leaving the Party",
+      "setting": "It's time to leave. First, you'll politely end your conversation with Lukas. Then, you'll find Anna to thank her before you go.",
+      "conversation_flow": [
+        {
+          "title": "Politely end the conversation with Lukas",
+          "chatbot_message": "Also, der Deutschkurs ist gut?"
+        },
+        {
+          "title": "Find Anna and thank her for the invitation",
+          "chatbot_message": "Ah, {user_name}! Gehst du schon?"
+        },
+        {
+          "title": "Say the party was great and say goodbye",
+          "chatbot_message": "Gern geschehen! Schön, dass du da warst."
+        },
+        {
+          "title": "Say goodbye one last time",
+          "chatbot_message": "Danke! Tschüss, bis bald!"
+        }
+      ]
+    }
+  ]
+}

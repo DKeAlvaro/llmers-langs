@@ -1,0 +1,250 @@
+{
+  "id": "L6F",
+  "title": "Au marché",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! Today, we're going to a French market, 'le marché', to buy some fresh food. Let's start by learning how to approach a vendor."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6F_V01",
+      "data": {
+        "Le marché": "The market"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6F_E01",
+      "data": {
+        "phrase": "Bonjour",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L6F_P01",
+      "data": {
+        "word": "Bonjour",
+        "phonetic": "/bɔ̃.ʒuʁ/",
+        "tip": "The 'on' sound is nasal. Try saying 'own' but don't close your mouth at the end."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6F_V02",
+      "data": {
+        "Les tomates": "The tomatoes"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In French, nouns have a gender. 'Le' is used for masculine words and 'la' for feminine. 'Les' is used for all plural nouns, like 'les tomates'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L6F_E02",
+      "data": {
+        "phrase": "C'est combien le kilo ?",
+        "meaning": "How much is it per kilo?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6F_E03",
+      "data": {
+        "phrase": "Je voudrais...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6F_V03",
+      "data": {
+        "Un kilo": "One kilo"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L6F_S01",
+      "title": "Approaching a Stall",
+      "setting": "You approach a fruit and vegetable stall at the market.",
+      "conversation_flow": [
+        {
+          "title": "Greet the vendor",
+          "chatbot_message": "Bonjour !"
+        },
+        {
+          "title": "Ask how much the tomatoes cost",
+          "chatbot_message": "Bonjour. Les tomates ?"
+        },
+        {
+          "title": "Ask for one kilo",
+          "chatbot_message": "C'est trois euros le kilo."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now, let's learn how to ask about items you don't recognize and ask to try something."
+    },
+    {
+      "type": "expression",
+      "item_id": "L6F_E04",
+      "data": {
+        "phrase": "Qu'est-ce que c'est ?",
+        "meaning": "What is that?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6F_V04",
+      "data": {
+        "Le fromage": "The cheese"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6F_E05",
+      "data": {
+        "phrase": "Je peux goûter ?",
+        "meaning": "Can I taste?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L6F_P02",
+      "data": {
+        "word": "goûter",
+        "phonetic": "/ɡu.te/",
+        "tip": "Sounds like 'goo-tay'. The 'goû' part rhymes with 'moo'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6F_E06",
+      "data": {
+        "phrase": "C'est délicieux",
+        "meaning": "It's delicious"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6F_V05",
+      "data": {
+        "Un morceau": "A piece"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L6F_S02",
+      "title": "Trying Something New",
+      "setting": "You see some interesting cheese at the stall and want to try it.",
+      "conversation_flow": [
+        {
+          "title": "Ask what the cheese is",
+          "chatbot_message": "Voilà un kilo de tomates. Et avec ça ?"
+        },
+        {
+          "title": "Ask if you can try it",
+          "chatbot_message": "C'est du fromage."
+        },
+        {
+          "title": "Say it's delicious and you want a piece",
+          "chatbot_message": "Oui. Voilà."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! You're almost done. Now let's learn the phrases you need to pay for your items and leave."
+    },
+    {
+      "type": "expression",
+      "item_id": "L6F_E07",
+      "data": {
+        "phrase": "C'est tout",
+        "meaning": "That's all"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6F_E08",
+      "data": {
+        "phrase": "Ça fait combien ?",
+        "meaning": "How much is it?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6F_V06",
+      "data": {
+        "Sept euros": "Seven euros"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6F_V07",
+      "data": {
+        "Dix euros": "Ten euros"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6F_E09",
+      "data": {
+        "phrase": "Voilà",
+        "meaning": "Here you go"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "The word 'Voilà' is very useful. You can use it when you give something to someone, like money."
+    },
+    {
+      "type": "expression",
+      "item_id": "L6F_E10",
+      "data": {
+        "phrase": "Merci",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6F_E11",
+      "data": {
+        "phrase": "Au revoir",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L6F_P03",
+      "data": {
+        "word": "Au revoir",
+        "phonetic": "/o ʁə.vwaʁ/",
+        "tip": "It sounds a bit like 'o ruh-vwar'. Practice it a few times!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L6F_S03",
+      "title": "Finalizing the Purchase",
+      "setting": "You have everything you want and are ready to pay.",
+      "conversation_flow": [
+        {
+          "title": "Say that's all and ask for the total",
+          "chatbot_message": "Voilà un morceau de fromage. Et avec ça ?"
+        },
+        {
+          "title": "Say 'Here you go' and give ten euros",
+          "chatbot_message": "Ça fait sept euros."
+        },
+        {
+          "title": "Thank the vendor and say goodbye",
+          "chatbot_message": "Merci. Voilà trois euros."
+        }
+      ]
+    }
+  ]
+}

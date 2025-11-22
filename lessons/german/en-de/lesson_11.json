@@ -1,0 +1,246 @@
+{
+  "id": "L11",
+  "title": "Using Public Transport: Buying a Train Ticket",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to buy a train ticket at a German train station, 'der Bahnhof'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V01",
+      "data": {
+        "Der Bahnhof": "The train station"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E01",
+      "data": {
+        "phrase": "Guten Tag",
+        "meaning": "Hello / Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E02",
+      "data": {
+        "phrase": "Ich möchte...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V02",
+      "data": {
+        "Eine Fahrkarte": "A ticket"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V03",
+      "data": {
+        "Nach Berlin": "To Berlin"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L11_P01",
+      "data": {
+        "word": "möchte",
+        "phonetic": "[ˈmœçtə]",
+        "tip": "The 'ch' sound is soft, made by pushing air through the front of your mouth. It's similar to the 'h' in the English word 'hue'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V04",
+      "data": {
+        "Einfach": "One-way"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V05",
+      "data": {
+        "Hin und zurück": "Return / Round trip"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V06",
+      "data": {
+        "Bitte": "Please"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S01",
+      "title": "Stating Your Destination",
+      "setting": "You are at the service desk in a German train station.",
+      "conversation_flow": [
+        {
+          "title": "Greet the employee",
+          "chatbot_message": "Guten Tag"
+        },
+        {
+          "title": "Ask for a ticket to Berlin",
+          "chatbot_message": "Was möchten Sie?",
+          "extract_info": {
+            "destination_city": "Extract the city name the user wants to go to"
+          }
+        },
+        {
+          "title": "Specify a one-way ticket",
+          "chatbot_message": "Einfach oder hin und zurück?",
+          "extract_info": {
+            "ticket_type": "Extract if the ticket is one-way (einfach) or return (hin und zurück)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to ask for important details like the time and platform."
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E03",
+      "data": {
+        "phrase": "Wann fährt...?",
+        "meaning": "When does... leave?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V07",
+      "data": {
+        "Der nächste Zug": "The next train"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E04",
+      "data": {
+        "phrase": "Von welchem Gleis?",
+        "meaning": "From which platform?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V08",
+      "data": {
+        "Das Gleis": "The platform"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L11_P02",
+      "data": {
+        "word": "Gleis",
+        "phonetic": "[ɡlaɪ̯s]",
+        "tip": "The 'ei' sound in German is pronounced like the 'i' in the English word 'ice'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E05",
+      "data": {
+        "phrase": "Ist der Zug direkt?",
+        "meaning": "Is the train direct?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S02",
+      "title": "Asking for Details",
+      "setting": "You have requested your ticket and now need more information.",
+      "conversation_flow": [
+        {
+          "title": "Ask when the next train leaves",
+          "chatbot_message": "Okay, eine Fahrkarte nach {destination_city}, {ticket_type}."
+        },
+        {
+          "title": "Ask for the platform number",
+          "chatbot_message": "Der nächste Zug fährt um 10:30 Uhr."
+        },
+        {
+          "title": "Ask if the train is direct",
+          "chatbot_message": "Von Gleis 5."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! You have all the information. Let's finish up by paying for the ticket."
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E06",
+      "data": {
+        "phrase": "Was kostet die Fahrkarte?",
+        "meaning": "What does the ticket cost?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V09",
+      "data": {
+        "Der Euro": "The Euro"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E07",
+      "data": {
+        "phrase": "Ich zahle mit Karte",
+        "meaning": "I'll pay by card"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L11_P03",
+      "data": {
+        "word": "zahle",
+        "phonetic": "[ˈtsaːlə]",
+        "tip": "The 'z' in German is pronounced like 'ts' in the English word 'cats'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E08",
+      "data": {
+        "phrase": "Danke schön",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E09",
+      "data": {
+        "phrase": "Auf Wiedersehen",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S03",
+      "title": "Completing the Transaction",
+      "setting": "You have all the details and are ready to pay.",
+      "conversation_flow": [
+        {
+          "title": "Ask for the price",
+          "chatbot_message": "Ja, der Zug ist direkt."
+        },
+        {
+          "title": "Say you will pay by card",
+          "chatbot_message": "Die Fahrkarte kostet 29 Euro."
+        },
+        {
+          "title": "Thank the employee and say goodbye",
+          "chatbot_message": "Okay. Hier ist die Fahrkarte."
+        }
+      ]
+    }
+  ]
+}

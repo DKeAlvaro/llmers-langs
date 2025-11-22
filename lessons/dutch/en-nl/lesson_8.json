@@ -1,0 +1,312 @@
+{
+  "id": "L8",
+  "title": "Discussing Your Daily Routine",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your daily routine, from morning to evening, in Dutch."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V01",
+      "data": {
+        "De dag": "The day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E01",
+      "data": {
+        "phrase": "Ik word wakker",
+        "meaning": "I wake up"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say something happens 'at' a certain time, you use the word 'om'. For example, 'om zeven uur' means 'at seven o'clock'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V02",
+      "data": {
+        "Zeven uur": "Seven o'clock"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L8_P01",
+      "data": {
+        "word": "uur",
+        "phonetic": "[uur]",
+        "tip": "This sound is like the 'ure' in 'pure', but with rounded lips."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V03",
+      "data": {
+        "Het ontbijt": "The breakfast"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E02",
+      "data": {
+        "phrase": "Ik eet",
+        "meaning": "I eat"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E03",
+      "data": {
+        "phrase": "Ik drink",
+        "meaning": "I drink"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V04",
+      "data": {
+        "Het brood": "The bread"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V05",
+      "data": {
+        "De koffie": "The coffee"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E04",
+      "data": {
+        "phrase": "Ik ga naar",
+        "meaning": "I go to"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V06",
+      "data": {
+        "Het werk": "The work"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say how you travel, use the word 'met', which means 'with' or 'by'. For example, 'met de fiets'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E05",
+      "data": {
+        "phrase": "Met de fiets",
+        "meaning": "By bike"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E06",
+      "data": {
+        "phrase": "Met de trein",
+        "meaning": "By train"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8_S01",
+      "title": "Your Morning Routine",
+      "setting": "Your Dutch friend, Alex, asks you about your day. Start by describing your morning.",
+      "conversation_flow": [
+        {
+          "title": "State what time you wake up",
+          "chatbot_message": "Hoi! Ik ben benieuwd naar jouw dag. Hoe laat word je wakker?",
+          "extract_info": {
+            "wake_up_time": "Extract the time the user wakes up, e.g., 'zeven uur'"
+          }
+        },
+        {
+          "title": "Mention your breakfast",
+          "chatbot_message": "Aha, om {wake_up_time}. En wat eet of drink je voor het ontbijt?"
+        },
+        {
+          "title": "Explain how you go to work",
+          "chatbot_message": "Klinkt goed. Hoe ga je naar je werk?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's talk about your work or study day. We'll need words for starting and finishing."
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E07",
+      "data": {
+        "phrase": "Ik begin",
+        "meaning": "I start"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E08",
+      "data": {
+        "phrase": "Ik werk",
+        "meaning": "I work"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V07",
+      "data": {
+        "Negen uur": "Nine o'clock"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V08",
+      "data": {
+        "De lunch": "The lunch"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V09",
+      "data": {
+        "Eén uur": "One o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E09",
+      "data": {
+        "phrase": "Ik ben klaar",
+        "meaning": "I am finished"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L8_P02",
+      "data": {
+        "word": "klaar",
+        "phonetic": "[klaar]",
+        "tip": "The 'aa' sound is long, like the 'a' in the English word 'father'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V10",
+      "data": {
+        "Vijf uur": "Five o'clock"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8_S02",
+      "title": "Your Workday",
+      "setting": "Continue the conversation with Alex about your workday.",
+      "conversation_flow": [
+        {
+          "title": "State your start time",
+          "chatbot_message": "Oké, interessant! En hoe laat begin je met werken?"
+        },
+        {
+          "title": "Mention your lunch time",
+          "chatbot_message": "En wanneer eet je lunch?"
+        },
+        {
+          "title": "Say when you finish",
+          "chatbot_message": "En hoe laat ben je klaar met werken?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Almost done! Let's talk about the evening. You'll also learn how to ask a question back."
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E10",
+      "data": {
+        "phrase": "Na het werk",
+        "meaning": "After work"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E11",
+      "data": {
+        "phrase": "Ik kook",
+        "meaning": "I cook"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E12",
+      "data": {
+        "phrase": "Ik sport",
+        "meaning": "I do sports"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E13",
+      "data": {
+        "phrase": "Ik kijk tv",
+        "meaning": "I watch TV"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V11",
+      "data": {
+        "Het avondeten": "The dinner"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8_V12",
+      "data": {
+        "Zes uur": "Six o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8_E14",
+      "data": {
+        "phrase": "En jij?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L8_P03",
+      "data": {
+        "word": "jij",
+        "phonetic": "[yay]",
+        "tip": "The 'ij' sound is very typical in Dutch. It sounds like the 'ay' in 'say'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8_S03",
+      "title": "Your Evening",
+      "setting": "Finish your conversation by describing your evening and asking Alex about their day.",
+      "conversation_flow": [
+        {
+          "title": "Describe an after-work activity",
+          "chatbot_message": "Zo, een volle dag! Wat doe je na het werk?"
+        },
+        {
+          "title": "State your dinner time",
+          "chatbot_message": "Leuk! En hoe laat eet je avondeten?"
+        },
+        {
+          "title": "Ask about their routine",
+          "chatbot_message": "Oké. Dat klinkt als een goede routine."
+        }
+      ]
+    }
+  ]
+}

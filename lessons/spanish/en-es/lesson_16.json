@@ -1,0 +1,283 @@
+{
+  "id": "L16",
+  "title": "Returning a Faulty Product",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to return a product that is 'roto' (broken) to a store, 'la tienda'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V01",
+      "data": {
+        "La tienda": "The store"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E01",
+      "data": {
+        "phrase": "Hola",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E02",
+      "data": {
+        "phrase": "Perdón",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V02",
+      "data": {
+        "Una pregunta": "A question"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V03",
+      "data": {
+        "Un producto": "A product"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E03",
+      "data": {
+        "phrase": "Tengo una pregunta",
+        "meaning": "I have a question"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L16_P01",
+      "data": {
+        "word": "Pregunta",
+        "phonetic": "pre-GUN-ta",
+        "tip": "The stress is on the second-to-last syllable: 'gun'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V04",
+      "data": {
+        "La cafetera": "The coffee machine"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V05",
+      "data": {
+        "La semana pasada": "Last week"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V06",
+      "data": {
+        "Aquí": "Here"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E04",
+      "data": {
+        "phrase": "(Yo) compré",
+        "meaning": "I bought"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Adjectives change to match a noun's gender. For 'la cafetera' (feminine), you use 'rota'. For a masculine noun like 'el teléfono', you use 'roto'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E05",
+      "data": {
+        "phrase": "Está rota",
+        "meaning": "It is broken (feminine)"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S01",
+      "title": "Explaining the problem",
+      "setting": "You are in an electronics store with your broken coffee machine.",
+      "conversation_flow": [
+        {
+          "title": "Approach the staff member",
+          "chatbot_message": "Hola. ¿Puedo ayudar?"
+        },
+        {
+          "title": "Explain you bought a product here",
+          "chatbot_message": "Sí, claro. ¿Qué producto?"
+        },
+        {
+          "title": "State that the product is broken",
+          "chatbot_message": "Entiendo. ¿El problema?"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E06",
+      "data": {
+        "phrase": "Sí",
+        "meaning": "Yes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V07",
+      "data": {
+        "El ticket": "The receipt"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E07",
+      "data": {
+        "phrase": "Aquí tiene el ticket",
+        "meaning": "Here is the receipt"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "'Quiero' means 'I want'. It is a direct but common way to ask for things in Spanish stores."
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E08",
+      "data": {
+        "phrase": "(Yo) quiero",
+        "meaning": "I want"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V08",
+      "data": {
+        "Una nueva": "A new one (feminine)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V09",
+      "data": {
+        "O": "Or"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V10",
+      "data": {
+        "El dinero": "The money"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E09",
+      "data": {
+        "phrase": "Mi dinero",
+        "meaning": "My money"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S02",
+      "title": "Suggesting a solution",
+      "setting": "You've explained the coffee machine is broken. Now you need to sort it out.",
+      "conversation_flow": [
+        {
+          "title": "Show the receipt",
+          "chatbot_message": "Oh, no. ¿Tiene el ticket?"
+        },
+        {
+          "title": "Say you want a new one",
+          "chatbot_message": "Gracias. ¿Qué quiere?"
+        },
+        {
+          "title": "Alternatively, ask for your money",
+          "chatbot_message": "Okay."
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E10",
+      "data": {
+        "phrase": "Gracias",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V11",
+      "data": {
+        "Perfecto": "Perfect"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E11",
+      "data": {
+        "phrase": "De nada",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E12",
+      "data": {
+        "phrase": "Todo bien",
+        "meaning": "Everything's good"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L16_V12",
+      "data": {
+        "La ayuda": "The help"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E13",
+      "data": {
+        "phrase": "Gracias por la ayuda",
+        "meaning": "Thanks for the help"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L16_E14",
+      "data": {
+        "phrase": "Adiós",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L16_S03",
+      "title": "Finishing the conversation",
+      "setting": "The employee is going to help you. Time to wrap things up.",
+      "conversation_flow": [
+        {
+          "title": "Respond to the solution",
+          "chatbot_message": "Okay. Un momento... Sí, aquí tiene una cafetera nueva."
+        },
+        {
+          "title": "Confirm everything is okay",
+          "chatbot_message": "De nada. ¿Todo bien ahora?"
+        },
+        {
+          "title": "Thank them and say goodbye",
+          "chatbot_message": "Excelente."
+        }
+      ]
+    }
+  ]
+}

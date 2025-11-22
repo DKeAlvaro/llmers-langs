@@ -1,0 +1,243 @@
+{
+  "id": "L11",
+  "title": "Using Public Transport: Buying a Train Ticket",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to buy a train ticket in French at a station."
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E01",
+      "data": {
+        "phrase": "Bonjour",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E02",
+      "data": {
+        "phrase": "Je voudrais...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L11_P01",
+      "data": {
+        "word": "voudrais",
+        "phonetic": "[vudʀɛ]",
+        "tip": "The final 's' is silent. It sounds like 'voo-dray'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V01",
+      "data": {
+        "un billet": "a ticket"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V02",
+      "data": {
+        "pour": "for / to"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To be polite when asking for something, always use 'Je voudrais...' (I would like...) instead of 'Je veux...' (I want...)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V03",
+      "data": {
+        "un aller simple": "a one-way ticket"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V04",
+      "data": {
+        "un aller-retour": "a return ticket"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S01",
+      "title": "Stating Your Destination",
+      "setting": "You are at the train station service desk and it's your turn to speak.",
+      "conversation_flow": [
+        {
+          "title": "Greet the employee",
+          "chatbot_message": "Bonjour !"
+        },
+        {
+          "title": "Ask for a ticket to Paris",
+          "chatbot_message": "Bonjour. Oui ?",
+          "extract_info": {
+            "destination_city": "Extract the name of the city"
+          }
+        },
+        {
+          "title": "Specify a one-way ticket",
+          "chatbot_message": "Un billet pour {destination_city}. Aller simple ou aller-retour ?"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E03",
+      "data": {
+        "phrase": "À quelle heure...?",
+        "meaning": "At what time...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V05",
+      "data": {
+        "le prochain train": "the next train"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V06",
+      "data": {
+        "il part": "it leaves"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L11_P02",
+      "data": {
+        "word": "prochain",
+        "phonetic": "[pʁɔʃɛ̃]",
+        "tip": "The 'ain' sound is nasal. It's similar to the 'an' in the English word 'bang'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V07",
+      "data": {
+        "le quai": "the platform"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E04",
+      "data": {
+        "phrase": "De quel quai ?",
+        "meaning": "From which platform?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L11_P03",
+      "data": {
+        "word": "quai",
+        "phonetic": "[ke]",
+        "tip": "This sounds exactly like the English word 'kay'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E05",
+      "data": {
+        "phrase": "C'est direct ?",
+        "meaning": "Is it direct?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S02",
+      "title": "Asking for Details",
+      "setting": "You've chosen your ticket type. Now, you need more information about the train.",
+      "conversation_flow": [
+        {
+          "title": "Ask what time the next train leaves",
+          "chatbot_message": "Un aller simple. Très bien."
+        },
+        {
+          "title": "Ask which platform the train leaves from",
+          "chatbot_message": "Le prochain train part à 10h30."
+        },
+        {
+          "title": "Ask if the train is a direct connection",
+          "chatbot_message": "Il part du quai 5."
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E06",
+      "data": {
+        "phrase": "C'est combien ?",
+        "meaning": "How much is it?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V08",
+      "data": {
+        "euros": "euros"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "The phrase 'C'est combien ?' is a very useful and common way to ask for the price of anything."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V09",
+      "data": {
+        "par carte": "by card"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E07",
+      "data": {
+        "phrase": "Voilà",
+        "meaning": "Here you go"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E08",
+      "data": {
+        "phrase": "Merci beaucoup",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E09",
+      "data": {
+        "phrase": "Au revoir",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S03",
+      "title": "Completing the Transaction",
+      "setting": "You have all the train details. It's time to pay and finish the conversation.",
+      "conversation_flow": [
+        {
+          "title": "Ask how much it costs",
+          "chatbot_message": "Oui, c'est direct."
+        },
+        {
+          "title": "Say you will pay by card",
+          "chatbot_message": "C'est 25 euros."
+        },
+        {
+          "title": "Thank the employee and say goodbye",
+          "chatbot_message": "Merci. Voici votre billet."
+        }
+      ]
+    }
+  ]
+}

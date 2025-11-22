@@ -1,0 +1,237 @@
+{
+  "id": "L25",
+  "title": "A Casual Birthday Party",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome to a French birthday party, or 'une fête d'anniversaire' ! We'll learn how to congratulate the host and chat with other guests."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V01",
+      "data": {
+        "Une fête d'anniversaire": "A birthday party"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E01",
+      "data": {
+        "phrase": "Joyeux anniversaire",
+        "meaning": "Happy birthday"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L25_P01",
+      "data": {
+        "word": "Joyeux",
+        "phonetic": "[ʒwa.jø]",
+        "tip": "The 'oy' sounds like 'wa' in 'water'. The 'x' at the end is silent."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V02",
+      "data": {
+        "Un cadeau": "A gift"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E02",
+      "data": {
+        "phrase": "C'est pour toi",
+        "meaning": "This is for you"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V03",
+      "data": {
+        "Un verre": "A glass"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E03",
+      "data": {
+        "phrase": "S'il te plaît",
+        "meaning": "Please (informal)"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S01",
+      "title": "Arriving at the Party",
+      "setting": "You've arrived at your classmate Camille's party. You find her and then go to get a drink where another guest, Léo, is standing.",
+      "conversation_flow": [
+        {
+          "title": "Congratulate the host",
+          "chatbot_message": "Salut ! Merci d'être là !"
+        },
+        {
+          "title": "Give your gift",
+          "chatbot_message": "Merci beaucoup ! C'est super gentil !"
+        },
+        {
+          "title": "Ask for a glass",
+          "chatbot_message": "Oh, merci ! Prends quelque chose à boire. (You go to the drinks table and see another guest) Salut !"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now that you have a drink, it's time to mingle. Let's learn how to start a conversation with someone new."
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E04",
+      "data": {
+        "phrase": "Je m'appelle...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E05",
+      "data": {
+        "phrase": "Comment tu connais Camille ?",
+        "meaning": "How do you know Camille?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L25_P02",
+      "data": {
+        "word": "Connais",
+        "phonetic": "[kɔ.nɛ]",
+        "tip": "Like many French verbs, the 's' at the end of 'connais' is silent."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V04",
+      "data": {
+        "Le cours": "The class"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V05",
+      "data": {
+        "Une amie": "A friend (female)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E06",
+      "data": {
+        "phrase": "Nous sommes dans le même cours",
+        "meaning": "We are in the same class"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E07",
+      "data": {
+        "phrase": "Et toi ?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S02",
+      "title": "Joining a Conversation",
+      "setting": "You see a guest named Sophie standing by herself and you decide to introduce yourself.",
+      "conversation_flow": [
+        {
+          "title": "Introduce yourself",
+          "chatbot_message": "Salut ! Je suis Sophie.",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Ask how she knows Camille",
+          "chatbot_message": "Enchantée, {user_name} !"
+        },
+        {
+          "title": "Explain how you know Camille",
+          "chatbot_message": "Je suis une amie de Camille. Et toi ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Knowing how to politely leave a conversation is just as important as starting one. Let's learn a few phrases to help you exit gracefully."
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E08",
+      "data": {
+        "phrase": "C'était sympa",
+        "meaning": "It was nice"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E09",
+      "data": {
+        "phrase": "À plus tard",
+        "meaning": "See you later"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L25_V06",
+      "data": {
+        "L'invitation": "The invitation"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E10",
+      "data": {
+        "phrase": "Merci pour l'invitation",
+        "meaning": "Thank you for the invitation"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E11",
+      "data": {
+        "phrase": "La fête est super",
+        "meaning": "The party is great"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L25_E12",
+      "data": {
+        "phrase": "Au revoir",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L25_S03",
+      "title": "Leaving the Party",
+      "setting": "It's time to go home. You need to politely end your chat with Sophie and then find Camille to thank her and say goodbye.",
+      "conversation_flow": [
+        {
+          "title": "Politely end the conversation",
+          "chatbot_message": "...et voilà, c'est mon film préféré."
+        },
+        {
+          "title": "Thank the host for the invitation",
+          "chatbot_message": "À plus ! (You find Camille) {user_name} ! Tu pars déjà ?"
+        },
+        {
+          "title": "Say the party was great and say goodbye",
+          "chatbot_message": "De rien ! Je suis contente que tu sois venu."
+        }
+      ]
+    }
+  ]
+}

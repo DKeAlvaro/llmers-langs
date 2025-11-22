@@ -1,0 +1,299 @@
+{
+  "id": "L12",
+  "title": "Talking About the Weather",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In the Netherlands, talking about the weather ('het weer') is a perfect way to start a conversation with a stranger."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V01",
+      "data": {
+        "Het weer": "The weather"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V02",
+      "data": {
+        "Slecht": "Bad"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V03",
+      "data": {
+        "De regen": "The rain"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E01",
+      "data": {
+        "phrase": "Wat een slecht weer",
+        "meaning": "What bad weather"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E02",
+      "data": {
+        "phrase": "Ja, hè?",
+        "meaning": "Yeah, right?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V04",
+      "data": {
+        "Gisteren": "Yesterday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V05",
+      "data": {
+        "De zon": "The sun"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V06",
+      "data": {
+        "Fijn": "Nice"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E03",
+      "data": {
+        "phrase": "Gisteren scheen de zon",
+        "meaning": "Yesterday the sun was shining"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L12_P01",
+      "data": {
+        "word": "Slecht",
+        "phonetic": "/slɛxt/",
+        "tip": "The 'ch' sound is made in the back of your throat, like the 'ch' in the Scottish word 'loch'."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L12_P02",
+      "data": {
+        "word": "Gisteren",
+        "phonetic": "/ˈɣɪstərə(n)/",
+        "tip": "The Dutch 'g' is a 'voiced velar fricative', a sound made by vibrating your vocal cords while pushing air through the back of your mouth."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L12_S01",
+      "title": "Starting a Conversation",
+      "setting": "You are at a bus stop and it starts to rain. You decide to talk to the person next to you.",
+      "conversation_flow": [
+        {
+          "title": "Comment on the bad weather"
+        },
+        {
+          "title": "Agree with their response",
+          "chatbot_message": "Ja, hè? Wat een regen."
+        },
+        {
+          "title": "Mention yesterday's sunny weather",
+          "chatbot_message": "Ik hou niet van de regen."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Dutch weather can be very unpredictable. What's the plan for tomorrow ('morgen')?"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V07",
+      "data": {
+        "Morgen": "Tomorrow"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V08",
+      "data": {
+        "De wind": "The wind"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V09",
+      "data": {
+        "Nee": "No"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E04",
+      "data": {
+        "phrase": "Weet jij wat het weer morgen wordt?",
+        "meaning": "Do you know what the weather will be tomorrow?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E05",
+      "data": {
+        "phrase": "Ik weet het niet",
+        "meaning": "I don't know"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E06",
+      "data": {
+        "phrase": "Ik hoop dat de zon schijnt",
+        "meaning": "I hope the sun shines"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E07",
+      "data": {
+        "phrase": "Ik ook",
+        "meaning": "Me too"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E08",
+      "data": {
+        "phrase": "Ik hou niet van de wind",
+        "meaning": "I don't like the wind"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L12_S02",
+      "title": "Discussing the Forecast",
+      "setting": "You continue your conversation about the weather.",
+      "conversation_flow": [
+        {
+          "title": "Ask about tomorrow's forecast",
+          "chatbot_message": "Ja, gisteren was het fijn."
+        },
+        {
+          "title": "Express hope for better weather",
+          "chatbot_message": "Nee, ik weet het niet."
+        },
+        {
+          "title": "Complain about the wind",
+          "chatbot_message": "Ik ook."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "The Dutch love to 'fietsen' (cycle). Bad weather is often seen as a good excuse not to!"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V10",
+      "data": {
+        "Fietsen": "To cycle / cycling"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V11",
+      "data": {
+        "De bus": "The bus"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V12",
+      "data": {
+        "Jammer": "A shame / too bad"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V13",
+      "data": {
+        "Mijn": "My"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E09",
+      "data": {
+        "phrase": "Het weer is niet goed om te fietsen",
+        "meaning": "The weather is not good for cycling"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E10",
+      "data": {
+        "phrase": "Kijk, de bus komt",
+        "meaning": "Look, the bus is coming"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E11",
+      "data": {
+        "phrase": "Fijne reis",
+        "meaning": "Have a nice journey"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E12",
+      "data": {
+        "phrase": "Dank je",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E13",
+      "data": {
+        "phrase": "Jij ook",
+        "meaning": "You too"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L12_P03",
+      "data": {
+        "word": "Fietsen",
+        "phonetic": "/ˈfitsə(n)/",
+        "tip": "The 'ie' sound is like the 'ee' in the English word 'see'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L12_S03",
+      "title": "Ending the Conversation",
+      "setting": "Your conversation is winding down as your bus approaches.",
+      "conversation_flow": [
+        {
+          "title": "Say the weather is bad for an activity",
+          "chatbot_message": "Nee, ik hou ook niet van de wind."
+        },
+        {
+          "title": "Point out that the bus is coming",
+          "chatbot_message": "Nee, dat is jammer."
+        },
+        {
+          "title": "Wish them a nice journey",
+          "chatbot_message": "Oh ja! Dat is mijn bus."
+        }
+      ]
+    }
+  ]
+}

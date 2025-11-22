@@ -1,0 +1,304 @@
+{
+  "id": "L12",
+  "title": "Talking About the Weather",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Let's learn how to make small talk about a classic topic: the weather! This is a great way to start a conversation with a stranger in Germany."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V01",
+      "data": {
+        "das Wetter": "the weather"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V02",
+      "data": {
+        "schlecht": "bad"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V03",
+      "data": {
+        "gut": "good"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E01",
+      "data": {
+        "phrase": "Es regnet",
+        "meaning": "It's raining"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L12_P01",
+      "data": {
+        "word": "schlecht",
+        "phonetic": "/ʃlɛçt/",
+        "tip": "The 'ch' sound is soft and made in the back of your throat, like a hissing cat."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E02",
+      "data": {
+        "phrase": "Schlechtes Wetter, oder?",
+        "meaning": "Bad weather, isn't it?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can add 'oder?' (or?) to the end of a statement to turn it into a question, similar to saying 'right?' or 'isn't it?' in English."
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E03",
+      "data": {
+        "phrase": "Ja, stimmt",
+        "meaning": "Yes, that's right"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V04",
+      "data": {
+        "gestern": "yesterday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V05",
+      "data": {
+        "sonnig": "sunny"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "For the simple past tense, 'ist' (is) becomes 'war' (was). For example: 'Heute ist das Wetter schlecht. Gestern war es gut.'"
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L12_S01",
+      "title": "Opening the Conversation",
+      "setting": "You're at a bus stop with a stranger. It suddenly starts to rain.",
+      "conversation_flow": [
+        {
+          "title": "Make a comment about the bad weather"
+        },
+        {
+          "title": "Agree with them",
+          "chatbot_message": "Ja, heute ist das Wetter schlecht."
+        },
+        {
+          "title": "Mention that the weather was sunny yesterday",
+          "chatbot_message": "Mhm."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V06",
+      "data": {
+        "morgen": "tomorrow"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V07",
+      "data": {
+        "die Wettervorhersage": "the weather forecast"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When speaking to a stranger or someone older, it's polite to use the formal 'Sie' for 'you'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V08",
+      "data": {
+        "wissen": "to know"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E04",
+      "data": {
+        "phrase": "Wissen Sie...",
+        "meaning": "Do you know..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V09",
+      "data": {
+        "die Sonne": "the sun"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E05",
+      "data": {
+        "phrase": "die Sonne scheint",
+        "meaning": "the sun shines"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E06",
+      "data": {
+        "phrase": "Ich hoffe",
+        "meaning": "I hope"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V10",
+      "data": {
+        "auch": "also / too"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V11",
+      "data": {
+        "der Wind": "the wind"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L12_P02",
+      "data": {
+        "word": "Sonne",
+        "phonetic": "/ˈzɔnə/",
+        "tip": "The 'o' sound is short and open, like the 'o' in the English word 'lot'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L12_S02",
+      "title": "Discussing the Forecast",
+      "setting": "The conversation about the weather continues.",
+      "conversation_flow": [
+        {
+          "title": "Ask if they know the weather forecast for tomorrow",
+          "chatbot_message": "Ja, sonnig war gut."
+        },
+        {
+          "title": "Express hope for sunshine",
+          "chatbot_message": "Ich weiß es nicht. Ich hoffe, das Wetter morgen ist gut."
+        },
+        {
+          "title": "Complain about the wind",
+          "chatbot_message": "Ich hoffe auch. Und der Wind!"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V12",
+      "data": {
+        "Rad fahren": "to cycle"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Some German verbs are separable. For 'Rad fahren', the 'Rad' part can be separated, but in simple phrases like the one you'll learn, it stays together."
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E07",
+      "data": {
+        "phrase": "Das Wetter ist nicht gut zum Rad fahren",
+        "meaning": "The weather is not good for cycling"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V13",
+      "data": {
+        "der Bus": "the bus"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V14",
+      "data": {
+        "da": "there"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E08",
+      "data": {
+        "phrase": "Der Bus kommt",
+        "meaning": "The bus is coming"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E09",
+      "data": {
+        "phrase": "Gute Fahrt",
+        "meaning": "Have a good journey"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L12_P03",
+      "data": {
+        "word": "Fahrt",
+        "phonetic": "/faːɐ̯t/",
+        "tip": "The 'a' is long, like the 'a' in the English word 'father'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V15",
+      "data": {
+        "Danke": "Thanks"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L12_E10",
+      "data": {
+        "phrase": "Ihnen auch",
+        "meaning": "You too (formal)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L12_V16",
+      "data": {
+        "Tschüss": "Bye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L12_S03",
+      "title": "Ending the Conversation",
+      "setting": "You see your bus approaching, and it's time to go.",
+      "conversation_flow": [
+        {
+          "title": "Say the weather isn't good for cycling",
+          "chatbot_message": "Ja, der Wind ist nicht gut."
+        },
+        {
+          "title": "Acknowledge that the bus is coming",
+          "chatbot_message": "Das stimmt. Oh, da!"
+        },
+        {
+          "title": "Wish them a pleasant journey",
+          "chatbot_message": "Ja, der Bus!"
+        }
+      ]
+    }
+  ]
+}

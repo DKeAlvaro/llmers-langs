@@ -1,0 +1,269 @@
+{
+  "id": "L01_SP",
+  "title": "Primer día en la escuela de idiomas",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome to your first Spanish lesson! You'll learn how to introduce yourself to a new classmate. Let's start with the basics."
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_SP_E01",
+      "data": {
+        "phrase": "Hola",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_SP_E02",
+      "data": {
+        "phrase": "Me llamo...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L01_SP_P01",
+      "data": {
+        "word": "llamo",
+        "phonetic": "/'ʎa.mo/",
+        "tip": "The 'll' in Spanish is pronounced like the 'y' in 'yes'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_SP_E03",
+      "data": {
+        "phrase": "¿Y tú, cómo te llamas?",
+        "meaning": "And you, what's your name?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_SP_E04",
+      "data": {
+        "phrase": "Encantado",
+        "meaning": "Nice to meet you (masculine)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_SP_E05",
+      "data": {
+        "phrase": "Encantada",
+        "meaning": "Nice to meet you (feminine)"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In Spanish, some adjectives change based on your gender. Use 'encantado' if you are male and 'encantada' if you are female."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L01_SP_S01",
+      "title": "Presentaciones iniciales",
+      "setting": "Estás en el aula esperando tu primera clase de español. Un compañero de al lado inicia una conversación.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Hola.",
+          "title": "Respond to the greeting and state your name",
+          "user_response": {
+            "goal_id": "L01_SP_S01_U01",
+            "extract_info": {
+              "user_name": "Extract the user's name from their message"
+            }
+          }
+        },
+        {
+          "chatbot_message": "Hola, {user_name}.",
+          "title": "Ask for their name",
+          "user_response": {
+            "goal_id": "L01_SP_S01_U02"
+          }
+        },
+        {
+          "chatbot_message": "Me llamo Lucas.",
+          "title": "State that it's nice to meet them",
+          "user_response": {
+            "goal_id": "L01_SP_S01_U03"
+          }
+        },
+        {
+          "chatbot_message": "Igualmente."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to ask and talk about where you're from. We'll use the verb 'ser' (to be)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_SP_E06",
+      "data": {
+        "phrase": "¿De dónde eres?",
+        "meaning": "Where are you from?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L01_SP_V01",
+      "data": {
+        "word": "ser",
+        "meaning": "to be"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_SP_E07",
+      "data": {
+        "phrase": "Yo soy de...",
+        "meaning": "I am from..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L01_SP_V02",
+      "data": {
+        "word": "un país",
+        "meaning": "a country"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L01_SP_V03",
+      "data": {
+        "word": "la ciudad",
+        "meaning": "the city"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_SP_E08",
+      "data": {
+        "phrase": "Vivo en...",
+        "meaning": "I live in..."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L01_SP_S02",
+      "title": "Intercambiando orígenes",
+      "setting": "La conversación con tu nuevo compañero, Lucas, continúa.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Mucho gusto, {user_name}.",
+          "title": "Ask where they are from",
+          "user_response": {
+            "goal_id": "L01_SP_S02_U01"
+          }
+        },
+        {
+          "chatbot_message": "Soy de España. ¿Y tú?",
+          "title": "Respond with your country of origin",
+          "user_response": {
+            "goal_id": "L01_SP_S02_U02"
+          }
+        },
+        {
+          "chatbot_message": "¡Qué interesante!",
+          "title": "Mention the city you currently live in",
+          "user_response": {
+            "goal_id": "L01_SP_S02_U03",
+            "extract_info": {
+              "user_city": "Extract the name of the city from the user's message"
+            }
+          }
+        },
+        {
+          "chatbot_message": "Ah, {user_city}. ¡Es una ciudad bonita!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! The teacher is here. Let's learn a few phrases to politely end the conversation for now."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L01_SP_V04",
+      "data": {
+        "word": "El profesor",
+        "meaning": "The teacher (male)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L01_SP_V05",
+      "data": {
+        "word": "La clase",
+        "meaning": "The class"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_SP_E09",
+      "data": {
+        "phrase": "La clase empieza",
+        "meaning": "The class is starting"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_SP_E10",
+      "data": {
+        "phrase": "¡Buena suerte!",
+        "meaning": "Good luck!"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L01_SP_V06",
+      "data": {
+        "word": "el curso",
+        "meaning": "the course"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_SP_E11",
+      "data": {
+        "phrase": "Hasta luego",
+        "meaning": "See you later"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L01_SP_S03",
+      "title": "Terminando la conversación",
+      "setting": "El profesor ha llegado y está a punto de empezar la clase.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Mira, el profesor está aquí.",
+          "title": "Acknowledge that the lesson is starting",
+          "user_response": {
+            "goal_id": "L01_SP_S03_U01"
+          }
+        },
+        {
+          "chatbot_message": "Sí.",
+          "title": "Wish them good luck with the course",
+          "user_response": {
+            "goal_id": "L01_SP_S03_U02"
+          }
+        },
+        {
+          "chatbot_message": "Gracias. ¡Buena suerte a ti también!",
+          "title": "Say goodbye for now",
+          "user_response": {
+            "goal_id": "L01_SP_S03_U03"
+          }
+        },
+        {
+          "chatbot_message": "Hasta luego."
+        }
+      ]
+    }
+  ]
+}

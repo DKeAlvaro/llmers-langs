@@ -1,0 +1,328 @@
+{
+  "id": "L24",
+  "title": "Leaving a Voicemail Message",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to leave a clear voicemail message in Dutch. Let's start with introducing yourself."
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E01",
+      "data": {
+        "phrase": "Hallo",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E02",
+      "data": {
+        "phrase": "Mijn naam is...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V01",
+      "data": {
+        "Het adres": "The address"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E03",
+      "data": {
+        "phrase": "Mijn adres is...",
+        "meaning": "My address is..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Spelling your name can be important. The Dutch alphabet is similar to English, but the pronunciation of letters is different."
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L24_P01",
+      "data": {
+        "word": "S",
+        "phonetic": "/ɛs/",
+        "tip": "Sounds like the English letter 'S'"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L24_P02",
+      "data": {
+        "word": "M",
+        "phonetic": "/ɛm/",
+        "tip": "Sounds like the English letter 'M'"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L24_P03",
+      "data": {
+        "word": "I",
+        "phonetic": "/i/",
+        "tip": "Sounds like the 'ee' in 'see'"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L24_P04",
+      "data": {
+        "word": "T",
+        "phonetic": "/teː/",
+        "tip": "Sounds like 'tay'"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L24_P05",
+      "data": {
+        "word": "H",
+        "phonetic": "/ɦaː/",
+        "tip": "A soft 'h' sound, like a sigh"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L24_S01",
+      "title": "Introduction and Identification",
+      "setting": "You are calling the housing agency, but nobody answers. You will now leave a voicemail message, part by part.",
+      "conversation_flow": [
+        {
+          "title": "Start your message",
+          "chatbot_message": "Hallo. Dit is de voicemail. Spreek na de piep. *piep*"
+        },
+        {
+          "title": "Greet and state your name",
+          "chatbot_message": "...",
+          "extract_info": {
+            "user_name": "Extract the user's full name"
+          }
+        },
+        {
+          "title": "State your address",
+          "chatbot_message": "..."
+        },
+        {
+          "title": "Spell your last name",
+          "chatbot_message": "..."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Good. Now, let's explain the reason for your call. Be clear and simple."
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E04",
+      "data": {
+        "phrase": "Ik bel voor...",
+        "meaning": "I am calling about..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V02",
+      "data": {
+        "de verwarming": "the heating"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V03",
+      "data": {
+        "werkt niet": "is not working"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You can combine words to form a sentence. For example: 'Ik bel voor de verwarming. De verwarming werkt niet'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V04",
+      "data": {
+        "sinds": "since"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V05",
+      "data": {
+        "vanmorgen": "this morning"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V06",
+      "data": {
+        "Het is": "It is"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V07",
+      "data": {
+        "koud": "cold"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V08",
+      "data": {
+        "in huis": "in the house"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L24_S02",
+      "title": "Stating the Problem",
+      "setting": "Continue leaving your voicemail message by explaining the problem.",
+      "conversation_flow": [
+        {
+          "title": "State the reason for your call (the heating is not working)",
+          "chatbot_message": "..."
+        },
+        {
+          "title": "Say how long this has been a problem (since this morning)",
+          "chatbot_message": "..."
+        },
+        {
+          "title": "Explain the consequence (it is cold in the house)",
+          "chatbot_message": "..."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent. To finish your message, you need to ask them to call you back and leave your number."
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E05",
+      "data": {
+        "phrase": "Kunt u mij terugbellen?",
+        "meaning": "Can you call me back?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E06",
+      "data": {
+        "phrase": "Mijn nummer is...",
+        "meaning": "My number is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V09",
+      "data": {
+        "nul": "zero"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V10",
+      "data": {
+        "één": "one"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V11",
+      "data": {
+        "twee": "two"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V12",
+      "data": {
+        "drie": "three"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V13",
+      "data": {
+        "vier": "four"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V14",
+      "data": {
+        "vijf": "five"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V15",
+      "data": {
+        "zes": "six"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V16",
+      "data": {
+        "zeven": "seven"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V17",
+      "data": {
+        "acht": "eight"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V18",
+      "data": {
+        "negen": "nine"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E07",
+      "data": {
+        "phrase": "Dank u wel",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E08",
+      "data": {
+        "phrase": "Dag",
+        "meaning": "Bye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L24_S03",
+      "title": "Call to Action",
+      "setting": "Finish your voicemail with a request and your contact details.",
+      "conversation_flow": [
+        {
+          "title": "Ask them to call you back",
+          "chatbot_message": "..."
+        },
+        {
+          "title": "State your phone number",
+          "chatbot_message": "..."
+        },
+        {
+          "title": "Thank them and say goodbye",
+          "chatbot_message": "Dank u. Bericht opgeslagen. *klik*"
+        }
+      ]
+    }
+  ]
+}

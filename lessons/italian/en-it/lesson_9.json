@@ -1,0 +1,293 @@
+{
+  "id": "L9",
+  "title": "Buying Clothes",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to ask for help in a clothing store, find the right size, and pay. Let's go shopping (fare shopping)!"
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E01",
+      "data": {
+        "phrase": "Scusi",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L9_P01",
+      "data": {
+        "word": "Scusi",
+        "phonetic": "SKOO-zee",
+        "tip": "The 'scu' sound is like the 'scoo' in 'scooter'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E02",
+      "data": {
+        "phrase": "Cerco...",
+        "meaning": "I am looking for..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V01",
+      "data": {
+        "Un maglione": "A sweater"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V02",
+      "data": {
+        "Blu": "Blue"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V03",
+      "data": {
+        "Che...?": "What...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V04",
+      "data": {
+        "La taglia": "The size"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E03",
+      "data": {
+        "phrase": "Ho la taglia...",
+        "meaning": "I wear size..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E04",
+      "data": {
+        "phrase": "Va bene",
+        "meaning": "Alright / Okay"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E05",
+      "data": {
+        "phrase": "Ecco",
+        "meaning": "Here is / Here are"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L9_S01",
+      "title": "Asking for Assistance",
+      "setting": "You are in a clothing store and see a shop assistant. You want to ask for help finding a sweater.",
+      "conversation_flow": [
+        {
+          "title": "Get the assistant's attention",
+          "chatbot_message": "Buongiorno!"
+        },
+        {
+          "title": "Say what you are looking for",
+          "chatbot_message": "Sì?"
+        },
+        {
+          "title": "State your size",
+          "chatbot_message": "Ok, un maglione blu. Che taglia?",
+          "extract_info": {
+            "user_size": "Extract the user's clothing size"
+          }
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V05",
+      "data": {
+        "Grazie": "Thank you"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V06",
+      "data": {
+        "I camerini": "The fitting rooms"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E06",
+      "data": {
+        "phrase": "Dove sono...?",
+        "meaning": "Where are...?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L9_P02",
+      "data": {
+        "word": "camerini",
+        "phonetic": "ca-meh-REE-nee",
+        "tip": "The stress is on the third syllable, 'RI'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V07",
+      "data": {
+        "Troppo": "Too"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V08",
+      "data": {
+        "Grande": "Big"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V09",
+      "data": {
+        "Piccolo": "Small"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E07",
+      "data": {
+        "phrase": "È troppo grande",
+        "meaning": "It's too big"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E08",
+      "data": {
+        "phrase": "È troppo piccolo",
+        "meaning": "It's too small"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To make a comparison, you can use 'più' before an adjective. It's like adding '-er' in English. For example, 'più piccolo' means 'smaller'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E09",
+      "data": {
+        "phrase": "Ha una taglia più...?",
+        "meaning": "Do you have a ...er size?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L9_S02",
+      "title": "Trying on Clothes",
+      "setting": "The assistant has found a sweater for you. Now you need to try it on.",
+      "conversation_flow": [
+        {
+          "title": "Ask where the fitting rooms are",
+          "chatbot_message": "Va bene. Ecco un maglione blu, taglia {user_size}."
+        },
+        {
+          "title": "Say the sweater is too big",
+          "chatbot_message": "I camerini sono là in fondo. ... Allora, come va?"
+        },
+        {
+          "title": "Ask for a smaller size",
+          "chatbot_message": "Ah, capisco."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V10",
+      "data": {
+        "Perfetto": "Perfect"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Adjectives in Italian change their ending to match the noun. For a masculine noun like 'il maglione', you use 'perfetto'. For a feminine noun, you would use 'perfetta'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E10",
+      "data": {
+        "phrase": "Questo è perfetto",
+        "meaning": "This one is perfect"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E11",
+      "data": {
+        "phrase": "Lo prendo",
+        "meaning": "I'll take it"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "The word 'lo' means 'it' and refers to a masculine noun. Since 'il maglione' (the sweater) is masculine, you say 'lo prendo'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E12",
+      "data": {
+        "phrase": "Dove posso pagare?",
+        "meaning": "Where can I pay?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V11",
+      "data": {
+        "La cassa": "The checkout"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E13",
+      "data": {
+        "phrase": "Posso cambiarlo?",
+        "meaning": "Can I exchange it?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L9_P03",
+      "data": {
+        "word": "cambiarlo",
+        "phonetic": "kahm-byAR-loh",
+        "tip": "The 'gl' in 'meglio' is a soft sound, similar to the 'lli' in 'million'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L9_S03",
+      "title": "Deciding and Paying",
+      "setting": "You've tried on the new size, and it fits perfectly. Now it's time to buy it.",
+      "conversation_flow": [
+        {
+          "title": "Say the new size is perfect and you'll take it",
+          "chatbot_message": "Sì. Ecco una taglia più piccola. ... Allora?"
+        },
+        {
+          "title": "Ask where to pay",
+          "chatbot_message": "Perfetto!"
+        },
+        {
+          "title": "Ask if you can return it",
+          "chatbot_message": "La cassa è qui. Sono trenta euro, per favore."
+        }
+      ]
+    }
+  ]
+}

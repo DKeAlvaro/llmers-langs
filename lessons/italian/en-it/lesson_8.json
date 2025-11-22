@@ -1,0 +1,337 @@
+{
+  "id": "L8I",
+  "title": "Discussing Your Daily Routine",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to describe your daily routine in Italian, from morning to evening. Let's start with the morning!"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V01",
+      "data": {
+        "La routine": "The routine"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8I_E01",
+      "data": {
+        "phrase": "Di solito",
+        "meaning": "Usually"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V02",
+      "data": {
+        "Mi sveglio": "I wake up"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L8I_P01",
+      "data": {
+        "word": "Sveglio",
+        "phonetic": "/'zveʎʎo/",
+        "tip": "The 'gli' sound is similar to the 'lli' in the English word 'million'."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say 'at' a certain time in Italian, use `alle` before the number. For example, `alle sette`."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V03",
+      "data": {
+        "Le sette": "Seven o'clock"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V04",
+      "data": {
+        "Le otto": "Eight o'clock"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8I_E02",
+      "data": {
+        "phrase": "Per colazione",
+        "meaning": "For breakfast"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V05",
+      "data": {
+        "Bevo": "I drink"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V06",
+      "data": {
+        "Un caffè": "A coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V07",
+      "data": {
+        "Mangio": "I eat"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V08",
+      "data": {
+        "I biscotti": "The biscuits"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V09",
+      "data": {
+        "Vado": "I go"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V10",
+      "data": {
+        "Al lavoro": "To work"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "For modes of transport like cars, trains, or bikes, use the preposition `in`."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V11",
+      "data": {
+        "In bicicletta": "By bike"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V12",
+      "data": {
+        "In treno": "By train"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8I_S01",
+      "title": "Morning Routine",
+      "setting": "Your Italian friend Marco asks about your morning.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Ciao! Parliamo della tua routine. Di solito, a che ora ti svegli?"
+        },
+        {
+          "title": "Say what time you usually wake up"
+        },
+        {
+          "chatbot_message": "Capito. E per colazione, cosa mangi?"
+        },
+        {
+          "title": "Mention what you eat for breakfast"
+        },
+        {
+          "chatbot_message": "Buono! E come vai al lavoro?"
+        },
+        {
+          "title": "Explain how you travel to work"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V13",
+      "data": {
+        "Il pomeriggio": "The afternoon"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V14",
+      "data": {
+        "Inizio": "I start"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V15",
+      "data": {
+        "Finisco": "I finish"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L8I_P02",
+      "data": {
+        "word": "Finisco",
+        "phonetic": "/fi'nisko/",
+        "tip": "The 'sc' sound here is hard, like the 'sk' in 'skate'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8I_E03",
+      "data": {
+        "phrase": "Di lavorare",
+        "meaning": "To work"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V16",
+      "data": {
+        "Le nove": "Nine o'clock"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V17",
+      "data": {
+        "Le cinque": "Five o'clock"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V18",
+      "data": {
+        "Pranzo": "I have lunch"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V19",
+      "data": {
+        "L'una": "One o'clock"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "For one o'clock, we say `l'una` (singular). So to say 'at one', you say `all'una`."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8I_S02",
+      "title": "Workday",
+      "setting": "The conversation continues. You now talk about your workday.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Perfetto. E il pomeriggio? A che ora inizi di lavorare?"
+        },
+        {
+          "title": "State what time you start working"
+        },
+        {
+          "chatbot_message": "Ok. E quando pranzi di solito?"
+        },
+        {
+          "title": "Say what time you usually have lunch"
+        },
+        {
+          "chatbot_message": "Bene. E a che ora finisci di lavorare?"
+        },
+        {
+          "title": "Mention what time you finish your work day"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L8I_E04",
+      "data": {
+        "phrase": "Dopo il lavoro",
+        "meaning": "After work"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V20",
+      "data": {
+        "La sera": "The evening"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V21",
+      "data": {
+        "Cucino": "I cook"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V22",
+      "data": {
+        "Faccio sport": "I do sports"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V23",
+      "data": {
+        "Guardo la TV": "I watch TV"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8I_V24",
+      "data": {
+        "Ceno": "I have dinner"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "A simple and very common way to ask a question back to someone is to use `E tu?`, which means 'And you?'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L8I_E05",
+      "data": {
+        "phrase": "E tu",
+        "meaning": "And you"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8I_S03",
+      "title": "Evening Routine",
+      "setting": "You're finishing the conversation by talking about your evening.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Capito. E dopo il lavoro cosa fai?"
+        },
+        {
+          "title": "Describe what you typically do after work"
+        },
+        {
+          "chatbot_message": "Interessante! E a che ora ceni?"
+        },
+        {
+          "title": "Say what time you usually eat dinner"
+        },
+        {
+          "chatbot_message": "Perfetto. La mia routine è semplice."
+        },
+        {
+          "title": "Ask about their routine in return"
+        },
+        {
+          "chatbot_message": "Io? Di solito faccio sport. Grazie per la conversazione! Ciao!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great job! You can now describe your daily routine from morning to evening. Keep practicing these phrases!"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "id": "L07",
+  "title": "Making a Simple Appointment by Phone",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to make a simple appointment over the phone. You're calling a hairdresser, 'un salon de coiffure'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E01",
+      "data": {
+        "phrase": "Bonjour",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L07_P01",
+      "data": {
+        "word": "Bonjour",
+        "phonetic": "[bɔ̃ʒuʁ]",
+        "tip": "The 'on' sound is nasal. Try to say 'on' without closing your mouth at the end."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E02",
+      "data": {
+        "phrase": "Je suis...",
+        "meaning": "I am..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E03",
+      "data": {
+        "phrase": "Je voudrais prendre rendez-vous",
+        "meaning": "I would like to make an appointment"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V01",
+      "data": {
+        "un rendez-vous": "an appointment"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L07_P02",
+      "data": {
+        "word": "rendez-vous",
+        "phonetic": "[ʁɑ̃devu]",
+        "tip": "The 'en' is a nasal sound, similar to the 'on' in 'bonjour'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E04",
+      "data": {
+        "phrase": "pour une coupe",
+        "meaning": "for a haircut"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V02",
+      "data": {
+        "une coupe": "a haircut"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V03",
+      "data": {
+        "D'accord": "Okay"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L07_S01",
+      "title": "Stating Your Purpose",
+      "setting": "You are calling the hairdresser to make an appointment.",
+      "conversation_flow": [
+        {
+          "title": "Greet the hairdresser and state your name",
+          "chatbot_message": "Salon de coiffure, bonjour !",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Say you want an appointment for a haircut",
+          "chatbot_message": "Bonjour {user_name}"
+        },
+        {
+          "title": "Listen to the hairdresser's question",
+          "chatbot_message": "D'accord. Quand voudriez-vous venir ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! The hairdresser asked 'Quand ?', which means 'When?'. Let's learn how to reply."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V04",
+      "data": {
+        "Vendredi": "Friday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V05",
+      "data": {
+        "Mercredi": "Wednesday"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To state a day preference, you can just say the day, like 'Vendredi'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V06",
+      "data": {
+        "l'après-midi": "the afternoon"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V07",
+      "data": {
+        "le matin": "the morning"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "The 24-hour clock is common in France. So 2 PM is 'quatorze heures' (14h00)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E05",
+      "data": {
+        "C'est bon pour vous ?": "Is that good for you?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E06",
+      "data": {
+        "Non, ce n'est pas possible": "No, that's not possible"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V08",
+      "data": {
+        "plus tard": "later"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E07",
+      "data": {
+        "C'est possible plus tard ?": "Is it possible later?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L07_S02",
+      "title": "Negotiating a Time",
+      "setting": "You are on the phone with the hairdresser.",
+      "conversation_flow": [
+        {
+          "title": "State your preferred day",
+          "chatbot_message": "Quand voudriez-vous venir ?"
+        },
+        {
+          "title": "State your preferred time of day",
+          "chatbot_message": "Vendredi, d'accord. Le matin ou l'après-midi ?"
+        },
+        {
+          "title": "Decline the proposed time and ask for a later one",
+          "chatbot_message": "L'après-midi... J'ai 14h00. C'est bon pour vous ?"
+        },
+        {
+          "title": "Listen to the new proposal",
+          "chatbot_message": "Oui. 15h30, ça vous va ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! The hairdresser proposed a new time. Let's learn how to confirm and end the call."
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E08",
+      "data": {
+        "Oui, c'est parfait": "Yes, that's perfect"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "The hairdresser might say 'Super. C'est noté.' This means 'Great. It's noted.'"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L07_V09",
+      "data": {
+        "Donc": "So / Then"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To confirm, you can start with 'Donc...' and repeat the information. For example: 'Donc, vendredi à 15h30'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E09",
+      "data": {
+        "C'est ça": "That's it / That's right"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "You'll hear the hairdresser say 'C'est ça' to confirm that you are correct."
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E10",
+      "data": {
+        "Merci": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E11",
+      "data": {
+        "Bonne journée": "Have a good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L07_E12",
+      "data": {
+        "Au revoir": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L07_S03",
+      "title": "Confirmation",
+      "setting": "You are on the phone with the hairdresser.",
+      "conversation_flow": [
+        {
+          "title": "Agree to the proposed time",
+          "chatbot_message": "15h30, ça vous va ?"
+        },
+        {
+          "title": "Repeat the day and time to confirm",
+          "chatbot_message": "Super. C'est noté."
+        },
+        {
+          "title": "Thank the hairdresser and end the call",
+          "chatbot_message": "Oui, c'est ça."
+        },
+        {
+          "title": "Listen to the final goodbye",
+          "chatbot_message": "À vous aussi, au revoir !"
+        }
+      ]
+    }
+  ]
+}

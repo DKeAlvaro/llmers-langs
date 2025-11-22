@@ -1,0 +1,253 @@
+{
+  "id": "L06",
+  "title": "At the Market",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome to the market! In Italy, the outdoor market, 'il mercato', is a great place to buy fresh food. Let's learn how to buy some produce."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V01",
+      "data": {
+        "Il mercato": "The market"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E01",
+      "data": {
+        "phrase": "Buongiorno",
+        "meaning": "Good morning / Good day"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V02",
+      "data": {
+        "I pomodori": "The tomatoes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E02",
+      "data": {
+        "phrase": "Quanto costano?",
+        "meaning": "How much do they cost?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V03",
+      "data": {
+        "Il chilo": "The kilo"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "At the market, many things are sold 'al chilo', which means 'per kilo'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E03",
+      "data": {
+        "phrase": "Vorrei...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V04",
+      "data": {
+        "Un": "A / One"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L06_P01",
+      "data": {
+        "word": "chilo",
+        "phonetic": "kee-lo",
+        "tip": "In Italian, 'ch' is always a hard 'k' sound, never like 'ch' in 'chair'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S01",
+      "title": "Approaching a Stall",
+      "setting": "You are at a fruit and vegetable stall at an Italian market. The vendor greets you.",
+      "conversation_flow": [
+        {
+          "title": "Greet the vendor",
+          "chatbot_message": "Buongiorno!"
+        },
+        {
+          "title": "Ask how much the tomatoes cost per kilo",
+          "chatbot_message": "Buongiorno! Desidera?"
+        },
+        {
+          "title": "Ask for one kilo of tomatoes",
+          "chatbot_message": "I pomodori costano tre euro al chilo."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now, what if you see something interesting but don't know what it is? Let's learn how to ask."
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E04",
+      "data": {
+        "phrase": "Che cos'è questo?",
+        "meaning": "What is this?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V05",
+      "data": {
+        "Il formaggio": "The cheese"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L06_P02",
+      "data": {
+        "word": "formaggio",
+        "phonetic": "for-mah-jjoh",
+        "tip": "The 'ggio' sound is similar to the 'j' in 'jam'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E05",
+      "data": {
+        "phrase": "Posso assaggiare?",
+        "meaning": "Can I try/taste?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V06",
+      "data": {
+        "Un pezzo": "A piece"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E06",
+      "data": {
+        "phrase": "È buono",
+        "meaning": "It's good"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E07",
+      "data": {
+        "phrase": "Prendo questo",
+        "meaning": "I'll take this"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S02",
+      "title": "Trying Something New",
+      "setting": "You're still at the stall, which also sells local cheese. The vendor asks if you want anything else.",
+      "conversation_flow": [
+        {
+          "title": "Point to the cheese and ask what it is",
+          "chatbot_message": "Certo. Un chilo di pomodori. Altro?"
+        },
+        {
+          "title": "Ask if you can try a sample",
+          "chatbot_message": "Questo è pecorino. Un formaggio locale."
+        },
+        {
+          "title": "Say it's good and you want to buy a piece",
+          "chatbot_message": "Certo. Ecco un pezzo."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! You've chosen your items. Now it's time to pay for everything."
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E08",
+      "data": {
+        "phrase": "Quanto è in tutto?",
+        "meaning": "How much is it in total?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V07",
+      "data": {
+        "Venti": "Twenty"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V08",
+      "data": {
+        "Euro": "Euro"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E09",
+      "data": {
+        "phrase": "Ecco venti euro",
+        "meaning": "Here is twenty euros"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E10",
+      "data": {
+        "phrase": "Grazie",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L06_P03",
+      "data": {
+        "word": "Grazie",
+        "phonetic": "GRAHT-zee-eh",
+        "tip": "Make sure to pronounce the 'e' at the end. It's not silent like in English."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E11",
+      "data": {
+        "phrase": "Arrivederci",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S03",
+      "title": "Finalizing the Purchase",
+      "setting": "You have your tomatoes and cheese and are ready to pay.",
+      "conversation_flow": [
+        {
+          "title": "Ask for the total price",
+          "chatbot_message": "Perfetto! Un pezzo di pecorino. Basta così?"
+        },
+        {
+          "title": "Hand over twenty euros and say it",
+          "chatbot_message": "Certo. In tutto sono dodici euro."
+        },
+        {
+          "title": "Thank the vendor and say goodbye",
+          "chatbot_message": "Grazie. Ecco il resto. Otto euro."
+        }
+      ]
+    }
+  ]
+}

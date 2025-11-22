@@ -1,0 +1,359 @@
+{
+  "id": "L5",
+  "title": "Talking About Your Family",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to talk about your family. Imagine a colleague asks you about a photo on your desk."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V01",
+      "data": {
+        "la foto": "the photo"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V02",
+      "data": {
+        "la famiglia": "the family"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E01",
+      "data": {
+        "phrase": "Sì",
+        "meaning": "Yes"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In Italian, possessive adjectives like 'my' change based on the gender of the noun. Use 'mio' for masculine nouns and 'mia' for feminine ones."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V03",
+      "data": {
+        "mio marito": "my husband"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V04",
+      "data": {
+        "mia moglie": "my wife"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V05",
+      "data": {
+        "mio fratello": "my brother"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V06",
+      "data": {
+        "mia sorella": "my sister"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V07",
+      "data": {
+        "i miei genitori": "my parents"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V08",
+      "data": {
+        "e": "and"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'Questo/a è' to introduce one person and 'Questi sono' for more than one person."
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E02",
+      "data": {
+        "phrase": "Questo è",
+        "meaning": "This is (masculine)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E03",
+      "data": {
+        "phrase": "Questa è",
+        "meaning": "This is (feminine)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E04",
+      "data": {
+        "phrase": "Questi sono",
+        "meaning": "These are"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E05",
+      "data": {
+        "phrase": "Si chiama",
+        "meaning": "His/her name is"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L5_P01",
+      "data": {
+        "word": "famiglia",
+        "phonetic": "fa-MEE-lyah",
+        "tip": "The 'gli' sound is similar to the 'lli' in 'million'."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L5_P02",
+      "data": {
+        "word": "fratello",
+        "phonetic": "fra-TEL-loh",
+        "tip": "Pronounce the double 'l' sound clearly and for a bit longer."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L5_S01",
+      "title": "Identifying Your Family",
+      "setting": "Your colleague, Marco, points to a photo on your desk.",
+      "conversation_flow": [
+        {
+          "title": "Confirm it's your family",
+          "chatbot_message": "Che bella foto! È la tua famiglia?"
+        },
+        {
+          "title": "Say who the people are",
+          "chatbot_message": "Bello! E chi sono?"
+        },
+        {
+          "title": "State their names",
+          "chatbot_message": "Capito. E come si chiamano?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Now let's learn how to give more details about your family members."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V09",
+      "data": {
+        "un fratello": "a brother"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V10",
+      "data": {
+        "una sorella": "a sister"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E06",
+      "data": {
+        "phrase": "Sì, ho",
+        "meaning": "Yes, I have"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To make a sentence negative, just add 'non' before the verb. For example, 'ho' (I have) becomes 'non ho' (I don't have)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E07",
+      "data": {
+        "phrase": "No, non ho",
+        "meaning": "No, I don't have"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L5_P03",
+      "data": {
+        "word": "anni",
+        "phonetic": "AHN-nee",
+        "tip": "The double 'n' sound is stronger than a single 'n'."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To talk about age, Italians use the verb 'avere' (to have). You say 'Lui ha 30 anni', which literally means 'He has 30 years'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V11",
+      "data": {
+        "venticinque": "25"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V12",
+      "data": {
+        "trenta": "30"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E08",
+      "data": {
+        "phrase": "Lui ha ... anni",
+        "meaning": "He is ... years old"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E09",
+      "data": {
+        "phrase": "Lei ha ... anni",
+        "meaning": "She is ... years old"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V13",
+      "data": {
+        "in Italia": "in Italy"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V14",
+      "data": {
+        "all'estero": "abroad"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E10",
+      "data": {
+        "phrase": "Abita",
+        "meaning": "He/she lives"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L5_S02",
+      "title": "Giving More Details",
+      "setting": "Marco is curious and asks for more details about your family.",
+      "conversation_flow": [
+        {
+          "title": "Answer if you have siblings",
+          "chatbot_message": "Bei nomi! Hai fratelli o sorelle?"
+        },
+        {
+          "title": "State their age",
+          "chatbot_message": "Interessante. E quanti anni ha?"
+        },
+        {
+          "title": "Say where they live",
+          "chatbot_message": "Ah, capisco. Abita qui in Italia?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now it's your turn to ask your colleague about their family. You can use 'E tu?' to ask 'And you?'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E11",
+      "data": {
+        "phrase": "E tu?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Remember that adjectives often change their ending to agree with gender. Use 'sposato' for a man and 'sposata' for a woman."
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E12",
+      "data": {
+        "phrase": "Sei sposato/a?",
+        "meaning": "Are you married?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L5_P04",
+      "data": {
+        "word": "figli",
+        "phonetic": "FEE-lyee",
+        "tip": "Another 'gli' sound, like in 'famiglia'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L5_V15",
+      "data": {
+        "i figli": "children"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E13",
+      "data": {
+        "phrase": "Hai figli?",
+        "meaning": "Do you have children?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E14",
+      "data": {
+        "phrase": "Oh, che bello!",
+        "meaning": "Oh, how nice!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L5_E15",
+      "data": {
+        "phrase": "Interessante!",
+        "meaning": "Interesting!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L5_S03",
+      "title": "Asking About His Family",
+      "setting": "Now it's your turn. Ask Marco about his family.",
+      "conversation_flow": [
+        {
+          "title": "Ask if he is married",
+          "chatbot_message": "Che bello."
+        },
+        {
+          "title": "Ask if he has children",
+          "chatbot_message": "Sì, sono sposato. Mia moglie si chiama Giulia."
+        },
+        {
+          "title": "React positively",
+          "chatbot_message": "Sì, abbiamo due figli."
+        }
+      ]
+    }
+  ]
+}

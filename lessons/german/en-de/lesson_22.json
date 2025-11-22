@@ -1,0 +1,305 @@
+{
+  "id": "L22",
+  "title": "Ordering Food for Delivery by Phone",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Let's learn how to order food over the phone in German. You'll start by greeting the restaurant and placing your order."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E01",
+      "data": {
+        "phrase": "Guten Tag",
+        "meaning": "Hello / Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E02",
+      "data": {
+        "phrase": "Ich möchte bestellen",
+        "meaning": "I would like to order"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22_P01",
+      "data": {
+        "word": "Ich",
+        "phonetic": "/ɪç/",
+        "tip": "The 'ch' sound is soft, made at the front of your mouth. It's not a hard 'k' sound."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In German, you often use the formal 'Sie' when talking to strangers or in business contexts. 'du' is the informal 'you' for friends and family."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E03",
+      "data": {
+        "phrase": "Ich hätte gern...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V01",
+      "data": {
+        "Eine Pizza Salami": "A salami pizza"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V02",
+      "data": {
+        "Das Getränk": "The drink"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V03",
+      "data": {
+        "Eine Cola": "A Coke"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V04",
+      "data": {
+        "Ein Wasser": "A water"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'ein' for neuter nouns like 'das Wasser' and 'eine' for feminine nouns like 'die Pizza' or 'die Cola'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E04",
+      "data": {
+        "Gerne": "You're welcome / My pleasure"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22_S01",
+      "title": "Placing Your Order",
+      "setting": "You are calling a pizzeria to order food for delivery.",
+      "conversation_flow": [
+        {
+          "title": "Greet the pizzeria",
+          "chatbot_message": "Pizzeria Pronto, guten Tag!"
+        },
+        {
+          "title": "State you want to order",
+          "chatbot_message": "Gerne. Was möchten Sie bestellen?"
+        },
+        {
+          "title": "Order a salami pizza",
+          "chatbot_message": "Eine Pizza Salami. Gerne. Möchten Sie auch ein Getränk?"
+        },
+        {
+          "title": "Order a drink",
+          "chatbot_message": "Okay, eine Pizza Salami und eine Cola. Für wen ist die Bestellung?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Good job! Now, you need to provide your personal details for the delivery."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E05",
+      "data": {
+        "phrase": "Mein Name ist...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V05",
+      "data": {
+        "Die Straße": "The street"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22_P02",
+      "data": {
+        "word": "Straße",
+        "phonetic": "/ˈʃtʁaːsə/",
+        "tip": "The 'ß' character is called 'Eszett' and is pronounced like a sharp 's'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V06",
+      "data": {
+        "Die Hausnummer": "The house number"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In Germany, you say the street name first, then the house number. For example, 'Hauptstraße 10'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V07",
+      "data": {
+        "Die Telefonnummer": "The phone number"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V08",
+      "data": {
+        "Null": "Zero"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V09",
+      "data": {
+        "Eins": "One"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V10",
+      "data": {
+        "Zwei": "Two"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V11",
+      "data": {
+        "Drei": "Three"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E06",
+      "data": {
+        "phrase": "Bitte",
+        "meaning": "Please"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22_S02",
+      "title": "Providing Your Details",
+      "setting": "The call continues. The pizzeria employee needs your information for the delivery.",
+      "conversation_flow": [
+        {
+          "title": "State your name",
+          "chatbot_message": "Okay, eine Pizza Salami und eine Cola. Für wen ist die Bestellung?",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "State your street and house number",
+          "chatbot_message": "Okay, {user_name}. Und Ihre Adresse, bitte?",
+          "extract_info": {
+            "user_address": "Extract the user's full address"
+          }
+        },
+        {
+          "title": "Give your phone number",
+          "chatbot_message": "Verstanden, {user_address}. Und Ihre Telefonnummer?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! The order is placed. Now for the final questions: the price and the delivery time."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E07",
+      "data": {
+        "phrase": "Wie viel kostet das?",
+        "meaning": "How much does that cost?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22_P03",
+      "data": {
+        "word": "viel",
+        "phonetic": "/fiːl/",
+        "tip": "The 'v' in 'viel' is pronounced like an 'f' sound in English."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V12",
+      "data": {
+        "Der Euro": "The Euro"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E08",
+      "data": {
+        "phrase": "Wie lange dauert es?",
+        "meaning": "How long does it take?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V13",
+      "data": {
+        "Die Minuten": "The minutes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E09",
+      "data": {
+        "phrase": "Danke schön",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E10",
+      "data": {
+        "phrase": "Auf Wiederhören",
+        "meaning": "Goodbye (on the phone)"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'Auf Wiedersehen' when you see someone, but 'Auf Wiederhören' when you only hear them, like on the phone."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22_S03",
+      "title": "Finalizing the Order",
+      "setting": "You've given all your details. Now it's time to finalize the order and end the call.",
+      "conversation_flow": [
+        {
+          "title": "Ask for the total price",
+          "chatbot_message": "Vielen Dank. Ihre Bestellung ist komplett."
+        },
+        {
+          "title": "Ask about the delivery time",
+          "chatbot_message": "Das kostet 15 Euro."
+        },
+        {
+          "title": "Thank them and end the call",
+          "chatbot_message": "Es dauert circa 30 Minuten."
+        },
+        {
+          "title": "The call is over!",
+          "chatbot_message": "Gerne. Auf Wiederhören!"
+        }
+      ]
+    }
+  ]
+}

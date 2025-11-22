@@ -1,0 +1,299 @@
+{
+  "id": "L8F",
+  "title": "Discussing Your Daily Routine",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Let's learn how to talk about your daily routine, or 'la routine quotidienne', in French. We'll start with the morning."
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E01",
+      "data": {
+        "phrase": "Salut",
+        "meaning": "Hi"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8F_V01",
+      "data": {
+        "La routine": "The routine"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L8F_P01",
+      "data": {
+        "word": "Je me réveille",
+        "phonetic": "/ʒə mə ʁe.vɛj/",
+        "tip": "The 'eille' at the end sounds like the 'ay' in 'say'. The 'r' sound is made in the back of your throat."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E02",
+      "data": {
+        "phrase": "Je me réveille",
+        "meaning": "I wake up"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E03",
+      "data": {
+        "phrase": "à sept heures",
+        "meaning": "at seven o'clock"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say what time you do something, use the structure: 'à' + number + 'heures'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8F_V02",
+      "data": {
+        "le petit-déjeuner": "the breakfast"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E04",
+      "data": {
+        "phrase": "Je mange",
+        "meaning": "I eat"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E05",
+      "data": {
+        "phrase": "Je bois",
+        "meaning": "I drink"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8F_V03",
+      "data": {
+        "le café": "the coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8F_V04",
+      "data": {
+        "le pain": "the bread"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E06",
+      "data": {
+        "phrase": "Je vais au travail",
+        "meaning": "I go to work"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E07",
+      "data": {
+        "phrase": "à vélo",
+        "meaning": "by bike"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E08",
+      "data": {
+        "phrase": "en train",
+        "meaning": "by train"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'à' for open transport like 'à vélo' (by bike) and 'en' for enclosed transport like 'en train' (by train)."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8F_S01",
+      "title": "Talking about your morning",
+      "setting": "Your French friend, Léa, asks about your morning routine.",
+      "conversation_flow": [
+        {
+          "title": "Say what time you wake up",
+          "chatbot_message": "Salut ! Pour ta routine, tu te réveilles à quelle heure ?"
+        },
+        {
+          "title": "Mention what you eat or drink for breakfast",
+          "chatbot_message": "D'accord. Et pour le petit-déjeuner ?"
+        },
+        {
+          "title": "Explain how you travel to work",
+          "chatbot_message": "Miam ! Et tu vas au travail comment ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's talk about the rest of your day. Remember, 'midi' means noon."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L8F_V05",
+      "data": {
+        "midi": "noon"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E09",
+      "data": {
+        "phrase": "Je commence",
+        "meaning": "I start"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E10",
+      "data": {
+        "phrase": "Je déjeune",
+        "meaning": "I have lunch"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L8F_P02",
+      "data": {
+        "word": "Je finis",
+        "phonetic": "/ʒə fi.ni/",
+        "tip": "The 'i' sound in 'finis' is like the 'ee' in 'see', but shorter and sharper."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E11",
+      "data": {
+        "phrase": "Je finis",
+        "meaning": "I finish"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E12",
+      "data": {
+        "phrase": "Je commence le travail",
+        "meaning": "I start work"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E13",
+      "data": {
+        "phrase": "Je finis le travail",
+        "meaning": "I finish work"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8F_S02",
+      "title": "Discussing your work day",
+      "setting": "The conversation with Léa continues. You just told her how you get to work.",
+      "conversation_flow": [
+        {
+          "title": "State what time you start working",
+          "chatbot_message": "Super ! Tu commences le travail à quelle heure ?"
+        },
+        {
+          "title": "Say what time you usually have lunch",
+          "chatbot_message": "Ok. Et tu déjeunes à quelle heure ?"
+        },
+        {
+          "title": "Mention what time you finish your work day",
+          "chatbot_message": "Et tu finis le travail à quelle heure ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Finally, let's learn how to talk about your evening activities."
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E14",
+      "data": {
+        "phrase": "après le travail",
+        "meaning": "after work"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E15",
+      "data": {
+        "phrase": "Je cuisine",
+        "meaning": "I cook"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E16",
+      "data": {
+        "phrase": "Je fais du sport",
+        "meaning": "I do sports"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E17",
+      "data": {
+        "phrase": "Je regarde la télé",
+        "meaning": "I watch TV"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E18",
+      "data": {
+        "phrase": "Je dîne",
+        "meaning": "I have dinner"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To easily ask the same question back to someone, you can just say 'Et toi ?'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L8F_E19",
+      "data": {
+        "phrase": "Et toi ?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L8F_S03",
+      "title": "Chatting about your evening",
+      "setting": "You've told Léa about your work schedule. Now she asks about your evening.",
+      "conversation_flow": [
+        {
+          "title": "Describe what you typically do after work",
+          "chatbot_message": "D'accord. Et après le travail, tu fais quoi ?"
+        },
+        {
+          "title": "Say what time you usually eat dinner",
+          "chatbot_message": "Ah, c'est bien. Et tu dînes à quelle heure ?"
+        },
+        {
+          "title": "Ask about their routine in return",
+          "chatbot_message": "Super."
+        },
+        {
+          "title": "Acknowledge her response",
+          "chatbot_message": "Moi ? Ma routine est très différente. Merci !"
+        }
+      ]
+    }
+  ]
+}

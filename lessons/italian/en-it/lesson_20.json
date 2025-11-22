@@ -1,0 +1,328 @@
+{
+  "id": "L20",
+  "title": "Talking About a Past Holiday",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn to talk about a past holiday with a colleague using a past tense called 'passato prossimo'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V01",
+      "data": {
+        "Le vacanze": "The holidays / vacation"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E01",
+      "data": {
+        "phrase": "Bentornato",
+        "meaning": "Welcome back (to a male)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E02",
+      "data": {
+        "phrase": "Bentornata",
+        "meaning": "Welcome back (to a female)"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To talk about where you have been, use the verb 'essere' (to be) in the past. A man says 'Sono stato' and a woman says 'Sono stata'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E03",
+      "data": {
+        "phrase": "Sono stato in...",
+        "meaning": "I was in... (male speaker)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E04",
+      "data": {
+        "phrase": "Sono stata in...",
+        "meaning": "I was in... (female speaker)"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20_P01",
+      "data": {
+        "word": "stato / stata",
+        "phonetic": "/'sta.to/ /'sta.ta/",
+        "tip": "The 's' is soft, like in 'snake', followed by 'tato' or 'tata'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V02",
+      "data": {
+        "La Spagna": "Spain"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V03",
+      "data": {
+        "Al mare": "At the sea"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V04",
+      "data": {
+        "Con chi?": "With whom?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V05",
+      "data": {
+        "Con la mia famiglia": "With my family"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V06",
+      "data": {
+        "Con i miei amici": "With my friends"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V07",
+      "data": {
+        "Per quanto tempo?": "For how long?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V08",
+      "data": {
+        "Una settimana": "One week"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V09",
+      "data": {
+        "Dieci giorni": "Ten days"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20_S01",
+      "title": "Starting the conversation",
+      "setting": "Your colleague, Marco, sees you at the office after your holiday and starts a conversation.",
+      "conversation_flow": [
+        {
+          "title": "Say where you went on holiday",
+          "chatbot_message": "Ciao! Bentornato/a. Dove sei stato/a in vacanza?",
+          "extract_info": {
+            "holiday_location": "Extract the location the user mentions, e.g., Spagna, mare."
+          }
+        },
+        {
+          "title": "Mention who you went with",
+          "chatbot_message": "Bello! In {holiday_location}! E con chi eri?"
+        },
+        {
+          "title": "State how long you were there",
+          "chatbot_message": "Capisco. E per quanto tempo sei stato/a lì?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "To describe things in the past, like the weather, we often use a tense called 'imperfetto'. For now, just learn these useful phrases."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E05",
+      "data": {
+        "phrase": "Com'era il tempo?",
+        "meaning": "How was the weather?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E06",
+      "data": {
+        "phrase": "Faceva caldo",
+        "meaning": "It was hot"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E07",
+      "data": {
+        "phrase": "C'era il sole",
+        "meaning": "It was sunny"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To talk about actions you did with others ('we'), many verbs use 'abbiamo' + a past participle."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E08",
+      "data": {
+        "phrase": "Cosa avete fatto?",
+        "meaning": "What did you do? (plural 'you')"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E09",
+      "data": {
+        "phrase": "Abbiamo nuotato",
+        "meaning": "We swam"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20_P02",
+      "data": {
+        "word": "nuotato",
+        "phonetic": "/nwo.'ta.to/",
+        "tip": "The 'uo' sounds like the 'wo' in 'won'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E10",
+      "data": {
+        "phrase": "Abbiamo letto molto",
+        "meaning": "We read a lot"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V10",
+      "data": {
+        "Il cibo": "The food"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E11",
+      "data": {
+        "phrase": "Il cibo era delizioso",
+        "meaning": "The food was delicious"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E12",
+      "data": {
+        "phrase": "Non era molto buono",
+        "meaning": "It was not very good"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20_S02",
+      "title": "Describing the holiday",
+      "setting": "Marco is interested and asks for more details about your trip.",
+      "conversation_flow": [
+        {
+          "title": "Say what the weather was like",
+          "chatbot_message": "Ottimo! E com'era il tempo?"
+        },
+        {
+          "title": "Mention an activity you did",
+          "chatbot_message": "Perfetto. E cosa avete fatto di interessante?"
+        },
+        {
+          "title": "Describe the food",
+          "chatbot_message": "Suona bene. E il cibo? Era buono?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "To give your overall opinion, you can use the phrase 'È stata una vacanza...' which means 'It was a... holiday'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E13",
+      "data": {
+        "phrase": "È stata una vacanza fantastica",
+        "meaning": "It was a fantastic holiday"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V11",
+      "data": {
+        "Rilassante": "Relaxing"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V12",
+      "data": {
+        "Interessante": "Interesting"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say you would like to do something, use 'Vorrei'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E14",
+      "data": {
+        "phrase": "Vorrei tornare",
+        "meaning": "I would like to go back"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Now it's your turn to ask your colleague about their plans."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E15",
+      "data": {
+        "phrase": "E tu? Hai programmi per le vacanze?",
+        "meaning": "And you? Do you have plans for the holidays?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20_P03",
+      "data": {
+        "word": "programmi",
+        "phonetic": "/pro.'gram.mi/",
+        "tip": "Remember to roll the 'r' and stress the 'gram' syllable."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20_S03",
+      "title": "Wrapping up",
+      "setting": "You are about to finish the conversation with Marco.",
+      "conversation_flow": [
+        {
+          "title": "Give your overall opinion",
+          "chatbot_message": "Bene! Allora, in generale, è stata una bella vacanza?"
+        },
+        {
+          "title": "Say you would like to go back",
+          "chatbot_message": "Fantastico! Sono contento per te. Vorresti tornare?"
+        },
+        {
+          "title": "Ask about their holiday plans",
+          "chatbot_message": "È una buona idea. Grazie per avermi raccontato."
+        }
+      ]
+    }
+  ]
+}

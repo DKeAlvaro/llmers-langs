@@ -1,0 +1,330 @@
+{
+  "id": "L09",
+  "title": "Buying Clothes",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to ask for help in a French clothing store, 'un magasin de vêtements'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V01",
+      "data": {
+        "un magasin de vêtements": "a clothing store"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E01",
+      "data": {
+        "phrase": "Excusez-moi",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E02",
+      "data": {
+        "phrase": "Bonjour",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E03",
+      "data": {
+        "phrase": "Je cherche...",
+        "meaning": "I am looking for..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V02",
+      "data": {
+        "un pull": "a sweater"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V03",
+      "data": {
+        "bleu": "blue"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In French, colors like 'bleu' (blue) usually come *after* the noun. For example: 'un pull bleu'."
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L09_P01",
+      "data": {
+        "word": "cherche",
+        "phonetic": "[ʃɛʁʃ]",
+        "tip": "The 'ch' sound in French is soft, like 'sh' in the English word 'shoe'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E04",
+      "data": {
+        "phrase": "Quelle est votre taille ?",
+        "meaning": "What is your size?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E05",
+      "data": {
+        "phrase": "Je fais du...",
+        "meaning": "I wear size..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E06",
+      "data": {
+        "phrase": "Voilà",
+        "meaning": "Here you go"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L09_S01",
+      "title": "Asking for Assistance",
+      "setting": "You're in a clothing store and see a shop assistant. Get their attention and ask for what you want.",
+      "conversation_flow": [
+        {
+          "title": "Get the assistant's attention",
+          "chatbot_message": null
+        },
+        {
+          "title": "Say you're looking for a blue sweater",
+          "chatbot_message": "Bonjour !",
+          "extract_info": {
+            "item": "The item and color the user is looking for"
+          }
+        },
+        {
+          "title": "State your size",
+          "chatbot_message": "D'accord, un {item}. Quelle est votre taille ?",
+          "extract_info": {
+            "user_size": "The user's clothing size"
+          }
+        },
+        {
+          "title": "Acknowledge the assistant",
+          "chatbot_message": "La taille {user_size}. Voilà."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now that you have the item, let's find the fitting rooms to try it on."
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E07",
+      "data": {
+        "phrase": "Où sont...?",
+        "meaning": "Where are...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V04",
+      "data": {
+        "les cabines d'essayage": "the fitting rooms"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L09_P02",
+      "data": {
+        "word": "essayage",
+        "phonetic": "[e.sɛ.jaʒ]",
+        "tip": "The 'ge' at the end sounds like the 's' in the English word 'measure'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E08",
+      "data": {
+        "phrase": "C'est...",
+        "meaning": "It is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V05",
+      "data": {
+        "trop grand": "too big"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V06",
+      "data": {
+        "trop petit": "too small"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E09",
+      "data": {
+        "phrase": "Vous avez en...?",
+        "meaning": "Do you have it in...?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L09_S02",
+      "title": "Trying on Clothes",
+      "setting": "The assistant gave you the sweater. Now, find the fitting rooms and check the size.",
+      "conversation_flow": [
+        {
+          "title": "Ask where the fitting rooms are",
+          "chatbot_message": null
+        },
+        {
+          "title": "Say the sweater is too big",
+          "chatbot_message": "Les cabines d'essayage sont là-bas.",
+          "extract_info": {
+            "fit_issue": "The fit problem, e.g. 'trop grand' or 'trop petit'"
+          }
+        },
+        {
+          "title": "Ask for the item in a smaller size",
+          "chatbot_message": "Ah, c'est {fit_issue}. D'accord.",
+          "extract_info": {
+            "new_size": "The new size requested"
+          }
+        },
+        {
+          "title": "Acknowledge receiving the new item",
+          "chatbot_message": "Oui. Voilà en taille {new_size}."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "The new size fits! Let's tell the assistant you'll buy it and find the checkout."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V07",
+      "data": {
+        "parfait": "perfect"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E10",
+      "data": {
+        "phrase": "Je le prends",
+        "meaning": "I'll take it"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "The word 'le' in 'Je le prends' means 'it'. It refers to a masculine noun, like 'un pull'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E11",
+      "data": {
+        "phrase": "Où est...?",
+        "meaning": "Where is...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V08",
+      "data": {
+        "la caisse": "the checkout"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L09_P03",
+      "data": {
+        "word": "caisse",
+        "phonetic": "[kɛs]",
+        "tip": "The 'ai' sound here is short, like the 'e' in the English word 'bed'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E12",
+      "data": {
+        "phrase": "Je peux...?",
+        "meaning": "Can I...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V09",
+      "data": {
+        "échanger": "to exchange"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V10",
+      "data": {
+        "oui": "yes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V11",
+      "data": {
+        "le ticket de caisse": "the receipt"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E13",
+      "data": {
+        "phrase": "Merci",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E14",
+      "data": {
+        "phrase": "Bonne journée",
+        "meaning": "Have a good day"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L09_S03",
+      "title": "Deciding and Paying",
+      "setting": "The new sweater is a perfect fit. Now it's time to buy it and leave the store.",
+      "conversation_flow": [
+        {
+          "title": "Say the new size is perfect and you'll buy it",
+          "chatbot_message": null
+        },
+        {
+          "title": "Ask where the checkout is",
+          "chatbot_message": "Parfait !"
+        },
+        {
+          "title": "Ask if you can exchange the item",
+          "chatbot_message": "La caisse est là-bas."
+        },
+        {
+          "title": "Thank the cashier",
+          "chatbot_message": "Oui, avec le ticket de caisse."
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Bonne journée !"
+        }
+      ]
+    }
+  ]
+}

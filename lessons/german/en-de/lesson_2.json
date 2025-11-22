@@ -1,0 +1,304 @@
+{
+  "id": "L02",
+  "title": "Ordering at a Café",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Willkommen! In this lesson, you'll learn how to order drinks and snacks at a German café ('das Café')."
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E01",
+      "data": {
+        "phrase": "Guten Tag",
+        "meaning": "Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E02",
+      "data": {
+        "phrase": "Entschuldigung",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L02_P01",
+      "data": {
+        "word": "Entschuldigung",
+        "phonetic": "[ɛntˈʃʊldɪɡʊŋ]",
+        "tip": "The 'sch' sound is like the 'sh' in 'shoe'. The 'u' is short, like the 'oo' in 'book'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E03",
+      "data": {
+        "phrase": "Ich hätte gern...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V01",
+      "data": {
+        "einen Kaffee": "a coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V02",
+      "data": {
+        "einen Tee": "a tea"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E04",
+      "data": {
+        "phrase": "Haben Sie...?",
+        "meaning": "Do you have...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V03",
+      "data": {
+        "Apfelkuchen": "apple pie"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V04",
+      "data": {
+        "Ja": "Yes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V05",
+      "data": {
+        "Gerne": "Gladly / With pleasure"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S01",
+      "title": "Getting Service and Drinks",
+      "setting": "You are sitting at a table in a café and want to order.",
+      "conversation_flow": [
+        {
+          "title": "Get the waiter's attention",
+          "chatbot_message": null
+        },
+        {
+          "title": "Order a drink",
+          "chatbot_message": "Guten Tag! Ja, bitte?",
+          "extract_info": {
+            "user_drink": "Extract the drink the user orders"
+          }
+        },
+        {
+          "title": "Ask if they have apple pie",
+          "chatbot_message": "Gerne. Einen {user_drink}. Sonst noch etwas?"
+        },
+        {
+          "title": "Acknowledge the confirmation",
+          "chatbot_message": "Ja, Apfelkuchen haben wir."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! The waiter has what you want. To order it, you can say 'Ich nehme...' which means 'I'll take...'"
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E05",
+      "data": {
+        "phrase": "Ich nehme...",
+        "meaning": "I'll take..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V06",
+      "data": {
+        "ein Stück": "a piece"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E06",
+      "data": {
+        "phrase": "Das ist alles",
+        "meaning": "That is all"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E07",
+      "data": {
+        "phrase": "Danke",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask where something is, you can use the question word 'Wo...?' which means 'Where...?'"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V07",
+      "data": {
+        "Wo": "Where"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E08",
+      "data": {
+        "phrase": "Wo sind...?",
+        "meaning": "Where are...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V08",
+      "data": {
+        "die Toiletten": "the toilets"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V09",
+      "data": {
+        "da hinten": "back there"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V10",
+      "data": {
+        "links": "left"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S02",
+      "title": "Placing the Food Order",
+      "setting": "The waiter has confirmed they have apple pie. Now, place your full order.",
+      "conversation_flow": [
+        {
+          "title": "Order the snack",
+          "chatbot_message": null
+        },
+        {
+          "title": "Confirm that's all",
+          "chatbot_message": "Sehr gerne. Ein Stück Apfelkuchen. Noch etwas?"
+        },
+        {
+          "title": "Ask for the toilets",
+          "chatbot_message": "Okay. Kommt sofort."
+        },
+        {
+          "title": "Acknowledge the directions",
+          "chatbot_message": "Die Toiletten sind da hinten links."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Finished? To ask for the bill ('die Rechnung'), you can get the waiter's attention and say 'Die Rechnung, bitte'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E09",
+      "data": {
+        "phrase": "Die Rechnung, bitte",
+        "meaning": "The bill, please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E10",
+      "data": {
+        "phrase": "Was macht das zusammen?",
+        "meaning": "What does that come to?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V11",
+      "data": {
+        "zusammen": "together"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask 'Can I...?', use the phrase 'Kann ich...?'. It's very useful for making requests."
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E11",
+      "data": {
+        "phrase": "Kann ich...?",
+        "meaning": "Can I...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V12",
+      "data": {
+        "mit Karte": "with a card"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V13",
+      "data": {
+        "zahlen": "to pay"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V14",
+      "data": {
+        "natürlich": "of course"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E12",
+      "data": {
+        "phrase": "Kein Problem",
+        "meaning": "No problem"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S03",
+      "title": "Paying the Bill",
+      "setting": "You have finished your coffee and cake and are ready to pay.",
+      "conversation_flow": [
+        {
+          "title": "Ask for the bill",
+          "chatbot_message": null
+        },
+        {
+          "title": "Ask for the total amount",
+          "chatbot_message": "Ja, natürlich. Einen Moment... Hier ist die Rechnung."
+        },
+        {
+          "title": "Ask if you can pay by card",
+          "chatbot_message": "Das macht 7 Euro 50."
+        },
+        {
+          "title": "Thank the waiter",
+          "chatbot_message": "Ja, kein Problem."
+        }
+      ]
+    }
+  ]
+}

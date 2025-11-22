@@ -1,0 +1,308 @@
+{
+  "id": "L20",
+  "title": "Talking About a Past Holiday (Simple Past)",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn to talk about a past holiday using the German simple past tense, called *Präteritum*."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V01",
+      "data": {
+        "der Urlaub": "the holiday"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E01",
+      "data": {
+        "phrase": "ich war",
+        "meaning": "I was"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E02",
+      "data": {
+        "phrase": "wir waren",
+        "meaning": "we were"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V02",
+      "data": {
+        "Spanien": "Spain"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20_P01",
+      "data": {
+        "word": "ich",
+        "phonetic": "[ɪç]",
+        "tip": "The 'ch' sound in 'ich' is soft and made in the front of your mouth, similar to the 'h' in 'huge'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V03",
+      "data": {
+        "meine Familie": "my family"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V04",
+      "data": {
+        "meine Freunde": "my friends"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E03",
+      "data": {
+        "phrase": "mit meiner Familie",
+        "meaning": "with my family"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V05",
+      "data": {
+        "eine Woche": "one week"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V06",
+      "data": {
+        "zwei Wochen": "two weeks"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20_S01",
+      "title": "Where You Went",
+      "setting": "Your colleague, Anna, asks about your recent holiday.",
+      "conversation_flow": [
+        {
+          "title": "State where you were on holiday",
+          "chatbot_message": "Hallo! Du warst im Urlaub. Wo warst du?",
+          "extract_info": {
+            "holiday_location": "Extract the location the user went to"
+          }
+        },
+        {
+          "title": "Say who you went with",
+          "chatbot_message": "Ah, {holiday_location}! Und mit wem warst du dort?"
+        },
+        {
+          "title": "State how long you were there",
+          "chatbot_message": "Schön. Wie lange warst du dort?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's learn how to describe your holiday. You can use 'Das ... war ...' (The ... was ...)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V07",
+      "data": {
+        "das Wetter": "the weather"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20_P02",
+      "data": {
+        "word": "Wetter",
+        "phonetic": "[ˈvɛtɐ]",
+        "tip": "The German 'W' is pronounced like an English 'V'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V08",
+      "data": {
+        "sonnig": "sunny"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V09",
+      "data": {
+        "warm": "warm"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Here are some verbs in the simple past (*Präteritum*) to describe activities."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E04",
+      "data": {
+        "phrase": "wir schwammen",
+        "meaning": "we swam"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E05",
+      "data": {
+        "phrase": "wir lasen",
+        "meaning": "we read"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V10",
+      "data": {
+        "das Essen": "the food"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V11",
+      "data": {
+        "lecker": "delicious"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V12",
+      "data": {
+        "nicht so gut": "not so good"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20_S02",
+      "title": "Describing the Holiday",
+      "setting": "Anna asks for more details about your trip.",
+      "conversation_flow": [
+        {
+          "title": "Describe the weather",
+          "chatbot_message": "Super. Und wie war das Wetter?"
+        },
+        {
+          "title": "Mention your activities",
+          "chatbot_message": "Perfekt! Was habt ihr so gemacht?"
+        },
+        {
+          "title": "Describe the food",
+          "chatbot_message": "Das ist schön. Und das Essen? War es lecker?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Let's wrap up the conversation by giving a final opinion and asking about Anna's plans."
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E06",
+      "data": {
+        "phrase": "Der Urlaub war...",
+        "meaning": "The holiday was..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V13",
+      "data": {
+        "fantastisch": "fantastic"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L20_P03",
+      "data": {
+        "word": "fantastisch",
+        "phonetic": "[fanˈtastɪʃ]",
+        "tip": "The stress is on the second syllable: fan-TAS-tisch."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V14",
+      "data": {
+        "entspannend": "relaxing"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E07",
+      "data": {
+        "phrase": "Ich möchte...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V15",
+      "data": {
+        "wieder": "again"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E08",
+      "data": {
+        "phrase": "Ich möchte wieder hinfahren",
+        "meaning": "I would like to go there again"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When you use a modal verb like *möchte*, the second verb (like *hinfahren*) goes to the very end of the sentence."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L20_V16",
+      "data": {
+        "die Urlaubspläne": "the holiday plans"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E09",
+      "data": {
+        "phrase": "Hast du...?",
+        "meaning": "Do you have...?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L20_E10",
+      "data": {
+        "phrase": "Hast du auch Urlaubspläne?",
+        "meaning": "Do you also have holiday plans?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L20_S03",
+      "title": "Giving Your Opinion",
+      "setting": "You wrap up the conversation with your final thoughts.",
+      "conversation_flow": [
+        {
+          "title": "Give your overall opinion",
+          "chatbot_message": "Schön! War es ein guter Urlaub?"
+        },
+        {
+          "title": "Say you want to go back again",
+          "chatbot_message": "Das ist super! Möchtest du wieder hinfahren?"
+        },
+        {
+          "title": "Ask if they have holiday plans",
+          "chatbot_message": "Eine gute Idee."
+        }
+      ]
+    }
+  ]
+}

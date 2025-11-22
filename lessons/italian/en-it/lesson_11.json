@@ -1,0 +1,250 @@
+{
+  "id": "L11",
+  "title": "Using Public Transport: Buying a Train Ticket",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to buy a train ticket at an Italian train station, 'la stazione'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V01",
+      "data": {
+        "La stazione": "The station"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E01",
+      "data": {
+        "phrase": "Buongiorno",
+        "meaning": "Good morning / Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E02",
+      "data": {
+        "phrase": "Vorrei...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V02",
+      "data": {
+        "Un biglietto": "A ticket"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L11_P01",
+      "data": {
+        "word": "biglietto",
+        "phonetic": "/biʎˈʎetto/",
+        "tip": "The 'gli' sound is unique. It sounds like the 'lli' in the English word 'million'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V03",
+      "data": {
+        "Per": "For"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E03",
+      "data": {
+        "phrase": "Per favore",
+        "meaning": "Please"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V04",
+      "data": {
+        "Solo andata": "One-way"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V05",
+      "data": {
+        "Andata e ritorno": "Return"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S01",
+      "title": "Stating Your Destination",
+      "setting": "You are at the ticket counter in an Italian train station. It's your turn.",
+      "conversation_flow": [
+        {
+          "title": "Greet the employee",
+          "chatbot_message": "Buongiorno!"
+        },
+        {
+          "title": "Ask for a ticket to Roma",
+          "chatbot_message": "Un biglietto?",
+          "extract_info": {
+            "destination": "Extract the destination city from the user's message"
+          }
+        },
+        {
+          "title": "Specify if you want a one-way or return ticket",
+          "chatbot_message": "Certo. Per {destination}. Solo andata o andata e ritorno?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to ask for more details about your train."
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E04",
+      "data": {
+        "phrase": "A che ora...?",
+        "meaning": "At what time...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V06",
+      "data": {
+        "Il treno": "The train"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V07",
+      "data": {
+        "Il prossimo": "The next"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E05",
+      "data": {
+        "phrase": "...parte",
+        "meaning": "...leaves / departs"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V08",
+      "data": {
+        "Il binario": "The platform"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E06",
+      "data": {
+        "phrase": "Da quale...?",
+        "meaning": "From which...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V09",
+      "data": {
+        "Diretto": "Direct"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E07",
+      "data": {
+        "phrase": "È...?",
+        "meaning": "Is it...?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S02",
+      "title": "Asking for Details",
+      "setting": "You've specified the ticket type. Now you need to know the train details.",
+      "conversation_flow": [
+        {
+          "title": "Ask what time the next train departs",
+          "chatbot_message": "Va bene."
+        },
+        {
+          "title": "Ask which platform the train leaves from",
+          "chatbot_message": "Il prossimo treno parte alle 10:30."
+        },
+        {
+          "title": "Ask if it's a direct train",
+          "chatbot_message": "Parte dal binario 5."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Almost done! Let's learn the phrases you need to pay for your ticket."
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E08",
+      "data": {
+        "phrase": "Va bene",
+        "meaning": "Okay / Alright"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E09",
+      "data": {
+        "phrase": "Posso pagare con la carta?",
+        "meaning": "Can I pay with the card?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L11_P02",
+      "data": {
+        "word": "Grazie",
+        "phonetic": "/'ɡrattsje/",
+        "tip": "The 'z' in 'grazie' is pronounced like 'ts' in the English word 'cats'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E10",
+      "data": {
+        "phrase": "Grazie",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E11",
+      "data": {
+        "phrase": "Arrivederci",
+        "meaning": "Goodbye (formal)"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S03",
+      "title": "Completing the Transaction",
+      "setting": "You have all the details. Now it's time to pay and finish the conversation.",
+      "conversation_flow": [
+        {
+          "title": "Confirm the price",
+          "chatbot_message": "Sì, è un treno diretto. Sono 25 euro."
+        },
+        {
+          "title": "Ask to pay with your card",
+          "chatbot_message": "Perfetto."
+        },
+        {
+          "title": "Thank the employee and say goodbye",
+          "chatbot_message": "Sì, certo."
+        }
+      ]
+    }
+  ]
+}

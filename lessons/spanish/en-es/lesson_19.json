@@ -1,0 +1,234 @@
+{
+  "id": "L19_SP",
+  "title": "Visita a casa de un amigo",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to handle a visit to a Spanish-speaking friend's house for the first time. We'll start with arriving and greeting your friend."
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_SP_E01",
+      "data": {
+        "phrase": "Hola",
+        "meaning": "Hello"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_SP_V01",
+      "data": {
+        "Un regalo": "A gift"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_SP_V02",
+      "data": {
+        "Vino": "Wine"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_SP_V03",
+      "data": {
+        "Flores": "Flowers"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_SP_E02",
+      "data": {
+        "phrase": "Esto es para ti",
+        "meaning": "This is for you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_SP_E03",
+      "data": {
+        "phrase": "¡Qué casa tan bonita!",
+        "meaning": "What a nice house!"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L19_SP_P01",
+      "data": {
+        "word": "casa",
+        "phonetic": "/'kasa/",
+        "tip": "The 's' sound in Spanish is always a sharp 's' sound, like in the English word 'see'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19_SP_S01",
+      "title": "Arriving at a Friend's Home",
+      "setting": "You've just arrived at your friend Alex's house and are at the door.",
+      "conversation_flow": [
+        {
+          "title": "Greet your friend",
+          "chatbot_message": "¡Hola! ¡Bienvenido a mi casa!"
+        },
+        {
+          "title": "Give your friend a gift",
+          "chatbot_message": "¡Pasa, por favor! Me alegro de verte"
+        },
+        {
+          "title": "Compliment their home",
+          "chatbot_message": "¡Oh, muchas gracias! No era necesario"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now, let's learn how to have some small talk. Your friend will likely offer you something to drink."
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_SP_E04",
+      "data": {
+        "phrase": "Sí, por favor",
+        "meaning": "Yes, please"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_SP_V04",
+      "data": {
+        "Un café": "A coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_SP_V05",
+      "data": {
+        "Un té": "A tea"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_SP_V06",
+      "data": {
+        "Agua": "Water"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_SP_E05",
+      "data": {
+        "phrase": "¿Qué tal tu semana?",
+        "meaning": "How was your week?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_SP_E06",
+      "data": {
+        "phrase": "¿Puedo ayudar?",
+        "meaning": "Can I help?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L19_SP_P02",
+      "data": {
+        "word": "semana",
+        "phonetic": "/se'mana/",
+        "tip": "In Spanish, the stress usually falls on the second-to-last syllable, as in 'se-MA-na'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19_SP_S02",
+      "title": "Having a Drink",
+      "setting": "You are now sitting in your friend's living room.",
+      "conversation_flow": [
+        {
+          "title": "Accept a drink and state your preference",
+          "chatbot_message": "Gracias. Me gusta mucho. Toma asiento. ¿Quieres beber algo? ¿Un café o un té?"
+        },
+        {
+          "title": "Ask how their week was",
+          "chatbot_message": "Perfecto. Un café para ti"
+        },
+        {
+          "title": "Offer to help",
+          "chatbot_message": "Mi semana, bien. Mucho trabajo. ¿Y la tuya?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Finally, let's learn how to politely end the visit when it's time to go."
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_SP_E07",
+      "data": {
+        "phrase": "Es tarde",
+        "meaning": "It's late"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L19_SP_V07",
+      "data": {
+        "La noche": "The evening / The night"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_SP_E08",
+      "data": {
+        "phrase": "Gracias por todo",
+        "meaning": "Thanks for everything"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L19_SP_P03",
+      "data": {
+        "word": "noche",
+        "phonetic": "/'notʃe/",
+        "tip": "The Spanish 'ch' sound is just like the 'ch' in the English word 'cheese'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_SP_E09",
+      "data": {
+        "phrase": "Adiós",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L19_SP_E10",
+      "data": {
+        "phrase": "Hasta luego",
+        "meaning": "See you later"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L19_SP_S03",
+      "title": "Leaving the House",
+      "setting": "You've finished your drink and are ready to leave.",
+      "conversation_flow": [
+        {
+          "title": "State that it's getting late",
+          "chatbot_message": "No, gracias. Tú eres mi invitado. Relájate"
+        },
+        {
+          "title": "Thank your friend for the evening",
+          "chatbot_message": "Sí, el tiempo pasa rápido"
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "De nada. Gracias a ti por venir"
+        }
+      ]
+    }
+  ]
+}

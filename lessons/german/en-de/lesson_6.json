@@ -1,0 +1,347 @@
+{
+  "id": "L06",
+  "title": "At the Market",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! Today we are going to 'der Markt', the market. Let's learn how to buy some fresh produce."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V01",
+      "data": {
+        "der Markt": "the market"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E01",
+      "data": {
+        "phrase": "Guten Tag",
+        "meaning": "Good day"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L06_P01",
+      "data": {
+        "word": "Guten Tag",
+        "phonetic": "[ˈɡuːtn̩ taːk]",
+        "tip": "In German, the 'g' at the end of a word like 'Tag' is often pronounced like a hard 'k'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E02",
+      "data": {
+        "phrase": "Was kostet...?",
+        "meaning": "How much does... cost?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V02",
+      "data": {
+        "das Kilo": "the kilo"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V03",
+      "data": {
+        "die Tomaten": "the tomatoes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V04",
+      "data": {
+        "der Euro": "the Euro"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V05",
+      "data": {
+        "drei": "three"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E03",
+      "data": {
+        "phrase": "Ich hätte gern...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V06",
+      "data": {
+        "ein": "one"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V07",
+      "data": {
+        "bitte": "please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E04",
+      "data": {
+        "phrase": "Hier, bitte",
+        "meaning": "Here you go"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S01",
+      "title": "Approaching a Stall",
+      "setting": "You approach a vegetable stall at the market. The vendor smiles at you.",
+      "conversation_flow": [
+        {
+          "title": "Greet the vendor",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Ask the price per kilo for tomatoes",
+          "chatbot_message": "Guten Tag!"
+        },
+        {
+          "title": "Ask for one kilo of tomatoes",
+          "chatbot_message": "Ein Kilo Tomaten kostet drei Euro"
+        },
+        {
+          "title": "Acknowledge receipt of the tomatoes",
+          "chatbot_message": "Hier, bitte. Ein Kilo Tomaten"
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E05",
+      "data": {
+        "phrase": "Sonst noch etwas?",
+        "meaning": "Anything else?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E06",
+      "data": {
+        "phrase": "Was ist das?",
+        "meaning": "What is that?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V08",
+      "data": {
+        "der Käse": "the cheese"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L06_P02",
+      "data": {
+        "word": "Käse",
+        "phonetic": "[ˈkɛːzə]",
+        "tip": "The 'ä' sound is similar to the 'e' in the English word 'bed'."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To ask a yes/no question in German, you can start with the verb. For example, 'Kann ich...?' (Can I...?)"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V09",
+      "data": {
+        "ich": "I"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E07",
+      "data": {
+        "phrase": "ich kann",
+        "meaning": "I can"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V10",
+      "data": {
+        "probieren": "to try / to taste"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V11",
+      "data": {
+        "ein Stück": "a piece"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E08",
+      "data": {
+        "phrase": "Ja",
+        "meaning": "Yes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E09",
+      "data": {
+        "phrase": "Das ist...",
+        "meaning": "That is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V12",
+      "data": {
+        "lecker": "delicious"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V13",
+      "data": {
+        "auch": "also / too"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V14",
+      "data": {
+        "Okay": "Okay"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S02",
+      "title": "Trying Something New",
+      "setting": "You notice an interesting-looking cheese at the stall.",
+      "conversation_flow": [
+        {
+          "title": "Ask what that is",
+          "chatbot_message": "Sonst noch etwas?"
+        },
+        {
+          "title": "Ask if you can try a piece",
+          "chatbot_message": "Das ist Käse"
+        },
+        {
+          "title": "Say it's delicious and ask to buy a piece",
+          "chatbot_message": "Ja, bitte. Hier"
+        },
+        {
+          "title": "Acknowledge the addition of cheese",
+          "chatbot_message": "Okay. Ein Stück Käse"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V15",
+      "data": {
+        "und": "and"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E10",
+      "data": {
+        "phrase": "Was macht das zusammen?",
+        "meaning": "What does that make in total?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V16",
+      "data": {
+        "zusammen": "together"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V17",
+      "data": {
+        "sieben": "seven"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When paying, you can simply hand over the money and state the amount, for example: 'Hier, zehn Euro'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V18",
+      "data": {
+        "zehn": "ten"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E11",
+      "data": {
+        "phrase": "Danke schön",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E12",
+      "data": {
+        "phrase": "Bitte schön",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E13",
+      "data": {
+        "phrase": "Auf Wiedersehen",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L06_P03",
+      "data": {
+        "word": "Auf Wiedersehen",
+        "phonetic": "[aʊ̯f ˈviːdɐˌzeːən]",
+        "tip": "The 'w' in German is pronounced like an English 'v'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S03",
+      "title": "Finalizing the Purchase",
+      "setting": "The vendor has your tomatoes and cheese ready. It's time to pay and leave.",
+      "conversation_flow": [
+        {
+          "title": "Ask for the total price",
+          "chatbot_message": "Okay. Ein Kilo Tomaten und ein Stück Käse"
+        },
+        {
+          "title": "Give the vendor ten Euros",
+          "chatbot_message": "Das macht zusammen sieben Euro"
+        },
+        {
+          "title": "Thank the vendor and say goodbye",
+          "chatbot_message": "Danke schön. Drei Euro, bitte"
+        },
+        {
+          "title": "Acknowledge the farewell",
+          "chatbot_message": "Bitte schön. Auf Wiedersehen!"
+        }
+      ]
+    }
+  ]
+}

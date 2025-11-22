@@ -1,0 +1,265 @@
+{
+  "id": "L23",
+  "title": "Expressing Your Opinion about a Movie",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to share your opinion about a movie with a friend. Let's start with the basics."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V01",
+      "data": {
+        "Le film": "The movie"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V02",
+      "data": {
+        "Les acteurs": "The actors"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E01",
+      "data": {
+        "phrase": "J'ai trouvé...",
+        "meaning": "I found..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V03",
+      "data": {
+        "Fantastique": "Fantastic"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V04",
+      "data": {
+        "Ennuyeux": "Boring"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V05",
+      "data": {
+        "Drôle": "Funny"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V06",
+      "data": {
+        "Bons": "Good (plural)"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L23_P01",
+      "data": {
+        "word": "Ennuyeux",
+        "phonetic": "/ɑ̃.nɥi.jø/",
+        "tip": "The 'eux' at the end sounds like the 'oo' in 'book' but with rounded lips."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E02",
+      "data": {
+        "phrase": "Et toi ?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S01",
+      "title": "First Impressions",
+      "setting": "You just left the cinema with your friend, Camille.",
+      "conversation_flow": [
+        {
+          "title": "Give your overall opinion about the movie",
+          "chatbot_message": "Alors, le film... J'ai trouvé ça fantastique !",
+          "extract_info": {
+            "user_opinion_adj": "Extract the adjective the user uses for the movie"
+          }
+        },
+        {
+          "title": "Share your opinion on the actors",
+          "chatbot_message": "Oui, le film était {user_opinion_adj}. Et les acteurs ?"
+        },
+        {
+          "title": "Ask for your friend's opinion",
+          "chatbot_message": "J'ai trouvé les acteurs bons aussi"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to discuss specific parts of the movie and agree or disagree."
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E03",
+      "data": {
+        "phrase": "J'ai aimé...",
+        "meaning": "I liked..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E04",
+      "data": {
+        "phrase": "Je n'ai pas aimé...",
+        "meaning": "I didn't like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V07",
+      "data": {
+        "La fin": "The end"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V08",
+      "data": {
+        "L'histoire": "The story"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V09",
+      "data": {
+        "Crédible": "Believable"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L23_P02",
+      "data": {
+        "word": "Crédible",
+        "phonetic": "/kʁe.dibl/",
+        "tip": "The 'é' has an 'ay' sound, as in 'say'. The final 'ble' is soft."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E05",
+      "data": {
+        "phrase": "Je suis d'accord",
+        "meaning": "I agree"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E06",
+      "data": {
+        "phrase": "Je ne suis pas d'accord",
+        "meaning": "I don't agree"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S02",
+      "title": "Discussing Details",
+      "setting": "You continue your discussion with Camille.",
+      "conversation_flow": [
+        {
+          "title": "Mention a specific part you liked",
+          "chatbot_message": "Moi, j'ai beaucoup aimé ! Qu'est-ce que tu as aimé dans le film ?"
+        },
+        {
+          "title": "State if you found the story believable",
+          "chatbot_message": "Ah, la fin était bien ! Et l'histoire, tu as trouvé ça crédible ?"
+        },
+        {
+          "title": "Disagree with your friend",
+          "chatbot_message": "Vraiment ? Moi, j'ai trouvé l'histoire pas très crédible"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Finally, let's learn how to recommend the movie and suggest what to do next."
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E07",
+      "data": {
+        "phrase": "Je recommande ce film",
+        "meaning": "I recommend this movie"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E08",
+      "data": {
+        "phrase": "Je ne recommande pas ce film",
+        "meaning": "I don't recommend this movie"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L23_P03",
+      "data": {
+        "word": "Recommande",
+        "phonetic": "/ʁə.kɔ.mɑ̃d/",
+        "tip": "The 'en' sound is nasal. Try to say 'oh' while breathing out through your nose."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E09",
+      "data": {
+        "phrase": "On peut aller voir...",
+        "meaning": "We can go see..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V10",
+      "data": {
+        "Un autre film": "Another movie"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V11",
+      "data": {
+        "La prochaine fois": "Next time"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E10",
+      "data": {
+        "phrase": "On va boire un verre ?",
+        "meaning": "Shall we go for a drink?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S03",
+      "title": "What's Next?",
+      "setting": "You're wrapping up the conversation with Camille.",
+      "conversation_flow": [
+        {
+          "title": "Say if you would recommend the movie",
+          "chatbot_message": "Ah d'accord. C'est intéressant. Alors, tu recommandes le film ?"
+        },
+        {
+          "title": "Suggest seeing another movie next time",
+          "chatbot_message": "Moi aussi. Qu'est-ce qu'on peut voir la prochaine fois ?"
+        },
+        {
+          "title": "Suggest getting a drink to discuss it",
+          "chatbot_message": "Oui, bonne idée ! On en parle ?"
+        }
+      ]
+    }
+  ]
+}

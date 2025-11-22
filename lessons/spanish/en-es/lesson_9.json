@@ -1,0 +1,243 @@
+{
+  "id": "L9",
+  "title": "Buying Clothes",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! Let's learn how to ask for help in a clothing store in Spain. A clothing store is 'una tienda de ropa'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E01",
+      "data": {
+        "phrase": "Disculpe",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E02",
+      "data": {
+        "phrase": "Busco...",
+        "meaning": "I'm looking for..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V01",
+      "data": {
+        "Un suéter": "A sweater"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V02",
+      "data": {
+        "Azul": "Blue"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L9_P01",
+      "data": {
+        "word": "suéter",
+        "phonetic": "/'sweteɾ/",
+        "tip": "The stress is on the first syllable, 'sué'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E03",
+      "data": {
+        "phrase": "Mi talla es...",
+        "meaning": "My size is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V03",
+      "data": {
+        "La mediana": "The medium"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L9_S01",
+      "title": "Asking for Assistance",
+      "setting": "You are in a clothing store and see a shop assistant. You want to ask for help finding a sweater.",
+      "conversation_flow": [
+        {
+          "title": "Get the assistant's attention",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Say you are looking for a blue sweater",
+          "chatbot_message": "¡Hola! Dígame."
+        },
+        {
+          "title": "State your size",
+          "chatbot_message": "Un suéter azul. Claro. ¿Qué talla?",
+          "extract_info": {
+            "user_size": "Extract the size the user states, e.g., 'la mediana'"
+          }
+        },
+        {
+          "title": "Acknowledge the assistant",
+          "chatbot_message": "Perfecto. Un momento, por favor."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now you need to try on the clothes. The fitting rooms are called 'los probadores'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E04",
+      "data": {
+        "phrase": "¿Dónde están los probadores?",
+        "meaning": "Where are the fitting rooms?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L9_P02",
+      "data": {
+        "word": "probadores",
+        "phonetic": "/pɾoβa'ðoɾes/",
+        "tip": "The 'r' sound is soft, and the stress is on the 'do' syllable."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E05",
+      "data": {
+        "phrase": "Me queda grande",
+        "meaning": "It's too big on me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E06",
+      "data": {
+        "phrase": "Me queda pequeño",
+        "meaning": "It's too small on me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E07",
+      "data": {
+        "phrase": "¿Lo tiene en...?",
+        "meaning": "Do you have it in...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V04",
+      "data": {
+        "Otra talla": "Another size"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L9_S02",
+      "title": "Trying it On",
+      "setting": "The assistant has brought you the sweater. You need to find the fitting rooms and check the size.",
+      "conversation_flow": [
+        {
+          "title": "Ask where the fitting rooms are",
+          "chatbot_message": "Aquí tiene. Un suéter azul, talla {user_size}."
+        },
+        {
+          "title": "Say the sweater is too big",
+          "chatbot_message": "Están al fondo, a la derecha. ... ¿Qué tal?"
+        },
+        {
+          "title": "Ask for it in another size",
+          "chatbot_message": "Oh, entiendo."
+        },
+        {
+          "title": "Acknowledge the assistant's help",
+          "chatbot_message": "Sí, voy a buscar una talla más pequeña."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Time to make a decision! 'Me lo llevo' is a great phrase that means 'I'll take it'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E08",
+      "data": {
+        "phrase": "Esta talla es perfecta",
+        "meaning": "This size is perfect"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E09",
+      "data": {
+        "phrase": "Me lo llevo",
+        "meaning": "I'll take it"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E10",
+      "data": {
+        "phrase": "¿Dónde puedo pagar?",
+        "meaning": "Where can I pay?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L9_V05",
+      "data": {
+        "La caja": "The checkout"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L9_P03",
+      "data": {
+        "word": "caja",
+        "phonetic": "/'kaxa/",
+        "tip": "The 'j' in Spanish sounds like the 'h' in 'hello'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L9_E11",
+      "data": {
+        "phrase": "¿Puedo cambiarlo?",
+        "meaning": "Can I exchange it?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L9_S03",
+      "title": "Making the Purchase",
+      "setting": "You have tried on the new size and it fits perfectly. Now you are ready to buy the sweater.",
+      "conversation_flow": [
+        {
+          "title": "Say the new size is perfect and you'll take it",
+          "chatbot_message": "Aquí tiene. ¿Y esta talla?"
+        },
+        {
+          "title": "Ask where you can pay",
+          "chatbot_message": "¡Genial! Me alegro."
+        },
+        {
+          "title": "Ask if you can exchange it",
+          "chatbot_message": "Puede pagar en la caja, allí. ... (at the checkout) ... Hola. ¿Algo más?"
+        },
+        {
+          "title": "Finish the conversation",
+          "chatbot_message": "Sí, con el ticket tiene 30 días. Son 25 euros."
+        }
+      ]
+    }
+  ]
+}

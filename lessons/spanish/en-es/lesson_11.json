@@ -1,0 +1,298 @@
+{
+  "id": "L11",
+  "title": "Using Public Transport: Buying a Train Ticket",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! Let's learn how to buy a train ticket in Spanish. First, you'll learn how to greet the employee and state your destination."
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E01",
+      "data": {
+        "phrase": "Buenos días",
+        "meaning": "Good morning"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E02",
+      "data": {
+        "phrase": "Quisiera un billete para...",
+        "meaning": "I would like a ticket to..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L11_P01",
+      "data": {
+        "word": "quisiera",
+        "phonetic": "kee-see-EH-rah",
+        "tip": "In Spanish, the 'qu' is pronounced like a 'k', and the 'ie' combination sounds like 'yeh'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V01",
+      "data": {
+        "ida": "one-way"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V02",
+      "data": {
+        "ida y vuelta": "return"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V03",
+      "data": {
+        "Vale": "Okay"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V04",
+      "data": {
+        "Muy bien": "Very good"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E03",
+      "data": {
+        "phrase": "por favor",
+        "meaning": "please"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S01",
+      "title": "Stating Your Destination",
+      "setting": "You are at the train station service desk to buy a ticket.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "¡Buenos días!",
+          "user_goal": {
+            "title": "Greet the employee and ask for a ticket to Utrecht"
+          }
+        },
+        {
+          "chatbot_message": "Vale. ¿Ida o ida y vuelta?",
+          "user_goal": {
+            "title": "Specify you need a one-way ticket"
+          }
+        },
+        {
+          "chatbot_message": "Muy bien. Un billete de ida para Utrecht.",
+          "user_goal": null
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now that you have requested a ticket, let's ask for some more details about the train."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V05",
+      "data": {
+        "el tren": "the train"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V06",
+      "data": {
+        "el próximo": "the next"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V07",
+      "data": {
+        "sale": "it leaves"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E04",
+      "data": {
+        "phrase": "¿A qué hora sale el próximo tren?",
+        "meaning": "What time does the next train leave?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V08",
+      "data": {
+        "a las diez": "at ten o'clock"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V09",
+      "data": {
+        "el andén": "the platform"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V10",
+      "data": {
+        "cinco": "five"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E05",
+      "data": {
+        "phrase": "¿De qué andén sale?",
+        "meaning": "From which platform does it leave?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E06",
+      "data": {
+        "phrase": "¿Es directo?",
+        "meaning": "Is it direct?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V11",
+      "data": {
+        "sí": "yes"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S02",
+      "title": "Asking for Details",
+      "setting": "You continue your conversation at the service desk.",
+      "conversation_flow": [
+        {
+          "chatbot_message": null,
+          "user_goal": {
+            "title": "Ask what time the next train leaves"
+          }
+        },
+        {
+          "chatbot_message": "El próximo tren sale a las diez.",
+          "user_goal": {
+            "title": "Ask which platform it leaves from"
+          }
+        },
+        {
+          "chatbot_message": "Del andén cinco.",
+          "user_goal": {
+            "title": "Ask if the train is direct"
+          }
+        },
+        {
+          "chatbot_message": "Sí, es directo.",
+          "user_goal": null
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Perfect! You have all the information. Let's complete the transaction by paying for the ticket."
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E07",
+      "data": {
+        "phrase": "¿Cuánto es?",
+        "meaning": "How much is it?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E08",
+      "data": {
+        "phrase": "Son...",
+        "meaning": "It is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V12",
+      "data": {
+        "veinticinco": "twenty-five"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L11_V13",
+      "data": {
+        "euros": "euros"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E09",
+      "data": {
+        "phrase": "Aquí tiene",
+        "meaning": "Here you are"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E10",
+      "data": {
+        "phrase": "Gracias",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E11",
+      "data": {
+        "phrase": "De nada",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L11_E12",
+      "data": {
+        "phrase": "¡Buen viaje!",
+        "meaning": "Have a good trip!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L11_S03",
+      "title": "Completing the Transaction",
+      "setting": "You are ready to pay for your ticket.",
+      "conversation_flow": [
+        {
+          "chatbot_message": null,
+          "user_goal": {
+            "title": "Ask for the price"
+          }
+        },
+        {
+          "chatbot_message": "Son veinticinco euros.",
+          "user_goal": {
+            "title": "Pay for the ticket"
+          }
+        },
+        {
+          "chatbot_message": "Gracias. ¡Buen viaje!",
+          "user_goal": {
+            "title": "Thank the employee"
+          }
+        },
+        {
+          "chatbot_message": "De nada.",
+          "user_goal": null
+        }
+      ]
+    }
+  ]
+}

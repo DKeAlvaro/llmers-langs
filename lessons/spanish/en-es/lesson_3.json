@@ -1,0 +1,260 @@
+{
+  "id": "L3",
+  "title": "At the Supermarket",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to ask for help at a Spanish supermarket, 'el supermercado'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V01",
+      "data": {
+        "El supermercado": "The supermarket"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E01",
+      "data": {
+        "phrase": "Perdón",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E02",
+      "data": {
+        "phrase": "¿Dónde está...?",
+        "meaning": "Where is...?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In Spanish, all nouns have a gender. Use 'el' for masculine words and 'la' for feminine words."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V02",
+      "data": {
+        "La leche": "The milk"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V03",
+      "data": {
+        "El pan": "The bread"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V04",
+      "data": {
+        "Allí": "There"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L3_P01",
+      "data": {
+        "word": "Leche",
+        "phonetic": "[ˈle.tʃe]",
+        "tip": "The 'ch' in Spanish sounds just like the 'ch' in the English word 'cheese'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L3_S01",
+      "title": "Asking for Help",
+      "setting": "You are in a supermarket and can't find some items. You see an employee and approach them for help.",
+      "conversation_flow": [
+        {
+          "title": "Get the employee's attention",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Ask where the milk is",
+          "chatbot_message": "¡Hola! ¿Sí?"
+        },
+        {
+          "title": "Ask where the bread is",
+          "chatbot_message": "La leche está allí"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! The employee is helping you. Now let's learn how to ask for quantities and special prices."
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E03",
+      "data": {
+        "phrase": "Quiero...",
+        "meaning": "I want..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V05",
+      "data": {
+        "Quinientos gramos": "500 grams"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V06",
+      "data": {
+        "De": "Of"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V07",
+      "data": {
+        "Las uvas": "The grapes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V08",
+      "data": {
+        "El queso": "The cheese"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E04",
+      "data": {
+        "phrase": "¿Está en oferta?",
+        "meaning": "Is it on sale?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L3_P02",
+      "data": {
+        "word": "Queso",
+        "phonetic": "[ˈke.so]",
+        "tip": "The 'que' here sounds like 'keh'. The 'u' is silent."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E05",
+      "data": {
+        "phrase": "Gracias",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E06",
+      "data": {
+        "phrase": "De nada",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L3_S02",
+      "title": "Asking about Products",
+      "setting": "The employee has shown you the bread. Now you see some grapes and cheese nearby.",
+      "conversation_flow": [
+        {
+          "title": "Ask for 500 grams of grapes",
+          "chatbot_message": "El pan está aquí. ¿Algo más?"
+        },
+        {
+          "title": "Ask if the cheese is on sale",
+          "chatbot_message": "Aquí tiene"
+        },
+        {
+          "title": "Thank the employee",
+          "chatbot_message": "Sí, el queso está en oferta"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! You have all your items. Let's go to the checkout ('la caja') to pay."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V09",
+      "data": {
+        "La caja": "The checkout"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E07",
+      "data": {
+        "phrase": "Buenas tardes",
+        "meaning": "Good afternoon"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V10",
+      "data": {
+        "Una bolsa": "A bag"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V11",
+      "data": {
+        "Por favor": "Please"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "A simple way to ask for something is to say the item followed by 'por favor', like 'Una bolsa, por favor'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E08",
+      "data": {
+        "phrase": "Son diez euros",
+        "meaning": "It's ten euros"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V12",
+      "data": {
+        "Vale": "OK"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E09",
+      "data": {
+        "phrase": "Adiós",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L3_S03",
+      "title": "Paying at the Checkout",
+      "setting": "You've placed your items on the counter and are now interacting with the cashier.",
+      "conversation_flow": [
+        {
+          "title": "Greet the cashier",
+          "chatbot_message": "Buenas tardes"
+        },
+        {
+          "title": "Ask for a bag",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Respond to the total",
+          "chatbot_message": "Claro. Son diez euros"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "id": "L23",
+  "title": "Expressing Your Opinion about a Movie",
+  "content": [
+    {
+      "type": "tip",
+      "text": "After watching a movie, you'll often discuss it. Let's learn how to share your first impressions in Spanish."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V01",
+      "data": {
+        "la película": "the movie"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E01",
+      "data": {
+        "phrase": "¿Qué tal la película?",
+        "meaning": "How was the movie?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V02",
+      "data": {
+        "fantástica": "fantastic"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V03",
+      "data": {
+        "aburrida": "boring"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V04",
+      "data": {
+        "divertida": "funny"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E02",
+      "data": {
+        "phrase": "La película fue...",
+        "meaning": "The movie was..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Notice how adjectives like `fantástica` and `aburrida` end in '-a'. This is because 'la película' is a feminine word in Spanish."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V05",
+      "data": {
+        "los actores": "the actors"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V06",
+      "data": {
+        "buenos": "good"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E03",
+      "data": {
+        "phrase": "Los actores fueron...",
+        "meaning": "The actors were..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L23_P01",
+      "data": {
+        "word": "película",
+        "phonetic": "pe-LÍ-cu-la",
+        "tip": "The stress in `película` is on the second syllable, 'lí'. Practice that emphasis!"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E04",
+      "data": {
+        "phrase": "¿Y a ti?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E05",
+      "data": {
+        "phrase": "¿Qué te pareció?",
+        "meaning": "What did you think of it?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S01",
+      "title": "First Impressions",
+      "setting": "You've just finished watching a movie with your friend, Ana.",
+      "conversation_flow": [
+        {
+          "title": "State your overall opinion",
+          "chatbot_message": "Bueno, ¿qué tal la película?",
+          "extract_info": {
+            "movie_opinion": "Extract the main adjective the user uses to describe the movie (e.g., fantástica, aburrida)"
+          }
+        },
+        {
+          "title": "Mention what you thought of the actors",
+          "chatbot_message": "Ah, ¿sí? A mí también me pareció {movie_opinion}. ¿Y los actores?"
+        },
+        {
+          "title": "Ask your friend for their general opinion",
+          "chatbot_message": "Entiendo."
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E06",
+      "data": {
+        "phrase": "Me gustó",
+        "meaning": "I liked"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E07",
+      "data": {
+        "phrase": "No me gustó",
+        "meaning": "I didn't like"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V07",
+      "data": {
+        "muy": "very"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V08",
+      "data": {
+        "el final": "the ending"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V09",
+      "data": {
+        "la historia": "the story"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L23_P02",
+      "data": {
+        "word": "historia",
+        "phonetic": "is-TO-ria",
+        "tip": "The 'h' in Spanish is always silent. It sounds like 'istoria'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V10",
+      "data": {
+        "creíble": "believable"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Adjectives that end in '-e' like `creíble` don't change for gender. You can say 'el final fue creíble' or 'la historia fue creíble'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E08",
+      "data": {
+        "phrase": "Estoy de acuerdo",
+        "meaning": "I agree"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E09",
+      "data": {
+        "phrase": "No estoy de acuerdo",
+        "meaning": "I disagree"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S02",
+      "title": "Discussing the Details",
+      "setting": "The conversation with Ana continues.",
+      "conversation_flow": [
+        {
+          "title": "Mention a specific part you liked or disliked",
+          "chatbot_message": "A mí me pareció interesante, pero no me gustó el final."
+        },
+        {
+          "title": "Agree or disagree about the story",
+          "chatbot_message": "Ya veo. Para mí, la historia no fue muy creíble."
+        },
+        {
+          "title": "End this part of the conversation",
+          "chatbot_message": "Vale, entiendo."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V11",
+      "data": {
+        "entonces": "so / then"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E10",
+      "data": {
+        "phrase": "La recomiendo",
+        "meaning": "I recommend it"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E11",
+      "data": {
+        "phrase": "No la recomiendo",
+        "meaning": "I don't recommend it"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In `La recomiendo`, the word `la` means 'it' and refers to `la película`. It's a direct object pronoun placed before the verb."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V12",
+      "data": {
+        "la próxima vez": "next time"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E12",
+      "data": {
+        "phrase": "Podemos ver...",
+        "meaning": "We can see..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V13",
+      "data": {
+        "una comedia": "a comedy"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L23_E13",
+      "data": {
+        "phrase": "¿Quieres tomar algo?",
+        "meaning": "Do you want to get something to drink?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V14",
+      "data": {
+        "un café": "a coffee"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L23_V15",
+      "data": {
+        "¡Claro!": "Of course!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L23_S03",
+      "title": "Recommending and Planning",
+      "setting": "You're wrapping up your movie discussion with Ana.",
+      "conversation_flow": [
+        {
+          "title": "Say whether you would recommend the movie",
+          "chatbot_message": "Entonces, ¿recomiendas la película?"
+        },
+        {
+          "title": "Suggest a type of movie to see next time",
+          "chatbot_message": "Vale. ¿Qué podemos ver la próxima vez?"
+        },
+        {
+          "title": "Propose getting a drink to discuss further",
+          "chatbot_message": "¡Buena idea! Ver una comedia es perfecto."
+        },
+        {
+          "title": "End the conversation",
+          "chatbot_message": "¡Claro! Vamos."
+        }
+      ]
+    }
+  ]
+}

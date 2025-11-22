@@ -1,0 +1,322 @@
+{
+  "id": "L15",
+  "title": "At the Doctor's Office",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you will learn how to talk to a doctor in the Netherlands. The Dutch word for a general practitioner is 'huisarts'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V01",
+      "data": {
+        "De huisarts": "The GP / doctor"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V02",
+      "data": {
+        "De afspraak": "The appointment"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E01",
+      "data": {
+        "phrase": "Goedemiddag",
+        "meaning": "Good afternoon"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V03",
+      "data": {
+        "Ik heb": "I have"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E02",
+      "data": {
+        "phrase": "Ik heb een afspraak",
+        "meaning": "I have an appointment"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V04",
+      "data": {
+        "De hoofdpijn": "The headache"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E03",
+      "data": {
+        "phrase": "Ik heb hoofdpijn",
+        "meaning": "I have a headache"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L15_P01",
+      "data": {
+        "word": "hoofdpijn",
+        "phonetic": "/'hoːft.pɛin/",
+        "tip": "The 'oo' is a long sound, like in 'hope'. The 'ij' sounds like the 'i' in 'fine'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V05",
+      "data": {
+        "Drie": "Three"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V06",
+      "data": {
+        "De dagen": "The days"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E04",
+      "data": {
+        "phrase": "Al drie dagen",
+        "meaning": "For three days"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15_S01",
+      "title": "Checking In",
+      "setting": "You arrive at the doctor's office. You first speak to the receptionist, then the doctor calls you in.",
+      "conversation_flow": [
+        {
+          "title": "Greet the receptionist",
+          "chatbot_message": "Goedemiddag."
+        },
+        {
+          "title": "State that you have an appointment",
+          "chatbot_message": "Oké."
+        },
+        {
+          "title": "Explain your main symptom",
+          "chatbot_message": "Goedemiddag. Wat is het probleem?"
+        },
+        {
+          "title": "Say how long you have had the problem",
+          "chatbot_message": "Hoe lang heb je al hoofdpijn?"
+        },
+        {
+          "title": "Listen to the doctor's response",
+          "chatbot_message": "Oké. Drie dagen."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V07",
+      "data": {
+        "De klacht": "The complaint / symptom"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V08",
+      "data": {
+        "Ook": "Also / too"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V09",
+      "data": {
+        "De koorts": "The fever"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E05",
+      "data": {
+        "phrase": "Ik heb ook koorts",
+        "meaning": "I also have a fever"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When you want to add another symptom or piece of information, you can use the word 'ook' (also)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V10",
+      "data": {
+        "Mijn": "My"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V11",
+      "data": {
+        "Het hoofd": "The head"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E06",
+      "data": {
+        "phrase": "Mijn hoofd doet pijn",
+        "meaning": "My head hurts"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V12",
+      "data": {
+        "Ja": "Yes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V13",
+      "data": {
+        "De medicijnen": "The medicines"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V14",
+      "data": {
+        "Paracetamol": "Paracetamol"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15_S02",
+      "title": "Answering Questions",
+      "setting": "The conversation with the doctor continues. They are asking more questions to understand your problem.",
+      "conversation_flow": [
+        {
+          "title": "Describe another symptom",
+          "chatbot_message": "Heb je nog andere klachten?"
+        },
+        {
+          "title": "Answer where it hurts",
+          "chatbot_message": "Oké. En waar doet het pijn?"
+        },
+        {
+          "title": "Tell the doctor what you have taken",
+          "chatbot_message": "Oké, je hoofd. Heb je medicijnen genomen?"
+        },
+        {
+          "title": "Listen to the doctor's acknowledgement",
+          "chatbot_message": "Paracetamol. Goed."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V15",
+      "data": {
+        "Langzaam": "Slowly"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V16",
+      "data": {
+        "Alstublieft": "Please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E07",
+      "data": {
+        "phrase": "Kan je dat langzaam zeggen?",
+        "meaning": "Can you say that slowly?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "If you don't understand, it's very useful to ask: 'Kan je dat langzaam zeggen, alstublieft?'"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V17",
+      "data": {
+        "Het recept": "The prescription"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L15_P02",
+      "data": {
+        "word": "recept",
+        "phonetic": "/rəˈsɛpt/",
+        "tip": "The 'c' in the middle is pronounced like an 's'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L15_V18",
+      "data": {
+        "Nodig": "Necessary / needed"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E08",
+      "data": {
+        "phrase": "Heb ik een recept nodig?",
+        "meaning": "Do I need a prescription?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To make a noun negative, use 'geen'. For example, 'ik heb een recept' (I have a prescription) becomes 'ik heb geen recept' (I have no prescription)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E09",
+      "data": {
+        "phrase": "Dank je wel",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L15_E10",
+      "data": {
+        "phrase": "Bedankt",
+        "meaning": "Thanks"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L15_S03",
+      "title": "Understanding the Advice",
+      "setting": "The doctor has finished the examination and is giving you advice.",
+      "conversation_flow": [
+        {
+          "title": "Ask the doctor to repeat slowly",
+          "chatbot_message": "Oké. Advies: veel water drinken en veel rusten."
+        },
+        {
+          "title": "Ask if you need a prescription",
+          "chatbot_message": "Ja. Drink veel water. En rust veel."
+        },
+        {
+          "title": "Thank the doctor",
+          "chatbot_message": "Nee, je hebt geen recept nodig. Paracetamol is goed."
+        },
+        {
+          "title": "End the conversation",
+          "chatbot_message": "Graag gedaan. Beterschap!"
+        }
+      ]
+    }
+  ]
+}

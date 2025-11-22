@@ -1,0 +1,276 @@
+{
+  "id": "L6",
+  "title": "At the Market",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, we will learn how to buy fresh produce at a Dutch outdoor market, 'de markt'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6_V01",
+      "data": {
+        "De markt": "The market"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E01",
+      "data": {
+        "Goedemiddag": "Good afternoon"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When asking about plural items like 'de tomaten' (the tomatoes), the verb 'zijn' (to be) changes. For now, just remember to use 'kosten' for plural items."
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E02",
+      "data": {
+        "Hoeveel kosten...?": "How much do... cost?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6_V02",
+      "data": {
+        "De tomaten": "The tomatoes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6_V03",
+      "data": {
+        "De kilo": "The kilo"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L6_P01",
+      "data": {
+        "word": "kilo",
+        "phonetic": "/'ki.lo/",
+        "tip": "The 'i' sounds like the 'ee' in 'see'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6_V04",
+      "data": {
+        "De euro": "The euro"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6_V05",
+      "data": {
+        "Drie": "Three"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E03",
+      "data": {
+        "Ik wil graag...": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6_V06",
+      "data": {
+        "Een": "One / A"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "'Graag' is a key word for being polite in Dutch. Adding it to a request is similar to saying 'please'."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L6_S01",
+      "title": "Buying Tomatoes",
+      "setting": "You are at a vegetable stall at the market. You want to buy some tomatoes.",
+      "conversation_flow": [
+        {
+          "title": "Greet the vendor",
+          "chatbot_message": "Goedemiddag! Zeg het maar."
+        },
+        {
+          "title": "Ask how much the tomatoes cost per kilo",
+          "chatbot_message": "Hallo! Wat kan ik voor je doen?",
+          "extract_info": {}
+        },
+        {
+          "title": "Ask for one kilo of tomatoes",
+          "chatbot_message": "De tomaten kosten drie euro per kilo."
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E04",
+      "data": {
+        "Nog iets?": "Anything else?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E05",
+      "data": {
+        "Wat is dat?": "What is that?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6_V07",
+      "data": {
+        "De kaas": "The cheese"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L6_P02",
+      "data": {
+        "word": "kaas",
+        "phonetic": "/kaːs/",
+        "tip": "The 'aa' sound is long, like the 'a' in 'father'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E06",
+      "data": {
+        "Mag ik proeven?": "May I taste/try?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E07",
+      "data": {
+        "Ja, natuurlijk": "Yes, of course"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6_V08",
+      "data": {
+        "Lekker": "Tasty / Delicious"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E08",
+      "data": {
+        "Dat is lekker": "That is delicious"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6_V09",
+      "data": {
+        "Een stuk": "A piece"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L6_S02",
+      "title": "Trying Some Cheese",
+      "setting": "You see an interesting-looking cheese at the stall and want to try it before you buy.",
+      "conversation_flow": [
+        {
+          "title": "Point to the cheese and ask what it is",
+          "chatbot_message": "Oké, een kilo tomaten. Nog iets?"
+        },
+        {
+          "title": "Ask if you can try a sample",
+          "chatbot_message": "Dat is kaas."
+        },
+        {
+          "title": "Say it's delicious and that you want a piece",
+          "chatbot_message": "Ja, natuurlijk."
+        }
+      ]
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E09",
+      "data": {
+        "Nee, dat is alles": "No, that is all"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E10",
+      "data": {
+        "Hoeveel is het samen?": "How much is it together?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6_V10",
+      "data": {
+        "Samen": "Together"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6_V11",
+      "data": {
+        "Zeven": "Seven"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E11",
+      "data": {
+        "Alstublieft": "Here you are / Please"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "'Alstublieft' is very versatile. You use it when you give something (like money) and the other person says it when they give you something back (like your change)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L6_V12",
+      "data": {
+        "Tien": "Ten"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E12",
+      "data": {
+        "Dank je wel": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L6_E13",
+      "data": {
+        "Tot ziens": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L6_S03",
+      "title": "Paying for Your Groceries",
+      "setting": "You have everything you want. Now it's time to pay and leave.",
+      "conversation_flow": [
+        {
+          "title": "Ask for the total price",
+          "chatbot_message": "Oké, een stuk kaas. Nog iets?"
+        },
+        {
+          "title": "Pay with a ten euro note",
+          "chatbot_message": "Samen is dat zeven euro."
+        },
+        {
+          "title": "Thank the vendor and say goodbye",
+          "chatbot_message": "Dank je. Drie euro terug. Alstublieft."
+        }
+      ]
+    }
+  ]
+}

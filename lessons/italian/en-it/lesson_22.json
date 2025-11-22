@@ -1,0 +1,339 @@
+{
+  "id": "L22",
+  "title": "Ordering Food for Delivery by Phone",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to order a pizza for delivery over the phone in Italian. Let's start by placing the order."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E01",
+      "data": {
+        "phrase": "Buonasera",
+        "meaning": "Good evening"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22_P01",
+      "data": {
+        "word": "Buonasera",
+        "phonetic": "Bwo-nah-SEH-rah",
+        "tip": "Stress the 'SEH' syllable. It's a common greeting in the afternoon and evening."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E02",
+      "data": {
+        "phrase": "Vorrei ordinare",
+        "meaning": "I would like to order"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22_P02",
+      "data": {
+        "word": "Vorrei",
+        "phonetic": "Vor-REY",
+        "tip": "Roll the 'r' sounds. The 'ei' at the end sounds like the 'ay' in 'say'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V01",
+      "data": {
+        "A domicilio": "For delivery"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V02",
+      "data": {
+        "Una pizza": "A pizza"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V03",
+      "data": {
+        "Margherita": "Margherita"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V04",
+      "data": {
+        "Al salame": "With salami"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E03",
+      "data": {
+        "phrase": "Prendo...",
+        "meaning": "I'll take..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V05",
+      "data": {
+        "Una Coca-Cola": "A Coca-Cola"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22_S01",
+      "title": "Placing your order",
+      "setting": "You are calling 'Pizzeria Bella Napoli' to order a pizza for delivery.",
+      "conversation_flow": [
+        {
+          "title": "Greet and state your purpose",
+          "chatbot_message": "Pizzeria Bella Napoli, buonasera!"
+        },
+        {
+          "title": "Order a salami pizza",
+          "chatbot_message": "Certo! Cosa prende?"
+        },
+        {
+          "title": "Order a drink",
+          "chatbot_message": "Bene. Una pizza al salame. E da bere?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great job! Now you need to provide your personal details so they know where to deliver the pizza."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E04",
+      "data": {
+        "phrase": "Mi chiamo...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V06",
+      "data": {
+        "L'indirizzo": "The address"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To give an address in Italian, you say the street type first, then the name and number. For example: 'Via Roma, numero 5'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V07",
+      "data": {
+        "La via": "The street"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V08",
+      "data": {
+        "Il numero": "The number"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E05",
+      "data": {
+        "phrase": "Il mio numero di telefono è...",
+        "meaning": "My phone number is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V09",
+      "data": {
+        "Zero": "Zero"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V10",
+      "data": {
+        "Uno": "One"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V11",
+      "data": {
+        "Due": "Two"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V12",
+      "data": {
+        "Tre": "Three"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V13",
+      "data": {
+        "Quattro": "Four"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V14",
+      "data": {
+        "Cinque": "Five"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V15",
+      "data": {
+        "Sei": "Six"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V16",
+      "data": {
+        "Sette": "Seven"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V17",
+      "data": {
+        "Otto": "Eight"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V18",
+      "data": {
+        "Nove": "Nine"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22_S02",
+      "title": "Giving your details",
+      "setting": "The pizzeria now needs your name, address, and phone number for the delivery.",
+      "conversation_flow": [
+        {
+          "title": "State your full name",
+          "chatbot_message": "Perfetto. Una pizza al salame e una Coca-Cola. A che nome?",
+          "extract_info": {
+            "user_full_name": "Extract the user's full name from their message"
+          }
+        },
+        {
+          "title": "Give your address",
+          "chatbot_message": "Grazie, {user_full_name}. E l'indirizzo?"
+        },
+        {
+          "title": "Give your phone number",
+          "chatbot_message": "Ok. E il suo numero di telefono?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "You're almost done. Let's ask for the price and delivery time to finalize the order."
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E06",
+      "data": {
+        "phrase": "Quant'è il totale?",
+        "meaning": "How much is the total?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22_P03",
+      "data": {
+        "word": "Quant'è",
+        "phonetic": "Kwan-TEH",
+        "tip": "This is a contraction of 'Quanto è'. The accent on the 'e' tells you to stress that syllable."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V19",
+      "data": {
+        "Euro": "Euro"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E07",
+      "data": {
+        "phrase": "Quanto tempo ci vuole?",
+        "meaning": "How long does it take?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V20",
+      "data": {
+        "Circa": "Approximately"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V21",
+      "data": {
+        "Minuti": "Minutes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E08",
+      "data": {
+        "phrase": "Grazie",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E09",
+      "data": {
+        "phrase": "Arrivederci",
+        "meaning": "Goodbye (formal)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E10",
+      "data": {
+        "phrase": "Buona serata",
+        "meaning": "Have a good evening"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22_S03",
+      "title": "Finalizing the call",
+      "setting": "You just need to confirm the price and delivery time before hanging up.",
+      "conversation_flow": [
+        {
+          "title": "Ask for the total cost",
+          "chatbot_message": "Perfetto, ho tutto. Altro?"
+        },
+        {
+          "title": "Ask about the delivery time",
+          "chatbot_message": "Il totale è 15 euro."
+        },
+        {
+          "title": "Thank them and end the call",
+          "chatbot_message": "Circa 30 minuti."
+        }
+      ]
+    }
+  ]
+}

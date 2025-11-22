@@ -1,0 +1,301 @@
+{
+  "id": "L21",
+  "title": "At the Pharmacy",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! Today you'll learn how to pick up a prescription at a Dutch pharmacy, 'de apotheek'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V01",
+      "data": {
+        "De apotheek": "The pharmacy"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V02",
+      "data": {
+        "Het recept": "The prescription"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E01",
+      "data": {
+        "phrase": "Goedemiddag",
+        "meaning": "Good afternoon"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L21_P01",
+      "data": {
+        "word": "Goedemiddag",
+        "phonetic": "[ˌɣudəˈmɪdɑx]",
+        "tip": "The 'g' in Dutch is a soft, throaty sound, similar to the 'ch' in 'loch'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E02",
+      "data": {
+        "phrase": "Ik kom voor een recept",
+        "meaning": "I am here for a prescription"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E03",
+      "data": {
+        "phrase": "Alstublieft",
+        "meaning": "Here you are / Please"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Use 'Alstublieft' when you give something to someone, like your prescription."
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E04",
+      "data": {
+        "phrase": "Dank je",
+        "meaning": "Thank you (informal)"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S01",
+      "title": "Stating Your Needs",
+      "setting": "You arrive at the pharmacy to pick up a prescription.",
+      "conversation_flow": [
+        {
+          "title": "Greet the pharmacist",
+          "chatbot_message": null
+        },
+        {
+          "title": "Say that you are here to pick up a prescription for {your name}",
+          "chatbot_message": "Goedemiddag.",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Hand over the prescription",
+          "chatbot_message": "Oké, een recept voor {user_name}. Een moment, alstublieft."
+        },
+        {
+          "title": "Wait for the pharmacist's response",
+          "chatbot_message": "Dank je. Ik ga het halen."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "To ask a question in Dutch, you often start with a question word like 'Hoeveel' (How many) or put the verb first."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V03",
+      "data": {
+        "De medicijnen": "The medicines"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V04",
+      "data": {
+        "Twee": "Two"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V05",
+      "data": {
+        "Drie": "Three"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E05",
+      "data": {
+        "phrase": "Hoeveel keer per dag?",
+        "meaning": "How many times a day?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V06",
+      "data": {
+        "Het eten": "The meal"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V07",
+      "data": {
+        "Voor": "Before"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V08",
+      "data": {
+        "Na": "After"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E06",
+      "data": {
+        "phrase": "Voor of na het eten?",
+        "meaning": "Before or after the meal?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V09",
+      "data": {
+        "De pijnstillers": "The painkillers"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E07",
+      "data": {
+        "phrase": "Moet ik ook pijnstillers kopen?",
+        "meaning": "Should I also buy painkillers?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V10",
+      "data": {
+        "Nee": "No"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S02",
+      "title": "Asking for Instructions",
+      "setting": "The pharmacist has your prescription and gives you the medicine. Now, ask for instructions.",
+      "conversation_flow": [
+        {
+          "title": "Ask how many times a day you should take the medicine",
+          "chatbot_message": "Alstublieft, de medicijnen."
+        },
+        {
+          "title": "Ask if you should take it before or after meals",
+          "chatbot_message": "Twee keer per dag."
+        },
+        {
+          "title": "Ask if you also need to buy something else, like painkillers",
+          "chatbot_message": "Na het eten."
+        },
+        {
+          "title": "Acknowledge the answer",
+          "chatbot_message": "Nee, dat is niet nodig."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "'Pinnen' is the most common way to pay in the Netherlands. It specifically means paying with a debit card."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V11",
+      "data": {
+        "De verzekering": "The insurance"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V12",
+      "data": {
+        "Vijf": "Five"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V13",
+      "data": {
+        "De euro": "The euro"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E08",
+      "data": {
+        "phrase": "Is dat alles?",
+        "meaning": "Is that everything?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E09",
+      "data": {
+        "phrase": "Betaalt de verzekering?",
+        "meaning": "Does the insurance pay?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E10",
+      "data": {
+        "phrase": "Kan ik pinnen?",
+        "meaning": "Can I pay by card (debit)?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E11",
+      "data": {
+        "phrase": "Dank u wel",
+        "meaning": "Thank you (formal)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E12",
+      "data": {
+        "phrase": "Fijne dag",
+        "meaning": "Have a nice day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E13",
+      "data": {
+        "phrase": "Graag gedaan",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S03",
+      "title": "Payment and Closing",
+      "setting": "You have all the information. It's time to pay and leave.",
+      "conversation_flow": [
+        {
+          "title": "Ask if your insurance covers the cost",
+          "chatbot_message": "Oké. Is dat alles?"
+        },
+        {
+          "title": "Ask to pay by card",
+          "chatbot_message": "Ja, de verzekering betaalt. Jij betaalt vijf euro."
+        },
+        {
+          "title": "Thank the pharmacist and wish them a good day",
+          "chatbot_message": "Ja, dat kan. Alstublieft."
+        },
+        {
+          "title": "You're all set!",
+          "chatbot_message": "Graag gedaan. Fijne dag!"
+        }
+      ]
+    }
+  ]
+}

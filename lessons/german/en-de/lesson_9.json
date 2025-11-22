@@ -1,0 +1,245 @@
+{
+  "id": "L09",
+  "title": "Buying Clothes",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to ask for help in a German clothing store, try on clothes, and ask about sizes. Let's go shopping!"
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E01",
+      "data": {
+        "phrase": "Entschuldigung",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L09_P01",
+      "data": {
+        "word": "Entschuldigung",
+        "phonetic": "[ɛntˈʃʊldɪɡʊŋ]",
+        "tip": "The 'sch' sound is like the 'sh' in 'shoe'. Try to stress the second syllable: '-schul-.'"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E02",
+      "data": {
+        "phrase": "Ich suche...",
+        "meaning": "I am looking for..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V01",
+      "data": {
+        "der Pullover": "the sweater"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V02",
+      "data": {
+        "blau": "blue"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When you look for a masculine item (`der`), use `einen`. For example: 'Ich suche einen Pullover'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V03",
+      "data": {
+        "die Größe": "the size"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E03",
+      "data": {
+        "phrase": "Ich habe Größe...",
+        "meaning": "I have size..."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L09_S01",
+      "title": "Asking for Assistance",
+      "setting": "You are in a clothing store. You see a shop assistant and want to ask for help finding a sweater.",
+      "conversation_flow": [
+        {
+          "title": "Get the shop assistant's attention",
+          "chatbot_message": null
+        },
+        {
+          "title": "Say you are looking for a blue sweater",
+          "chatbot_message": "Hallo! Ja, bitte?"
+        },
+        {
+          "title": "State your size (e.g., M)",
+          "chatbot_message": "Ein blauer Pullover. Okay. Welche Größe haben Sie?",
+          "extract_info": {
+            "user_size": "Extract the user's clothing size from the message"
+          }
+        },
+        {
+          "title": "Acknowledge the assistant",
+          "chatbot_message": "Größe {user_size}... Einen Moment. Hier, bitte schön."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V04",
+      "data": {
+        "die Umkleidekabine": "the fitting room"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E04",
+      "data": {
+        "phrase": "Wo sind die Umkleidekabinen?",
+        "meaning": "Where are the fitting rooms?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To avoid repeating 'der Pullover', you can use the pronoun 'er', which means 'he' or 'it'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V05",
+      "data": {
+        "zu groß": "too big"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V06",
+      "data": {
+        "zu klein": "too small"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E05",
+      "data": {
+        "phrase": "Haben Sie...?",
+        "meaning": "Do you have...?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When you ask about a masculine item (`der`), you use `ihn` (him/it). For example: 'Haben Sie ihn in Größe S?'"
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L09_S02",
+      "title": "Trying it On",
+      "setting": "The assistant has given you a sweater. Now you want to try it on and check the size.",
+      "conversation_flow": [
+        {
+          "title": "Ask where the fitting rooms are",
+          "chatbot_message": null
+        },
+        {
+          "title": "Say the sweater is too big",
+          "chatbot_message": "Die Umkleidekabinen sind dort drüben. ... Passt er?"
+        },
+        {
+          "title": "Ask for the sweater in size S",
+          "chatbot_message": "Oh, zu groß. Okay."
+        },
+        {
+          "title": "Acknowledge the assistant",
+          "chatbot_message": "Größe S... Ja, hier. Bitte sehr."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "The verb 'passen' means 'to fit'. You can say 'er passt' for 'it fits'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V07",
+      "data": {
+        "perfekt": "perfect"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E06",
+      "data": {
+        "phrase": "Er passt perfekt",
+        "meaning": "It fits perfectly"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E07",
+      "data": {
+        "phrase": "Ich nehme ihn",
+        "meaning": "I'll take it (for a masculine noun)"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V08",
+      "data": {
+        "die Kasse": "the checkout / cash register"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E08",
+      "data": {
+        "phrase": "Wo ist die Kasse?",
+        "meaning": "Where is the checkout?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L09_V09",
+      "data": {
+        "umtauschen": "to exchange"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L09_E09",
+      "data": {
+        "phrase": "Kann ich ihn umtauschen?",
+        "meaning": "Can I exchange it?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L09_S03",
+      "title": "Making the Purchase",
+      "setting": "You've tried on the new size and it fits. You are now ready to buy it.",
+      "conversation_flow": [
+        {
+          "title": "Say it's perfect and you'll buy it",
+          "chatbot_message": "Passt dieser?"
+        },
+        {
+          "title": "Ask where the checkout is",
+          "chatbot_message": "Sehr gut!"
+        },
+        {
+          "title": "Ask if you can exchange it",
+          "chatbot_message": "Die Kasse ist dort vorne. ... *at the checkout* ... Hallo! Das macht 30 Euro."
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Ja, natürlich. Mit dem Kassenbon. Auf Wiedersehen!"
+        }
+      ]
+    }
+  ]
+}

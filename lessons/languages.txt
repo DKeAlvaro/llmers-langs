@@ -1,0 +1,12 @@
+english-en
+french-fr
+spanish-es
+german-de
+japanese-ja
+chinese(mandarin)-zh
+italian-it
+russian-ru
+korean-ko
+portuguese-pt
+arabic-ar
+dutch-nl

@@ -1,0 +1,268 @@
+{
+  "id": "L1",
+  "title": "First Day at Language School",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Benvenuto! Welcome to your first Italian lesson. We'll learn just what you need to introduce yourself to a new classmate."
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E01",
+      "data": {
+        "phrase": "Ciao",
+        "meaning": "Hello / Hi"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L1_P01",
+      "data": {
+        "word": "Ciao",
+        "phonetic": "[ˈtʃaːo]",
+        "tip": "The 'ci' sound in Italian is like the 'ch' in 'cheese'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E02",
+      "data": {
+        "phrase": "Mi chiamo...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L1_P02",
+      "data": {
+        "word": "chiamo",
+        "phonetic": "[ˈkjaːmo]",
+        "tip": "The 'chi' combination sounds like a hard 'k' in English, as in 'key'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E03",
+      "data": {
+        "phrase": "Come ti chiami?",
+        "meaning": "What's your name?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E04",
+      "data": {
+        "phrase": "Piacere",
+        "meaning": "Nice to meet you"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L1_S01",
+      "title": "Initial Introductions",
+      "setting": "You are in your Italian class before the lesson starts. A classmate turns to you and says hello.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Ciao!"
+        },
+        {
+          "title": "Respond to the greeting and state your name",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "chatbot_message": "Piacere, {user_name}!"
+        },
+        {
+          "title": "Ask for their name"
+        },
+        {
+          "chatbot_message": "Mi chiamo Luca."
+        },
+        {
+          "title": "State that it's nice to meet them"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to ask and say where you are from. A simple 'E tu?' is a great way to ask 'And you?'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E05",
+      "data": {
+        "phrase": "Di dove sei?",
+        "meaning": "Where are you from?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E06",
+      "data": {
+        "phrase": "Sono di...",
+        "meaning": "I am from..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V01",
+      "data": {
+        "l'Inghilterra": "England"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V02",
+      "data": {
+        "gli Stati Uniti": "the United States"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L1_P03",
+      "data": {
+        "word": "gli",
+        "phonetic": "[ʎi]",
+        "tip": "This is a unique Italian sound, similar to the 'lli' in the English word 'million'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E07",
+      "data": {
+        "phrase": "E tu?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E08",
+      "data": {
+        "phrase": "Abito a...",
+        "meaning": "I live in..."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L1_S02",
+      "title": "Exchanging Origins",
+      "setting": "The conversation continues with your new classmate, Luca.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Piacere mio."
+        },
+        {
+          "title": "Ask Luca where he is from"
+        },
+        {
+          "chatbot_message": "Sono di Roma. E tu?"
+        },
+        {
+          "title": "State your country of origin",
+          "extract_info": {
+            "user_country": "Extract the user's country from their message"
+          }
+        },
+        {
+          "chatbot_message": "Ah, {user_country}! Bello. Io abito qui a Milano."
+        },
+        {
+          "title": "Mention the city you currently live in",
+          "extract_info": {
+            "user_city": "Extract the user's city from their message"
+          }
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "'A dopo' is a friendly, informal way to say goodbye when you expect to see the person again very soon."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L1_V03",
+      "data": {
+        "La lezione": "The lesson"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E09",
+      "data": {
+        "phrase": "Oh",
+        "meaning": "Oh"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E10",
+      "data": {
+        "phrase": "Inizia la lezione",
+        "meaning": "The lesson is starting"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E11",
+      "data": {
+        "phrase": "Buona fortuna",
+        "meaning": "Good luck"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E12",
+      "data": {
+        "phrase": "Grazie",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E13",
+      "data": {
+        "phrase": "Anche a te",
+        "meaning": "You too"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E14",
+      "data": {
+        "phrase": "A dopo",
+        "meaning": "See you later"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L1_S03",
+      "title": "Wrapping up the First Chat",
+      "setting": "The teacher has just walked in and is about to start the class.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Ah, {user_city}. Bene."
+        },
+        {
+          "title": "Acknowledge that the lesson is starting"
+        },
+        {
+          "chatbot_message": "Sì, è vero."
+        },
+        {
+          "title": "Wish them good luck"
+        },
+        {
+          "chatbot_message": "Grazie! Anche a te."
+        },
+        {
+          "title": "Say goodbye for now"
+        },
+        {
+          "chatbot_message": "A dopo!"
+        }
+      ]
+    }
+  ]
+}

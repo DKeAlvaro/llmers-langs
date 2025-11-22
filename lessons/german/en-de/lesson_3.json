@@ -1,0 +1,280 @@
+{
+  "id": "L03",
+  "title": "Im Supermarkt",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Willkommen! In dieser Lektion üben wir einen Einkauf im deutschen Supermarkt. Du wirst lernen, wie man nach Produkten fragt und an der Kasse bezahlt."
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E01",
+      "data": {
+        "phrase": "Entschuldigung",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E02",
+      "data": {
+        "phrase": "Wo finde ich...?",
+        "meaning": "Where do I find...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V01",
+      "data": {
+        "die Milch": "the milk"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V02",
+      "data": {
+        "das Brot": "the bread"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V03",
+      "data": {
+        "und": "and"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V04",
+      "data": {
+        "da": "there"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V05",
+      "data": {
+        "auch": "also / too"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V06",
+      "data": {
+        "ja": "yes"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L03_P01",
+      "data": {
+        "word": "Entschuldigung",
+        "phonetic": "[ɛntˈʃʊldɪɡʊŋ]",
+        "tip": "The 'sch' is pronounced like 'sh' in 'shoe'. The 'u' is short."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L03_S01",
+      "title": "Asking for Help",
+      "setting": "You are in a supermarket and can't find milk or bread. You see an employee nearby.",
+      "conversation_flow": [
+        {
+          "title": "Get the employee's attention",
+          "chatbot_message": "Hallo! Ja?"
+        },
+        {
+          "title": "Ask where to find the milk",
+          "chatbot_message": "Die Milch ist da."
+        },
+        {
+          "title": "Ask where to find the bread",
+          "chatbot_message": "Das Brot ist auch da."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! To ask for something politely, you can use the phrase 'Ich hätte gern...', which means 'I would like...'. It's very common when ordering food or products."
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E03",
+      "data": {
+        "phrase": "Ich hätte gern...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V07",
+      "data": {
+        "fünfhundert": "five hundred"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V08",
+      "data": {
+        "das Gramm": "the gram"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V09",
+      "data": {
+        "die Trauben": "the grapes"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E04",
+      "data": {
+        "phrase": "Ist ... im Angebot?",
+        "meaning": "Is ... on sale?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V10",
+      "data": {
+        "der Käse": "the cheese"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E05",
+      "data": {
+        "phrase": "Danke schön",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E06",
+      "data": {
+        "phrase": "Gern geschehen",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L03_P02",
+      "data": {
+        "word": "Käse",
+        "phonetic": "[ˈkɛːzə]",
+        "tip": "The 'ä' sound is similar to the 'e' in the English word 'bed'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L03_S02",
+      "title": "Asking for Specifics",
+      "setting": "The employee is still with you. Now you want to ask for a specific quantity of fruit and about a special offer.",
+      "conversation_flow": [
+        {
+          "title": "Ask for 500 grams of grapes",
+          "chatbot_message": "Sonst noch etwas?"
+        },
+        {
+          "title": "Ask if the cheese is on sale",
+          "chatbot_message": "Okay, fünfhundert Gramm Trauben. Sonst noch etwas?"
+        },
+        {
+          "title": "Thank the employee",
+          "chatbot_message": "Ja, der Käse ist im Angebot."
+        },
+        {
+          "title": "End the conversation with the employee",
+          "chatbot_message": "Gern geschehen."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "You're at the checkout, 'die Kasse'. Here, you can greet the cashier, ask for a bag ('Tüte'), and pay."
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E07",
+      "data": {
+        "phrase": "Guten Tag",
+        "meaning": "Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E08",
+      "data": {
+        "phrase": "Eine Tüte, bitte",
+        "meaning": "A bag, please"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V11",
+      "data": {
+        "zusammen": "together / in total"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V12",
+      "data": {
+        "fünfzehn": "fifteen"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V13",
+      "data": {
+        "der Euro": "the Euro"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E09",
+      "data": {
+        "phrase": "Okay",
+        "meaning": "Okay"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E10",
+      "data": {
+        "phrase": "Auf Wiedersehen",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L03_P03",
+      "data": {
+        "word": "Tüte",
+        "phonetic": "[ˈtyːtə]",
+        "tip": "To make the 'ü' sound, say 'ee' while your lips are rounded, like you are whistling."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L03_S03",
+      "title": "At the Checkout",
+      "setting": "You have your groceries and are now at the checkout counter to pay.",
+      "conversation_flow": [
+        {
+          "title": "Greet the cashier",
+          "chatbot_message": "Guten Tag!"
+        },
+        {
+          "title": "Ask for a bag",
+          "chatbot_message": "Ja. Das macht zusammen fünfzehn Euro."
+        },
+        {
+          "title": "Respond to the total and say goodbye",
+          "chatbot_message": "Danke. Auf Wiedersehen!"
+        }
+      ]
+    }
+  ]
+}

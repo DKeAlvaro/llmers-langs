@@ -1,0 +1,301 @@
+{
+  "id": "L21",
+  "title": "At the Pharmacy",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to handle a common situation in France: a visit to the pharmacy ('la pharmacie')."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V01",
+      "data": {
+        "word": "La pharmacie",
+        "translation": "The pharmacy"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E01",
+      "data": {
+        "phrase": "Bonjour",
+        "translation": "Hello"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E02",
+      "data": {
+        "phrase": "Je viens chercher...",
+        "translation": "I've come to get..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V02",
+      "data": {
+        "word": "Une ordonnance",
+        "translation": "A prescription"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L21_P01",
+      "data": {
+        "word": "Ordonnance",
+        "phonetic": "[ɔʁ.dɔ.nɑ̃s]",
+        "tip": "The 'an' sound is nasal. It's like saying 'on' but through your nose, without closing your lips completely."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E03",
+      "data": {
+        "phrase": "... pour {nom}",
+        "translation": "... for {name}"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E04",
+      "data": {
+        "phrase": "Voici...",
+        "translation": "Here is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V03",
+      "data": {
+        "word": "Ma pièce d'identité",
+        "translation": "My ID"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S01",
+      "title": "Stating Your Needs",
+      "setting": "You are at the pharmacy counter to pick up a prescription.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Bonjour."
+        },
+        {
+          "title": "Greet the pharmacist",
+          "chatbot_message": "Bonjour. Oui ?",
+          "user_goal": "Bonjour"
+        },
+        {
+          "title": "State you are here for a prescription",
+          "chatbot_message": "D'accord. Pour {user_name}. Vous avez votre pièce d'identité ?",
+          "user_goal": "Je viens chercher une ordonnance pour {user_name}",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Hand over your ID",
+          "chatbot_message": "Merci. Un moment, s'il vous plaît.",
+          "user_goal": "Voici ma pièce d'identité"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now, let's learn how to ask for important instructions about your medicine."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V04",
+      "data": {
+        "word": "Le médicament",
+        "translation": "The medicine"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E05",
+      "data": {
+        "phrase": "Je dois prendre",
+        "translation": "I have to take"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E06",
+      "data": {
+        "phrase": "Combien de fois par jour ?",
+        "translation": "How many times a day?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V05",
+      "data": {
+        "word": "Avant",
+        "translation": "Before"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V06",
+      "data": {
+        "word": "Après",
+        "translation": "After"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V07",
+      "data": {
+        "word": "Les repas",
+        "translation": "The meals"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L21_P02",
+      "data": {
+        "word": "Repas",
+        "phonetic": "[ʁə.pɑ]",
+        "tip": "The final 's' is silent in French. Just say 're-pa'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E07",
+      "data": {
+        "phrase": "Est-ce que je dois acheter...?",
+        "translation": "Do I have to buy...?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V08",
+      "data": {
+        "word": "Aussi",
+        "translation": "Also"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V09",
+      "data": {
+        "word": "Des antidouleurs",
+        "translation": "Painkillers"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S02",
+      "title": "Asking for Instructions",
+      "setting": "The pharmacist returns with your medicine and is ready to answer your questions.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Voici votre médicament."
+        },
+        {
+          "title": "Ask how often to take it",
+          "chatbot_message": "Vous devez le prendre deux fois par jour.",
+          "user_goal": "Je dois le prendre combien de fois par jour ?"
+        },
+        {
+          "title": "Ask about meals",
+          "chatbot_message": "Après les repas.",
+          "user_goal": "Avant ou après les repas ?"
+        },
+        {
+          "title": "Ask if you need painkillers",
+          "chatbot_message": "Non, ce n'est pas nécessaire.",
+          "user_goal": "Est-ce que je dois aussi acheter des antidouleurs ?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent. You've got your medicine and the instructions. Time to pay and say goodbye."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V10",
+      "data": {
+        "word": "L'assurance",
+        "translation": "The insurance"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E08",
+      "data": {
+        "phrase": "C'est couvert par l'assurance ?",
+        "translation": "Is it covered by insurance?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E09",
+      "data": {
+        "phrase": "Ça fait combien ?",
+        "translation": "How much is it?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V11",
+      "data": {
+        "word": "Par carte",
+        "translation": "By card"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E10",
+      "data": {
+        "phrase": "Merci beaucoup",
+        "translation": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E11",
+      "data": {
+        "phrase": "Bonne journée",
+        "translation": "Have a good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E12",
+      "data": {
+        "phrase": "Au revoir",
+        "translation": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S03",
+      "title": "Payment and Closing",
+      "setting": "You are at the cash register, ready to finalize your visit.",
+      "conversation_flow": [
+        {
+          "chatbot_message": "Ce sera tout ?"
+        },
+        {
+          "title": "Ask about insurance coverage",
+          "chatbot_message": "Oui, c'est couvert. Ça fait 5 euros, s'il vous plaît.",
+          "user_goal": "C'est couvert par l'assurance ?"
+        },
+        {
+          "title": "Pay for the items",
+          "chatbot_message": "D'accord.",
+          "user_goal": "Je paie par carte"
+        },
+        {
+          "title": "Thank the pharmacist and leave",
+          "chatbot_message": "Merci à vous. Bonne journée !",
+          "user_goal": "Merci beaucoup. Au revoir."
+        }
+      ]
+    }
+  ]
+}

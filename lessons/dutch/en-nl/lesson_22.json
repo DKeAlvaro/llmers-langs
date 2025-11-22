@@ -1,0 +1,312 @@
+{
+  "id": "L22",
+  "title": "Ordering Food for Delivery by Phone",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to order food for delivery over the phone, starting with how to place your order."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V01",
+      "data": {
+        "de pizza": "the pizza"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V02",
+      "data": {
+        "de cola": "the coke"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V03",
+      "data": {
+        "Salami": "salami"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V04",
+      "data": {
+        "één": "one"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E01",
+      "data": {
+        "phrase": "Goedenavond",
+        "meaning": "Good evening"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E02",
+      "data": {
+        "phrase": "Ik wil graag...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E03",
+      "data": {
+        "phrase": "...iets bestellen",
+        "meaning": "...to order something"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E04",
+      "data": {
+        "phrase": "Nog iets?",
+        "meaning": "Anything else?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E05",
+      "data": {
+        "phrase": "En ook...",
+        "meaning": "And also..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E06",
+      "data": {
+        "phrase": "Alstublieft",
+        "meaning": "Please"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22_P01",
+      "data": {
+        "word": "Goedenavond",
+        "phonetic": "ghoo-duh-NA-vont",
+        "tip": "The 'g' in Dutch is a soft, throaty sound, similar to the 'ch' in the Scottish 'loch'."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22_P02",
+      "data": {
+        "word": "graag",
+        "phonetic": "khraakh",
+        "tip": "Try to make the 'g' sound at the back of your throat. It's a key sound in Dutch!"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22_S01",
+      "title": "Placing Your Order",
+      "setting": "You are calling a pizzeria to order food for dinner.",
+      "conversation_flow": [
+        {
+          "title": "Greet and state your purpose",
+          "chatbot_message": "Pizzeria Bella, goedenavond."
+        },
+        {
+          "title": "Order one Salami pizza",
+          "chatbot_message": "Oké. Wat wil je bestellen?"
+        },
+        {
+          "title": "Order a drink as well",
+          "chatbot_message": "Eén pizza Salami. Nog iets?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now they need your personal details for the delivery. Let's learn how to provide them."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V05",
+      "data": {
+        "de naam": "the name"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V06",
+      "data": {
+        "de straat": "the street"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V07",
+      "data": {
+        "het huisnummer": "the house number"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V08",
+      "data": {
+        "de stad": "the city"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V09",
+      "data": {
+        "het telefoonnummer": "the phone number"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E07",
+      "data": {
+        "phrase": "Mijn naam is...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E08",
+      "data": {
+        "phrase": "Mijn adres is...",
+        "meaning": "My address is..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E09",
+      "data": {
+        "phrase": "Mijn telefoonnummer is...",
+        "meaning": "My phone number is..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22_P03",
+      "data": {
+        "word": "huisnummer",
+        "phonetic": "house-num-mer",
+        "tip": "The 'ui' sound is unique. It's a bit like saying 'ow' in 'how', but with more rounded lips."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22_S02",
+      "title": "Providing Your Details",
+      "setting": "The employee has your order and now needs your information for the delivery.",
+      "conversation_flow": [
+        {
+          "title": "State your name",
+          "chatbot_message": "Oké, één pizza Salami en één cola. Wat is je naam?",
+          "extract_info": {
+            "user_name": "Extract the user's name from the message"
+          }
+        },
+        {
+          "title": "State your street, house number, and city",
+          "chatbot_message": "Oké, {user_name}. Wat is je adres?",
+          "extract_info": {
+            "user_address": "Extract the user's full address from the message"
+          }
+        },
+        {
+          "title": "Give your phone number",
+          "chatbot_message": "Oké, {user_address}. En wat is je telefoonnummer?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent. You've provided all your details. Now, let's learn how to ask for the price and delivery time to finalize the call."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V10",
+      "data": {
+        "hoeveel": "how much"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V11",
+      "data": {
+        "hoe lang": "how long"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L22_V12",
+      "data": {
+        "het": "it"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E10",
+      "data": {
+        "phrase": "Hoeveel kost het?",
+        "meaning": "How much does it cost?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E11",
+      "data": {
+        "phrase": "Hoe lang duurt het?",
+        "meaning": "How long does it take?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E12",
+      "data": {
+        "phrase": "Dank je wel",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L22_E13",
+      "data": {
+        "phrase": "Dag",
+        "meaning": "Bye"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L22_P04",
+      "data": {
+        "word": "duurt",
+        "phonetic": "duurt",
+        "tip": "The 'uu' sound is long. Pucker your lips as if you're about to whistle and say 'ee'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L22_S03",
+      "title": "Finalizing the Call",
+      "setting": "You have just given your phone number. Now you need to confirm the price and time before ending the call.",
+      "conversation_flow": [
+        {
+          "title": "Ask how much the total is",
+          "chatbot_message": "Dank je. Ik heb alle informatie."
+        },
+        {
+          "title": "Ask how long the delivery will take",
+          "chatbot_message": "Het is 15 euro."
+        },
+        {
+          "title": "Thank the employee and end the call",
+          "chatbot_message": "Het duurt 30 minuten."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Well done! The employee might respond with 'Graag gedaan', which means 'You're welcome'. You've successfully ordered a pizza in Dutch!"
+    }
+  ]
+}

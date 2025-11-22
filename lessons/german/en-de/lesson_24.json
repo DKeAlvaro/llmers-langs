@@ -1,0 +1,304 @@
+{
+  "id": "L24",
+  "title": "Leaving a Voicemail Message",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to leave a clear and effective voicemail message in German, a useful skill for everyday situations."
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E01",
+      "data": {
+        "phrase": "Guten Tag",
+        "meaning": "Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E02",
+      "data": {
+        "phrase": "Mein Name ist...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V01",
+      "data": {
+        "Die Adresse": "The address"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E03",
+      "data": {
+        "phrase": "Meine Adresse ist...",
+        "meaning": "My address is..."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "If your name is difficult to understand, it's helpful to spell it. You can introduce this by saying 'Ich buchstabiere'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E04",
+      "data": {
+        "phrase": "Ich buchstabiere...",
+        "meaning": "I'll spell..."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L24_S01",
+      "title": "Introduction and Identification",
+      "setting": "You are calling your housing agency, but it goes to voicemail. You hear the beep and begin your message.",
+      "conversation_flow": [
+        {
+          "title": "Greet and state your name",
+          "chatbot_message": "Guten Tag. Hier ist die Hausverwaltung. Wir sind im Moment nicht da. Bitte sprechen Sie nach dem Ton. *BEEP*",
+          "extract_info": {
+            "user_name": "Extract the user's full name from their message"
+          }
+        },
+        {
+          "title": "State your address",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Spell your last name",
+          "chatbot_message": ""
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "When reporting a problem, first state the main issue. For example, what is broken?"
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V02",
+      "data": {
+        "Die Heizung": "The heating"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V03",
+      "data": {
+        "kaputt": "broken"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E05",
+      "data": {
+        "phrase": "Die Heizung ist kaputt",
+        "meaning": "The heating is broken"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V04",
+      "data": {
+        "seit": "since"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V05",
+      "data": {
+        "heute Morgen": "this morning"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V06",
+      "data": {
+        "sehr": "very"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V07",
+      "data": {
+        "kalt": "cold"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E06",
+      "data": {
+        "phrase": "Es ist sehr kalt",
+        "meaning": "It is very cold"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L24_S02",
+      "title": "Describing the Problem",
+      "setting": "You continue your voicemail message, explaining the reason for your call.",
+      "conversation_flow": [
+        {
+          "title": "State that the heating is broken",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Mention the problem started this morning",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Explain that it's very cold now",
+          "chatbot_message": ""
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Now, let's finish the message. It's important to leave your phone number and ask for a call back."
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E07",
+      "data": {
+        "phrase": "Bitte rufen Sie mich zurück",
+        "meaning": "Please call me back"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V08",
+      "data": {
+        "Die Telefonnummer": "The phone number"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E08",
+      "data": {
+        "phrase": "Meine Telefonnummer ist...",
+        "meaning": "My phone number is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V09",
+      "data": {
+        "null": "zero"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V10",
+      "data": {
+        "eins": "one"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V11",
+      "data": {
+        "zwei": "two"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L24_P01",
+      "data": {
+        "word": "zwei",
+        "phonetic": "[tsvaɪ]",
+        "tip": "The German 'z' sounds like the 'ts' in the English word 'cats'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V12",
+      "data": {
+        "drei": "three"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V13",
+      "data": {
+        "vier": "four"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V14",
+      "data": {
+        "fünf": "five"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V15",
+      "data": {
+        "sechs": "six"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V16",
+      "data": {
+        "sieben": "seven"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V17",
+      "data": {
+        "acht": "eight"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L24_V18",
+      "data": {
+        "neun": "nine"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say goodbye on the phone, use 'Auf Wiederhören'. It literally means 'until hearing again', unlike 'Auf Wiedersehen' which means 'until seeing again'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E09",
+      "data": {
+        "phrase": "Vielen Dank",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L24_E10",
+      "data": {
+        "phrase": "Auf Wiederhören",
+        "meaning": "Goodbye (on the phone)"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L24_S03",
+      "title": "Finishing the Message",
+      "setting": "You're now finishing your voicemail, making sure they can contact you.",
+      "conversation_flow": [
+        {
+          "title": "Ask for a call back",
+          "chatbot_message": ""
+        },
+        {
+          "title": "State your phone number",
+          "chatbot_message": ""
+        },
+        {
+          "title": "Thank them and say goodbye",
+          "chatbot_message": ""
+        }
+      ]
+    }
+  ]
+}

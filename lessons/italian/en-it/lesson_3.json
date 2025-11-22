@@ -1,0 +1,330 @@
+{
+  "id": "L3",
+  "title": "Al supermercato",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you will learn how to ask for items at a supermarket, 'un supermercato'. Let's start by getting an employee's attention."
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E01",
+      "data": {
+        "phrase": "Mi scusi",
+        "meaning": "Excuse me"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L3_P01",
+      "data": {
+        "word": "Scusi",
+        "phonetic": "[sk'u-zi]",
+        "tip": "The 'sc' is pronounced like the 'sk' in 'school'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E02",
+      "data": {
+        "phrase": "Dov'è...?",
+        "meaning": "Where is...?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L3_P02",
+      "data": {
+        "word": "Dov'è",
+        "phonetic": "[doh-VEH]",
+        "tip": "The accent on 'è' means the stress falls on that final syllable."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V01",
+      "data": {
+        "Il latte": "The milk"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V02",
+      "data": {
+        "Il pane": "The bread"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "In Italian, most nouns are preceded by an article like 'il', which means 'the'. You'll almost always see 'il pane', not just 'pane'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V03",
+      "data": {
+        "In fondo": "At the end"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V04",
+      "data": {
+        "A destra": "On the right"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V05",
+      "data": {
+        "Qui": "Here"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E03",
+      "data": {
+        "phrase": "Altro?",
+        "meaning": "Anything else?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L3_S01",
+      "title": "Asking for Help",
+      "setting": "You are in a supermarket and can't find anything. You see an employee and approach them for help.",
+      "conversation_flow": [
+        {
+          "title": "Get the employee's attention",
+          "chatbot_message": null
+        },
+        {
+          "title": "Ask where the milk is",
+          "chatbot_message": "Sì?"
+        },
+        {
+          "title": "Ask where the bread is",
+          "chatbot_message": "Il latte è in fondo a destra."
+        },
+        {
+          "title": "Answer the employee",
+          "chatbot_message": "Il pane è qui. Altro?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's ask for something by weight. 'Vorrei' is the most polite way to say 'I would like...'"
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E04",
+      "data": {
+        "phrase": "Vorrei...",
+        "meaning": "I would like..."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L3_P03",
+      "data": {
+        "word": "Vorrei",
+        "phonetic": "[vor-r'ei]",
+        "tip": "Try to roll the 'rr' sound. It takes practice!"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V06",
+      "data": {
+        "Un etto": "100 grams"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V07",
+      "data": {
+        "Due": "Two"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "It's very common in Italy to ask for things in 'etti'. So, to ask for 200 grams, you say 'due etti'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V08",
+      "data": {
+        "L'uva": "The grapes"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V09",
+      "data": {
+        "Il formaggio": "The cheese"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L3_P04",
+      "data": {
+        "word": "Formaggio",
+        "phonetic": "[for-m'ad-djo]",
+        "tip": "The 'ggio' sound is like the 'j' in 'judge'."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E05",
+      "data": {
+        "phrase": "È in offerta?",
+        "meaning": "Is it on sale?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V10",
+      "data": {
+        "Certo": "Certainly"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E06",
+      "data": {
+        "phrase": "Grazie",
+        "meaning": "Thank you"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E07",
+      "data": {
+        "phrase": "Prego",
+        "meaning": "You're welcome"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L3_S02",
+      "title": "Asking for Quantities",
+      "setting": "The conversation continues. The employee has just asked if you need anything else. You are at the fruit and cheese counter.",
+      "conversation_flow": [
+        {
+          "title": "Ask for 200 grams of grapes",
+          "chatbot_message": "Il pane è qui. Altro?"
+        },
+        {
+          "title": "Ask if the cheese is on sale",
+          "chatbot_message": "Certo. Due etti di uva. Altro?"
+        },
+        {
+          "title": "Thank the employee",
+          "chatbot_message": "Sì, è in offerta."
+        },
+        {
+          "title": "Acknowledge their response",
+          "chatbot_message": "Prego!"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Fantastic job! You have all your items. Now it's time to pay at the checkout, 'la cassa'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V11",
+      "data": {
+        "La cassa": "The checkout"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E08",
+      "data": {
+        "phrase": "Buongiorno",
+        "meaning": "Good day"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L3_P05",
+      "data": {
+        "word": "Buongiorno",
+        "phonetic": "[bwon-j'or-no]",
+        "tip": "Use this to greet people in shops during the day. It's more common than 'ciao'."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V12",
+      "data": {
+        "Un sacchetto": "A bag"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E09",
+      "data": {
+        "phrase": "Per favore",
+        "meaning": "Please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E10",
+      "data": {
+        "phrase": "Sono... euro",
+        "meaning": "It is... euros"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L3_V13",
+      "data": {
+        "Dieci": "Ten"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E11",
+      "data": {
+        "phrase": "Ecco",
+        "meaning": "Here you are"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E12",
+      "data": {
+        "phrase": "Arrivederci",
+        "meaning": "Goodbye"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L3_S03",
+      "title": "At the Checkout",
+      "setting": "You've finished shopping and are now at the checkout counter with a new person, the cashier.",
+      "conversation_flow": [
+        {
+          "title": "Greet the cashier",
+          "chatbot_message": "Buongiorno."
+        },
+        {
+          "title": "Ask for a bag",
+          "chatbot_message": null
+        },
+        {
+          "title": "Respond and pay",
+          "chatbot_message": "Certo. Sono dieci euro, per favore."
+        },
+        {
+          "title": "Say goodbye",
+          "chatbot_message": "Grazie. Arrivederci!"
+        }
+      ]
+    }
+  ]
+}

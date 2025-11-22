@@ -1,0 +1,234 @@
+{
+  "id": "L21",
+  "title": "En la farmacia",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to pick up a prescription at a Spanish pharmacy, or 'farmacia'."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V01",
+      "data": {
+        "La farmacia": "The pharmacy"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V02",
+      "data": {
+        "Una receta": "A prescription"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E01",
+      "data": {
+        "phrase": "Buenos días",
+        "meaning": "Good morning / Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E02",
+      "data": {
+        "phrase": "Vengo a recoger...",
+        "meaning": "I've come to pick up..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E03",
+      "data": {
+        "phrase": "para...",
+        "meaning": "for..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E04",
+      "data": {
+        "phrase": "Aquí tiene",
+        "meaning": "Here you are"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L21_P01",
+      "data": {
+        "word": "receta",
+        "phonetic": "re-SE-ta",
+        "tip": "In Spanish, the 'ce' is pronounced like 'th' in 'think' in Spain, or 's' in 'see' in Latin America. For A1, the 's' sound is perfectly understood everywhere."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S01",
+      "title": "Stating Your Needs",
+      "setting": "You've entered the pharmacy and are speaking to the pharmacist.",
+      "conversation_flow": [
+        {
+          "title": "Greet the pharmacist",
+          "chatbot_message": "¡Buenos días! ¿Dígame?"
+        },
+        {
+          "title": "State you are here for a prescription",
+          "chatbot_message": "De acuerdo. ¿Para quién es la receta?",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Hand over the prescription",
+          "chatbot_message": "Muy bien, {user_name}. ¿La receta, por favor?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great! Now let's learn how to ask for instructions about your medicine."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V03",
+      "data": {
+        "El medicamento": "The medicine"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V04",
+      "data": {
+        "Las comidas": "The meals"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V05",
+      "data": {
+        "Analgésicos": "Painkillers"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V06",
+      "data": {
+        "También": "Also / too"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E05",
+      "data": {
+        "phrase": "¿Cuántas veces al día?",
+        "meaning": "How many times a day?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E06",
+      "data": {
+        "phrase": "¿Antes o después?",
+        "meaning": "Before or after?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E07",
+      "data": {
+        "phrase": "¿Necesito comprar...?",
+        "meaning": "Do I need to buy...?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S02",
+      "title": "Asking for Instructions",
+      "setting": "The pharmacist has returned with your prescription.",
+      "conversation_flow": [
+        {
+          "title": "Ask how many times a day to take the medicine",
+          "chatbot_message": "Aquí tiene su medicamento, {user_name}."
+        },
+        {
+          "title": "Ask if it's before or after meals",
+          "chatbot_message": "Tres veces al día."
+        },
+        {
+          "title": "Ask if you should also buy painkillers",
+          "chatbot_message": "Después de las comidas."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent work. Finally, let's learn the phrases you need to pay and leave."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V07",
+      "data": {
+        "El seguro": "The insurance"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L21_V08",
+      "data": {
+        "La tarjeta": "The card"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E08",
+      "data": {
+        "phrase": "¿Lo cubre mi seguro?",
+        "meaning": "Does my insurance cover it?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E09",
+      "data": {
+        "phrase": "Pago con tarjeta",
+        "meaning": "I'll pay by card"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E10",
+      "data": {
+        "phrase": "Muchas gracias",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L21_E11",
+      "data": {
+        "phrase": "Que tenga un buen día",
+        "meaning": "Have a good day"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L21_S03",
+      "title": "Payment and Closing",
+      "setting": "You're at the counter, ready to pay for your medicine.",
+      "conversation_flow": [
+        {
+          "title": "Ask if your insurance covers the cost",
+          "chatbot_message": "No, no es necesario comprar analgésicos. En total son cinco euros."
+        },
+        {
+          "title": "Say you will pay by card",
+          "chatbot_message": "Sí, este es el precio final con el seguro."
+        },
+        {
+          "title": "Thank the pharmacist and wish them a good day",
+          "chatbot_message": "Perfecto. Aquí tiene."
+        }
+      ]
+    }
+  ]
+}

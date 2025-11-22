@@ -1,0 +1,299 @@
+{
+  "id": "L14",
+  "title": "Describing Your Home",
+  "content": [
+    {
+      "type": "tip",
+      "text": "Welcome! In this lesson, you'll learn how to describe your home in Italian, from where you live to what it's like."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V01",
+      "data": {
+        "La casa": "The house"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V02",
+      "data": {
+        "L'appartamento": "The apartment"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V03",
+      "data": {
+        "Il quartiere": "The neighborhood"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E01",
+      "data": {
+        "phrase": "Io abito",
+        "meaning": "I live"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L14_P01",
+      "data": {
+        "word": "Quartiere",
+        "phonetic": "/kwarˈtjɛ.re/",
+        "tip": "The 'qu' sound is like 'kw' in 'queen'. The 'ie' is a single sound, like 'ye' in 'yes'."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say where you live, use `abito a` for a city (a Roma) and `abito in` for a type of home (in una casa)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V04",
+      "data": {
+        "Da solo / Da sola": "Alone"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Italian adjectives change based on gender. Use `solo` for masculine and `sola` for feminine."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V05",
+      "data": {
+        "Con": "With"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V06",
+      "data": {
+        "Il mio partner": "My partner"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V07",
+      "data": {
+        "I coinquilini": "The roommates"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S01",
+      "title": "Basic Information",
+      "setting": "You're chatting with your Italian colleague, Marco, who asks about where you live.",
+      "conversation_flow": [
+        {
+          "title": "Say where you live",
+          "chatbot_message": "Ciao! Senti, dove abiti?",
+          "extract_info": {
+            "user_location": "Extract the city or neighborhood the user lives in."
+          }
+        },
+        {
+          "title": "State your type of home",
+          "chatbot_message": "Ah, {user_location}! E abiti in una casa o in un appartamento?",
+          "extract_info": {
+            "user_home_type": "Extract if the user lives in a house (casa) or apartment (appartamento)."
+          }
+        },
+        {
+          "title": "Say who you live with",
+          "chatbot_message": "Capito. Abiti da solo/a o con qualcuno?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to add more detail about the space."
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E02",
+      "data": {
+        "phrase": "(La mia casa) ha",
+        "meaning": "(My house) has"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E03",
+      "data": {
+        "phrase": "Io ho",
+        "meaning": "I have"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V08",
+      "data": {
+        "La stanza / Le stanze": "The room / The rooms"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V09",
+      "data": {
+        "Tre": "Three"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V10",
+      "data": {
+        "Quattro": "Four"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E04",
+      "data": {
+        "phrase": "Mi piace...",
+        "meaning": "I like..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V11",
+      "data": {
+        "Il soggiorno": "The living room"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V12",
+      "data": {
+        "La cucina": "The kitchen"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V13",
+      "data": {
+        "Il giardino": "The garden"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V14",
+      "data": {
+        "Il balcone": "The balcony"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To make a verb negative, just add `non` before it. For example, `ho` (I have) becomes `non ho` (I don't have)."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S02",
+      "title": "Describing the Space",
+      "setting": "The conversation continues. Marco is curious about the details of your home.",
+      "conversation_flow": [
+        {
+          "title": "Say how many rooms your home has",
+          "chatbot_message": "Interessante! E quante stanze ha il tuo {user_home_type}?"
+        },
+        {
+          "title": "Mention one room you like",
+          "chatbot_message": "Ok. E hai una stanza preferita?"
+        },
+        {
+          "title": "State if you have a garden or a balcony",
+          "chatbot_message": "Bello! Hai anche un giardino o un balcone?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! Finally, let's learn how to share your opinion and ask about his home."
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E05",
+      "data": {
+        "phrase": "Io sono",
+        "meaning": "I am"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E06",
+      "data": {
+        "phrase": "(La casa) è",
+        "meaning": "(The house) is"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V15",
+      "data": {
+        "Contento / Contenta": "Happy / Content"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V16",
+      "data": {
+        "Molto": "Very"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V17",
+      "data": {
+        "Luminoso / Luminosa": "Bright / Light"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Remember to match your adjectives! `Il mio appartamento è luminoso`. `La mia casa è luminosa`."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L14_V18",
+      "data": {
+        "Comodo / Comoda": "Comfortable"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L14_E07",
+      "data": {
+        "phrase": "E tu?",
+        "meaning": "And you?"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "`E tu?` is a simple and very common way to ask a question back to someone."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L14_S03",
+      "title": "Expressing Your Opinion",
+      "setting": "You're ready to share your opinion about your home and turn the question back to Marco.",
+      "conversation_flow": [
+        {
+          "title": "Say that you are happy with your home",
+          "chatbot_message": "Fantastico. Allora, sei contento/a?"
+        },
+        {
+          "title": "Mention one positive thing",
+          "chatbot_message": "Bene! Perché ti piace?"
+        },
+        {
+          "title": "Ask them about their living situation",
+          "chatbot_message": "Capisco, la luce è importante."
+        },
+        {
+          "title": "Listen to the response",
+          "chatbot_message": "Io abito in un piccolo appartamento, ma è molto comodo. Grazie per la conversazione!"
+        }
+      ]
+    }
+  ]
+}

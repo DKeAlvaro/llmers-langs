@@ -1,0 +1,238 @@
+{
+  "id": "L4G",
+  "title": "Asking for Simple Directions",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to stop a stranger and ask for simple directions in a German city. Let's start with getting someone's attention."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4G_V01",
+      "data": {
+        "Entschuldigung": "Excuse me"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L4G_P01",
+      "data": {
+        "word": "Entschuldigung",
+        "phonetic": "[ɛntˈʃʊldɪɡʊŋ]",
+        "tip": "The 'ch' is soft, like the 'h' in 'huge', and the 'ung' at the end sounds like 'oong'."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "When speaking to strangers or in formal situations, always use the polite form of 'you', which is `Sie`."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4G_V02",
+      "data": {
+        "sprechen": "to speak"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4G_V03",
+      "data": {
+        "Englisch": "English"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4G_E01",
+      "data": {
+        "phrase": "Sprechen Sie Englisch?",
+        "meaning": "Do you speak English?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4G_V04",
+      "data": {
+        "der Bahnhof": "the train station"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "German nouns have a gender. 'Bahnhof' is masculine, so it uses the article 'der'."
+    },
+    {
+      "type": "expression",
+      "item_id": "L4G_E02",
+      "data": {
+        "phrase": "Wo ist der Bahnhof?",
+        "meaning": "Where is the train station?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L4G_S01",
+      "title": "Starting the Conversation",
+      "setting": "You're in the city center and need to find the train station. You stop a friendly-looking person.",
+      "conversation_flow": [
+        {
+          "title": "Get the person's attention",
+          "chatbot_message": null
+        },
+        {
+          "title": "Ask if they speak English",
+          "chatbot_message": "Ja, bitte?"
+        },
+        {
+          "title": "Ask for the train station's location",
+          "chatbot_message": "Ein bisschen. Was suchen Sie?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn the words you need to understand the directions you're given."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4G_V05",
+      "data": {
+        "links": "left"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4G_V06",
+      "data": {
+        "rechts": "right"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4G_E03",
+      "data": {
+        "phrase": "Okay",
+        "meaning": "Okay"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4G_V07",
+      "data": {
+        "weit": "far"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4G_E04",
+      "data": {
+        "phrase": "Ist das weit?",
+        "meaning": "Is that far?"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4G_V08",
+      "data": {
+        "die Straße": "the street"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L4G_P02",
+      "data": {
+        "word": "Straße",
+        "phonetic": "[ˈʃtʁaːsə]",
+        "tip": "The 'ß' character is called an 'Eszett' and it sounds like a sharp 's'."
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To confirm a street name you didn't quite hear, just repeat the name with a rising, questioning intonation."
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L4G_S02",
+      "title": "Understanding Directions",
+      "setting": "The person has started to give you directions. Listen carefully and ask for clarification.",
+      "conversation_flow": [
+        {
+          "title": "Acknowledge you understood 'left'",
+          "chatbot_message": "Der Bahnhof? Ah, okay. Gehen Sie hier links."
+        },
+        {
+          "title": "Ask if it's far",
+          "chatbot_message": "Ja, links. Nicht weit."
+        },
+        {
+          "title": "Confirm the name of the street",
+          "chatbot_message": "Das ist die Schillerstraße."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "You're almost there! Let's learn how to confirm the directions and end the conversation politely."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4G_V09",
+      "data": {
+        "geradeaus": "straight ahead"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L4G_V10",
+      "data": {
+        "dann": "then"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "Start your sentence with `Also, ...?` to mean 'So, ...?' when you want to confirm information."
+    },
+    {
+      "type": "expression",
+      "item_id": "L4G_E05",
+      "data": {
+        "phrase": "Also, geradeaus und dann rechts?",
+        "meaning": "So, straight ahead and then right?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4G_E06",
+      "data": {
+        "phrase": "Vielen Dank",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L4G_E07",
+      "data": {
+        "phrase": "Schönen Tag noch",
+        "meaning": "Have a nice day"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L4G_S03",
+      "title": "Finishing the Conversation",
+      "setting": "You've understood the main directions. Now, confirm them and thank the person for their help.",
+      "conversation_flow": [
+        {
+          "title": "Repeat the directions to confirm",
+          "chatbot_message": "Ja, Schillerstraße. Gehen Sie geradeaus und dann rechts."
+        },
+        {
+          "title": "Thank the person",
+          "chatbot_message": "Ja, genau! Der Bahnhof ist dann da."
+        },
+        {
+          "title": "Wish them a nice day",
+          "chatbot_message": "Gern geschehen."
+        }
+      ]
+    }
+  ]
+}

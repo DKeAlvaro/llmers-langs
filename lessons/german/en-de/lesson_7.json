@@ -1,0 +1,203 @@
+{
+  "id": "L7",
+  "title": "Making a Simple Appointment by Phone",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you'll learn how to make a simple appointment over the phone in German. This is a very common task!"
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E01",
+      "data": {
+        "phrase": "Guten Tag",
+        "meaning": "Good day"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E02",
+      "data": {
+        "phrase": "Mein Name ist...",
+        "meaning": "My name is..."
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L7_V01",
+      "data": {
+        "ein Termin": "an appointment"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E03",
+      "data": {
+        "phrase": "Ich möchte einen Termin machen",
+        "meaning": "I would like to make an appointment"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L7_V02",
+      "data": {
+        "zum Haareschneiden": "for a haircut"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L7_P01",
+      "data": {
+        "word": "möchte",
+        "phonetic": "[ˈmœçtə]",
+        "tip": "The 'ch' sound is soft, made in the front of your mouth, like the 'h' in 'huge'."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L7_S01",
+      "title": "Stating Your Purpose",
+      "setting": "You are calling a hairdresser's salon to make an appointment.",
+      "conversation_flow": [
+        {
+          "title": "Greet the receptionist and state your name",
+          "chatbot_message": "Friseursalon Schnell, guten Tag.",
+          "extract_info": {
+            "user_name": "Extract the user's name from their message"
+          }
+        },
+        {
+          "title": "Say you would like to make an appointment for a haircut",
+          "chatbot_message": "Guten Tag, {user_name}. Was kann ich für Sie tun?"
+        },
+        {
+          "title": "Understand the question about when you want to come",
+          "chatbot_message": "Gerne. Wann möchten Sie kommen?"
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now let's learn how to talk about days and times. In German, you say 'am' before a day or a part of the day, like 'am Freitag' (on Friday)."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L7_V03",
+      "data": {
+        "der Freitag": "Friday"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E04",
+      "data": {
+        "phrase": "am Nachmittag",
+        "meaning": "in the afternoon"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L7_P02",
+      "data": {
+        "word": "Nachmittag",
+        "phonetic": "[ˈnaːxmɪˌtaːk]",
+        "tip": "Stress the first syllable: NACH-mit-tag."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E05",
+      "data": {
+        "phrase": "Das geht leider nicht",
+        "meaning": "Unfortunately, that is not possible"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E06",
+      "data": {
+        "phrase": "Haben Sie eine andere Zeit?",
+        "meaning": "Do you have another time?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L7_S02",
+      "title": "Negotiating a Time",
+      "setting": "You are continuing the phone call with the hairdresser.",
+      "conversation_flow": [
+        {
+          "title": "State your preference for a day (Friday)",
+          "chatbot_message": "Okay. An welchem Tag passt es Ihnen?"
+        },
+        {
+          "title": "State your preference for a time of day (in the afternoon)",
+          "chatbot_message": "Am Freitag... Vormittag oder Nachmittag?"
+        },
+        {
+          "title": "Decline the proposed time and ask if another time is possible",
+          "chatbot_message": "Okay. Ich habe einen Termin um 14 Uhr."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Excellent! You're almost there. Let's learn the final phrases to confirm your appointment and end the call politely."
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E07",
+      "data": {
+        "phrase": "Ja, das ist perfekt",
+        "meaning": "Yes, that is perfect"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L7_V04",
+      "data": {
+        "Uhr": "o'clock"
+      }
+    },
+    {
+      "type": "tip",
+      "text": "To say a time, you use 'um', for example: 'um 16 Uhr' (at 4 o'clock / 4 PM)."
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E08",
+      "data": {
+        "phrase": "Vielen Dank",
+        "meaning": "Thank you very much"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L7_E09",
+      "data": {
+        "phrase": "Auf Wiederhören",
+        "meaning": "Goodbye (on the phone)"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L7_S03",
+      "title": "Confirmation",
+      "setting": "You are finishing the phone call with the hairdresser.",
+      "conversation_flow": [
+        {
+          "title": "Agree on the new time offered",
+          "chatbot_message": "Ja. Passt es um 16 Uhr?"
+        },
+        {
+          "title": "Repeat the day and time to confirm",
+          "chatbot_message": "Super. Ihr Termin ist am Freitag um 16 Uhr."
+        },
+        {
+          "title": "Thank the receptionist and end the call",
+          "chatbot_message": "Genau. Bis Freitag!"
+        }
+      ]
+    }
+  ]
+}
