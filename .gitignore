@@ -1,6 +1,9 @@
 .env
-pycache/
+*__pycache__
+*.pytest_cache
 generate_lessons/
 lessons/prompts
 lessons/lesson_plan.json
 lessons/lesson_plan.md
+fix_lessons.py
+tests/
