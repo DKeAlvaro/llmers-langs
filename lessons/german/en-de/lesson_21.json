@@ -105,7 +105,7 @@
         },
         {
           "title": "State your name",
-          "chatbot_message": "Danke. Haben Sie das Rezept hier?",
+          "chatbot_message": "Danke, {user_name}. Haben Sie das Rezept hier?",
           "extract_info": {
             "user_name": "Extract the user's name from their message"
           }

@@ -87,7 +87,7 @@
         },
         {
           "title": "State you are here for a prescription",
-          "chatbot_message": "D'accord. Vous avez votre pièce d'identité ?",
+          "chatbot_message": "D'accord. Pour {user_name}. Vous avez votre pièce d'identité ?",
           "user_goal": "Je viens chercher une ordonnance pour {user_name}",
           "extract_info": {
             "user_name": "Extract the user's name from their message"

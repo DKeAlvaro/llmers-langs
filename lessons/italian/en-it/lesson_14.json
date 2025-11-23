@@ -95,7 +95,7 @@
         },
         {
           "title": "State your type of home",
-          "chatbot_message": "Ah! E abiti in una casa o in un appartamento?",
+          "chatbot_message": "Ah, {user_location}! E abiti in una casa o in un appartamento?",
           "extract_info": {
             "user_home_type": "Extract if the user lives in a house (casa) or apartment (appartamento)."
           }

@@ -108,7 +108,7 @@
         },
         {
           "title": "Suggest an activity for the trip",
-          "chatbot_message": "Super! Was können wir dort machen?",
+          "chatbot_message": "Super! Nach {city_name}! Was können wir dort machen?",
           "extract_info": {
             "activity_name": "Extract the activity from the user's message, e.g., visit a museum"
           }

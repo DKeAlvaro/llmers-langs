@@ -185,7 +185,7 @@
         },
         {
           "title": "State your name",
-          "chatbot_message": "Merci. Et quelle est votre adresse ?",
+          "chatbot_message": "Merci, {user_name}. Et quelle est votre adresse ?",
           "extract_info": {
             "user_name": "Extract the user's name from their message"
           }

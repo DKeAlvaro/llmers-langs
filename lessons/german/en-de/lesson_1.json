@@ -63,13 +63,13 @@
         },
         {
           "title": "State your name",
+          "chatbot_message": "Freut mich, {user_name}!",
           "extract_info": {
             "user_name": "Extract the user's name from their message"
           }
         },
         {
-          "title": "Say it's nice to meet them",
-          "chatbot_message": "Freut mich, {user_name}!"
+          "title": "Say it's nice to meet them"
         }
       ]
     },

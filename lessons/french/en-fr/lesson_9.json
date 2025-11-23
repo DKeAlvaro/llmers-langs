@@ -107,7 +107,7 @@
         },
         {
           "title": "State your size",
-          "chatbot_message": "D'accord. Quelle est votre taille ?",
+          "chatbot_message": "D'accord, un {item}. Quelle est votre taille ?",
           "extract_info": {
             "user_size": "The user's clothing size"
           }
@@ -195,7 +195,7 @@
         },
         {
           "title": "Ask for the item in a smaller size",
-          "chatbot_message": "Ah, d'accord.",
+          "chatbot_message": "Ah, c'est {fit_issue}. D'accord.",
           "extract_info": {
             "new_size": "The new size requested"
           }

@@ -207,7 +207,7 @@
         },
         {
           "title": "State your street, house number, and city",
-          "chatbot_message": "Oké. Wat is je adres?",
+          "chatbot_message": "Oké, {user_name}. Wat is je adres?",
           "extract_info": {
             "user_address": "Extract the user's full address from the message"
           }

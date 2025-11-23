@@ -201,7 +201,7 @@
         },
         {
           "title": "Agree to the new time",
-          "chatbot_message": "Die dag om drie uur kan ik niet. Kan je om vier uur?",
+          "chatbot_message": "{day} om drie uur kan ik niet. Kan je om vier uur?",
           "extract_info": {
             "final_day": "Set the final day based on the previous turn's day",
             "final_time": "Set the final time to 'vier uur'"

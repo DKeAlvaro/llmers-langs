@@ -203,7 +203,7 @@
         },
         {
           "title": "State your street and house number",
-          "chatbot_message": "Okay. Und Ihre Adresse, bitte?",
+          "chatbot_message": "Okay, {user_name}. Und Ihre Adresse, bitte?",
           "extract_info": {
             "user_address": "Extract the user's full address"
           }
