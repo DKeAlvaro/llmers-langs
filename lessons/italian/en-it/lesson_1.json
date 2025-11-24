@@ -63,6 +63,7 @@
       "setting": "You are in your Italian class before the lesson starts. A classmate turns to you and says hello.",
       "conversation_flow": [
         {
+          "title": "Classmate says hello",
           "chatbot_message": "Ciao!"
         },
         {
@@ -72,12 +73,14 @@
           }
         },
         {
+          "title": "Classmate says it's a pleasure to meet you",
           "chatbot_message": "Piacere, {user_name}!"
         },
         {
           "title": "Ask for their name"
         },
         {
+          "title": "Classmate states their name",
           "chatbot_message": "Mi chiamo Luca."
         },
         {
@@ -151,12 +154,14 @@
       "setting": "The conversation continues with your new classmate, Luca.",
       "conversation_flow": [
         {
+          "title": "Classmate says it's a pleasure to meet you",
           "chatbot_message": "Piacere mio."
         },
         {
           "title": "Ask Luca where he is from"
         },
         {
+          "title": "Classmate states their origin and asks for yours",
           "chatbot_message": "Sono di Roma. E tu?"
         },
         {
@@ -166,6 +171,7 @@
           }
         },
         {
+          "title": "Classmate acknowledges your origin and states where they live",
           "chatbot_message": "Ah, {user_country}! Bello. Io abito qui a Milano."
         },
         {
@@ -242,24 +248,28 @@
       "setting": "The teacher has just walked in and is about to start the class.",
       "conversation_flow": [
         {
+          "title": "Classmate acknowledges your city",
           "chatbot_message": "Ah, {user_city}. Bene."
         },
         {
           "title": "Acknowledge that the lesson is starting"
         },
         {
+          "title": "Classmate agrees",
           "chatbot_message": "Sì, è vero."
         },
         {
           "title": "Wish them good luck"
         },
         {
+          "title": "Classmate thanks you and wishes you luck too",
           "chatbot_message": "Grazie! Anche a te."
         },
         {
           "title": "Say goodbye for now"
         },
         {
+          "title": "Classmate says goodbye",
           "chatbot_message": "A dopo!"
         }
       ]

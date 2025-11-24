@@ -130,18 +130,21 @@
       "setting": "Your Italian friend Marco asks about your morning.",
       "conversation_flow": [
         {
+          "title": "Friend asks about your morning routine",
           "chatbot_message": "Ciao! Parliamo della tua routine. Di solito, a che ora ti svegli?"
         },
         {
           "title": "Say what time you usually wake up"
         },
         {
+          "title": "Friend asks what you eat for breakfast",
           "chatbot_message": "Capito. E per colazione, cosa mangi?"
         },
         {
           "title": "Mention what you eat for breakfast"
         },
         {
+          "title": "Friend asks how you get to work",
           "chatbot_message": "Buono! E come vai al lavoro?"
         },
         {
@@ -226,18 +229,21 @@
       "setting": "The conversation continues. You now talk about your workday.",
       "conversation_flow": [
         {
+          "title": "Friend asks about your afternoon and work start time",
           "chatbot_message": "Perfetto. E il pomeriggio? A che ora inizi di lavorare?"
         },
         {
           "title": "State what time you start working"
         },
         {
+          "title": "Friend asks when you usually have lunch",
           "chatbot_message": "Ok. E quando pranzi di solito?"
         },
         {
           "title": "Say what time you usually have lunch"
         },
         {
+          "title": "Friend asks when you finish work",
           "chatbot_message": "Bene. E a che ora finisci di lavorare?"
         },
         {
@@ -307,24 +313,28 @@
       "setting": "You're finishing the conversation by talking about your evening.",
       "conversation_flow": [
         {
+          "title": "Friend asks what you do after work",
           "chatbot_message": "Capito. E dopo il lavoro cosa fai?"
         },
         {
           "title": "Describe what you typically do after work"
         },
         {
+          "title": "Friend asks what time you have dinner",
           "chatbot_message": "Interessante! E a che ora ceni?"
         },
         {
           "title": "Say what time you usually eat dinner"
         },
         {
+          "title": "Friend says their routine is simple",
           "chatbot_message": "Perfetto. La mia routine è semplice."
         },
         {
           "title": "Ask about their routine in return"
         },
         {
+          "title": "Friend says they do sports and ends the conversation",
           "chatbot_message": "Io? Di solito faccio sport. Grazie per la conversazione! Ciao!"
         }
       ]

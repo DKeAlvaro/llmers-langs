@@ -85,6 +85,7 @@
       "setting": "You are calling the hairdresser to make an appointment.",
       "conversation_flow": [
         {
+          "title": "Hairdresser greets the user",
           "chatbot_message": "Goedemiddag, met de kapper."
         },
         {
@@ -94,12 +95,14 @@
           }
         },
         {
+          "title": "Hairdresser acknowledges the user",
           "chatbot_message": "Hallo {user_name}."
         },
         {
           "title": "Say you want to make an appointment"
         },
         {
+          "title": "Hairdresser asks when you want to come",
           "chatbot_message": "Oké. Wanneer wil je komen?"
         }
       ]
@@ -206,18 +209,21 @@
       "setting": "You continue the phone call to find a suitable time.",
       "conversation_flow": [
         {
+          "title": "Hairdresser asks when you want to come",
           "chatbot_message": "Wanneer wil je komen?"
         },
         {
           "title": "Suggest Friday afternoon"
         },
         {
+          "title": "Hairdresser suggests a time",
           "chatbot_message": "Vrijdagmiddag om drie uur. Kan dat?"
         },
         {
           "title": "Decline and ask for another time"
         },
         {
+          "title": "Hairdresser suggests another time",
           "chatbot_message": "Oké. Vrijdag om vijf uur. Kan dat?"
         }
       ]
@@ -273,24 +279,28 @@
       "setting": "You are about to finalize the appointment details.",
       "conversation_flow": [
         {
+          "title": "Hairdresser suggests a time",
           "chatbot_message": "Vrijdag om vijf uur. Kan dat?"
         },
         {
           "title": "Agree to the time"
         },
         {
+          "title": "Hairdresser acknowledges",
           "chatbot_message": "Oké."
         },
         {
           "title": "Repeat the day and time to confirm"
         },
         {
+          "title": "Hairdresser confirms and says goodbye",
           "chatbot_message": "Ja, dat klopt. Tot vrijdag!"
         },
         {
           "title": "Thank the hairdresser and say goodbye"
         },
         {
+          "title": "Hairdresser says goodbye",
           "chatbot_message": "Tot ziens."
         }
       ]

@@ -78,6 +78,7 @@
       "setting": "You are at the pharmacy counter to pick up a prescription.",
       "conversation_flow": [
         {
+          "title": "Pharmacist greets you",
           "chatbot_message": "Bonjour."
         },
         {
@@ -191,6 +192,7 @@
       "setting": "The pharmacist returns with your medicine and is ready to answer your questions.",
       "conversation_flow": [
         {
+          "title": "Pharmacist returns with your medicine",
           "chatbot_message": "Voici votre médicament."
         },
         {
@@ -277,6 +279,7 @@
       "setting": "You are at the cash register, ready to finalize your visit.",
       "conversation_flow": [
         {
+          "title": "Pharmacist asks if that is all",
           "chatbot_message": "Ce sera tout ?"
         },
         {

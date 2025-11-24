@@ -81,6 +81,7 @@
       "setting": "You are calling a pizzeria to order food for delivery.",
       "conversation_flow": [
         {
+          "title": "Pizzeria answers the phone",
           "chatbot_message": "Pizzeria Chez Luigi, bonsoir."
         },
         {
@@ -181,14 +182,14 @@
       "setting": "The employee now needs your personal details for the delivery.",
       "conversation_flow": [
         {
-          "title": "State your name",
+          "title": "Employee asks for your name",
           "chatbot_message": "Parfait. Pour la livraison, quel est votre nom ?",
           "extract_info": {
             "user_name": "Extract the user's name from their message"
           }
         },
         {
-          "title": "Give your address",
+          "title": "Employee asks for your address",
           "chatbot_message": "Merci, {user_name}. Et quelle est votre adresse ?"
         },
         {
@@ -282,6 +283,7 @@
       "setting": "You just need to confirm the price and delivery time before hanging up.",
       "conversation_flow": [
         {
+          "title": "Employee confirms your order",
           "chatbot_message": "Votre commande est confirmée. Vous avez des questions ?"
         },
         {

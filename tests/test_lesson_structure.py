@@ -12,14 +12,18 @@ def get_lesson_files():
                 lesson_files.append(os.path.join(root, file))
     return lesson_files
 
-@pytest.mark.parametrize("lesson_file", get_lesson_files())
-def test_lesson_structure(lesson_file):
+@pytest.fixture(params=get_lesson_files())
+def lesson_data(request):
+    lesson_file = request.param
     with open(lesson_file, 'r', encoding='utf-8') as f:
         try:
             data = json.load(f)
+            return data, lesson_file
         except json.JSONDecodeError as e:
             pytest.fail(f"{lesson_file} is not a valid JSON file: {e}")
 
+def test_lesson_structure(lesson_data):
+    data, lesson_file = lesson_data
     if "content" in data:
         for i, item in enumerate(data["content"]):
             if item.get("type") == "interactive_scenario" and "conversation_flow" in item:
@@ -30,15 +34,12 @@ def test_lesson_structure(lesson_file):
                             f"Content item {i}, Step {j}: 'title' should not be in 'user_response'"
                         )
 
-@pytest.mark.parametrize("lesson_file", get_lesson_files())
-def test_interactive_scenario_variable_usage(lesson_file):
+def test_interactive_scenario_variable_usage(lesson_data):
     """
     Tests that a scenario step with 'extract_info' does not use variables in its own chatbot_message
     that are being defined in the same step.
     """
-    with open(lesson_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
+    data, lesson_file = lesson_data
     if "content" not in data:
         return
 
@@ -58,3 +59,21 @@ def test_interactive_scenario_variable_usage(lesson_file):
                                 f"The 'chatbot_message' in a step with 'extract_info' should not contain variables "
                                 f"that are defined in the same step. Variable '{var}' is defined and used in the same step."
                             )
+
+def test_conversation_flow_step_has_title(lesson_data):
+    """
+    Tests that each step in the conversation_flow of an interactive_scenario has a 'title'.
+    """
+    data, lesson_file = lesson_data
+    if "content" not in data:
+        return
+
+    for i, item in enumerate(data["content"]):
+        if item.get("type") == "interactive_scenario" and "conversation_flow" in item:
+            for j, step in enumerate(item["conversation_flow"]):
+                if "title" not in step:
+                    pytest.fail(
+                        f"File: {lesson_file}\n"
+                        f"Content item {i} ('{item.get('title', 'NA')}'), Step {j}: "
+                        f"Each step in 'conversation_flow' must have a 'title'."
+                    )

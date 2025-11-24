@@ -80,6 +80,7 @@
       "setting": "You are calling the hairdresser ('il parrucchiere') to make an appointment.",
       "conversation_flow": [
         {
+          "title": "Hairdresser answers the phone",
           "chatbot_message": "Pronto, Salone Bella."
         },
         {
@@ -89,12 +90,14 @@
           }
         },
         {
+          "title": "Hairdresser greets you back",
           "chatbot_message": "Buongiorno, {user_name}."
         },
         {
           "title": "Say you would like an appointment for a haircut"
         },
         {
+          "title": "Hairdresser asks when you would like to come",
           "chatbot_message": "Certo. Quando vorrebbe venire?"
         }
       ]
@@ -184,18 +187,21 @@
           "title": "Suggest Friday"
         },
         {
+          "title": "Hairdresser asks for morning or afternoon",
           "chatbot_message": "Venerdì... va bene. La mattina o il pomeriggio?"
         },
         {
           "title": "Say you prefer the afternoon"
         },
         {
+          "title": "Hairdresser suggests 2pm",
           "chatbot_message": "Il pomeriggio alle due. Va bene?"
         },
         {
           "title": "Decline and suggest three o'clock"
         },
         {
+          "title": "Hairdresser checks availability",
           "chatbot_message": "Alle tre... vediamo..."
         }
       ]
@@ -248,24 +254,28 @@
       "setting": "You are about to finalize your appointment details with the hairdresser.",
       "conversation_flow": [
         {
+          "title": "Hairdresser confirms 3pm is available",
           "chatbot_message": "Sì, alle tre è possibile. Perfetto."
         },
         {
           "title": "Agree to the time"
         },
         {
+          "title": "Hairdresser confirms the appointment details",
           "chatbot_message": "Bene. Allora l'appuntamento è venerdì alle tre."
         },
         {
           "title": "Confirm by repeating the day and time"
         },
         {
+          "title": "Hairdresser confirms and says see you Friday",
           "chatbot_message": "Esatto. A venerdì!"
         },
         {
           "title": "Thank the person and say goodbye"
         },
         {
+          "title": "Hairdresser says goodbye",
           "chatbot_message": "Arrivederci."
         }
       ]

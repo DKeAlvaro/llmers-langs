@@ -74,18 +74,21 @@
       "setting": "You are at the train station service desk to buy a ticket.",
       "conversation_flow": [
         {
+          "title": "Employee greets you",
           "chatbot_message": "¡Buenos días!",
           "user_goal": {
             "title": "Greet the employee and ask for a ticket to Utrecht"
           }
         },
         {
+          "title": "Employee asks if you want a one-way or return ticket",
           "chatbot_message": "Vale. ¿Ida o ida y vuelta?",
           "user_goal": {
             "title": "Specify you need a one-way ticket"
           }
         },
         {
+          "title": "Employee confirms your one-way ticket to Utrecht",
           "chatbot_message": "Muy bien. Un billete de ida para Utrecht.",
           "user_goal": null
         }
@@ -175,24 +178,28 @@
       "setting": "You continue your conversation at the service desk.",
       "conversation_flow": [
         {
+          "title": "Ask what time the next train leaves",
           "chatbot_message": null,
           "user_goal": {
             "title": "Ask what time the next train leaves"
           }
         },
         {
+          "title": "Employee says the next train leaves at 10",
           "chatbot_message": "El próximo tren sale a las diez.",
           "user_goal": {
             "title": "Ask which platform it leaves from"
           }
         },
         {
+          "title": "Employee says it leaves from platform 5",
           "chatbot_message": "Del andén cinco.",
           "user_goal": {
             "title": "Ask if the train is direct"
           }
         },
         {
+          "title": "Employee confirms the train is direct",
           "chatbot_message": "Sí, es directo.",
           "user_goal": null
         }
@@ -271,24 +278,28 @@
       "setting": "You are ready to pay for your ticket.",
       "conversation_flow": [
         {
+          "title": "Ask for the price",
           "chatbot_message": null,
           "user_goal": {
             "title": "Ask for the price"
           }
         },
         {
+          "title": "Employee says the price is 25 euros",
           "chatbot_message": "Son veinticinco euros.",
           "user_goal": {
             "title": "Pay for the ticket"
           }
         },
         {
+          "title": "Employee thanks you and wishes you a good trip",
           "chatbot_message": "Gracias. ¡Buen viaje!",
           "user_goal": {
             "title": "Thank the employee"
           }
         },
         {
+          "title": "Employee says you're welcome",
           "chatbot_message": "De nada.",
           "user_goal": null
         }

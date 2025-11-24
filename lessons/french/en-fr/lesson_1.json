@@ -70,6 +70,7 @@
       "setting": "You are in the classroom. A classmate sitting next to you starts a conversation.",
       "conversation_flow": [
         {
+          "title": "Greet the user",
           "chatbot_message": "Bonjour."
         },
         {
@@ -79,18 +80,21 @@
           }
         },
         {
+          "title": "Greet the user by name",
           "chatbot_message": "Bonjour {user_name}."
         },
         {
           "title": "Ask for their name"
         },
         {
+          "title": "State Léo's name",
           "chatbot_message": "Je m'appelle Léo."
         },
         {
           "title": "Say it's nice to meet them"
         },
         {
+          "title": "Acknowledge the introduction",
           "chatbot_message": "Enchanté."
         }
       ]
@@ -177,12 +181,14 @@
           "title": "Ask Léo where he is from"
         },
         {
+          "title": "State Léo's origin and ask for user's origin",
           "chatbot_message": "Je viens de France. Et toi?"
         },
         {
           "title": "State your country of origin"
         },
         {
+          "title": "Acknowledge user's origin and ask where they live",
           "chatbot_message": "Super! Tu habites où?"
         },
         {
@@ -192,6 +198,7 @@
           }
         },
         {
+          "title": "Acknowledge user's city and signal the teacher's arrival",
           "chatbot_message": "Ah {user_city}! Très bien. Oh, le professeur arrive."
         }
       ]
@@ -264,24 +271,28 @@
       "setting": "The teacher has arrived and is about to start the class. It's time to end the conversation.",
       "conversation_flow": [
         {
+          "title": "Signal the teacher's arrival",
           "chatbot_message": "Oh, le professeur arrive."
         },
         {
           "title": "Acknowledge that the class is starting"
         },
         {
+          "title": "Wish the user luck",
           "chatbot_message": "Oui. Bonne chance avec le cours!"
         },
         {
           "title": "Thank them and wish them luck too"
         },
         {
+          "title": "Acknowledge the user's thanks",
           "chatbot_message": "Merci!"
         },
         {
           "title": "Say goodbye for now"
         },
         {
+          "title": "Say goodbye to the user by name",
           "chatbot_message": "À plus tard, {user_name}!"
         }
       ]

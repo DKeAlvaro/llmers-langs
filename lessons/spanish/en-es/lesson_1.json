@@ -66,8 +66,8 @@
       "setting": "Estás en el aula esperando tu primera clase de español. Un compañero de al lado inicia una conversación.",
       "conversation_flow": [
         {
+          "title": "Classmate says hello",
           "chatbot_message": "Hola.",
-          "title": "Respond to the greeting and state your name",
           "user_response": {
             "goal_id": "L01_SP_S01_U01",
             "extract_info": {
@@ -76,20 +76,21 @@
           }
         },
         {
+          "title": "Classmate says hello to you by name",
           "chatbot_message": "Hola, {user_name}.",
-          "title": "Ask for their name",
           "user_response": {
             "goal_id": "L01_SP_S01_U02"
           }
         },
         {
+          "title": "Classmate introduces himself as Lucas",
           "chatbot_message": "Me llamo Lucas.",
-          "title": "State that it's nice to meet them",
           "user_response": {
             "goal_id": "L01_SP_S01_U03"
           }
         },
         {
+          "title": "Classmate says 'Likewise'",
           "chatbot_message": "Igualmente."
         }
       ]
@@ -153,22 +154,22 @@
       "setting": "La conversación con tu nuevo compañero, Lucas, continúa.",
       "conversation_flow": [
         {
+          "title": "Classmate says it was a pleasure to meet you",
           "chatbot_message": "Mucho gusto, {user_name}.",
-          "title": "Ask where they are from",
           "user_response": {
             "goal_id": "L01_SP_S02_U01"
           }
         },
         {
+          "title": "Classmate states they are from Spain and asks where you are from",
           "chatbot_message": "Soy de España. ¿Y tú?",
-          "title": "Respond with your country of origin",
           "user_response": {
             "goal_id": "L01_SP_S02_U02"
           }
         },
         {
+          "title": "Classmate finds your origin interesting",
           "chatbot_message": "¡Qué interesante!",
-          "title": "Mention the city you currently live in",
           "user_response": {
             "goal_id": "L01_SP_S02_U03",
             "extract_info": {
@@ -177,6 +178,7 @@
           }
         },
         {
+          "title": "Classmate compliments your city",
           "chatbot_message": "Ah, {user_city}. ¡Es una ciudad bonita!"
         }
       ]
@@ -240,27 +242,28 @@
       "setting": "El profesor ha llegado y está a punto de empezar la clase.",
       "conversation_flow": [
         {
+          "title": "Classmate points out the teacher has arrived",
           "chatbot_message": "Mira, el profesor está aquí.",
-          "title": "Acknowledge that the lesson is starting",
           "user_response": {
             "goal_id": "L01_SP_S03_U01"
           }
         },
         {
+          "title": "Classmate agrees",
           "chatbot_message": "Sí.",
-          "title": "Wish them good luck with the course",
           "user_response": {
             "goal_id": "L01_SP_S03_U02"
           }
         },
         {
+          "title": "Classmate thanks you and wishes you luck as well",
           "chatbot_message": "Gracias. ¡Buena suerte a ti también!",
-          "title": "Say goodbye for now",
           "user_response": {
             "goal_id": "L01_SP_S03_U03"
           }
         },
         {
+          "title": "Classmate says see you later",
           "chatbot_message": "Hasta luego."
         }
       ]
