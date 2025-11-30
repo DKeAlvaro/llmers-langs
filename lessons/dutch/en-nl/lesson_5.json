@@ -1,0 +1,214 @@
+{
+  "id": "L05",
+  "title": "Lesson 5: At the Albert Heijn Service Counter",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you're at the service counter of an Albert Heijn supermarket to pick up a package. Let's start by explaining why you're there."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V01",
+      "data": {
+        "pakketje": "package (small)",
+        "ophalen": "to pick up / collect"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E01",
+      "data": {
+        "phrase": "Ik kom een pakketje ophalen.",
+        "meaning": "I've come to pick up a package."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E02",
+      "data": {
+        "phrase": "Het is een pakketje van...",
+        "meaning": "It's a package from..."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S01",
+      "title": "State Your Purpose",
+      "setting": "You are at the service counter in Albert Heijn. The clerk greets you.",
+      "conversation_flow": [
+        {
+          "title": "Say you are here to pick up a package",
+          "chatbot_message": "Goedemiddag. Kan ik u helpen?"
+        },
+        {
+          "title": "Say it's a Bol.com package",
+          "chatbot_message": "Prima. Voor welk pakketje komt u?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V02",
+      "data": {
+        "afhaalcode": "collection code",
+        "telefoon": "phone"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E03",
+      "data": {
+        "phrase": "Ik heb de afhaalcode.",
+        "meaning": "I have the collection code."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E04",
+      "data": {
+        "phrase": "Moet ik de code laten zien?",
+        "meaning": "Should I show the code?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S02",
+      "title": "Provide the Code",
+      "setting": "The clerk knows you're here for a Bol.com package and now needs the collection code.",
+      "conversation_flow": [
+        {
+          "title": "Say you have the collection code",
+          "chatbot_message": "Oké, een pakketje van Bol.com. Heeft u de afhaalcode voor mij?"
+        },
+        {
+          "title": "Ask if you should show the code on your phone",
+          "chatbot_message": "Ja, graag."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V03",
+      "data": {
+        "identiteitsbewijs": "ID card / proof of identity",
+        "paspoort": "passport",
+        "bankpas": "bank card",
+        "alleen": "only"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E05",
+      "data": {
+        "phrase": "Ik heb mijn ... niet bij me.",
+        "meaning": "I don't have my ... with me."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E06",
+      "data": {
+        "phrase": "Ik heb alleen mijn bankpas.",
+        "meaning": "I only have my bank card."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S03",
+      "title": "The ID Problem",
+      "setting": "You've offered to show your phone, but the clerk asks for something else.",
+      "conversation_flow": [
+        {
+          "title": "Say you don't have your passport with you",
+          "chatbot_message": "Dank u. Mag ik ook uw identiteitsbewijs even zien?"
+        },
+        {
+          "title": "Say you only have your bank card",
+          "chatbot_message": "Heeft u misschien een rijbewijs of ID-kaart?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V04",
+      "data": {
+        "e-mail": "email",
+        "bevestiging": "confirmation",
+        "genoeg": "enough",
+        "naam": "name"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E07",
+      "data": {
+        "phrase": "Is de e-mail ook goed?",
+        "meaning": "Is the email also okay?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E08",
+      "data": {
+        "phrase": "Ik kan de e-mail met mijn naam laten zien.",
+        "meaning": "I can show the email with my name."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S04",
+      "title": "Suggest an Alternative",
+      "setting": "The clerk has said your bank card isn't enough. You need to suggest another form of proof.",
+      "conversation_flow": [
+        {
+          "title": "Ask if the confirmation email is enough",
+          "chatbot_message": "Helaas, een bankpas is niet genoeg als identificatie."
+        },
+        {
+          "title": "Offer to show the email with your name",
+          "chatbot_message": "Misschien. Wat staat er in die e-mail?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L05_V05",
+      "data": {
+        "tekenen": "to sign",
+        "handtekening": "signature"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E09",
+      "data": {
+        "phrase": "Dat is goed.",
+        "meaning": "That is good / That's okay."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L05_E10",
+      "data": {
+        "phrase": "Ja, natuurlijk.",
+        "meaning": "Yes, of course."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L05_S05",
+      "title": "Complete the Collection",
+      "setting": "The clerk seems open to your suggestion. Let's finish the transaction.",
+      "conversation_flow": [
+        {
+          "title": "Confirm that this is okay",
+          "chatbot_message": "Oké, als uw naam en adres in de e-mail staan, is het goed. Laat maar zien."
+        },
+        {
+          "title": "Agree to sign for the package",
+          "chatbot_message": "Perfect, dit is in orde. Hier is uw pakketje. U moet hier nog wel even tekenen."
+        }
+      ]
+    }
+  ]
+}

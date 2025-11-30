@@ -1,0 +1,229 @@
+{
+  "id": "L06",
+  "title": "Reporting an Issue to the Landlord",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In this lesson, you will call your landlord (*huisbaas*) because the heating is broken. Your goal is to explain the problem and get help as soon as possible."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V01",
+      "data": {
+        "de huisbaas": "the landlord",
+        "de verwarming": "the heating",
+        "kapot": "broken",
+        "het adres": "the address"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E01",
+      "data": {
+        "phrase": "Hallo, met [naam].",
+        "meaning": "Hello, this is [name]."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E02",
+      "data": {
+        "phrase": "Mijn adres is [adres].",
+        "meaning": "My address is [address]."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E03",
+      "data": {
+        "phrase": "De verwarming is kapot.",
+        "meaning": "The heating is broken."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S01",
+      "title": "Stating the Problem",
+      "setting": "You are calling your landlord. You need to introduce yourself and state the main problem.",
+      "conversation_flow": [
+        {
+          "title": "Introduce yourself and state your address.",
+          "chatbot_message": "Goedemiddag, u spreekt met de huisbaas."
+        },
+        {
+          "title": "Tell him the heating is broken.",
+          "chatbot_message": "Ah, goedemiddag. Ik heb uw adres. Wat is het probleem?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V02",
+      "data": {
+        "warm": "warm",
+        "het water": "the water",
+        "koud": "cold",
+        "heel": "very"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E04",
+      "data": {
+        "phrase": "Er is geen warm water.",
+        "meaning": "There is no warm water."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E05",
+      "data": {
+        "phrase": "Het is heel koud.",
+        "meaning": "It is very cold."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S02",
+      "title": "Describing the Situation",
+      "setting": "The landlord knows the heating is broken. Now, give more details.",
+      "conversation_flow": [
+        {
+          "title": "Say there is no warm water.",
+          "chatbot_message": "Oké, de verwarming is kapot. Is er nog iets?"
+        },
+        {
+          "title": "Say it is very cold.",
+          "chatbot_message": "Geen warm water. Begrepen. En de temperatuur in huis?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V03",
+      "data": {
+        "de monteur": "the mechanic / technician",
+        "wanneer": "when",
+        "kan": "can",
+        "komen": "to come",
+        "morgen": "tomorrow",
+        "laat": "late"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E06",
+      "data": {
+        "phrase": "Wanneer kan de monteur komen?",
+        "meaning": "When can the mechanic come?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E07",
+      "data": {
+        "phrase": "Dat is te laat.",
+        "meaning": "That is too late."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S03",
+      "title": "The Urgency Mismatch",
+      "setting": "You have explained the problem. Now you need to know when it will be fixed.",
+      "conversation_flow": [
+        {
+          "title": "Ask when the mechanic can come.",
+          "chatbot_message": "Vervelend. Ik moet een monteur bellen."
+        },
+        {
+          "title": "Say that is too late.",
+          "chatbot_message": "Even kijken... misschien morgen of overmorgen."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V04",
+      "data": {
+        "urgent": "urgent",
+        "het probleem": "the problem",
+        "vandaag": "today",
+        "alsjeblieft": "please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E08",
+      "data": {
+        "phrase": "Het is een urgent probleem.",
+        "meaning": "It is an urgent problem."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E09",
+      "data": {
+        "phrase": "Kan er vandaag iemand komen, alsjeblieft?",
+        "meaning": "Can someone come today, please?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S04",
+      "title": "Emphasizing Urgency",
+      "setting": "The landlord's timeline is too slow. You need to explain that the problem is urgent.",
+      "conversation_flow": [
+        {
+          "title": "Say it is an urgent problem.",
+          "chatbot_message": "Te laat? De monteurs hebben het erg druk."
+        },
+        {
+          "title": "Ask if someone can please come today.",
+          "chatbot_message": "Oké, oké, ik begrijp het. U heeft gelijk."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L06_V05",
+      "data": {
+        "bellen": "to call",
+        "het nummer": "the number",
+        "de afspraak": "the appointment"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E10",
+      "data": {
+        "phrase": "Oké, de monteur belt mij.",
+        "meaning": "Okay, the mechanic will call me."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L06_E11",
+      "data": {
+        "phrase": "Mijn nummer is...",
+        "meaning": "My number is..."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L06_S05",
+      "title": "Securing an Appointment",
+      "setting": "The landlord has agreed to act today. Confirm the final details.",
+      "conversation_flow": [
+        {
+          "title": "Confirm that the mechanic will call you.",
+          "chatbot_message": "Goed. Ik vraag de monteur om u vandaag te bellen voor een afspraak."
+        },
+        {
+          "title": "State your phone number.",
+          "chatbot_message": "Precies. Wat is uw telefoonnummer ook alweer?"
+        }
+      ]
+    }
+  ]
+}

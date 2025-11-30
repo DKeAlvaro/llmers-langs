@@ -1,271 +1,225 @@
 {
-  "id": "L3",
-  "title": "The Supermarket Bonus Card",
+  "id": "L03",
+  "title": "A Flat Tire at the Fietsenmaker",
   "content": [
     {
       "type": "tip",
-      "text": "This lesson simulates a common interaction at a Dutch supermarket checkout, including dealing with a price error and using a loyalty card."
+      "text": "Your bicycle has a flat tire. You've taken it to a bike mechanic ('fietsenmaker'). Your goal is to get it fixed quickly."
     },
     {
       "type": "vocabulary",
-      "item_id": "L3_V01",
+      "item_id": "L03_V01",
       "data": {
-        "de tas": "the bag",
-        "plastic": "plastic",
-        "de aardbeien": "the strawberries",
-        "het bordje": "the (little) sign",
-        "de korting": "the discount",
-        "de sticker": "the sticker",
-        "oranje": "orange"
+        "Goedemiddag": "Good afternoon",
+        "fiets": "bicycle",
+        "band": "tire",
+        "achterband": "back tire"
       }
     },
     {
       "type": "expression",
-      "item_id": "L3_E01",
+      "item_id": "L03_E01",
       "data": {
-        "phrase": "Ik heb geen...",
-        "meaning": "I don't have a..."
+        "phrase": "Ik heb een lekke...",
+        "meaning": "I have a flat..."
       }
     },
     {
       "type": "expression",
-      "item_id": "L3_E02",
+      "item_id": "L03_E02",
       "data": {
-        "phrase": "Mag ik een... alstublieft?",
-        "meaning": "May I have a... please?"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L3_E03",
-      "data": {
-        "phrase": "Pardon, maar op het bordje stond...",
-        "meaning": "Excuse me, but the sign said..."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L3_E04",
-      "data": {
-        "phrase": "De sticker was...",
-        "meaning": "The sticker was..."
-      }
-    },
-    {
-      "type": "pronunciation",
-      "item_id": "L3_P01",
-      "data": {
-        "word": "bordje",
-        "phonetic": "/bɔrt.jə/",
-        "tip": "The '-je' ending is a diminutive and is pronounced like 'yuh'."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L3_E05",
-      "data": {
-        "phrase": "Kunt u het nog eens controleren?",
-        "meaning": "Can you check it again?"
+        "phrase": "Kunt u dit repareren?",
+        "meaning": "Can you repair this?"
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L3_S01",
-      "title": "The Checkout Interaction",
-      "setting": "You are at the checkout in a Dutch supermarket. The cashier is scanning your items.",
+      "scenario_id": "L03_S01",
+      "title": "Stating the Problem",
+      "setting": "You've just walked into a small bike repair shop. The mechanic looks up from a wheel he's working on.",
       "conversation_flow": [
         {
-          "title": "Greet the cashier and say you don't have a bag.",
-          "chatbot_message": "Goedemiddag. Alles op de band gelegd? Heeft u een tas bij u?"
+          "title": "State that your back tire is flat.",
+          "chatbot_message": "Goedemiddag. Kan ik u helpen?"
         },
         {
-          "title": "Ask if you can have a plastic bag.",
-          "chatbot_message": "Geen probleem. Wilt u een plastic tasje? Die kost 25 cent."
-        },
-        {
-          "title": "Confirm you want the bag and place it on the belt.",
-          "chatbot_message": "Oké, hier is het tasje. Ik scan ondertussen uw boodschappen... De aardbeien, die zijn 5 euro."
-        },
-        {
-          "title": "Point out that the sign said the strawberries were 3 euros.",
-          "chatbot_message": "Oh, 5 euro staat hier in het systeem. Weet u zeker dat het 3 euro was?"
-        },
-        {
-          "title": "Insist that the discount sticker was orange.",
-          "chatbot_message": "Een oranje sticker... ah, dat is een speciale aanbieding. Dan moet het kloppen."
-        },
-        {
-          "title": "Politely ask the cashier to check the price again.",
-          "chatbot_message": "Natuurlijk, ik laat het even nakijken. Een ogenblikje."
+          "title": "Ask if they can repair it.",
+          "chatbot_message": "Ah, een lekke achterband. Dat is vervelend."
         }
       ]
     },
     {
-      "type": "tip",
-      "text": "Many Dutch supermarkets use a 'Bonuskaart' (loyalty card) for special discounts. The price on the sign often requires this card."
-    },
-    {
       "type": "vocabulary",
-      "item_id": "L3_V02",
+      "item_id": "L03_V02",
       "data": {
-        "de Bonuskaart": "the Bonus Card",
-        "de kaart": "the card",
-        "de winkelkaart": "the shop card",
-        "zonder": "without",
-        "de kassa": "the checkout / cash register"
+        "hoe lang": "how long",
+        "vandaag": "today",
+        "uur": "o'clock / hour",
+        "nodig": "need"
       }
     },
     {
       "type": "expression",
-      "item_id": "L3_E06",
+      "item_id": "L03_E03",
       "data": {
-        "phrase": "Pardon, een wat?",
-        "meaning": "Excuse me, a what?"
+        "phrase": "Hoe lang duurt dat?",
+        "meaning": "How long does that take?"
       }
     },
     {
       "type": "expression",
-      "item_id": "L3_E07",
+      "item_id": "L03_E04",
       "data": {
-        "phrase": "Ik heb geen kaart bij me.",
-        "meaning": "I don't have a card with me."
+        "phrase": "Ik heb de fiets ... nodig.",
+        "meaning": "I need the bike..."
       }
     },
     {
       "type": "expression",
-      "item_id": "L3_E08",
+      "item_id": "L03_E05",
       "data": {
-        "phrase": "Geldt de korting ook zonder de kaart?",
-        "meaning": "Does the discount also apply without the card?"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L3_E09",
-      "data": {
-        "phrase": "Heeft u misschien een winkelkaart?",
-        "meaning": "Do you perhaps have a shop card?"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L3_E10",
-      "data": {
-        "phrase": "Dank u wel voor de hulp.",
-        "meaning": "Thank you for the help."
+        "phrase": "vóór vijf uur",
+        "meaning": "before five o'clock"
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L3_S02",
-      "title": "The Bonus Card Hurdle",
-      "setting": "The cashier has returned after checking the price.",
+      "scenario_id": "L03_S02",
+      "title": "Talking About Time",
+      "setting": "The mechanic is inspecting your tire.",
       "conversation_flow": [
         {
-          "title": "React with confusion.",
-          "chatbot_message": "U heeft gelijk, de prijs is 3 euro. Maar dat is een Bonusaanbieding. Heeft u een Bonuskaart?"
+          "title": "Ask how long the repair will take.",
+          "chatbot_message": "Jazeker, dat kan ik repareren."
         },
         {
-          "title": "State that you don't have a card with you.",
-          "chatbot_message": "Ah, dat is jammer. Zonder de kaart is de prijs 5 euro."
-        },
-        {
-          "title": "Ask if the discount still applies without the card.",
-          "chatbot_message": "Nee, helaas niet. De korting is echt alleen voor kaarthouders."
-        },
-        {
-          "title": "Ask if they have a 'shop card' you can use.",
-          "chatbot_message": "Ja hoor, geen probleem. Ik scan even de kaart van de kassa voor u... Zo, de korting is verwerkt. De prijs is nu 3 euro."
-        },
-        {
-          "title": "Thank them for helping you.",
-          "chatbot_message": "Graag gedaan."
+          "title": "Say you need the bike today before 5 o'clock.",
+          "chatbot_message": "Ongeveer een uur."
         }
       ]
     },
     {
-      "type": "tip",
-      "text": "In the Netherlands, you pay a deposit ('statiegeld') on many bottles and cans. You get this back by returning them at a machine, which prints a receipt ('bonnetje') to use at the checkout."
-    },
-    {
       "type": "vocabulary",
-      "item_id": "L3_V03",
+      "item_id": "L03_V03",
       "data": {
-        "het statiegeld": "the bottle deposit",
-        "het bonnetje": "the receipt / voucher",
-        "het bedrag": "the amount",
-        "het totaal": "the total",
-        "pinnen": "to pay with a debit card",
-        "de zegels": "the (promotional) stamps"
+        "wat": "what",
+        "kost": "costs",
+        "lichten": "lights",
+        "ook": "also",
+        "kapot": "broken"
       }
     },
     {
       "type": "expression",
-      "item_id": "L3_E11",
+      "item_id": "L03_E06",
       "data": {
-        "phrase": "Ik heb ook nog dit bonnetje van het statiegeld.",
-        "meaning": "I also have this receipt from the bottle deposit."
+        "phrase": "Wat kost dat?",
+        "meaning": "What does that cost?"
       }
     },
     {
       "type": "expression",
-      "item_id": "L3_E12",
+      "item_id": "L03_E07",
       "data": {
-        "phrase": "Is dat bedrag al van het totaal af?",
-        "meaning": "Is that amount already deducted from the total?"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L3_E13",
-      "data": {
-        "phrase": "Ik wil graag pinnen.",
-        "meaning": "I would like to pay by card."
-      }
-    },
-    {
-      "type": "pronunciation",
-      "item_id": "L3_P02",
-      "data": {
-        "word": "zegels",
-        "phonetic": "/zeː.ɣəls/",
-        "tip": "The 'z' is soft, like a buzzing sound. The 'g' is a soft, throaty sound, typical in Dutch."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L3_E14",
-      "data": {
-        "phrase": "Fijne avond!",
-        "meaning": "Have a nice evening!"
+        "phrase": "Oh, echt?",
+        "meaning": "Oh, really?"
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L3_S03",
-      "title": "Bottle Deposit & Paying",
-      "setting": "The price is now correct, and you are ready to pay.",
+      "scenario_id": "L03_S03",
+      "title": "An Unexpected Complication",
+      "setting": "The mechanic nods, agreeing to the time. He then quickly checks the rest of your bike.",
       "conversation_flow": [
         {
-          "title": "Hand over your bottle deposit receipt.",
-          "chatbot_message": "Perfect. Heeft u verder nog iets?"
+          "title": "Ask what it costs.",
+          "chatbot_message": "Oké, geen probleem. Voor vijf uur is prima."
         },
         {
-          "title": "Ask if the deposit has been deducted from the total.",
-          "chatbot_message": "Moment, ik scan het bonnetje... Ja, 1 euro en 50 cent is van het totaal afgehaald. Wilt u er koopzegels bij?"
+          "title": "React with surprise.",
+          "chatbot_message": "Dat is twintig euro. Ik zie ook dat uw lichten kapot zijn."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V04",
+      "data": {
+        "alleen": "only",
+        "nu": "now",
+        "graag": "please"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E08",
+      "data": {
+        "phrase": "Alleen de band, graag.",
+        "meaning": "Only the tire, please."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E09",
+      "data": {
+        "phrase": "Wat kost alleen de band?",
+        "meaning": "What does only the tire cost?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L03_S04",
+      "title": "Negotiating the Repair",
+      "setting": "The mechanic points to your broken front light. You are in a hurry and only want the essential repair.",
+      "conversation_flow": [
+        {
+          "title": "Say you only want the tire fixed for now.",
+          "chatbot_message": "Ja, de lichten moet ik ook repareren. Dat is dan dertig euro in totaal."
         },
         {
-          "title": "Decline the stamps.",
-          "chatbot_message": "Oké, geen zegels. Het totaal is dan 14 euro en 25 cent. U kunt betalen."
+          "title": "Ask for the price for only the tire.",
+          "chatbot_message": "Oké, alleen de band. Geen probleem."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L03_V05",
+      "data": {
+        "euro": "euro",
+        "prima": "fine / great",
+        "om": "at (for time)"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E10",
+      "data": {
+        "phrase": "Dat is prima.",
+        "meaning": "That is fine."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L03_E11",
+      "data": {
+        "phrase": "Ik kom om vier uur.",
+        "meaning": "I will come at four o'clock."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L03_S05",
+      "title": "Confirming the Agreement",
+      "setting": "The mechanic confirms the price for the single repair. Time to agree and set a pickup time.",
+      "conversation_flow": [
+        {
+          "title": "Agree to the price.",
+          "chatbot_message": "Alleen de band is vijftien euro."
         },
         {
-          "title": "Say that you want to pay by card (pinnen).",
-          "chatbot_message": "Prima, u mag uw pas invoeren of contactloos betalen."
-        },
-        {
-          "title": "Wish the cashier a good evening.",
-          "chatbot_message": "Dank u wel.",
-          "final_message": "Hetzelfde, fijne avond! Hier is uw bonnetje."
+          "title": "Confirm you will pick it up at 4 o'clock.",
+          "chatbot_message": "Perfect. Dan is uw fiets klaar om vier uur."
         }
       ]
     }

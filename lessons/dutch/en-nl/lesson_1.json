@@ -1,248 +1,203 @@
 {
-  "id": "L1",
-  "title": "De Markt (The Market)",
+  "id": "L01",
+  "title": "Lesson 1: The Haringkraam Ritual",
   "content": [
     {
       "type": "tip",
-      "text": "Welcome to the Dutch market! It's a lively place. To get a vendor's attention, a simple 'Hallo!' or 'Pardon!' is usually enough. Be prepared for a bit of friendly chat and maybe even a small upsell."
+      "text": "Welcome to the Netherlands! You're at a 'haringkraam' (herring stand) to try a famous Dutch snack: raw herring. Let's learn how to order."
     },
     {
       "type": "vocabulary",
-      "item_id": "L1_V01",
+      "item_id": "L01_V01",
       "data": {
-        "De kaas": "The cheese",
-        "Oud": "Old",
-        "Jong": "Young",
-        "Een stukje": "A little piece"
+        "haring": "herring",
+        "broodje": "sandwich / bun",
+        "uitjes": "onions",
+        "met": "with"
       }
     },
     {
       "type": "expression",
-      "item_id": "L1_E01",
+      "item_id": "L01_E01",
       "data": {
-        "phrase": "Ik zou graag ... willen.",
-        "meaning": "I would like to have..."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1_E02",
-      "data": {
-        "phrase": "Nee, sorry, ik bedoel de ...",
-        "meaning": "No, sorry, I mean the ..."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1_E03",
-      "data": {
-        "phrase": "Mag ik ... proeven?",
-        "meaning": "May I taste ...?"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1_E04",
-      "data": {
-        "phrase": "Doe maar ... gram.",
-        "meaning": "Just give me ... grams."
-      }
-    },
-    {
-      "type": "pronunciation",
-      "item_id": "L1_P01",
-      "data": {
-        "word": "Oude Kaas",
-        "phonetic": "[ou-duh kaas]",
-        "tip": "The 'ou' sound is like the 'ow' in 'cow'. The 'e' at the end of 'oude' is a soft, unstressed 'uh' sound (a schwa)."
+        "phrase": "Ik wil graag een broodje haring.",
+        "meaning": "I would like a herring sandwich."
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L1_S01",
-      "title": "Ordering Cheese",
-      "setting": "You're at a busy cheese stall at the Utrecht market. The vendor is helping other customers, and it's a bit noisy.",
+      "scenario_id": "L01_S01",
+      "title": "The Initial Order",
+      "setting": "You step up to the counter of a busy fish stand. The vendor smiles at you.",
       "conversation_flow": [
         {
-          "title": "Get the vendor's attention.",
-          "chatbot_message": "Hallo! Een ogenblikje... Ja, zeg het maar! Wat kan ik voor u doen?"
+          "title": "State you want a herring sandwich",
+          "chatbot_message": "Goedemiddag! Zeg het maar."
         },
         {
-          "title": "Say you would like a piece of old cheese.",
-          "chatbot_message": "Jazeker! Een ogenblik... bedoelt u de jonge kaas? Die is erg populair vandaag."
-        },
-        {
-          "title": "Correct the vendor. Say you mean the OLD cheese.",
-          "chatbot_message": "Ah, de oude! Goede keus, die is lekker pittig. Een mooi stuk voor u?"
-        },
-        {
-          "title": "Ask to taste a small piece before you buy.",
-          "chatbot_message": "Natuurlijk. Alstublieft, hier is een klein stukje om te proeven."
-        },
-        {
-          "title": "Confirm you like it and order 500 grams.",
-          "chatbot_message": "Perfect. Ik snij meteen 500 gram voor u af."
+          "title": "Say 'yes, with onions'",
+          "chatbot_message": "Oké, een broodje haring. Met uitjes?"
         }
       ]
     },
     {
-      "type": "tip",
-      "text": "It's common for market vendors to cut a piece of cheese slightly over the weight you ask for. You can either accept it or politely ask for the exact amount."
-    },
-    {
       "type": "vocabulary",
-      "item_id": "L1_V02",
+      "item_id": "L01_V02",
       "data": {
-        "Te veel": "Too much",
-        "Alleen": "Alone / Only",
-        "De stroopwafel": "The stroopwafel",
-        "Warm": "Warm",
-        "Vers": "Fresh",
-        "Een pakje": "A packet",
-        "Een servetje": "A napkin",
-        "Plakkerig": "Sticky"
+        "zuur": "pickles (literally: sour)",
+        "stukjes": "pieces",
+        "gesneden": "cut"
       }
     },
     {
       "type": "expression",
-      "item_id": "L1_E05",
+      "item_id": "L01_E02",
       "data": {
-        "phrase": "Dat is te veel voor één persoon.",
-        "meaning": "That is too much for one person."
+        "phrase": "Ja, graag. / Nee, dank je.",
+        "meaning": "Yes, please. / No, thank you."
       }
     },
     {
       "type": "expression",
-      "item_id": "L1_E06",
+      "item_id": "L01_E03",
       "data": {
-        "phrase": "Heeft u ook ...?",
-        "meaning": "Do you also have...?"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1_E07",
-      "data": {
-        "phrase": "Ik wil graag een ..., niet een pakje.",
-        "meaning": "I would like a ..., not a packet."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1_E08",
-      "data": {
-        "phrase": "Mag ik er een servetje bij?",
-        "meaning": "Can I have a napkin with it?"
-      }
-    },
-    {
-      "type": "pronunciation",
-      "item_id": "L1_P02",
-      "data": {
-        "word": "Stroopwafel",
-        "phonetic": "[strohp-vaa-ful]",
-        "tip": "The 'oo' sound is long, like in 'hope'. The 'w' is soft, like a 'v'."
+        "phrase": "In stukjes gesneden.",
+        "meaning": "Cut into pieces."
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L1_S02",
-      "title": "Handling an Upsell",
-      "setting": "The vendor has your cheese and is about to wrap it up.",
+      "scenario_id": "L01_S02",
+      "title": "Customizing Your Order",
+      "setting": "The vendor is about to prepare your herring.",
       "conversation_flow": [
         {
-          "title": "The vendor cut a piece that's a bit too big. React and tell him it's too much for just one person.",
-          "chatbot_message": "Zo, ik heb hier een prachtig stuk, iets meer dan 500 gram, is dat goed?"
+          "title": "Say 'no, thank you'",
+          "chatbot_message": "Komt voor elkaar. Wil je er ook zuur bij?"
         },
         {
-          "title": "The vendor agrees to cut it smaller. Now ask him if he also sells stroopwafels.",
-          "chatbot_message": "Geen probleem, dan snij ik er een stukje af. Precies 500 gram. Anders nog iets?"
-        },
-        {
-          "title": "The vendor offers a packet. Specify that you want one warm, fresh stroopwafel to eat right now.",
-          "chatbot_message": "Jazeker! De beste van Utrecht! Wilt u een pakje voor thuis?"
-        },
-        {
-          "title": "He's making a fresh one for you. Ask for a napkin, explaining that the syrup is sticky.",
-          "chatbot_message": "Een voor nu! Komt eraan. Die zijn het lekkerst als ze warm zijn."
+          "title": "Say 'yes, cut into pieces'",
+          "chatbot_message": "Prima. Moet ik de haring in stukjes snijden?"
         }
       ]
     },
     {
-      "type": "tip",
-      "text": "In the Netherlands, 'pinnen' is the verb for paying with a debit card. It's extremely common, but some market stalls may still be cash-only, so it's always good to ask 'Kan ik pinnen?'"
-    },
-    {
       "type": "vocabulary",
-      "item_id": "L1_V03",
+      "item_id": "L01_V03",
       "data": {
-        "Hoeveel": "How much",
-        "Totaal": "Total",
-        "Duurder dan": "More expensive than",
-        "De supermarkt": "The supermarket",
-        "Pinnen": "To pay by debit card",
-        "Contant": "Cash",
-        "Het bonnetje": "The receipt"
+        "pinnen": "to pay by debit card"
       }
     },
     {
       "type": "expression",
-      "item_id": "L1_E09",
+      "item_id": "L01_E04",
       "data": {
-        "phrase": "Wat kost het totaal?",
-        "meaning": "What is the total cost?"
+        "phrase": "Wat kost het?",
+        "meaning": "What does it cost?"
       }
     },
     {
       "type": "expression",
-      "item_id": "L1_E10",
+      "item_id": "L01_E05",
       "data": {
         "phrase": "Kan ik pinnen?",
-        "meaning": "Can I pay by debit card?"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1_E11",
-      "data": {
-        "phrase": "Ik hoef het bonnetje niet.",
-        "meaning": "I don't need the receipt."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1_E12",
-      "data": {
-        "phrase": "Fijne werkdag!",
-        "meaning": "Have a nice workday!"
+        "meaning": "Can I pay by card?"
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L1_S03",
-      "title": "Paying and Leaving",
-      "setting": "You have your cheese and stroopwafel. You're ready to pay.",
+      "scenario_id": "L01_S03",
+      "title": "Asking to Pay",
+      "setting": "The vendor hands you the prepared herring on a small tray.",
       "conversation_flow": [
         {
-          "title": "Ask for the total price.",
-          "chatbot_message": "Slim! De stroop is inderdaad plakkerig. Hier is uw wafel en een servetje. Anders nog iets?"
+          "title": "Ask for the price",
+          "chatbot_message": "Natuurlijk. Alstublieft, je broodje haring."
         },
         {
-          "title": "Express surprise that the price is higher than in the supermarket.",
-          "chatbot_message": "Dat wordt dan 12 euro 50, alstublieft."
+          "title": "Ask if you can pay by card",
+          "chatbot_message": "Dat is vier euro."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L01_V04",
+      "data": {
+        "pinapparaat": "card machine",
+        "kapot": "broken",
+        "wisselgeld": "change (money)",
+        "alleen": "only"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_E06",
+      "data": {
+        "phrase": "Ik heb alleen...",
+        "meaning": "I only have..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_E07",
+      "data": {
+        "phrase": "Heeft u wisselgeld?",
+        "meaning": "Do you have change?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L01_S04",
+      "title": "Handling a Payment Problem",
+      "setting": "You've just asked to pay by card, but the vendor shakes his head.",
+      "conversation_flow": [
+        {
+          "title": "Say you only have 50 euros",
+          "chatbot_message": "Nee, sorry. Het pinapparaat is kapot."
         },
         {
-          "title": "The vendor explains why. Now ask if you can pay with your debit card (pinnen).",
-          "chatbot_message": "Haha, ja, maar dit is echte boerenkaas, hè! Veel meer smaak. Kwaliteit kost wat."
+          "title": "Ask if they have change",
+          "chatbot_message": "50 euro... even kijken."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L01_V05",
+      "data": {
+        "contant": "cash"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_E08",
+      "data": {
+        "phrase": "Dat is goed.",
+        "meaning": "That is good."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L01_E09",
+      "data": {
+        "phrase": "Oké, ik betaal contant.",
+        "meaning": "Okay, I'll pay with cash."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L01_S05",
+      "title": "Completing the Transaction",
+      "setting": "The vendor looks in his cash box after you asked about change.",
+      "conversation_flow": [
+        {
+          "title": "Say 'that is good'",
+          "chatbot_message": "Ja, ik heb wisselgeld voor 50 euro."
         },
         {
-          "title": "He says yes. As you pay, tell him you don't need the receipt.",
-          "chatbot_message": "Jazeker, u kunt pinnen. Hier is het apparaat."
-        },
-        {
-          "title": "Thank the vendor and wish him a nice workday.",
-          "chatbot_message": "Oké, de betaling is gelukt. Geen bonnetje, prima.",
-          "final_message": "Dank u wel! U ook een fijne dag! Geniet van de kaas en de stroopwafel!"
+          "title": "Say you will pay with cash",
+          "chatbot_message": "Mooi."
         }
       ]
     }

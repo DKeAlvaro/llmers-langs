@@ -1,240 +1,197 @@
 {
   "id": "L02",
-  "title": "The 'Brown Café' Order",
+  "title": "Navigating the Train Station Service Desk",
   "content": [
     {
       "type": "tip",
-      "text": "Welcome to a 'bruin café', a traditional Dutch pub. In this lesson, you'll learn how to secure a table, order drinks and snacks, and handle a common dietary question."
+      "text": "You are at the NS (Dutch Railways) service desk at Utrecht Centraal. You need to buy a public transport card but are confused by the options."
     },
     {
       "type": "vocabulary",
       "item_id": "L02_V01",
       "data": {
-        "de tafel": "the table",
-        "het raam": "the window",
-        "vrij": "free / available",
-        "een vriend": "a friend",
-        "te laat": "late",
-        "een fluitje": "a small beer",
-        "de menukaart": "the menu"
+        "een": "a / an",
+        "OV-chipkaart": "public transport card",
+        "persoonlijke": "personal",
+        "anonieme": "anonymous",
+        "kopen": "to buy",
+        "nodig": "needed"
       }
     },
     {
       "type": "expression",
       "item_id": "L02_E01",
       "data": {
-        "phrase": "Is deze tafel ... vrij?",
-        "meaning": "Is this table ... free?"
+        "phrase": "Ik wil graag...",
+        "meaning": "I would like..."
       }
     },
     {
       "type": "expression",
       "item_id": "L02_E02",
       "data": {
-        "phrase": "Ik wacht op...",
-        "meaning": "I am waiting for..."
+        "phrase": "Heb ik ... nodig?",
+        "meaning": "Do I need...?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S01",
+      "title": "The Core Request",
+      "setting": "You approach the NS service desk. The clerk greets you.",
+      "conversation_flow": [
+        {
+          "title": "Say you would like to buy a public transport card",
+          "chatbot_message": "Goedemiddag. Waarmee kan ik u helpen?"
+        },
+        {
+          "title": "Ask if you need a personal or an anonymous card",
+          "chatbot_message": "Natuurlijk. Wilt u een persoonlijke of een anonieme kaart?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V02",
+      "data": {
+        "Ik ben": "I am",
+        "toerist": "tourist",
+        "Ik blijf": "I am staying",
+        "één maand": "one month"
       }
     },
     {
       "type": "expression",
       "item_id": "L02_E03",
       "data": {
-        "phrase": "Voor mij graag een...",
-        "meaning": "For me, a... please"
+        "phrase": "Wat kost de anonieme kaart?",
+        "meaning": "What does the anonymous card cost?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S02",
+      "title": "Information Gathering",
+      "setting": "The conversation continues. The clerk needs more information to help you.",
+      "conversation_flow": [
+        {
+          "title": "Say you are a tourist and you are staying for one month",
+          "chatbot_message": "Dat hangt ervan af. Bent u een inwoner?"
+        },
+        {
+          "title": "Ask for the price of the anonymous card",
+          "chatbot_message": "Oké, dan is een anonieme kaart het beste voor u."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V03",
+      "data": {
+        "nu": "now",
+        "alleen": "only",
+        "automaat": "machine",
+        "Oh, oké": "Oh, okay"
       }
     },
     {
       "type": "expression",
       "item_id": "L02_E04",
       "data": {
-        "phrase": "Wat voor tapbier heeft u?",
-        "meaning": "What kind of draft beer do you have?"
+        "phrase": "Ik wil ... nu kopen.",
+        "meaning": "I want to buy ... now."
       }
     },
     {
-      "type": "pronunciation",
-      "item_id": "L02_P01",
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S03",
+      "title": "The Bureaucratic Hurdle",
+      "setting": "You've decided on the anonymous card, but there's a small problem.",
+      "conversation_flow": [
+        {
+          "title": "Say you want to buy the anonymous card now",
+          "chatbot_message": "De kaart zelf kost 7,50 euro."
+        },
+        {
+          "title": "React with 'Oh, okay.'",
+          "chatbot_message": "Helaas, die verkopen wij alleen bij de automaat."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V04",
       "data": {
-        "word": "fluitje",
-        "phonetic": "/flœy̯cə/",
-        "tip": "The 'ui' sound is unique to Dutch. It's like a quick glide from 'ah' to 'ee'. Think of the sound in the English word 'boy', but with your lips more rounded."
+        "De automaat": "The machine",
+        "accepteert niet": "does not accept",
+        "mijn": "my",
+        "buitenlandse": "foreign",
+        "creditcard": "credit card",
+        "contant geld": "cash"
       }
     },
     {
       "type": "expression",
       "item_id": "L02_E05",
       "data": {
-        "phrase": "Mag ik de kaart zien?",
-        "meaning": "May I see the menu?"
+        "phrase": "Kan ik hier met contant geld betalen?",
+        "meaning": "Can I pay here with cash?"
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L02_S01",
-      "title": "Securing the Table & Ordering",
-      "setting": "You enter a cozy, traditional Dutch pub. You see a bartender behind the bar and an empty table near the window.",
+      "scenario_id": "L02_S04",
+      "title": "Solving the Machine Issue",
+      "setting": "You went to the ticket machine, but your card was declined. You return to the service desk.",
       "conversation_flow": [
         {
-          "title": "Greet the bartender and ask if the table by the window is free.",
-          "chatbot_message": "Goeiemiddag! Welkom. Wat kan ik voor u doen?"
+          "title": "Say the machine does not accept your foreign credit card",
+          "chatbot_message": "Bent u er weer? Is er een probleem?"
         },
         {
-          "title": "Tell the bartender you are waiting for a friend who is five minutes late.",
-          "chatbot_message": "Jazeker, die tafel is vrij. Ga gerust zitten. Verwacht u iemand?"
-        },
-        {
-          "title": "Order a 'fluitje' for yourself to start.",
-          "chatbot_message": "Geen probleem. Kan ik alvast iets te drinken voor u brengen?"
-        },
-        {
-          "title": "Ask what kind of draft beers they have.",
-          "chatbot_message": "Een fluitje, komt eraan. We hebben ook speciaalbier van de tap."
-        },
-        {
-          "title": "Acknowledge the options and ask to see the menu for snacks ('borrelhapjes').",
-          "chatbot_message": "We hebben Heineken, Brand en een lokaal blondbier. Hier is uw fluitje alvast."
+          "title": "Ask if you can pay with cash here",
+          "chatbot_message": "Ah, dat is een bekend probleem. Ik kan een uitzondering maken."
         }
       ]
     },
     {
-      "type": "tip",
-      "text": "Great start! Now you need to order some snacks. 'Bitterballen' are very popular, but it's always good to check ingredients for dietary needs."
-    },
-    {
       "type": "vocabulary",
-      "item_id": "L02_V02",
+      "item_id": "L02_V05",
       "data": {
-        "een portie": "a portion",
-        "bitterballen": "Dutch meatballs (snack)",
-        "kaassoufflés": "cheese soufflé snacks (vegetarian)",
-        "het vlees": "the meat",
-        "vegetarisch": "vegetarian",
-        "de mosterd": "the mustard",
-        "apart": "on the side / separate"
+        "totaal": "total",
+        "is": "is",
+        "tegoed": "credit (on a card)"
       }
     },
     {
       "type": "expression",
       "item_id": "L02_E06",
       "data": {
-        "phrase": "Pardon, mag ik iets bestellen?",
-        "meaning": "Excuse me, may I order something?"
+        "phrase": "Dus, het totaal is ... euro?",
+        "meaning": "So, the total is ... euros?"
       }
     },
     {
       "type": "expression",
       "item_id": "L02_E07",
       "data": {
-        "phrase": "Zit er ... in?",
-        "meaning": "Is there ... in it?"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L02_E08",
-      "data": {
-        "phrase": "Oh, dan liever...",
-        "meaning": "Oh, then I'd rather have..."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L02_E09",
-      "data": {
-        "phrase": "Hoe lang duurt dat ongeveer?",
-        "meaning": "About how long does that take?"
+        "phrase": "Ik betaal nu.",
+        "meaning": "I'll pay now."
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L02_S02",
-      "title": "The Snack Complication",
-      "setting": "You have the snack menu. The waiter is clearing a nearby table.",
+      "scenario_id": "L02_S05",
+      "title": "Resolution",
+      "setting": "The clerk has agreed to sell you the card directly. Now you need to finalize the transaction.",
       "conversation_flow": [
         {
-          "title": "Get the waiter's attention and order a portion of bitterballen.",
-          "chatbot_message": "Natuurlijk, hier is de kaart voor de borrelhapjes. Ik kom zo bij u terug. ... Ja, zegt u het maar!"
+          "title": "Confirm the total is 27.50 euros",
+          "chatbot_message": "Ja, dat kan. De kaart is 7,50 euro. Hoeveel tegoed wilt u erop zetten? Ik raad 20 euro aan."
         },
         {
-          "title": "Quickly ask if there is meat in the bitterballen, as your friend is vegetarian.",
-          "chatbot_message": "Een portie bitterballen, goede keuze. Dat noteer ik."
-        },
-        {
-          "title": "React with relief and change your order to 'kaassoufflés' instead.",
-          "chatbot_message": "Ja, in bitterballen zit rundvlees. Goed dat u het vraagt!"
-        },
-        {
-          "title": "Ask for extra mustard on the side.",
-          "chatbot_message": "Prima, dan maak ik er kaassoufflés van. Wilt u daar saus bij?"
-        },
-        {
-          "title": "Ask approximately how long the snacks will take to prepare.",
-          "chatbot_message": "Natuurlijk, extra mosterd apart. Komt in orde."
-        }
-      ]
-    },
-    {
-      "type": "tip",
-      "text": "Well done handling that mix-up! Now it's time to pay. In the Netherlands, 'pinnen' (paying with a debit card) is very common."
-    },
-    {
-      "type": "vocabulary",
-      "item_id": "L02_V03",
-      "data": {
-        "betalen": "to pay",
-        "pinnen": "to pay by card",
-        "de rekening": "the bill",
-        "de fooi": "the tip",
-        "het bedrag": "the amount",
-        "totaal": "total"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L02_E10",
-      "data": {
-        "phrase": "Mag ik betalen?",
-        "meaning": "May I pay?"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L02_E11",
-      "data": {
-        "phrase": "Ik wil graag pinnen.",
-        "meaning": "I would like to pay by card."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L02_E12",
-      "data": {
-        "phrase": "Kunt u er ... fooi bij doen?",
-        "meaning": "Can you add a ... tip?"
-      }
-    },
-    {
-      "type": "interactive_scenario",
-      "scenario_id": "L02_S03",
-      "title": "Settling Up",
-      "setting": "You've finished your drink and snacks. Your friend still hasn't arrived, so you decide to leave. You need to get the waiter's attention to pay.",
-      "conversation_flow": [
-        {
-          "title": "Get the waiter's attention and say you would like to pay by card.",
-          "chatbot_message": "Het duurt ongeveer tien minuutjes. ... Zo, hier zijn de kaassoufflés. Eet smakelijk! ... Is alles naar wens?"
-        },
-        {
-          "title": "The waiter thinks you are paying with the next table. Clarify you only want to pay for your table.",
-          "chatbot_message": "Jazeker. Ik kom er zo aan met het pinapparaat. Dat was voor tafel 7 en 8 samen, toch?"
-        },
-        {
-          "title": "Ask if you can add a 10% tip to the card payment.",
-          "chatbot_message": "Oh, mijn excuses! Alleen uw tafel, natuurlijk. Dat is dan één fluitje en de kaassoufflés. Het bedrag is €12,50."
-        },
-        {
-          "title": "Confirm that the total amount on the screen is correct before you pay.",
-          "chatbot_message": "Dat is heel vriendelijk, dank u wel. Ik voeg het toe. Het totaal is nu €13,75. Hier is het apparaat.",
-          "final_message": "Prima, de betaling is gelukt. Hartelijk dank en een fijne dag nog!"
+          "title": "Say you will pay now",
+          "chatbot_message": "Dat klopt. 27,50 euro alstublieft."
         }
       ]
     }

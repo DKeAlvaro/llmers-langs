@@ -1,0 +1,215 @@
+{
+  "id": "L04",
+  "title": "Making a Borrel Reservation",
+  "content": [
+    {
+      "type": "tip",
+      "text": "In the Netherlands, it's common to call ahead to reserve a table, especially for a 'borrel' (after-work drinks) on a Friday. Let's learn how to do that."
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E01",
+      "data": {
+        "phrase": "Ik wil graag reserveren",
+        "meaning": "I would like to make a reservation"
+      }
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V01",
+      "data": {
+        "vrijdag": "Friday",
+        "avond": "evening",
+        "aanstaande": "coming / this"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E02",
+      "data": {
+        "phrase": "voor aanstaande vrijdagavond",
+        "meaning": "for this coming Friday evening"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L04_S01",
+      "title": "Request a Reservation",
+      "setting": "You call a traditional Dutch pub ('bruin café') to reserve a table for drinks.",
+      "conversation_flow": [
+        {
+          "title": "State you want to make a reservation",
+          "chatbot_message": "Goedemiddag, met Café de Jordaan. Waarmee kan ik u helpen?"
+        },
+        {
+          "title": "Say it's for this Friday evening",
+          "chatbot_message": "Zeker. Voor welke dag en datum wilt u reserveren?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V02",
+      "data": {
+        "vier": "four",
+        "personen": "people",
+        "uur": "o'clock / hour",
+        "zeven": "seven"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E03",
+      "data": {
+        "phrase": "Voor vier personen",
+        "meaning": "For four people"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E04",
+      "data": {
+        "phrase": "Om zeven uur",
+        "meaning": "At seven o'clock"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L04_S02",
+      "title": "Provide the Details",
+      "setting": "The host knows you want a table for Friday evening. Now you need to give more details.",
+      "conversation_flow": [
+        {
+          "title": "State the number of people",
+          "chatbot_message": "Oké, voor aanstaande vrijdagavond. Voor hoeveel personen is het?"
+        },
+        {
+          "title": "State the desired time",
+          "chatbot_message": "Vier personen, genoteerd. En hoe laat wilt u komen?"
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V03",
+      "data": {
+        "helaas": "unfortunately",
+        "volgeboekt": "fully booked",
+        "jammer": "a shame / too bad"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E05",
+      "data": {
+        "phrase": "Oh, jammer",
+        "meaning": "Oh, that's a shame"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E06",
+      "data": {
+        "phrase": "Welke tijden zijn er nog vrij?",
+        "meaning": "What times are still available?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L04_S03",
+      "title": "Handling a Full Booking",
+      "setting": "You've asked for a table at 7 PM. Let's see if it's available.",
+      "conversation_flow": [
+        {
+          "title": "React to the bad news",
+          "chatbot_message": "Even kijken... Nee, helaas. Om zeven uur zijn we helemaal volgeboekt."
+        },
+        {
+          "title": "Ask for other available times",
+          "chatbot_message": "Ja, het is een drukke avond."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V04",
+      "data": {
+        "te laat": "too late",
+        "zes": "six",
+        "plek": "spot / space"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E07",
+      "data": {
+        "phrase": "Dat is te laat",
+        "meaning": "That is too late"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E08",
+      "data": {
+        "phrase": "Is er om zes uur plek?",
+        "meaning": "Is there a spot at six o'clock?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L04_S04",
+      "title": "Suggesting Another Time",
+      "setting": "You've asked about other available times. The host checks their book.",
+      "conversation_flow": [
+        {
+          "title": "Reject the suggested time",
+          "chatbot_message": "Ik heb nog wel een tafel om half tien (9:30)."
+        },
+        {
+          "title": "Ask about 6 PM",
+          "chatbot_message": "Oké, begrijp ik."
+        }
+      ]
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L04_V05",
+      "data": {
+        "prima": "fine / great",
+        "naam": "name"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E09",
+      "data": {
+        "phrase": "Ja, dat is prima",
+        "meaning": "Yes, that is fine"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L04_E10",
+      "data": {
+        "phrase": "Op naam van...",
+        "meaning": "In the name of..."
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L04_S05",
+      "title": "Confirming the Reservation",
+      "setting": "You've suggested 6 PM. The host is checking for you now.",
+      "conversation_flow": [
+        {
+          "title": "Confirm the 6 PM slot",
+          "chatbot_message": "Ja, om zes uur is er nog plek voor vier personen. Zal ik die voor u boeken?"
+        },
+        {
+          "title": "Give your name for the reservation",
+          "chatbot_message": "Uitstekend. Op welke naam mag de reservering?"
+        }
+      ]
+    }
+  ]
+}
