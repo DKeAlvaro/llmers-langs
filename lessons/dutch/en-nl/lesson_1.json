@@ -1,134 +1,248 @@
 {
-  "id": "L01",
-  "title": "The First Koffie Verkeerd",
+  "id": "L1",
+  "title": "De Markt (The Market)",
   "content": [
     {
       "type": "tip",
-      "text": "Welcome to your first Dutch lesson! Imagine you're in a cozy coffee shop ('koffietentje') in Utrecht. Your goal is to order your first coffee. Let's start with how to say hello and get the barista's attention."
+      "text": "Welcome to the Dutch market! It's a lively place. To get a vendor's attention, a simple 'Hallo!' or 'Pardon!' is usually enough. Be prepared for a bit of friendly chat and maybe even a small upsell."
     },
     {
       "type": "vocabulary",
-      "item_id": "L01_V01",
+      "item_id": "L1_V01",
       "data": {
-        "Goedemorgen": "Good morning"
+        "De kaas": "The cheese",
+        "Oud": "Old",
+        "Jong": "Young",
+        "Een stukje": "A little piece"
       }
     },
     {
       "type": "expression",
-      "item_id": "L01_E01",
+      "item_id": "L1_E01",
       "data": {
-        "phrase": "Ik zou graag iets willen bestellen.",
-        "meaning": "I would like to order something."
+        "phrase": "Ik zou graag ... willen.",
+        "meaning": "I would like to have..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E02",
+      "data": {
+        "phrase": "Nee, sorry, ik bedoel de ...",
+        "meaning": "No, sorry, I mean the ..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E03",
+      "data": {
+        "phrase": "Mag ik ... proeven?",
+        "meaning": "May I taste ...?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E04",
+      "data": {
+        "phrase": "Doe maar ... gram.",
+        "meaning": "Just give me ... grams."
       }
     },
     {
       "type": "pronunciation",
-      "item_id": "L01_P01",
+      "item_id": "L1_P01",
       "data": {
-        "word": "graag",
-        "phonetic": "/ɣraːx/",
-        "tip": "The Dutch 'g' is a soft, throaty sound, similar to the 'ch' in the Scottish word 'loch'."
+        "word": "Oude Kaas",
+        "phonetic": "[ou-duh kaas]",
+        "tip": "The 'ou' sound is like the 'ow' in 'cow'. The 'e' at the end of 'oude' is a soft, unstressed 'uh' sound (a schwa)."
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L01_S01",
-      "title": "Greeting the Barista",
-      "setting": "You're at the counter of a cozy 'koffietentje' in Utrecht. The barista smiles at you.",
+      "scenario_id": "L1_S01",
+      "title": "Ordering Cheese",
+      "setting": "You're at a busy cheese stall at the Utrecht market. The vendor is helping other customers, and it's a bit noisy.",
       "conversation_flow": [
         {
-          "title": "Say good morning.",
-          "chatbot_message": "Goedemorgen! Zeg het maar. Wat kan ik voor je doen?"
+          "title": "Get the vendor's attention.",
+          "chatbot_message": "Hallo! Een ogenblikje... Ja, zeg het maar! Wat kan ik voor u doen?"
         },
         {
-          "title": "Say you would like to order something.",
-          "chatbot_message": "Natuurlijk. Wat mag het zijn?"
+          "title": "Say you would like a piece of old cheese.",
+          "chatbot_message": "Jazeker! Een ogenblik... bedoelt u de jonge kaas? Die is erg populair vandaag."
+        },
+        {
+          "title": "Correct the vendor. Say you mean the OLD cheese.",
+          "chatbot_message": "Ah, de oude! Goede keus, die is lekker pittig. Een mooi stuk voor u?"
+        },
+        {
+          "title": "Ask to taste a small piece before you buy.",
+          "chatbot_message": "Natuurlijk. Alstublieft, hier is een klein stukje om te proeven."
+        },
+        {
+          "title": "Confirm you like it and order 500 grams.",
+          "chatbot_message": "Perfect. Ik snij meteen 500 gram voor u af."
         }
       ]
     },
     {
       "type": "tip",
-      "text": "Great! Now for the main event: ordering the drink. A 'koffie verkeerd' (literally 'wrong coffee') is the Dutch version of a café au lait. It's a perfect, gentle first order."
+      "text": "It's common for market vendors to cut a piece of cheese slightly over the weight you ask for. You can either accept it or politely ask for the exact amount."
     },
     {
       "type": "vocabulary",
-      "item_id": "L01_V02",
+      "item_id": "L1_V02",
       "data": {
-        "de koffie verkeerd": "The 'wrong coffee' (café au lait)",
-        "één": "one"
+        "Te veel": "Too much",
+        "Alleen": "Alone / Only",
+        "De stroopwafel": "The stroopwafel",
+        "Warm": "Warm",
+        "Vers": "Fresh",
+        "Een pakje": "A packet",
+        "Een servetje": "A napkin",
+        "Plakkerig": "Sticky"
       }
     },
     {
       "type": "expression",
-      "item_id": "L01_E02",
+      "item_id": "L1_E05",
       "data": {
-        "phrase": "Eén koffie verkeerd, alsjeblieft.",
-        "meaning": "One koffie verkeerd, please."
+        "phrase": "Dat is te veel voor één persoon.",
+        "meaning": "That is too much for one person."
       }
     },
     {
-      "type": "vocabulary",
-      "item_id": "L01_V03",
+      "type": "expression",
+      "item_id": "L1_E06",
       "data": {
-        "hier opdrinken": "to drink here",
-        "meenemen": "to take away / to go"
+        "phrase": "Heeft u ook ...?",
+        "meaning": "Do you also have...?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E07",
+      "data": {
+        "phrase": "Ik wil graag een ..., niet een pakje.",
+        "meaning": "I would like a ..., not a packet."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E08",
+      "data": {
+        "phrase": "Mag ik er een servetje bij?",
+        "meaning": "Can I have a napkin with it?"
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L1_P02",
+      "data": {
+        "word": "Stroopwafel",
+        "phonetic": "[strohp-vaa-ful]",
+        "tip": "The 'oo' sound is long, like in 'hope'. The 'w' is soft, like a 'v'."
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L01_S02",
-      "title": "Placing Your Order",
-      "setting": "The barista is waiting for you to tell them what you want.",
+      "scenario_id": "L1_S02",
+      "title": "Handling an Upsell",
+      "setting": "The vendor has your cheese and is about to wrap it up.",
       "conversation_flow": [
         {
-          "title": "Order one 'koffie verkeerd'.",
-          "chatbot_message": "Natuurlijk. Wat mag het zijn?"
+          "title": "The vendor cut a piece that's a bit too big. React and tell him it's too much for just one person.",
+          "chatbot_message": "Zo, ik heb hier een prachtig stuk, iets meer dan 500 gram, is dat goed?"
         },
         {
-          "title": "Say you will drink it here.",
-          "chatbot_message": "Oké, één koffie verkeerd. Wil je die hier opdrinken of meenemen?"
+          "title": "The vendor agrees to cut it smaller. Now ask him if he also sells stroopwafels.",
+          "chatbot_message": "Geen probleem, dan snij ik er een stukje af. Precies 500 gram. Anders nog iets?"
+        },
+        {
+          "title": "The vendor offers a packet. Specify that you want one warm, fresh stroopwafel to eat right now.",
+          "chatbot_message": "Jazeker! De beste van Utrecht! Wilt u een pakje voor thuis?"
+        },
+        {
+          "title": "He's making a fresh one for you. Ask for a napkin, explaining that the syrup is sticky.",
+          "chatbot_message": "Een voor nu! Komt eraan. Die zijn het lekkerst als ze warm zijn."
         }
       ]
     },
     {
       "type": "tip",
-      "text": "Almost done! Time to pay. In the Netherlands, 'pinnen' is the extremely common verb for paying with a debit card. It's what you'll almost always do in a shop."
-    },
-    {
-      "type": "expression",
-      "item_id": "L01_E03",
-      "data": {
-        "phrase": "Wat kost dat?",
-        "meaning": "How much is that?"
-      }
+      "text": "In the Netherlands, 'pinnen' is the verb for paying with a debit card. It's extremely common, but some market stalls may still be cash-only, so it's always good to ask 'Kan ik pinnen?'"
     },
     {
       "type": "vocabulary",
-      "item_id": "L01_V04",
+      "item_id": "L1_V03",
       "data": {
-        "pinnen": "to pay by card (with a PIN)",
-        "dank je wel": "thank you",
-        "tot ziens": "goodbye / see you"
+        "Hoeveel": "How much",
+        "Totaal": "Total",
+        "Duurder dan": "More expensive than",
+        "De supermarkt": "The supermarket",
+        "Pinnen": "To pay by debit card",
+        "Contant": "Cash",
+        "Het bonnetje": "The receipt"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E09",
+      "data": {
+        "phrase": "Wat kost het totaal?",
+        "meaning": "What is the total cost?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E10",
+      "data": {
+        "phrase": "Kan ik pinnen?",
+        "meaning": "Can I pay by debit card?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E11",
+      "data": {
+        "phrase": "Ik hoef het bonnetje niet.",
+        "meaning": "I don't need the receipt."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L1_E12",
+      "data": {
+        "phrase": "Fijne werkdag!",
+        "meaning": "Have a nice workday!"
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L01_S03",
-      "title": "Paying for Your Coffee",
-      "setting": "The barista gets your coffee ready and is about to tell you the price.",
+      "scenario_id": "L1_S03",
+      "title": "Paying and Leaving",
+      "setting": "You have your cheese and stroopwafel. You're ready to pay.",
       "conversation_flow": [
         {
-          "title": "Ask how much it costs.",
-          "chatbot_message": "Komt eraan! Hier is je koffie alvast."
+          "title": "Ask for the total price.",
+          "chatbot_message": "Slim! De stroop is inderdaad plakkerig. Hier is uw wafel en een servetje. Anders nog iets?"
         },
         {
-          "title": "Say you will pay by card ('pinnen').",
-          "chatbot_message": "Dat is dan drie euro en veertig cent (€3,40), alsjeblieft."
+          "title": "Express surprise that the price is higher than in the supermarket.",
+          "chatbot_message": "Dat wordt dan 12 euro 50, alstublieft."
         },
         {
-          "title": "Say thank you and goodbye.",
-          "chatbot_message": "Prima. Het pinapparaat staat hier. Je kunt je kaart invoeren.",
-          "final_message": "Betaling is gelukt. Alsjeblieft! Geniet van je koffie en nog een fijne dag!"
+          "title": "The vendor explains why. Now ask if you can pay with your debit card (pinnen).",
+          "chatbot_message": "Haha, ja, maar dit is echte boerenkaas, hè! Veel meer smaak. Kwaliteit kost wat."
+        },
+        {
+          "title": "He says yes. As you pay, tell him you don't need the receipt.",
+          "chatbot_message": "Jazeker, u kunt pinnen. Hier is het apparaat."
+        },
+        {
+          "title": "Thank the vendor and wish him a nice workday.",
+          "chatbot_message": "Oké, de betaling is gelukt. Geen bonnetje, prima.",
+          "final_message": "Dank u wel! U ook een fijne dag! Geniet van de kaas en de stroopwafel!"
         }
       ]
     }

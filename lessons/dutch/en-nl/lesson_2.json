@@ -1,157 +1,240 @@
 {
   "id": "L02",
-  "title": "Who Are You?",
+  "title": "The 'Brown Café' Order",
   "content": [
     {
       "type": "tip",
-      "text": "Welcome to your first Dutch conversation! You're at a 'borrel', a casual drinks event. It's the perfect place to meet people. A friendly local approaches you."
+      "text": "Welcome to a 'bruin café', a traditional Dutch pub. In this lesson, you'll learn how to secure a table, order drinks and snacks, and handle a common dietary question."
     },
     {
       "type": "vocabulary",
       "item_id": "L02_V01",
       "data": {
-        "ik": "I",
-        "ben": "am",
-        "uit": "from",
-        "hoi": "hi"
+        "de tafel": "the table",
+        "het raam": "the window",
+        "vrij": "free / available",
+        "een vriend": "a friend",
+        "te laat": "late",
+        "een fluitje": "a small beer",
+        "de menukaart": "the menu"
       }
     },
     {
       "type": "expression",
       "item_id": "L02_E01",
       "data": {
-        "phrase": "Ik ben...",
-        "meaning": "I am..."
+        "phrase": "Is deze tafel ... vrij?",
+        "meaning": "Is this table ... free?"
       }
     },
     {
       "type": "expression",
       "item_id": "L02_E02",
       "data": {
-        "phrase": "Ik kom uit...",
-        "meaning": "I come from..."
-      }
-    },
-    {
-      "type": "pronunciation",
-      "item_id": "L02_P01",
-      "data": {
-        "word": "ik",
-        "phonetic": "/ɪk/",
-        "tip": "This is a short, sharp sound, like the 'i' in 'sit', not the 'ee' in 'see'."
-      }
-    },
-    {
-      "type": "interactive_scenario",
-      "scenario_id": "L02_S01",
-      "title": "Introduce Yourself",
-      "setting": "You're at a networking event in Eindhoven. A friendly local named Lars approaches you.",
-      "conversation_flow": [
-        {
-          "title": "Tell him your name.",
-          "chatbot_message": "Hoi! Ik ben Lars. Hoe heet jij?",
-          "extract_info": {
-            "var_name": "user_name"
-          }
-        },
-        {
-          "title": "Tell him where you are from.",
-          "chatbot_message": "Aangenaam, {user_name}! Waar kom je vandaan?"
-        }
-      ]
-    },
-    {
-      "type": "tip",
-      "text": "Cultural Tip: Don't be surprised if a Dutch person asks about your job right away. It's not considered rude, just a common way to get to know someone."
-    },
-    {
-      "type": "vocabulary",
-      "item_id": "L02_V02",
-      "data": {
-        "werk": "work",
-        "als": "as",
-        "woon": "live",
-        "in": "in"
+        "phrase": "Ik wacht op...",
+        "meaning": "I am waiting for..."
       }
     },
     {
       "type": "expression",
       "item_id": "L02_E03",
       "data": {
-        "phrase": "Ik werk als...",
-        "meaning": "I work as a..."
+        "phrase": "Voor mij graag een...",
+        "meaning": "For me, a... please"
       }
     },
     {
       "type": "expression",
       "item_id": "L02_E04",
       "data": {
-        "phrase": "Ik woon in...",
-        "meaning": "I live in..."
+        "phrase": "Wat voor tapbier heeft u?",
+        "meaning": "What kind of draft beer do you have?"
       }
     },
     {
       "type": "pronunciation",
-      "item_id": "L02_P02",
+      "item_id": "L02_P01",
       "data": {
-        "word": "werk",
-        "phonetic": "/ʋɛrk/",
-        "tip": "The 'w' is soft, like a 'v'. The 'r' is slightly rolled in the back of the throat, but a simple English 'r' sound is fine for now."
+        "word": "fluitje",
+        "phonetic": "/flœy̯cə/",
+        "tip": "The 'ui' sound is unique to Dutch. It's like a quick glide from 'ah' to 'ee'. Think of the sound in the English word 'boy', but with your lips more rounded."
       }
-    },
-    {
-      "type": "interactive_scenario",
-      "scenario_id": "L02_S02",
-      "title": "Talk About Your Life",
-      "setting": "The conversation with Lars continues. He's curious to learn more about you.",
-      "conversation_flow": [
-        {
-          "title": "Tell him your profession.",
-          "chatbot_message": "Leuk! Wat voor werk doe je hier in Nederland?",
-          "extract_info": {
-            "var_name": "user_job"
-          }
-        },
-        {
-          "title": "Tell him which city you live in.",
-          "chatbot_message": "Interessant! Een {user_job}. En waar woon je?"
-        }
-      ]
-    },
-    {
-      "type": "tip",
-      "text": "Grammar Tip: To ask a simple question, you often just swap the first two words. 'Jij bent...' (You are...) becomes 'Ben jij...?' (Are you...?)."
     },
     {
       "type": "expression",
       "item_id": "L02_E05",
       "data": {
-        "phrase": "En jij?",
-        "meaning": "And you?"
+        "phrase": "Mag ik de kaart zien?",
+        "meaning": "May I see the menu?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S01",
+      "title": "Securing the Table & Ordering",
+      "setting": "You enter a cozy, traditional Dutch pub. You see a bartender behind the bar and an empty table near the window.",
+      "conversation_flow": [
+        {
+          "title": "Greet the bartender and ask if the table by the window is free.",
+          "chatbot_message": "Goeiemiddag! Welkom. Wat kan ik voor u doen?"
+        },
+        {
+          "title": "Tell the bartender you are waiting for a friend who is five minutes late.",
+          "chatbot_message": "Jazeker, die tafel is vrij. Ga gerust zitten. Verwacht u iemand?"
+        },
+        {
+          "title": "Order a 'fluitje' for yourself to start.",
+          "chatbot_message": "Geen probleem. Kan ik alvast iets te drinken voor u brengen?"
+        },
+        {
+          "title": "Ask what kind of draft beers they have.",
+          "chatbot_message": "Een fluitje, komt eraan. We hebben ook speciaalbier van de tap."
+        },
+        {
+          "title": "Acknowledge the options and ask to see the menu for snacks ('borrelhapjes').",
+          "chatbot_message": "We hebben Heineken, Brand en een lokaal blondbier. Hier is uw fluitje alvast."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Great start! Now you need to order some snacks. 'Bitterballen' are very popular, but it's always good to check ingredients for dietary needs."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V02",
+      "data": {
+        "een portie": "a portion",
+        "bitterballen": "Dutch meatballs (snack)",
+        "kaassoufflés": "cheese soufflé snacks (vegetarian)",
+        "het vlees": "the meat",
+        "vegetarisch": "vegetarian",
+        "de mosterd": "the mustard",
+        "apart": "on the side / separate"
       }
     },
     {
       "type": "expression",
       "item_id": "L02_E06",
       "data": {
-        "phrase": "Wat voor werk doe jij?",
-        "meaning": "What kind of work do you do?"
+        "phrase": "Pardon, mag ik iets bestellen?",
+        "meaning": "Excuse me, may I order something?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E07",
+      "data": {
+        "phrase": "Zit er ... in?",
+        "meaning": "Is there ... in it?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E08",
+      "data": {
+        "phrase": "Oh, dan liever...",
+        "meaning": "Oh, then I'd rather have..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E09",
+      "data": {
+        "phrase": "Hoe lang duurt dat ongeveer?",
+        "meaning": "About how long does that take?"
+      }
+    },
+    {
+      "type": "interactive_scenario",
+      "scenario_id": "L02_S02",
+      "title": "The Snack Complication",
+      "setting": "You have the snack menu. The waiter is clearing a nearby table.",
+      "conversation_flow": [
+        {
+          "title": "Get the waiter's attention and order a portion of bitterballen.",
+          "chatbot_message": "Natuurlijk, hier is de kaart voor de borrelhapjes. Ik kom zo bij u terug. ... Ja, zegt u het maar!"
+        },
+        {
+          "title": "Quickly ask if there is meat in the bitterballen, as your friend is vegetarian.",
+          "chatbot_message": "Een portie bitterballen, goede keuze. Dat noteer ik."
+        },
+        {
+          "title": "React with relief and change your order to 'kaassoufflés' instead.",
+          "chatbot_message": "Ja, in bitterballen zit rundvlees. Goed dat u het vraagt!"
+        },
+        {
+          "title": "Ask for extra mustard on the side.",
+          "chatbot_message": "Prima, dan maak ik er kaassoufflés van. Wilt u daar saus bij?"
+        },
+        {
+          "title": "Ask approximately how long the snacks will take to prepare.",
+          "chatbot_message": "Natuurlijk, extra mosterd apart. Komt in orde."
+        }
+      ]
+    },
+    {
+      "type": "tip",
+      "text": "Well done handling that mix-up! Now it's time to pay. In the Netherlands, 'pinnen' (paying with a debit card) is very common."
+    },
+    {
+      "type": "vocabulary",
+      "item_id": "L02_V03",
+      "data": {
+        "betalen": "to pay",
+        "pinnen": "to pay by card",
+        "de rekening": "the bill",
+        "de fooi": "the tip",
+        "het bedrag": "the amount",
+        "totaal": "total"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E10",
+      "data": {
+        "phrase": "Mag ik betalen?",
+        "meaning": "May I pay?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E11",
+      "data": {
+        "phrase": "Ik wil graag pinnen.",
+        "meaning": "I would like to pay by card."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L02_E12",
+      "data": {
+        "phrase": "Kunt u er ... fooi bij doen?",
+        "meaning": "Can you add a ... tip?"
       }
     },
     {
       "type": "interactive_scenario",
       "scenario_id": "L02_S03",
-      "title": "Ask About Him",
-      "setting": "You've shared a bit about yourself. Now it's your turn to ask Lars some questions.",
+      "title": "Settling Up",
+      "setting": "You've finished your drink and snacks. Your friend still hasn't arrived, so you decide to leave. You need to get the waiter's attention to pay.",
       "conversation_flow": [
         {
-          "title": "Ask him a question to keep the conversation going.",
-          "chatbot_message": "Ah, leuke stad! Ik ken het een beetje."
+          "title": "Get the waiter's attention and say you would like to pay by card.",
+          "chatbot_message": "Het duurt ongeveer tien minuutjes. ... Zo, hier zijn de kaassoufflés. Eet smakelijk! ... Is alles naar wens?"
         },
         {
-          "title": "Now ask him what he does for work.",
-          "chatbot_message": "Goede vraag!",
-          "final_message": "Ik ben een software engineer bij Philips. Erg leuk je te ontmoeten, {user_name}!"
+          "title": "The waiter thinks you are paying with the next table. Clarify you only want to pay for your table.",
+          "chatbot_message": "Jazeker. Ik kom er zo aan met het pinapparaat. Dat was voor tafel 7 en 8 samen, toch?"
+        },
+        {
+          "title": "Ask if you can add a 10% tip to the card payment.",
+          "chatbot_message": "Oh, mijn excuses! Alleen uw tafel, natuurlijk. Dat is dan één fluitje en de kaassoufflés. Het bedrag is €12,50."
+        },
+        {
+          "title": "Confirm that the total amount on the screen is correct before you pay.",
+          "chatbot_message": "Dat is heel vriendelijk, dank u wel. Ik voeg het toe. Het totaal is nu €13,75. Hier is het apparaat.",
+          "final_message": "Prima, de betaling is gelukt. Hartelijk dank en een fijne dag nog!"
         }
       ]
     }

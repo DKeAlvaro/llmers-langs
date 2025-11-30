@@ -1,153 +1,271 @@
 {
-  "id": "L03",
-  "title": "Just One Stroopwafel",
+  "id": "L3",
+  "title": "The Supermarket Bonus Card",
   "content": [
     {
       "type": "tip",
-      "text": "Welcome to the Albert Cuypmarkt! In this lesson, you'll learn how to order a famous Dutch treat: a fresh, warm stroopwafel. Let's start with how to greet the vendor."
+      "text": "This lesson simulates a common interaction at a Dutch supermarket checkout, including dealing with a price error and using a loyalty card."
     },
     {
       "type": "vocabulary",
-      "item_id": "L03_V01",
+      "item_id": "L3_V01",
       "data": {
-        "de stroopwafel": "the stroopwafel",
-        "één": "one"
+        "de tas": "the bag",
+        "plastic": "plastic",
+        "de aardbeien": "the strawberries",
+        "het bordje": "the (little) sign",
+        "de korting": "the discount",
+        "de sticker": "the sticker",
+        "oranje": "orange"
       }
     },
     {
       "type": "expression",
-      "item_id": "L03_E01",
+      "item_id": "L3_E01",
       "data": {
-        "phrase": "Goedemorgen",
-        "meaning": "Good morning"
+        "phrase": "Ik heb geen...",
+        "meaning": "I don't have a..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E02",
+      "data": {
+        "phrase": "Mag ik een... alstublieft?",
+        "meaning": "May I have a... please?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E03",
+      "data": {
+        "phrase": "Pardon, maar op het bordje stond...",
+        "meaning": "Excuse me, but the sign said..."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E04",
+      "data": {
+        "phrase": "De sticker was...",
+        "meaning": "The sticker was..."
       }
     },
     {
       "type": "pronunciation",
-      "item_id": "L03_P01",
+      "item_id": "L3_P01",
       "data": {
-        "word": "goedemorgen",
-        "phonetic": "/ˌɣudəˈmɔrɣə(n)/",
-        "tip": "The 'g' sound in Dutch is a soft, throaty sound, similar to the 'ch' in the Scottish 'loch'."
+        "word": "bordje",
+        "phonetic": "/bɔrt.jə/",
+        "tip": "The '-je' ending is a diminutive and is pronounced like 'yuh'."
       }
     },
     {
       "type": "expression",
-      "item_id": "L03_E02",
+      "item_id": "L3_E05",
       "data": {
-        "phrase": "Eén stroopwafel, alstublieft.",
-        "meaning": "One stroopwafel, please."
+        "phrase": "Kunt u het nog eens controleren?",
+        "meaning": "Can you check it again?"
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L03_S01",
-      "title": "Place Your Order",
-      "setting": "You're at a busy stroopwafel stall in the Albert Cuyp market. The vendor smiles at you.",
+      "scenario_id": "L3_S01",
+      "title": "The Checkout Interaction",
+      "setting": "You are at the checkout in a Dutch supermarket. The cashier is scanning your items.",
       "conversation_flow": [
         {
-          "title": "Greet the vendor with 'Good morning'.",
-          "chatbot_message": "Hallo! Zeg het maar."
+          "title": "Greet the cashier and say you don't have a bag.",
+          "chatbot_message": "Goedemiddag. Alles op de band gelegd? Heeft u een tas bij u?"
         },
         {
-          "title": "Order one stroopwafel, please.",
-          "chatbot_message": "Goedemorgen! Wat mag het zijn voor jou?",
-          "final_message": "Natuurlijk! Eén verse, warme stroopwafel. Komt eraan!"
+          "title": "Ask if you can have a plastic bag.",
+          "chatbot_message": "Geen probleem. Wilt u een plastic tasje? Die kost 25 cent."
+        },
+        {
+          "title": "Confirm you want the bag and place it on the belt.",
+          "chatbot_message": "Oké, hier is het tasje. Ik scan ondertussen uw boodschappen... De aardbeien, die zijn 5 euro."
+        },
+        {
+          "title": "Point out that the sign said the strawberries were 3 euros.",
+          "chatbot_message": "Oh, 5 euro staat hier in het systeem. Weet u zeker dat het 3 euro was?"
+        },
+        {
+          "title": "Insist that the discount sticker was orange.",
+          "chatbot_message": "Een oranje sticker... ah, dat is een speciale aanbieding. Dan moet het kloppen."
+        },
+        {
+          "title": "Politely ask the cashier to check the price again.",
+          "chatbot_message": "Natuurlijk, ik laat het even nakijken. Een ogenblikje."
         }
       ]
     },
     {
       "type": "tip",
-      "text": "Great! The vendor is making your stroopwafel. Now, let's learn how to ask for the price and say you're paying with cash."
+      "text": "Many Dutch supermarkets use a 'Bonuskaart' (loyalty card) for special discounts. The price on the sign often requires this card."
     },
     {
       "type": "vocabulary",
-      "item_id": "L03_V02",
+      "item_id": "L3_V02",
       "data": {
-        "twee": "two",
-        "de euro": "the euro",
-        "contant": "cash"
+        "de Bonuskaart": "the Bonus Card",
+        "de kaart": "the card",
+        "de winkelkaart": "the shop card",
+        "zonder": "without",
+        "de kassa": "the checkout / cash register"
       }
     },
     {
       "type": "expression",
-      "item_id": "L03_E03",
+      "item_id": "L3_E06",
       "data": {
-        "phrase": "Wat kost dat?",
-        "meaning": "What does that cost?"
+        "phrase": "Pardon, een wat?",
+        "meaning": "Excuse me, a what?"
       }
     },
     {
       "type": "expression",
-      "item_id": "L03_E04",
+      "item_id": "L3_E07",
       "data": {
-        "phrase": "Ik betaal contant.",
-        "meaning": "I'll pay with cash."
+        "phrase": "Ik heb geen kaart bij me.",
+        "meaning": "I don't have a card with me."
       }
     },
     {
-      "type": "tip",
-      "text": "The word 'alstublieft' is versatile. You use it for 'please' when ordering, and also when you hand something to someone, like money."
+      "type": "expression",
+      "item_id": "L3_E08",
+      "data": {
+        "phrase": "Geldt de korting ook zonder de kaart?",
+        "meaning": "Does the discount also apply without the card?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E09",
+      "data": {
+        "phrase": "Heeft u misschien een winkelkaart?",
+        "meaning": "Do you perhaps have a shop card?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E10",
+      "data": {
+        "phrase": "Dank u wel voor de hulp.",
+        "meaning": "Thank you for the help."
+      }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L03_S02",
-      "title": "Confirm and Pay",
-      "setting": "The vendor finishes making the stroopwafel and turns back to you, holding it out.",
+      "scenario_id": "L3_S02",
+      "title": "The Bonus Card Hurdle",
+      "setting": "The cashier has returned after checking the price.",
       "conversation_flow": [
         {
-          "title": "Ask for the price.",
-          "chatbot_message": "Zo, hier is je stroopwafel. Dat is dan twee euro."
+          "title": "React with confusion.",
+          "chatbot_message": "U heeft gelijk, de prijs is 3 euro. Maar dat is een Bonusaanbieding. Heeft u een Bonuskaart?"
         },
         {
-          "title": "Say that you will pay with cash.",
-          "chatbot_message": "Twee euro."
+          "title": "State that you don't have a card with you.",
+          "chatbot_message": "Ah, dat is jammer. Zonder de kaart is de prijs 5 euro."
         },
         {
-          "title": "Hand over the money and say 'please'.",
-          "chatbot_message": "Prima!",
-          "final_message": "Dank je wel."
+          "title": "Ask if the discount still applies without the card.",
+          "chatbot_message": "Nee, helaas niet. De korting is echt alleen voor kaarthouders."
+        },
+        {
+          "title": "Ask if they have a 'shop card' you can use.",
+          "chatbot_message": "Ja hoor, geen probleem. Ik scan even de kaart van de kassa voor u... Zo, de korting is verwerkt. De prijs is nu 3 euro."
+        },
+        {
+          "title": "Thank them for helping you.",
+          "chatbot_message": "Graag gedaan."
         }
       ]
     },
     {
       "type": "tip",
-      "text": "Excellent! You've paid. Now let's learn how to properly thank the vendor and say goodbye before you enjoy your treat."
-    },
-    {
-      "type": "expression",
-      "item_id": "L03_E05",
-      "data": {
-        "phrase": "Dank je wel",
-        "meaning": "Thank you (informal)"
-      }
-    },
-    {
-      "type": "tip",
-      "text": "Use 'dank je wel' when talking to peers or in informal situations like a market. Use 'dank u wel' in more formal settings."
+      "text": "In the Netherlands, you pay a deposit ('statiegeld') on many bottles and cans. You get this back by returning them at a machine, which prints a receipt ('bonnetje') to use at the checkout."
     },
     {
       "type": "vocabulary",
-      "item_id": "L03_V03",
+      "item_id": "L3_V03",
       "data": {
-        "Dag": "Bye (can be used for hello and goodbye)",
-        "Doei": "Bye (very informal)"
+        "het statiegeld": "the bottle deposit",
+        "het bonnetje": "the receipt / voucher",
+        "het bedrag": "the amount",
+        "het totaal": "the total",
+        "pinnen": "to pay with a debit card",
+        "de zegels": "the (promotional) stamps"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E11",
+      "data": {
+        "phrase": "Ik heb ook nog dit bonnetje van het statiegeld.",
+        "meaning": "I also have this receipt from the bottle deposit."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E12",
+      "data": {
+        "phrase": "Is dat bedrag al van het totaal af?",
+        "meaning": "Is that amount already deducted from the total?"
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E13",
+      "data": {
+        "phrase": "Ik wil graag pinnen.",
+        "meaning": "I would like to pay by card."
+      }
+    },
+    {
+      "type": "pronunciation",
+      "item_id": "L3_P02",
+      "data": {
+        "word": "zegels",
+        "phonetic": "/zeː.ɣəls/",
+        "tip": "The 'z' is soft, like a buzzing sound. The 'g' is a soft, throaty sound, typical in Dutch."
+      }
+    },
+    {
+      "type": "expression",
+      "item_id": "L3_E14",
+      "data": {
+        "phrase": "Fijne avond!",
+        "meaning": "Have a nice evening!"
       }
     },
     {
       "type": "interactive_scenario",
-      "scenario_id": "L03_S03",
-      "title": "Receive and Depart",
-      "setting": "The vendor has taken your money and now hands you the warm stroopwafel.",
+      "scenario_id": "L3_S03",
+      "title": "Bottle Deposit & Paying",
+      "setting": "The price is now correct, and you are ready to pay.",
       "conversation_flow": [
         {
-          "title": "Take the stroopwafel and say 'Thank you'.",
-          "chatbot_message": "Alstublieft. Eet smakelijk!"
+          "title": "Hand over your bottle deposit receipt.",
+          "chatbot_message": "Perfect. Heeft u verder nog iets?"
         },
         {
-          "title": "Say goodbye.",
-          "chatbot_message": "Graag gedaan! Fijne dag nog.",
-          "final_message": "Doei!"
+          "title": "Ask if the deposit has been deducted from the total.",
+          "chatbot_message": "Moment, ik scan het bonnetje... Ja, 1 euro en 50 cent is van het totaal afgehaald. Wilt u er koopzegels bij?"
+        },
+        {
+          "title": "Decline the stamps.",
+          "chatbot_message": "Oké, geen zegels. Het totaal is dan 14 euro en 25 cent. U kunt betalen."
+        },
+        {
+          "title": "Say that you want to pay by card (pinnen).",
+          "chatbot_message": "Prima, u mag uw pas invoeren of contactloos betalen."
+        },
+        {
+          "title": "Wish the cashier a good evening.",
+          "chatbot_message": "Dank u wel.",
+          "final_message": "Hetzelfde, fijne avond! Hier is uw bonnetje."
         }
       ]
     }
