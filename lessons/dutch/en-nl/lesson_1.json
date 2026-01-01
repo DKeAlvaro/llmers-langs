@@ -8,7 +8,7 @@
     },
     {
       "type": "vocabulary",
-      "item_id": "L1N_V01",
+      
       "data": {
         "De haringkraam": "The herring stand",
         "De haring": "The herring",
@@ -18,7 +18,7 @@
     },
     {
       "type": "expression",
-      "item_id": "L1N_E01",
+      
       "data": {
         "phrase": "Goedendag",
         "meaning": "Good day"
@@ -26,7 +26,7 @@
     },
     {
       "type": "expression",
-      "item_id": "L1N_E02",
+      
       "data": {
         "phrase": "Ik wil graag een broodje haring.",
         "meaning": "I would like a herring sandwich."
@@ -34,7 +34,7 @@
     },
     {
       "type": "expression",
-      "item_id": "L1N_E03",
+      
       "data": {
         "phrase": "met uitjes",
         "meaning": "with onions"
@@ -48,21 +48,24 @@
       "conversation_flow": [
         {
           "title": "Place your order",
-          "chatbot_message": "Goedendag! Zeg het maar."
+          "chatbot_message": "Goedendag! Zeg het maar.",
+          "translation": "Good day! How can I help you?"
         },
         {
           "title": "Add onions",
-          "chatbot_message": "Een broodje haring. Wilt u er uitjes bij?"
+          "chatbot_message": "Een broodje haring. Wilt u er uitjes bij?",
+          "translation": "A herring sandwich. Would you like onions with that?"
         },
         {
           "title": "Receive confirmation",
-          "chatbot_message": "Komt voor elkaar. Een broodje haring met uitjes."
+          "chatbot_message": "Komt voor elkaar. Een broodje haring met uitjes.",
+          "translation": "Coming right up. A herring sandwich with onions."
         }
       ]
     },
     {
       "type": "vocabulary",
-      "item_id": "L1N_V02",
+      
       "data": {
         "Het zuur": "The pickles",
         "In stukjes": "In pieces"
@@ -70,7 +73,7 @@
     },
     {
       "type": "expression",
-      "item_id": "L1N_E04",
+      
       "data": {
         "phrase": "Nee, bedankt.",
         "meaning": "No, thank you."
@@ -78,7 +81,7 @@
     },
     {
       "type": "expression",
-      "item_id": "L1N_E05",
+      
       "data": {
         "phrase": "Kunt u het in stukjes snijden?",
         "meaning": "Can you cut it into pieces?"
@@ -92,28 +95,31 @@
       "conversation_flow": [
         {
           "title": "Reply about pickles",
-          "chatbot_message": "Wilt u er ook zuur bij?"
+          "chatbot_message": "Wilt u er ook zuur bij?",
+          "translation": "Would you like pickles with that too?"
         },
         {
           "title": "Make a special request",
-          "chatbot_message": "Oké, geen zuur. Anders nog iets?"
+          "chatbot_message": "Oké, geen zuur. Anders nog iets?",
+          "translation": "Okay, no pickles. Anything else?"
         },
         {
           "title": "Receive confirmation",
-          "chatbot_message": "Natuurlijk, geen probleem. Ik snijd hem voor u."
+          "chatbot_message": "Natuurlijk, geen probleem. Ik snijd hem voor u.",
+          "translation": "Of course, no problem. I'll cut it for you."
         }
       ]
     },
     {
       "type": "vocabulary",
-      "item_id": "L1N_V03",
+      
       "data": {
         "Pinnen": "To pay by card (verb)"
       }
     },
     {
       "type": "expression",
-      "item_id": "L1N_E06",
+      
       "data": {
         "phrase": "Hoeveel is het?",
         "meaning": "How much is it?"
@@ -121,7 +127,7 @@
     },
     {
       "type": "expression",
-      "item_id": "L1N_E07",
+      
       "data": {
         "phrase": "Kan ik pinnen?",
         "meaning": "Can I pay by card?"
@@ -135,21 +141,24 @@
       "conversation_flow": [
         {
           "title": "Ask for the price",
-          "chatbot_message": "Alstublieft, uw broodje haring."
+          "chatbot_message": "Alstublieft, uw broodje haring.",
+          "translation": "Here you go, your herring sandwich."
         },
         {
           "title": "Ask to pay by card",
-          "chatbot_message": "Dat is vier euro, alstublieft."
+          "chatbot_message": "Dat is vier euro, alstublieft.",
+          "translation": "That is four euros, please."
         },
         {
           "title": "Hear the bad news",
-          "chatbot_message": "Oh, sorry. Vandaag even niet."
+          "chatbot_message": "Oh, sorry. Vandaag even niet.",
+          "translation": "Oh, sorry. Not today (no card payments today)."
         }
       ]
     },
     {
       "type": "vocabulary",
-      "item_id": "L1N_V04",
+      
       "data": {
         "Het pinapparaat": "The card machine",
         "Kapot": "Broken",
@@ -158,7 +167,7 @@
     },
     {
       "type": "expression",
-      "item_id": "L1N_E08",
+      
       "data": {
         "phrase": "Ik heb alleen een briefje van 50.",
         "meaning": "I only have a 50 euro note."
@@ -166,7 +175,7 @@
     },
     {
       "type": "expression",
-      "item_id": "L1N_E09",
+      
       "data": {
         "phrase": "Heeft u wisselgeld?",
         "meaning": "Do you have change?"
@@ -180,28 +189,31 @@
       "conversation_flow": [
         {
           "title": "State your problem",
-          "chatbot_message": "Het pinapparaat is kapot."
+          "chatbot_message": "Het pinapparaat is kapot.",
+          "translation": "The card machine is broken."
         },
         {
           "title": "Ask about change",
-          "chatbot_message": "Oei, 50 euro... dat is veel."
+          "chatbot_message": "Oei, 50 euro... dat is veel.",
+          "translation": "Oops, 50 euros... that's a lot."
         },
         {
           "title": "Get a positive response",
-          "chatbot_message": "Even kijken... Ja, dat moet lukken."
+          "chatbot_message": "Even kijken... Ja, dat moet lukken.",
+          "translation": "Let's see... Yes, that should work."
         }
       ]
     },
     {
       "type": "vocabulary",
-      "item_id": "L1N_V05",
+      
       "data": {
         "Contant": "Cash (adverb)"
       }
     },
     {
       "type": "expression",
-      "item_id": "L1N_E10",
+      
       "data": {
         "phrase": "Oké, prima.",
         "meaning": "Okay, fine."
@@ -209,7 +221,7 @@
     },
     {
       "type": "expression",
-      "item_id": "L1N_E11",
+      
       "data": {
         "phrase": "Dan betaal ik contant.",
         "meaning": "Then I'll pay with cash."
@@ -217,7 +229,7 @@
     },
     {
       "type": "expression",
-      "item_id": "L1N_E12",
+      
       "data": {
         "phrase": "Dank u wel.",
         "meaning": "Thank you (formal)."
@@ -231,15 +243,18 @@
       "conversation_flow": [
         {
           "title": "Acknowledge the solution",
-          "chatbot_message": "Ik heb wisselgeld voor 50 euro."
+          "chatbot_message": "Ik heb wisselgeld voor 50 euro.",
+          "translation": "I have change for 50 euros."
         },
         {
           "title": "State you will pay cash",
-          "chatbot_message": "Mooi."
+          "chatbot_message": "Mooi.",
+          "translation": "Great."
         },
         {
           "title": "Say thank you",
-          "chatbot_message": "Dank u wel. Hier is 46 euro terug en uw broodje. Eet smakelijk!"
+          "chatbot_message": "Dank u wel. Hier is 46 euro terug en uw broodje. Eet smakelijk!",
+          "translation": "Thank you. Here is 46 euros back and your sandwich. Enjoy your meal!"
         }
       ]
     }
