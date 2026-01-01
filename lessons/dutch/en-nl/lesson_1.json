@@ -1,247 +1,63 @@
 {
-  "id": "L1N",
-  "title": "The Haringkraam Ritual",
-  "content": [
+  "lesson_id": "lesson_supermarket_01",
+  "title": "Buying Fruit",
+  "level": "A1",
+  "topic": "Supermarket",
+  "learning_objectives": [
+    "Vocabulary: Common fruits",
+    "Grammar: 'I would like' (Polite requests)"
+  ],
+  "characters": [
     {
-      "type": "tip",
-      "text": "Welcome! In this lesson, you'll learn how to order 'haring', a famous Dutch snack, from a fish stand ('haringkraam'). Let's get started!"
-    },
-    {
-      "type": "vocabulary",
-      "item_id": "L1N_V01",
-      "data": {
-        "De haringkraam": "The herring stand",
-        "De haring": "The herring",
-        "Het broodje": "The sandwich / roll",
-        "De uitjes": "The onions"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1N_E01",
-      "data": {
-        "phrase": "Goedendag",
-        "meaning": "Good day"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1N_E02",
-      "data": {
-        "phrase": "Ik wil graag een broodje haring.",
-        "meaning": "I would like a herring sandwich."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1N_E03",
-      "data": {
-        "phrase": "met uitjes",
-        "meaning": "with onions"
-      }
-    },
-    {
-      "type": "interactive_scenario",
-      "scenario_id": "L1N_S01",
-      "title": "Phase 1: The Initial Order",
-      "setting": "You are at a bustling fish stand ('haringkraam') and want to order for the first time.",
-      "conversation_flow": [
-        {
-          "title": "Place your order",
-          "chatbot_message": "Goedendag! Zeg het maar."
-        },
-        {
-          "title": "Add onions",
-          "chatbot_message": "Een broodje haring. Wilt u er uitjes bij?"
-        },
-        {
-          "title": "Receive confirmation",
-          "chatbot_message": "Komt voor elkaar. Een broodje haring met uitjes."
-        }
-      ]
-    },
-    {
-      "type": "vocabulary",
-      "item_id": "L1N_V02",
-      "data": {
-        "Het zuur": "The pickles",
-        "In stukjes": "In pieces"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1N_E04",
-      "data": {
-        "phrase": "Nee, bedankt.",
-        "meaning": "No, thank you."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1N_E05",
-      "data": {
-        "phrase": "Kunt u het in stukjes snijden?",
-        "meaning": "Can you cut it into pieces?"
-      }
-    },
-    {
-      "type": "interactive_scenario",
-      "scenario_id": "L1N_S02",
-      "title": "Phase 2: Customization",
-      "setting": "The vendor asks if you want another common topping.",
-      "conversation_flow": [
-        {
-          "title": "Reply about pickles",
-          "chatbot_message": "Wilt u er ook zuur bij?"
-        },
-        {
-          "title": "Make a special request",
-          "chatbot_message": "Oké, geen zuur. Anders nog iets?"
-        },
-        {
-          "title": "Receive confirmation",
-          "chatbot_message": "Natuurlijk, geen probleem. Ik snijd hem voor u."
-        }
-      ]
-    },
-    {
-      "type": "vocabulary",
-      "item_id": "L1N_V03",
-      "data": {
-        "Pinnen": "To pay by card (verb)"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1N_E06",
-      "data": {
-        "phrase": "Hoeveel is het?",
-        "meaning": "How much is it?"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1N_E07",
-      "data": {
-        "phrase": "Kan ik pinnen?",
-        "meaning": "Can I pay by card?"
-      }
-    },
-    {
-      "type": "interactive_scenario",
-      "scenario_id": "L1N_S03",
-      "title": "Phase 3: The Payment Problem",
-      "setting": "Your herring is ready. Now it's time to pay.",
-      "conversation_flow": [
-        {
-          "title": "Ask for the price",
-          "chatbot_message": "Alstublieft, uw broodje haring."
-        },
-        {
-          "title": "Ask to pay by card",
-          "chatbot_message": "Dat is vier euro, alstublieft."
-        },
-        {
-          "title": "Hear the bad news",
-          "chatbot_message": "Oh, sorry. Vandaag even niet."
-        }
-      ]
-    },
-    {
-      "type": "vocabulary",
-      "item_id": "L1N_V04",
-      "data": {
-        "Het pinapparaat": "The card machine",
-        "Kapot": "Broken",
-        "Het wisselgeld": "The change (money)"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1N_E08",
-      "data": {
-        "phrase": "Ik heb alleen een briefje van 50.",
-        "meaning": "I only have a 50 euro note."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1N_E09",
-      "data": {
-        "phrase": "Heeft u wisselgeld?",
-        "meaning": "Do you have change?"
-      }
-    },
-    {
-      "type": "interactive_scenario",
-      "scenario_id": "L1N_S04",
-      "title": "Phase 4: Negotiation & Solution",
-      "setting": "The card machine is broken. You need to find another way to pay.",
-      "conversation_flow": [
-        {
-          "title": "State your problem",
-          "chatbot_message": "Het pinapparaat is kapot."
-        },
-        {
-          "title": "Ask about change",
-          "chatbot_message": "Oei, 50 euro... dat is veel."
-        },
-        {
-          "title": "Get a positive response",
-          "chatbot_message": "Even kijken... Ja, dat moet lukken."
-        }
-      ]
-    },
-    {
-      "type": "vocabulary",
-      "item_id": "L1N_V05",
-      "data": {
-        "Contant": "Cash (adverb)"
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1N_E10",
-      "data": {
-        "phrase": "Oké, prima.",
-        "meaning": "Okay, fine."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1N_E11",
-      "data": {
-        "phrase": "Dan betaal ik contant.",
-        "meaning": "Then I'll pay with cash."
-      }
-    },
-    {
-      "type": "expression",
-      "item_id": "L1N_E12",
-      "data": {
-        "phrase": "Dank u wel.",
-        "meaning": "Thank you (formal)."
-      }
-    },
-    {
-      "type": "interactive_scenario",
-      "scenario_id": "L1N_S05",
-      "title": "Phase 5: Transaction Completion",
-      "setting": "You've found a solution. Time to complete the purchase.",
-      "conversation_flow": [
-        {
-          "title": "Acknowledge the solution",
-          "chatbot_message": "Ik heb wisselgeld voor 50 euro."
-        },
-        {
-          "title": "State you will pay cash",
-          "chatbot_message": "Mooi."
-        },
-        {
-          "title": "Say thank you",
-          "chatbot_message": "Dank u wel. Hier is 46 euro terug en uw broodje. Eet smakelijk!"
-        }
-      ]
+      "id": "char_john",
+      "name": "John",
+      "role": "Cashier",
+      "avatar_url": "assets/avatars/john_cashier.png"
     }
-  ]
+  ],
+  "slides": [
+    {
+      "id": 1,
+      "type": "vocabulary",
+      "content": {
+        "word_native": "Apple",
+        "word_target": "Manzana",
+        "audio_ref": "manzana_01.mp3",
+        "image_query": "red apple fruit"
+      }
+    },
+    {
+      "id": 2,
+      "type": "construction",
+      "content": {
+        "pattern": "I would like [NOUN]",
+        "example_target": "Me gustaría una manzana",
+        "explanation": "Use 'Me gustaría' to politely ask for something."
+      }
+    },
+    {
+      "id": 3,
+      "type": "quiz_translate",
+      "content": {
+        "question": "How do you say 'I would like'?",
+        "correct_answer": "Me gustaría",
+        "options": ["Me gusta", "Yo quiero", "Me gustaría"]
+      }
+    }
+  ],
+  "interactive_scenario": {
+    "setting": "Supermarket Checkout",
+    "primary_character_id": "char_john",
+    "initial_message": "Hello! How can I help you?",
+    "expected_flow": [
+      {
+        "step": 1,
+        "character_prompt": "Hello! How can I help you?",
+        "expected_user_intent": "greeting_and_request",
+        "acceptable_answers": ["Hello, I would like an apple", "Hi, I want fruit"],
+        "success_response": "Sure, here is your apple. Anything else?",
+        "failure_response": "Sorry, I didn't understand. Try saying 'I would like...'"
+      }
+    ]
+  }
 }
